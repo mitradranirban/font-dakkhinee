@@ -15,7 +15,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install ttfautohint
-        sudo snap install yq
+        sudo apt-get install fontforge
     - uses: actions/cache@v2
       with:
         path: ./venv/
