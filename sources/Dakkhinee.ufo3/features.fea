@@ -858,7 +858,16 @@ feature blwm {
 	\quotesingle \numbersign \dollar \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R 
 	\percent \ampersand \parenleft \parenright \asterisk \plus \hyphen \period 
 	\slash \zero \S \T \U \Agrave \grave \gravecomb \uni0000 \V \W \X \Y \Z \one \two \three 
-	\four \five \six \seven \eight \nine ];
+	\four \five \six \seven \eight \nine \colon \semicolon \equal \less \greater 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \a \b \d \c \e \f \g 
+	\h \question \at \i \j \l \k \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \braceright 
+	\asciitilde \exclamdown \cent \sterling \currency \yen \brokenbar \section 
+	\dieresis \degree \copyright \ordfeminine \guillemotleft \registered 
+	\logicalnot \macron \plusminus \acute \uni00B2 \uni00B3 \mu \guillemotright 
+	\uni00B9 \periodcentered \cedilla \ordmasculine \onequarter \onehalf 
+	\threequarters \questiondown \acutecomb \uni0302 \tildecomb \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \uni0308 \uni0307 \uni0304 \uni0305 
+	\uni0306 \uni030A ];
 @GDEF_Ligature = [\u09dc \u09dd \u09df \u099c_u09cd_u099e.akhn 
 	\u0995_u09cd_u09b7.akhn \u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct 
 	\u0995_u09cd.haln \u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln 

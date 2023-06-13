@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>ascender</key>
+  <integer>800</integer>
+  <key>capHeight</key>
+  <integer>1493</integer>
+  <key>copyright</key>
+  <string>OFL 1.1 (C) 2002 Dr Anirban Mitra </string>
+  <key>descender</key>
+  <integer>-200</integer>
+  <key>familyName</key>
+  <string>Dakkhinee</string>
+  <key>guidelines</key>
+  <array/>
+  <key>italicAngle</key>
+  <integer>0</integer>
+  <key>openTypeHeadCreated</key>
+  <string>2023/06/13 15:42:51</string>
+  <key>openTypeHheaAscender</key>
+  <integer>1059</integer>
+  <key>openTypeHheaDescender</key>
+  <integer>-256</integer>
+  <key>openTypeHheaLineGap</key>
+  <integer>0</integer>
+  <key>openTypeNameDescription</key>
+  <string>This Bengali or Bangla font is designed like South Indian Scripts </string>
+  <key>openTypeNameDesigner</key>
+  <string>Dr Anirban Mitra</string>
+  <key>openTypeNameDesignerURL</key>
+  <string>https://github.com/mitradranirban/fonts-dakkhinee</string>
+  <key>openTypeNameLicense</key>
+  <string>Copyright (c) 2022 Dr Anirban Mitra
+ 
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at:http://scripts.sil.org/OFL
+
+</string>
+  <key>openTypeNameLicenseURL</key>
+  <string>http://scripts.sil.org/OFL</string>
+  <key>openTypeNameManufacturerURL</key>
+  <string>https://fonts.atipra.in/</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Dakkhini</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Regular</string>
+  <key>openTypeNameSampleText</key>
+  <string>জগতে আনন্দযজ্ঞে আমার নিমন্ত্রন </string>
+  <key>openTypeNameVersion</key>
+  <string>Version 0.001</string>
+  <key>openTypeOS2FamilyClass</key>
+  <array>
+    <integer>0</integer>
+    <integer>0</integer>
+  </array>
+  <key>openTypeOS2Panose</key>
+  <array>
+    <integer>0</integer>
+    <integer>0</integer>
+    <integer>6</integer>
+    <integer>3</integer>
+    <integer>0</integer>
+    <integer>0</integer>
+    <integer>0</integer>
+    <integer>0</integer>
+    <integer>0</integer>
+    <integer>0</integer>
+  </array>
+  <key>openTypeOS2StrikeoutPosition</key>
+  <integer>259</integer>
+  <key>openTypeOS2StrikeoutSize</key>
+  <integer>50</integer>
+  <key>openTypeOS2SubscriptXOffset</key>
+  <integer>0</integer>
+  <key>openTypeOS2SubscriptXSize</key>
+  <integer>650</integer>
+  <key>openTypeOS2SubscriptYOffset</key>
+  <integer>140</integer>
+  <key>openTypeOS2SubscriptYSize</key>
+  <integer>700</integer>
+  <key>openTypeOS2SuperscriptXOffset</key>
+  <integer>0</integer>
+  <key>openTypeOS2SuperscriptXSize</key>
+  <integer>650</integer>
+  <key>openTypeOS2SuperscriptYOffset</key>
+  <integer>480</integer>
+  <key>openTypeOS2SuperscriptYSize</key>
+  <integer>700</integer>
+  <key>openTypeOS2Type</key>
+  <array/>
+  <key>openTypeOS2TypoAscender</key>
+  <integer>1241</integer>
+  <key>openTypeOS2TypoDescender</key>
+  <integer>438</integer>
+  <key>openTypeOS2TypoLineGap</key>
+  <integer>0</integer>
+  <key>openTypeOS2UnicodeRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>15</integer>
+    <integer>16</integer>
+    <integer>31</integer>
+    <integer>33</integer>
+    <integer>45</integer>
+  </array>
+  <key>openTypeOS2VendorID</key>
+  <string/>
+  <key>openTypeOS2WeightClass</key>
+  <integer>400</integer>
+  <key>openTypeOS2WidthClass</key>
+  <integer>5</integer>
+  <key>openTypeOS2WinAscent</key>
+  <integer>1241</integer>
+  <key>openTypeOS2WinDescent</key>
+  <integer>438</integer>
+  <key>postscriptBlueScale</key>
+  <real>0.020833</real>
+  <key>postscriptBlueShift</key>
+  <integer>7</integer>
+  <key>postscriptBlueValues</key>
+  <array>
+    <integer>-23</integer>
+    <integer>0</integer>
+    <integer>524</integer>
+    <integer>539</integer>
+    <integer>709</integer>
+    <integer>709</integer>
+    <integer>729</integer>
+    <integer>741</integer>
+  </array>
+  <key>postscriptFontName</key>
+  <string>Dakkhinee</string>
+  <key>postscriptFullName</key>
+  <string>Dakkhinee</string>
+  <key>postscriptOtherBlues</key>
+  <array>
+    <integer>-218</integer>
+    <integer>-218</integer>
+  </array>
+  <key>postscriptUnderlinePosition</key>
+  <integer>-166</integer>
+  <key>postscriptUnderlineThickness</key>
+  <integer>73</integer>
+  <key>postscriptWeightName</key>
+  <string>Regular</string>
+  <key>styleMapFamilyName</key>
+  <string>Dakkhini Regular</string>
+  <key>styleMapStyleName</key>
+  <string>regular</string>
+  <key>styleName</key>
+  <string>Regular</string>
+  <key>unitsPerEm</key>
+  <integer>1000</integer>
+  <key>versionMajor</key>
+  <integer>0</integer>
+  <key>versionMinor</key>
+  <integer>1</integer>
+  <key>xHeight</key>
+  <integer>1073</integer>
+</dict>
+</plist>
