@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09c4" format="2">
+  <advance width="0"/>
   <unicode hex="09C4"/>
   <anchor x="-160" y="54" name="_Anchor-1"/>
   <outline>
@@ -43,8 +44,8 @@
       <point x="-315" y="-16"/>
       <point x="-310" y="-11" type="curve"/>
       <point x="-184" y="61" type="line"/>
-      <point x="-167" y="65"/>
-      <point x="-155" y="52"/>
+      <point x="-166.94" y="64.7911"/>
+      <point x="-155" y="52.0633"/>
       <point x="-155" y="37" type="curve" smooth="yes"/>
       <point x="-155" y="31"/>
       <point x="-157" y="27"/>

@@ -2,13 +2,13 @@
 <glyph name="u099c" format="2">
   <advance width="830"/>
   <unicode hex="099C"/>
-  <anchor x="393" y="667" name="Anchor-0"/>
   <anchor x="747" y="-12" name="Anchor-1"/>
+  <anchor x="393" y="667" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="431" y="613" type="line"/>
-      <point x="378" y="587"/>
-      <point x="309" y="515"/>
+      <point x="378.071" y="586.535"/>
+      <point x="309" y="514.674"/>
       <point x="309" y="443" type="curve" smooth="yes"/>
       <point x="309" y="411"/>
       <point x="323" y="387"/>
@@ -29,12 +29,12 @@
       <point x="434" y="80"/>
       <point x="391" y="80" type="curve" smooth="yes"/>
       <point x="291" y="80"/>
-      <point x="206" y="144"/>
+      <point x="206.262" y="144.231"/>
       <point x="120" y="259" type="curve" smooth="yes"/>
-      <point x="84" y="307"/>
-      <point x="36" y="435"/>
+      <point x="83.9117" y="307.014"/>
+      <point x="36.4503" y="435.021"/>
       <point x="29" y="515" type="curve" smooth="yes"/>
-      <point x="27" y="536"/>
+      <point x="27.0544" y="535.886"/>
       <point x="38" y="546"/>
       <point x="54" y="546" type="curve" smooth="yes"/>
       <point x="64" y="546"/>

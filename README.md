@@ -28,8 +28,7 @@ The font is being created by Dr Anirban Mitra, an amateure typographer involved 
 
 ## Building
 
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
-
+Fonts are currently not built automatically by GitHub Actions - we are working on it. 
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.

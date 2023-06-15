@@ -2,22 +2,22 @@
 <glyph name="u09dc" format="2">
   <advance width="705"/>
   <unicode hex="09DC"/>
-  <anchor x="325" y="675" name="Anchor-0"/>
   <anchor x="463" y="-92" name="Anchor-1"/>
+  <anchor x="325" y="675" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="28" y="502" type="curve"/>
-      <point x="28" y="519"/>
-      <point x="42" y="530"/>
+      <point x="28" y="518.99"/>
+      <point x="42.1717" y="530"/>
       <point x="58" y="530" type="curve" smooth="yes"/>
       <point x="68" y="530"/>
       <point x="76" y="526"/>
       <point x="83" y="519" type="curve"/>
       <point x="118" y="408"/>
-      <point x="153" y="331"/>
+      <point x="152.956" y="330.54"/>
       <point x="178" y="281" type="curve" smooth="yes"/>
-      <point x="220" y="198"/>
-      <point x="311" y="94"/>
+      <point x="220.125" y="197.673"/>
+      <point x="311.481" y="94"/>
       <point x="425" y="94" type="curve" smooth="yes"/>
       <point x="480" y="94"/>
       <point x="525" y="119"/>
@@ -32,9 +32,9 @@
       <point x="480" y="330"/>
       <point x="467" y="319" type="curve" smooth="yes"/>
       <point x="430" y="288"/>
-      <point x="393" y="269"/>
+      <point x="392.757" y="268.862"/>
       <point x="356" y="272" type="curve" smooth="yes"/>
-      <point x="311" y="276"/>
+      <point x="310.757" y="275.862"/>
       <point x="288" y="316"/>
       <point x="288" y="382" type="curve" smooth="yes"/>
       <point x="288" y="610" type="line"/>
@@ -63,13 +63,13 @@
       <point x="657" y="358"/>
       <point x="657" y="296" type="curve" smooth="yes"/>
       <point x="657" y="264"/>
-      <point x="654" y="227"/>
+      <point x="653.741" y="227.468"/>
       <point x="637" y="190" type="curve" smooth="yes"/>
-      <point x="591" y="86"/>
+      <point x="590.741" y="86.4677"/>
       <point x="519" y="36"/>
       <point x="433" y="35" type="curve" smooth="yes"/>
-      <point x="372" y="35"/>
-      <point x="311" y="59"/>
+      <point x="372.297" y="35"/>
+      <point x="310.991" y="59.0063"/>
       <point x="269" y="87" type="curve" smooth="yes"/>
       <point x="225" y="116"/>
       <point x="189" y="152"/>

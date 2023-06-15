@@ -66,8 +66,8 @@
       <point x="4" y="22"/>
       <point x="-17" y="54"/>
       <point x="-38" y="101" type="curve"/>
-      <point x="-39" y="122"/>
-      <point x="-31" y="134"/>
+      <point x="-39.4225" y="122.337"/>
+      <point x="-30.9293" y="134"/>
       <point x="-11" y="134" type="curve" smooth="yes"/>
       <point x="-2" y="134"/>
       <point x="8" y="131"/>

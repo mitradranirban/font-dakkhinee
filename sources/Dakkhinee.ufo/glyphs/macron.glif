@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron" format="2">
-  <advance width="384"/>
-  <unicode hex="00AF"/>
-  <outline>
-    <component base="hyphen" xScale="0.798904" xyScale="-0.041869" yxScale="-0.041869" yScale="-0.798904" xOffset="53" yOffset="675"/>
-  </outline>
-</glyph>

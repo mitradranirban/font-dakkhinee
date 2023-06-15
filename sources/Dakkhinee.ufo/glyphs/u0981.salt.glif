@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u0981.salt" format="2">
+  <advance width="0"/>
   <outline>
     <contour>
       <point x="-83" y="779" type="curve" smooth="yes"/>
-      <point x="-82" y="760"/>
-      <point x="-100" y="749"/>
+      <point x="-81.5062" y="759.58"/>
+      <point x="-100.061" y="749"/>
       <point x="-123" y="749" type="curve" smooth="yes"/>
-      <point x="-152" y="749"/>
-      <point x="-172" y="779"/>
+      <point x="-152.484" y="749"/>
+      <point x="-172.173" y="778.827"/>
       <point x="-149" y="802" type="curve" smooth="yes"/>
       <point x="-142" y="808"/>
       <point x="-133" y="811"/>
       <point x="-123" y="811" type="curve" smooth="yes"/>
-      <point x="-100" y="811"/>
-      <point x="-83" y="801"/>
+      <point x="-100.352" y="811"/>
+      <point x="-83" y="801.383"/>
     </contour>
     <contour>
       <point x="-117" y="694" type="curve" smooth="yes"/>
-      <point x="-175" y="694"/>
-      <point x="-221" y="720"/>
+      <point x="-175.02" y="694"/>
+      <point x="-221" y="720.078"/>
       <point x="-221" y="778" type="curve"/>
       <point x="-216" y="786"/>
       <point x="-212" y="790"/>
@@ -26,11 +27,11 @@
       <point x="-202" y="790"/>
       <point x="-195" y="787"/>
       <point x="-187" y="781" type="curve"/>
-      <point x="-183" y="756"/>
-      <point x="-157" y="726"/>
+      <point x="-182.762" y="755.572"/>
+      <point x="-157.434" y="726.142"/>
       <point x="-126" y="729" type="curve" smooth="yes"/>
-      <point x="-80" y="731"/>
-      <point x="-73" y="750"/>
+      <point x="-79.8186" y="730.924"/>
+      <point x="-72.9648" y="749.657"/>
       <point x="-58" y="786" type="curve"/>
       <point x="-51" y="790"/>
       <point x="-46" y="792"/>

@@ -2,13 +2,13 @@
 <glyph name="u099f" format="2">
   <advance width="482"/>
   <unicode hex="099F"/>
-  <anchor x="127" y="807" name="Anchor-0"/>
   <anchor x="182" y="37" name="Anchor-1"/>
+  <anchor x="127" y="807" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="142" y="176" type="line" smooth="yes"/>
-      <point x="142" y="142"/>
-      <point x="170" y="115"/>
+      <point x="142" y="142.259"/>
+      <point x="169.805" y="115"/>
       <point x="204" y="115" type="curve" smooth="yes"/>
       <point x="229" y="115"/>
       <point x="254" y="128"/>
@@ -25,8 +25,8 @@
       <point x="291" y="416"/>
       <point x="290" y="420"/>
       <point x="290" y="425" type="curve" smooth="yes"/>
-      <point x="290" y="443"/>
-      <point x="307" y="457"/>
+      <point x="290" y="442.845"/>
+      <point x="306.947" y="457"/>
       <point x="326" y="457" type="curve"/>
       <point x="385" y="416"/>
       <point x="414" y="371"/>
@@ -61,9 +61,9 @@
       <point x="-11" y="775"/>
       <point x="-35" y="789" type="curve" smooth="yes"/>
       <point x="-76" y="811"/>
-      <point x="-100" y="858"/>
+      <point x="-100.459" y="858.016"/>
       <point x="-103" y="930" type="curve" smooth="yes"/>
-      <point x="-103" y="943"/>
+      <point x="-103.459" y="943.016"/>
       <point x="-93" y="949"/>
       <point x="-77" y="949" type="curve" smooth="yes"/>
       <point x="-64" y="949"/>
@@ -76,8 +76,8 @@
       <point x="76" y="813"/>
       <point x="139" y="813" type="curve" smooth="yes"/>
       <point x="198" y="813" type="line"/>
-      <point x="338" y="811"/>
-      <point x="438" y="794"/>
+      <point x="337.725" y="811.086"/>
+      <point x="438" y="793.784"/>
       <point x="438" y="673" type="curve"/>
       <point x="490" y="673" type="line"/>
       <point x="490" y="610" type="line"/>

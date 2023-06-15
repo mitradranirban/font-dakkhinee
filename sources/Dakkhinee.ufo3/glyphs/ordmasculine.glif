@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ordmasculine" format="2">
-  <advance width="384"/>
-  <unicode hex="00BA"/>
-  <outline>
-    <component base="o" yOffset="138"/>
-    <component base="hyphen" yOffset="-248"/>
-  </outline>
-</glyph>

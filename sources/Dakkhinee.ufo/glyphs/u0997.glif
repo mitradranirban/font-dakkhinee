@@ -2,13 +2,13 @@
 <glyph name="u0997" format="2">
   <advance width="615"/>
   <unicode hex="0997"/>
-  <anchor x="547" y="667" name="Anchor-0"/>
   <anchor x="514" y="36" name="Anchor-1"/>
+  <anchor x="547" y="667" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="252" y="316" type="curve" smooth="yes"/>
-      <point x="252" y="375"/>
-      <point x="204" y="428"/>
+      <point x="252" y="375.393"/>
+      <point x="203.62" y="428"/>
       <point x="144" y="428" type="curve" smooth="yes"/>
       <point x="122" y="428"/>
       <point x="100" y="422"/>
@@ -22,8 +22,8 @@
       <point x="31" y="428"/>
       <point x="31" y="432"/>
       <point x="33" y="437" type="curve" smooth="yes"/>
-      <point x="63" y="548"/>
-      <point x="120" y="602"/>
+      <point x="62.7076" y="547.908"/>
+      <point x="120.087" y="602.191"/>
       <point x="231" y="633" type="curve" smooth="yes"/>
       <point x="251" y="637"/>
       <point x="270" y="638"/>
@@ -43,14 +43,14 @@
       <point x="484" y="38"/>
       <point x="484" y="53" type="curve" smooth="yes"/>
       <point x="484" y="382" type="line" smooth="yes"/>
-      <point x="484" y="502"/>
-      <point x="374" y="580"/>
+      <point x="484" y="501.654"/>
+      <point x="373.537" y="580"/>
       <point x="276" y="580" type="curve" smooth="yes"/>
       <point x="206" y="580"/>
       <point x="152" y="548"/>
       <point x="113" y="484" type="curve"/>
-      <point x="227" y="495"/>
-      <point x="310" y="420"/>
+      <point x="226.94" y="495.394"/>
+      <point x="310" y="420.282"/>
       <point x="310" y="316" type="curve" smooth="yes"/>
       <point x="310" y="248"/>
       <point x="279" y="197"/>
@@ -58,8 +58,8 @@
       <point x="212" y="161"/>
       <point x="208" y="160"/>
       <point x="204" y="160" type="curve" smooth="yes"/>
-      <point x="188" y="160"/>
-      <point x="171" y="172"/>
+      <point x="187.964" y="160"/>
+      <point x="171" y="171.556"/>
       <point x="171" y="187" type="curve" smooth="yes"/>
       <point x="171" y="195"/>
       <point x="175" y="202"/>
