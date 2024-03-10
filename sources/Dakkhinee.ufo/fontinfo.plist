@@ -159,6 +159,39 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
     <key>postscriptBlueScale</key>
     <real>0.0208333</real>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>x</key>
+        <real>500</real>
+        <key>y</key>
+        <real>56.7374</real>
+        <key>angle</key>
+        <real>0</real>
+      </dict>
+      <dict>
+        <key>x</key>
+        <real>500</real>
+        <key>y</key>
+        <real>818.737</real>
+        <key>angle</key>
+        <real>0</real>
+      </dict>
+      <dict>
+        <key>x</key>
+        <real>500</real>
+        <key>y</key>
+        <real>740.737</real>
+        <key>angle</key>
+        <real>0</real>
+      </dict>
+      <dict>
+        <key>x</key>
+        <real>74.1744</real>
+        <key>y</key>
+        <real>300</real>
+        <key>angle</key>
+        <real>270</real>
+      </dict>
+    </array>
   </dict>
 </plist>
