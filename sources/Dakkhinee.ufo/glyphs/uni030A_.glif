@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni030A" format="2">
+  <advance width="179"/>
+  <unicode hex="030A"/>
+  <outline>
+    <contour>
+      <point x="11" y="766" type="curve"/>
+      <point x="90.4863" y="802.307"/>
+      <point x="147.381" y="793.43"/>
+      <point x="195" y="766" type="curve"/>
+      <point x="217.09" y="726.49"/>
+      <point x="245.238" y="687.848"/>
+      <point x="195" y="638" type="curve"/>
+      <point x="133.664" y="604.535"/>
+      <point x="72.332" y="618.982"/>
+      <point x="11" y="638" type="curve"/>
+      <point x="-10.168" y="680.666"/>
+      <point x="-20.7109" y="723.334"/>
+    </contour>
+    <contour>
+      <point x="55" y="734" type="curve"/>
+      <point x="39.1445" y="712.667"/>
+      <point x="44.416" y="691.333"/>
+      <point x="55" y="670" type="curve"/>
+      <point x="85.666" y="660.491"/>
+      <point x="116.332" y="653.268"/>
+      <point x="147" y="670" type="curve"/>
+      <point x="172.119" y="694.924"/>
+      <point x="158.045" y="714.245"/>
+      <point x="147" y="734" type="curve"/>
+      <point x="123.19" y="747.715"/>
+      <point x="94.7432" y="752.153"/>
+    </contour>
+  </outline>
+</glyph>
