@@ -191,6 +191,9 @@ lookup abvmAboveBaseMarkinBengalilookup0 {
   pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 555 675> mark @Anchor0;
   pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 298 673> mark @Anchor0;
   pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 571 667> mark @Anchor0;
+  pos base [\uni0994 ] <anchor 336 -70> mark @Anchor0;
+  pos base [\uni0993 ] <anchor 336 -11> mark @Anchor0;
+  pos base [\uni0996 ] <anchor -110 401> mark @Anchor0;
 } abvmAboveBaseMarkinBengalilookup0;
 
 feature abvm {
@@ -203,22 +206,22 @@ feature abvm {
 @MarkClass1 = [ u09c1 u09c2 u09c3 u09c4 u09cd ];
 
 @GDEF_Simple = [\nonmarkingreturn \space \comma \danda \doubledanda \u0982 \u0983 
-	\u09a4 \zwnj \zwj \quotedblleft \quotedblright \euro \uni25CC \.null \u0981.salt 
-	\u09b2_u09cd.haln \glyph219 \u09b2_u09b0_u09cd.blwf.vatu \u09be_u0981.abvs 
-	\u09be_u09b0_u09cd.rphf.abvs \u09bf_u0981.abvs \glyph475 \glyph478 \glyph479 
-	\glyph480 \glyph481 \glyph482 \glyph483 \glyph484 \glyph485 \glyph486 \glyph487 
-	\glyph488 \glyph489 \glyph490 \glyph491 \glyph492 \glyph493 \glyph494 \glyph495 
-	\glyph496 \glyph498 \glyph499 \glyph500 \glyph501 \u0995_alt \u0997_alt 
-	\u09a4_alt \u09a5_alt \u09a7_alt \u09a8_alt \u09aa_alt \glyph509 \u09ad_alt 
-	\u09b2_alt \u09ae_alt \glyph513 \glyph514 \glyph515 \glyph516 \glyph517 
-	\glyph518 \glyph519 \glyph520 \glyph521 \glyph522 \glyph523 \glyph524 \glyph525 
-	\glyph526 \glyph527 \glyph528 \glyph529 \glyph530 \glyph531 \glyph532 \glyph533 
-	\glyph534 \glyph535 \glyph536 \glyph537 \glyph538 \glyph539 \glyph540 \glyph541 
-	\glyph542 \glyph543 \glyph544 \glyph545 \Ra_yaphala \glyph547 
-	\u099e_u09cd_u099a.salt \u09e7_slash_u09e8.afrc \u09e7_slash_u09e9.afrc 
-	\u09e7_slash_u09ea.afrc \u09e7_slash_u09ee.afrc \u09e8_slash_u09e9.afrc 
-	\u09e9_slash_u09ea.afrc \u09c7.init \u09c8.init \u09b2_u09cd.half \uni20B9 
-	\uni200B \uni0980 \u09a4_u09b0_u09cd.vatu.salt 
+	\u09a4 \u09ce \zwnj \zwj \quotedblleft \quotedblright \euro \uni25CC \.null 
+	\u0981.salt \u09b2_u09cd.haln \glyph219 \u09b2_u09b0_u09cd.blwf.vatu 
+	\u09be_u0981.abvs \u09be_u09b0_u09cd.rphf.abvs \u09bf_u0981.abvs \glyph475 
+	\glyph478 \glyph479 \glyph480 \glyph481 \glyph482 \glyph483 \glyph484 \glyph485 
+	\glyph486 \glyph487 \glyph488 \glyph489 \glyph490 \glyph491 \glyph492 \glyph493 
+	\glyph494 \glyph495 \glyph496 \glyph498 \glyph499 \glyph500 \glyph501 
+	\u0995_alt \u0997_alt \u09a4_alt \u09a5_alt \u09a7_alt \u09a8_alt \u09aa_alt 
+	\glyph509 \u09ad_alt \u09b2_alt \u09ae_alt \glyph513 \glyph514 \glyph515 
+	\glyph516 \glyph517 \glyph518 \glyph519 \glyph520 \glyph521 \glyph522 \glyph523 
+	\glyph524 \glyph525 \glyph526 \glyph527 \glyph528 \glyph529 \glyph530 \glyph531 
+	\glyph532 \glyph533 \glyph534 \glyph535 \glyph536 \glyph537 \glyph538 \glyph539 
+	\glyph540 \glyph541 \glyph542 \glyph543 \glyph544 \glyph545 \Ra_yaphala 
+	\glyph547 \u099e_u09cd_u099a.salt \u09e7_slash_u09e8.afrc 
+	\u09e7_slash_u09e9.afrc \u09e7_slash_u09ea.afrc \u09e7_slash_u09ee.afrc 
+	\u09e8_slash_u09e9.afrc \u09e9_slash_u09ea.afrc \u09c7.init \u09c8.init 
+	\u09b2_u09cd.half \uni20B9 \uni200B \uni0980 \u09a4_u09b0_u09cd.vatu.salt 
 	\u09b8_u09cd_u0995_u09b0.salt \u09b8_u09cd_u09a4_u09b0.salt \u09bf.salt 
 	\u09c0.salt \exclam \quotedbl \quotesingle \numbersign \dollar \A \B \C \D \E \F \G 
 	\H \I \J \K \L \M \N \O \P \Q \R \percent \ampersand \parenleft \parenright \asterisk 
@@ -239,11 +242,23 @@ feature abvm {
 	\Odieresis \Omacron \Obreve \Ohungarumlaut \Eth \Ntilde \Uacute \Ucircumflex 
 	\Udieresis \Yacute \agrave \aacute \acircumflex \atilde \adieresis \aring 
 	\ccedilla \egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex 
-	\idieresis \eth \ograve \oacute \ocircumflex \otilde \odieresis \ugrave \uacute 
+	\idieresis \ograve \oacute \ocircumflex \otilde \odieresis \ugrave \uacute 
 	\ucircumflex \udieresis \amacron \abreve \aogonek \yacute \ydieresis \onehalf 
 	\Ugrave \Oslash \AE \uni09CF \uni09D0 \uni0985 \uni09B9 \uni09D1 \uni0986 
 	\uni09B6 \uni0987 \uni0988 \uni0989 \uni098A \uni09D2 \uni09A8 \uni09D3 \uni09AC 
-	\uni09B0 \uni0995 \uni09D4 \uni099D \uni09D5 \uni09A5 ];
+	\uni09B0 \uni0995 \uni09D4 \uni099D \uni09D5 \uni09A5 \uni0994 \uni0997 \uni09D6 
+	\uni09D8 \uni09A1 \uni0993 \uni099C \uni099A \uni09A7 \uni09DC \uni09F0 \uni09F1 
+	\acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 \uni0308 
+	\divide \oslash \ntilde \cacute \ccircumflex \cdotaccent \ccaron \Dcaron 
+	\emacron \ebreve \edotaccent \ecaron \Gcircumflex \gcircumflex \Gbreve \gbreve 
+	\Gdotaccent \gdotaccent \Hcircumflex \hcircumflex \uni09A2 \uni099F \uni09BD 
+	\uni098B \uni0996 \uni09DD \uni098C \uni098D \uni098E \uni098F \uni0990 \uni0991 
+	\uni0992 \uni0998 \uni0999 \uni099B \uni099E \uni09A0 \uni09A3 \uni09A6 \uni09A9 
+	\uni09AA \uni09AB \uni09AD \uni09AE \uni09AF \uni09B2 \uni09B7 \uni09B8 \uni09BC 
+	\uni09BE \uni09BF \uni09C0 \uni09C1 \uni09C2 \uni09C3 \uni09C4 \uni09C5 \uni09C6 
+	\uni09C7 \uni09C8 \uni09C9 \uni09CA \uni09CB \uni09CC \uni09CD \uni09DF \uni09E0 
+	\uni09E1 \uni09E2 \uni09E3 \uni09E4 \uni09E5 \uni09E6 \uni09E7 \uni09E8 \uni09E9 
+	\uni09EA \uni09EB \uni09EC \uni09ED \uni09EE \uni09EF ];
 @GDEF_Ligature = [\u099c_u09cd_u099e.akhn \u0995_u09cd_u09b7.akhn 
 	\u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct \u0995_u09cd.haln 
 	\u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln \u0999_u09cd.haln 
