@@ -14,22 +14,13 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-        </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>158</integer>
+            <integer>110</integer>
             <key>width</key>
-            <integer>66</integer>
+            <integer>48</integer>
           </dict>
         </array>
       </dict>

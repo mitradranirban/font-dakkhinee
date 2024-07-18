@@ -138,26 +138,6 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
     <integer>73</integer>
     <key>postscriptUnderlinePosition</key>
     <integer>-166</integer>
-    <key>postscriptBlueValues</key>
-    <array>
-      <integer>-23</integer>
-      <integer>0</integer>
-      <integer>524</integer>
-      <integer>539</integer>
-      <integer>709</integer>
-      <integer>709</integer>
-      <integer>729</integer>
-      <integer>741</integer>
-    </array>
-    <key>postscriptOtherBlues</key>
-    <array>
-      <integer>-218</integer>
-      <integer>-218</integer>
-    </array>
-    <key>postscriptBlueShift</key>
-    <integer>7</integer>
-    <key>postscriptBlueScale</key>
-    <real>0.0208333</real>
     <key>guidelines</key>
     <array>
       <dict>

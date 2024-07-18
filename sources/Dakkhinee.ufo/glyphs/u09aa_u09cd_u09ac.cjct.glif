@@ -80,6 +80,12 @@
         <array>
           <dict>
             <key>position</key>
+            <integer>419</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>607</integer>
             <key>width</key>
             <integer>63</integer>

@@ -99,12 +99,6 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-19</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>-9</integer>
             <key>width</key>
             <integer>57</integer>

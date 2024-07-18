@@ -133,12 +133,6 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>504</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>610</integer>
             <key>width</key>
             <integer>63</integer>
@@ -148,6 +142,12 @@
             <integer>737</integer>
             <key>width</key>
             <integer>60</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>888</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>

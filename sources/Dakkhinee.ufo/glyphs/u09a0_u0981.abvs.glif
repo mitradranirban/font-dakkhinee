@@ -167,6 +167,12 @@
           </dict>
           <dict>
             <key>position</key>
+            <integer>831</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>996</integer>
             <key>width</key>
             <integer>56</integer>
