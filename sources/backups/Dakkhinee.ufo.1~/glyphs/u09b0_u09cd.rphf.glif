@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u09b0_u09cd.rphf" format="2">
+  <advance width="5"/>
+  <anchor x="-100" y="660" name="_Anchor-0"/>
+  <outline>
+    <contour>
+      <point x="149" y="891" type="curve" smooth="yes"/>
+      <point x="164.215" y="891"/>
+      <point x="184" y="881.86"/>
+      <point x="184" y="865" type="curve" smooth="yes"/>
+      <point x="184" y="860"/>
+      <point x="182" y="857"/>
+      <point x="176" y="852" type="curve" smooth="yes"/>
+      <point x="-61" y="667" type="line"/>
+      <point x="-146" y="667" type="line"/>
+      <point x="138" y="888" type="line" smooth="yes"/>
+      <point x="141" y="890"/>
+      <point x="144" y="891"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>667</integer>
+            <key>width</key>
+            <integer>224</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-146</integer>
+            <key>width</key>
+            <integer>330</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
