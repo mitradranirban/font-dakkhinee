@@ -25,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1138213189
-ModificationTime: 1721294931
+ModificationTime: 1721318308
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -97,7 +97,7 @@ DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 65600 10 4
+WinInfo: 2490 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -461,12 +461,34 @@ EndChar
 StartChar: u09ce
 Encoding: 2510 2510 10
 GlifName: u09ce
-Width: 277
+Width: 1000
 GlyphClass: 2
 Flags: W
+HStem: 137 73.2002<484 680.6> 151 67.5996<307.4 484> 384 20G<478 535>
+VStem: 486 24<233 253>
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+486 233 m 25x30
+ 481 257 l 25
+ 490 260 l 1
+ 478 404 l 25
+ 535 404 l 1
+ 500 258 l 25
+ 510 253 l 25
+ 510 233 l 25
+ 486 233 l 25x30
+307.400390625 218.599609375 m 1049x70
+307.400390625 218.599609375 m 25
+ 680.599609375 210.200195312 l 29xb0
+ 516.200195312 489.799804688 l 29
+ 307.400390625 218.599609375 l 25
+173 151 m 1049x70
+173 151 m 25
+ 521 603 l 25
+ 795 137 l 25xb0
+ 173 151 l 25
+EndSplineSet
 Colour: ff0000
 EndChar
 
