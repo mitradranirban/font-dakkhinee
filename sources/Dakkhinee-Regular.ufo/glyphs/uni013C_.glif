@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni013C" format="2">
-  <advance width="361"/>
+  <advance width="321"/>
   <unicode hex="013C"/>
   <outline>
-    <component base="uni0326" xOffset="-75.3" yOffset="99.6"/>
+    <component base="uni0326" xOffset="-95" yOffset="72"/>
     <component base="l"/>
   </outline>
   <lib>
@@ -14,43 +14,43 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-10</integer>
+            <integer>-166</integer>
             <key>width</key>
             <integer>58</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>-2</integer>
-            <key>width</key>
-            <integer>90</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>60</integer>
-            <key>width</key>
-            <integer>59</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>132</integer>
+            <integer>-24</integer>
             <key>width</key>
             <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>157</integer>
+            <integer>40</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>68</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>468</integer>
+            <integer>137</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>620</integer>
+            <integer>449</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>459</integer>
+            <key>width</key>
+            <integer>46</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>612</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -59,27 +59,27 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>46</integer>
+            <integer>31</integer>
             <key>width</key>
-            <integer>44</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>168</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>303</integer>
-            <key>width</key>
-            <integer>51</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>449</integer>
+            <integer>129</integer>
             <key>width</key>
             <integer>59</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>145</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>268</integer>
+            <key>width</key>
+            <integer>61</integer>
           </dict>
         </array>
       </dict>

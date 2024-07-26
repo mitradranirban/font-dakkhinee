@@ -25,10 +25,14 @@ Each Indic script has evolved in it own way from Brahmi and Kharosti depending u
 
 The font is being created by Dr Anirban Mitra, an amateure typographer involved in creating one of the earliest Open Type Bangla font. 
 
+The Latin glyphs are also given a Kannada like look. 
+
+
+![Sample2 Image](documentation/image2.png) 
 
 ## Building
 
-Fonts are currently not built automatically by GitHub Actions - we are working on it. 
+Fonts are built automatically by GitHub Actions. We will release the beta 
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.
@@ -39,6 +43,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+Beta Release awaited.
  
 
 ## License

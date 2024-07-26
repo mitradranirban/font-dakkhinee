@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icircumflex" format="2">
-  <advance width="232"/>
+  <advance width="212"/>
   <unicode hex="00EE"/>
   <outline>
-    <component base="uni0302" xScale="0.951998" yScale="0.98476" xOffset="-29.247" yOffset="28.6623"/>
+    <component base="uni0302" xScale="0.951998" yScale="0.98476" xOffset="-39" yOffset="29"/>
     <component base="i"/>
   </outline>
   <lib>
@@ -14,48 +14,54 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>59</integer>
+            <integer>39</integer>
             <key>width</key>
             <integer>21</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>443</integer>
+            <integer>447</integer>
             <key>width</key>
-            <integer>152</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>467</integer>
+            <integer>458</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>45</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>619</integer>
+            <integer>611</integer>
             <key>width</key>
             <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>653</integer>
+            <key>width</key>
+            <integer>150</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>48</integer>
+            <integer>-4</integer>
             <key>width</key>
-            <integer>44</integer>
+            <integer>297</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>170</integer>
+            <integer>33</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>247</integer>
+            <integer>155</integer>
             <key>width</key>
-            <integer>312</integer>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

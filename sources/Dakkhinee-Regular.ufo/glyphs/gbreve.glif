@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gbreve" format="2">
-  <advance width="480"/>
+  <advance width="455"/>
   <unicode hex="011F"/>
   <outline>
-    <component base="uni0306" xOffset="462.325" yOffset="-264.738"/>
+    <component base="uni0306" xOffset="404" yOffset="-49"/>
     <component base="g"/>
   </outline>
   <lib>
@@ -14,31 +14,43 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>59</integer>
+            <integer>54</integer>
             <key>width</key>
+            <integer>64</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>203</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>304</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>366</integer>
+            <integer>299</integer>
             <key>width</key>
             <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>469</integer>
+            <integer>404</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>105</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>621</integer>
+            <integer>454</integer>
+            <key>width</key>
+            <integer>55</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>582</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>613</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -47,39 +59,45 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>237</integer>
+            <integer>66</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>60</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>268</integer>
-            <key>width</key>
-            <integer>51</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>389</integer>
-            <key>width</key>
-            <integer>50</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>426</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>499</integer>
+            <integer>84</integer>
             <key>width</key>
             <integer>75</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>737</integer>
+            <integer>218</integer>
+            <key>width</key>
+            <integer>56</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>245</integer>
+            <key>width</key>
+            <integer>53</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>322</integer>
             <key>width</key>
             <integer>75</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>349</integer>
+            <key>width</key>
+            <integer>66</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>391</integer>
+            <key>width</key>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

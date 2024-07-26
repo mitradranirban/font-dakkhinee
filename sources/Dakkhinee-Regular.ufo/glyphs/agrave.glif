@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="agrave" format="2">
-  <advance width="350"/>
+  <advance width="310"/>
   <unicode hex="00E0"/>
   <outline>
-    <component base="gravecomb" xOffset="-0.281" yOffset="-71.0098"/>
+    <component base="gravecomb" xOffset="-20" yOffset="-71"/>
     <component base="a"/>
   </outline>
   <lib>
@@ -14,15 +14,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>212</integer>
+            <integer>217</integer>
             <key>width</key>
             <integer>50</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>472</integer>
+            <integer>467</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>56</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>475</integer>
+            <key>width</key>
+            <integer>48</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -32,7 +38,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>624</integer>
+            <integer>626</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -41,21 +47,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>17</integer>
+            <integer>2</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>43</integer>
+            <integer>23</integer>
             <key>width</key>
             <integer>188</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>274</integer>
+            <integer>239</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
         </array>
       </dict>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ncaron" format="2">
-  <advance width="443"/>
+  <advance width="403"/>
   <unicode hex="0148"/>
   <outline>
-    <component base="uni030C" xOffset="238.848" yOffset="250.225"/>
+    <component base="uni030C" xOffset="2.651" yOffset="67"/>
     <component base="n"/>
   </outline>
   <lib>
@@ -16,19 +16,13 @@
             <key>position</key>
             <integer>59</integer>
             <key>width</key>
-            <integer>71</integer>
+            <integer>90</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>453</integer>
             <key>width</key>
-            <integer>71</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>464</integer>
-            <key>width</key>
-            <integer>60</integer>
+            <integer>91</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -43,31 +37,31 @@
             <key>position</key>
             <integer>4</integer>
             <key>width</key>
-            <integer>35</integer>
+            <integer>55</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>133</integer>
+            <integer>132</integer>
             <key>width</key>
-            <integer>35</integer>
+            <integer>50</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>233</integer>
-            <key>width</key>
-            <integer>35</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>276</integer>
+            <integer>220</integer>
             <key>width</key>
             <integer>312</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>378</integer>
+            <integer>222</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>50</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>358</integer>
+            <key>width</key>
+            <integer>67</integer>
           </dict>
         </array>
       </dict>

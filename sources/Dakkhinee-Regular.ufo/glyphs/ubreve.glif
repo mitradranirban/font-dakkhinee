@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ubreve" format="2">
-  <advance width="384"/>
+  <advance width="344"/>
   <unicode hex="016D"/>
   <outline>
-    <component base="uni0306" xOffset="295.7" yOffset="260.2"/>
+    <component base="uni0306" xOffset="276" yOffset="260"/>
     <component base="u"/>
   </outline>
   <lib>
@@ -14,13 +14,13 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>67</integer>
-            <key>width</key>
             <integer>47</integer>
+            <key>width</key>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>622</integer>
+            <integer>614</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -35,33 +35,33 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>4</integer>
-            <key>width</key>
-            <integer>55</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>293</integer>
-            <key>width</key>
-            <integer>55</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>305</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>333</integer>
+            <integer>-44</integer>
             <key>width</key>
             <integer>75</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>571</integer>
+            <integer>-11</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>194</integer>
             <key>width</key>
             <integer>75</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>258</integer>
+            <key>width</key>
+            <integer>64</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>270</integer>
+            <key>width</key>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

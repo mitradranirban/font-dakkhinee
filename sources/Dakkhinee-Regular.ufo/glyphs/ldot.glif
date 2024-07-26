@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ldot" format="2">
-  <advance width="735"/>
+  <advance width="367"/>
   <unicode hex="0140"/>
   <outline>
-    <component base="periodcentered" xOffset="601"/>
+    <component base="periodcentered" xOffset="209" yOffset="10"/>
     <component base="l"/>
   </outline>
   <lib>
@@ -14,31 +14,37 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>60</integer>
+            <integer>40</integer>
             <key>width</key>
-            <integer>59</integer>
+            <integer>68</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>157</integer>
+            <integer>137</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>336</integer>
+            <integer>335</integer>
             <key>width</key>
-            <integer>87</integer>
+            <integer>88</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>468</integer>
+            <integer>449</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>620</integer>
+            <integer>459</integer>
+            <key>width</key>
+            <integer>46</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>612</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -47,27 +53,27 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>46</integer>
+            <integer>31</integer>
             <key>width</key>
-            <integer>44</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>168</integer>
+            <integer>145</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>48</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>303</integer>
+            <integer>268</integer>
             <key>width</key>
-            <integer>51</integer>
+            <integer>61</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>624</integer>
+            <integer>621</integer>
             <key>width</key>
-            <integer>82</integer>
+            <integer>89</integer>
           </dict>
         </array>
       </dict>

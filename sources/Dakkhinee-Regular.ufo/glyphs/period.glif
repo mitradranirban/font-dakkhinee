@@ -4,10 +4,10 @@
   <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="100" y="0" type="line"/>
-      <point x="100" y="100" type="line"/>
-      <point x="180" y="100" type="line"/>
-      <point x="180" y="0" type="line"/>
+      <point x="100" y="50" type="line"/>
+      <point x="100" y="150" type="line"/>
+      <point x="180" y="150" type="line"/>
+      <point x="180" y="50" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -18,7 +18,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>0</integer>
+            <integer>50</integer>
             <key>width</key>
             <integer>100</integer>
           </dict>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edieresis" format="2">
-  <advance width="326"/>
+  <advance width="267"/>
   <unicode hex="00EB"/>
   <outline>
-    <component base="uni0308" xOffset="-76.89" yOffset="-18.146"/>
+    <component base="uni0308" xOffset="-77" yOffset="-18"/>
     <component base="e"/>
   </outline>
   <lib>
@@ -14,37 +14,37 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>50</integer>
+            <integer>31</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>75</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>237</integer>
+            <integer>218</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>315</integer>
+            <integer>381</integer>
             <key>width</key>
-            <integer>39</integer>
+            <integer>122</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>401</integer>
+            <integer>436</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>456</integer>
+            <integer>602</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>483</integer>
+            <integer>629</integer>
             <key>width</key>
             <integer>110</integer>
           </dict>
@@ -53,31 +53,31 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>81</integer>
+            <integer>4</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>221</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>265</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>505</integer>
+            <integer>9</integer>
             <key>width</key>
             <integer>110</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>714</integer>
+            <integer>144</integer>
+            <key>width</key>
+            <integer>67</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>188</integer>
+            <key>width</key>
+            <integer>67</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>218</integer>
             <key>width</key>
             <integer>110</integer>
           </dict>

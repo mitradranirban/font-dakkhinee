@@ -14,14 +14,14 @@
     </contour>
     <contour>
       <point x="65" y="302" type="curve" smooth="yes"/>
-      <point x="45.9508" y="302"/>
-      <point x="30" y="315.545"/>
+      <point x="46" y="302"/>
+      <point x="30" y="316"/>
       <point x="30" y="337" type="curve"/>
       <point x="47" y="372"/>
       <point x="64" y="399"/>
       <point x="83" y="417" type="curve" smooth="yes"/>
-      <point x="110.365" y="445.609"/>
-      <point x="154.376" y="470"/>
+      <point x="110" y="446"/>
+      <point x="154" y="470"/>
       <point x="209" y="470" type="curve" smooth="yes"/>
       <point x="261" y="470"/>
       <point x="314" y="434"/>
@@ -76,8 +76,11 @@
       <point x="168" y="148"/>
       <point x="168" y="150"/>
       <point x="168" y="153" type="curve" smooth="yes"/>
-      <point x="168" y="173.129"/>
-      <point x="187.712" y="193.397"/>
+      <point x="168" y="170.889"/>
+      <point x="184" y="188.777"/>
+      <point x="204.551" y="188.777" type="curve" smooth="yes"/>
+      <point x="206.977" y="188.777"/>
+      <point x="209.466" y="188.528"/>
       <point x="212" y="188" type="curve"/>
       <point x="225" y="171"/>
       <point x="238" y="163"/>
@@ -125,6 +128,12 @@
       <dict>
         <key>hhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>38</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>107</integer>

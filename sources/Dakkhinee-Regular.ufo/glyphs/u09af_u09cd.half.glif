@@ -27,8 +27,11 @@
     </contour>
     <contour>
       <point x="232" y="452" type="line"/>
-      <point x="238.906" y="435.426"/>
-      <point x="238.911" y="420.184"/>
+      <point x="235.106" y="444.456"/>
+      <point x="236.834" y="437.307"/>
+      <point x="236.834" y="430.988" type="curve" smooth="yes"/>
+      <point x="236.834" y="423.066"/>
+      <point x="234.119" y="416.45"/>
       <point x="228" y="412" type="curve" smooth="yes"/>
       <point x="97" y="302" type="line"/>
       <point x="363" y="115" type="line"/>

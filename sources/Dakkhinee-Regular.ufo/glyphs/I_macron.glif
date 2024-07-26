@@ -3,6 +3,7 @@
   <advance width="372"/>
   <unicode hex="012A"/>
   <outline>
+    <component base="uni0304" xOffset="456.5" yOffset="427"/>
     <component base="I"/>
   </outline>
   <lib>
@@ -28,6 +29,12 @@
             <integer>1003</integer>
             <key>width</key>
             <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1083</integer>
+            <key>width</key>
+            <integer>72</integer>
           </dict>
         </array>
         <key>vhints</key>

@@ -30,26 +30,35 @@
       <point x="107" y="378" type="curve" smooth="yes"/>
       <point x="80" y="378"/>
       <point x="55" y="395"/>
-      <point x="30" y="429" type="curve"/>
-      <point x="22.856" y="454.004"/>
-      <point x="51.7125" y="469.458"/>
+      <point x="30" y="429" type="curve" smooth="yes"/>
+      <point x="29.2745" y="431.591"/>
+      <point x="28.9357" y="434.074"/>
+      <point x="28.9357" y="436.441" type="curve" smooth="yes"/>
+      <point x="28.9357" y="454.439"/>
+      <point x="48.5393" y="465.642"/>
+      <point x="66.6794" y="465.642" type="curve" smooth="yes"/>
+      <point x="69.1651" y="465.642"/>
+      <point x="71.6234" y="465.432"/>
       <point x="74" y="465" type="curve"/>
       <point x="79" y="447"/>
       <point x="86" y="438"/>
       <point x="96" y="438" type="curve" smooth="yes"/>
       <point x="121" y="438"/>
-      <point x="153.344" y="473.135"/>
+      <point x="153" y="473"/>
       <point x="185" y="547" type="curve" smooth="yes"/>
-      <point x="192.344" y="564.135"/>
-      <point x="192" y="581"/>
+      <point x="189.562" y="558.078"/>
+      <point x="191.151" y="569.157"/>
+      <point x="191.151" y="579.405" type="curve" smooth="yes"/>
+      <point x="191.151" y="584.883"/>
+      <point x="190.697" y="590.123"/>
       <point x="190" y="595" type="curve" smooth="yes"/>
       <point x="189" y="600"/>
       <point x="188" y="605"/>
     </contour>
     <contour>
       <point x="392" y="425" type="curve" smooth="yes"/>
-      <point x="421.104" y="425"/>
-      <point x="440" y="456.453"/>
+      <point x="421" y="425"/>
+      <point x="440" y="456"/>
       <point x="440" y="487" type="curve" smooth="yes"/>
       <point x="440" y="507"/>
       <point x="435" y="524"/>
@@ -93,6 +102,12 @@
         </array>
         <key>vhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>191</integer>
+            <key>width</key>
+            <integer>67</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>440</integer>

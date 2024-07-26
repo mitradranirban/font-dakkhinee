@@ -3,7 +3,7 @@
   <advance width="664"/>
   <unicode hex="011C"/>
   <outline>
-    <component base="uni0302" xOffset="108.992" yOffset="223.834"/>
+    <component base="uni0302" xOffset="109" yOffset="224"/>
     <component base="G"/>
   </outline>
   <lib>
@@ -16,7 +16,13 @@
             <key>position</key>
             <integer>53</integer>
             <key>width</key>
-            <integer>339</integer>
+            <integer>91</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>302</integer>
+            <key>width</key>
+            <integer>90</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -26,15 +32,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>672</integer>
-            <key>width</key>
-            <integer>152</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>737</integer>
             <key>width</key>
             <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>858</integer>
+            <key>width</key>
+            <integer>152</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -45,6 +51,18 @@
         </array>
         <key>vhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>-2</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>146</integer>
+            <key>width</key>
+            <integer>312</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>258</integer>
@@ -59,15 +77,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>512</integer>
+            <integer>504</integer>
             <key>width</key>
-            <integer>84</integer>
+            <integer>92</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>533</integer>
+            <integer>512</integer>
             <key>width</key>
-            <integer>312</integer>
+            <integer>84</integer>
           </dict>
           <dict>
             <key>position</key>

@@ -3,7 +3,7 @@
   <advance width="562"/>
   <unicode hex="0104"/>
   <outline>
-    <component base="uni0328" xOffset="324" yOffset="11.0667"/>
+    <component base="uni0328" xOffset="324" yOffset="11"/>
     <component base="A"/>
   </outline>
   <lib>
@@ -12,6 +12,18 @@
       <dict>
         <key>hhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>-221</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>31</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>56</integer>
@@ -44,6 +56,18 @@
             <integer>20</integer>
             <key>width</key>
             <integer>91</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>363</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>446</integer>
+            <key>width</key>
+            <integer>73</integer>
           </dict>
           <dict>
             <key>position</key>

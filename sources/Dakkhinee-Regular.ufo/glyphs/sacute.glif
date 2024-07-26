@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sacute" format="2">
-  <advance width="353"/>
+  <advance width="313"/>
   <unicode hex="015B"/>
   <outline>
-    <component base="acutecomb" xOffset="404.2" yOffset="259.225"/>
+    <component base="acutecomb" xOffset="381.737" yOffset="259"/>
     <component base="s"/>
   </outline>
   <lib>
@@ -14,15 +14,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>57</integer>
+            <integer>47</integer>
             <key>width</key>
-            <integer>66</integer>
+            <integer>75</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>488</integer>
+            <key>width</key>
+            <integer>60</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>498</integer>
             <key>width</key>
-            <integer>51</integer>
+            <integer>50</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -35,25 +41,25 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>24</integer>
+            <integer>7</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>243</integer>
+            <integer>206</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>302</integer>
+            <integer>265</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>450</integer>
+            <integer>428</integer>
             <key>width</key>
             <integer>188</integer>
           </dict>

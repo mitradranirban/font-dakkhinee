@@ -4,13 +4,13 @@
   <unicode hex="010C"/>
   <outline>
     <contour>
-      <point x="354.045" y="1030.62" type="line"/>
-      <point x="164.045" y="1373.62" type="line"/>
-      <point x="242.045" y="1373.62" type="line"/>
-      <point x="400.045" y="1088.62" type="line"/>
-      <point x="557.045" y="1373.62" type="line"/>
-      <point x="635.045" y="1373.62" type="line"/>
-      <point x="441.045" y="1030.62" type="line"/>
+      <point x="301.1" y="953.3" type="line"/>
+      <point x="149.1" y="1227.7" type="line"/>
+      <point x="211.5" y="1227.7" type="line"/>
+      <point x="337.9" y="999.7" type="line"/>
+      <point x="463.5" y="1227.7" type="line"/>
+      <point x="525.9" y="1227.7" type="line"/>
+      <point x="370.7" y="953.3" type="line"/>
     </contour>
     <component base="C"/>
   </outline>

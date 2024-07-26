@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0137" format="2">
-  <advance width="458"/>
+  <advance width="418"/>
   <unicode hex="0137"/>
   <outline>
-    <component base="uni0326" xOffset="159.1" yOffset="118"/>
+    <component base="uni0326" xOffset="135.602" yOffset="118"/>
     <component base="k"/>
   </outline>
   <lib>
@@ -14,84 +14,84 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>4</integer>
+            <integer>-120</integer>
             <key>width</key>
             <integer>58</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>12</integer>
-            <key>width</key>
-            <integer>90</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>61</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>80</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>146</integer>
+            <integer>22</integer>
             <key>width</key>
             <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>220</integer>
+            <integer>56</integer>
             <key>width</key>
-            <integer>31</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>321</integer>
+            <integer>74</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>56</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>462</integer>
+            <integer>215</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>316</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>454</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>603</integer>
+            <key>width</key>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>129</integer>
+            <integer>110</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>51</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>129</integer>
+            <integer>110</integer>
             <key>width</key>
             <integer>97</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>307</integer>
+            <integer>320</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>359</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>360</integer>
             <key>width</key>
             <integer>59</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>358</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>397</integer>
-            <key>width</key>
-            <integer>47</integer>
           </dict>
         </array>
       </dict>

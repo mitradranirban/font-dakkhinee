@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emacron" format="2">
-  <advance width="326"/>
+  <advance width="267"/>
   <unicode hex="0113"/>
   <outline>
-    <component base="uni0304" xOffset="439.563" yOffset="-199.521"/>
-    <component base="e"/>
+    <component base="uni0304" xScale="0.75" yScale="0.75" xOffset="264.875" yOffset="183"/>
+    <component base="e" xOffset="6" yOffset="2"/>
   </outline>
   <lib>
     <dict>
@@ -14,60 +14,60 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>50</integer>
+            <integer>33</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>75</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>237</integer>
+            <integer>220</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>315</integer>
+            <integer>383</integer>
             <key>width</key>
-            <integer>39</integer>
+            <integer>122</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>401</integer>
+            <integer>438</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>456</integer>
+            <integer>604</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>456</integer>
+            <integer>675</integer>
             <key>width</key>
-            <integer>72</integer>
+            <integer>54</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>81</integer>
+            <integer>10</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>221</integer>
+            <integer>150</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>265</integer>
+            <integer>194</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>67</integer>
           </dict>
         </array>
       </dict>

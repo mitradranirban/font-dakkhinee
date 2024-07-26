@@ -18,9 +18,9 @@
       <point x="224" y="348"/>
       <point x="181" y="348" type="curve" smooth="yes"/>
       <point x="162" y="348"/>
-      <point x="143.234" y="350.427"/>
+      <point x="143" y="350"/>
       <point x="125" y="360" type="curve" smooth="yes"/>
-      <point x="63.2335" y="392.427"/>
+      <point x="63" y="392"/>
       <point x="33" y="438"/>
       <point x="33" y="495" type="curve" smooth="yes"/>
       <point x="33" y="542"/>
@@ -44,8 +44,11 @@
     </contour>
     <contour>
       <point x="103" y="541" type="line"/>
-      <point x="74.6437" y="505.082"/>
-      <point x="77.3334" y="455.667"/>
+      <point x="89.7235" y="523.93"/>
+      <point x="83.1918" y="503.938"/>
+      <point x="83.1918" y="484.434" type="curve" smooth="yes"/>
+      <point x="83.1918" y="462.804"/>
+      <point x="91.2248" y="441.775"/>
       <point x="107" y="426" type="curve"/>
       <point x="132" y="407" type="line"/>
       <point x="150" y="400"/>
@@ -77,6 +80,12 @@
         </array>
         <key>vhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>33</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>315</integer>

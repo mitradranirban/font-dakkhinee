@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccaron" format="2">
-  <advance width="412"/>
+  <advance width="372"/>
   <unicode hex="010D"/>
   <outline>
-    <component base="asciicircum" yScale="-1" xOffset="-79.7545" yOffset="1152.13"/>
+    <contour>
+      <point x="141.65" y="672.45" type="line"/>
+      <point x="8.65039" y="912.55" type="line"/>
+      <point x="63.25" y="912.55" type="line"/>
+      <point x="173.85" y="713.05" type="line"/>
+      <point x="283.75" y="912.55" type="line"/>
+      <point x="338.35" y="912.55" type="line"/>
+      <point x="202.55" y="672.45" type="line"/>
+    </contour>
     <component base="c"/>
   </outline>
   <lib>
@@ -14,31 +22,31 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>67</integer>
+            <integer>72</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>254</integer>
+            <integer>259</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>425</integer>
+            <integer>424</integer>
             <key>width</key>
-            <integer>93</integer>
+            <integer>99</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>471</integer>
+            <integer>468</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>623</integer>
+            <integer>625</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -47,27 +55,27 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>18</integer>
+            <integer>3</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>217</integer>
+            <integer>190</integer>
             <key>width</key>
-            <integer>50</integer>
+            <integer>53</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>330</integer>
+            <integer>295</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>345</integer>
+            <integer>310</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

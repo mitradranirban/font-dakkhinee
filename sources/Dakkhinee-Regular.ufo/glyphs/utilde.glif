@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="utilde" format="2">
-  <advance width="384"/>
+  <advance width="344"/>
   <unicode hex="0169"/>
   <outline>
-    <component base="tildecomb" xOffset="249.376" yOffset="264.2"/>
+    <component base="tildecomb" xScale="0.8" yScale="0.8" xOffset="327.599" yOffset="166.7"/>
     <component base="u"/>
   </outline>
   <lib>
@@ -14,13 +14,13 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>67</integer>
-            <key>width</key>
             <integer>47</integer>
+            <key>width</key>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>622</integer>
+            <integer>614</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -41,21 +41,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>4</integer>
+            <integer>-11</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>293</integer>
+            <integer>258</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>305</integer>
+            <integer>270</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

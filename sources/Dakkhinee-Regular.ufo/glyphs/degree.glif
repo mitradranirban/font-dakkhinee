@@ -5,17 +5,54 @@
   <outline>
     <contour>
       <point x="55" y="734" type="curve"/>
-      <point x="94.7432" y="752.153"/>
-      <point x="123.19" y="747.715"/>
+      <point x="73.7643" y="742.444"/>
+      <point x="89.8879" y="746.047"/>
+      <point x="104.197" y="746.047" type="curve" smooth="yes"/>
+      <point x="120.39" y="746.047"/>
+      <point x="134.259" y="741.432"/>
       <point x="147" y="734" type="curve"/>
-      <point x="158.045" y="714.245"/>
-      <point x="172.119" y="694.924"/>
+      <point x="153.47" y="722.237"/>
+      <point x="160.977" y="710.82"/>
+      <point x="160.977" y="698.324" type="curve" smooth="yes"/>
+      <point x="160.977" y="689.575"/>
+      <point x="157.296" y="680.296"/>
       <point x="147" y="670" type="curve"/>
-      <point x="116.332" y="653.268"/>
-      <point x="85.666" y="660.491"/>
+      <point x="133.417" y="662.551"/>
+      <point x="120.026" y="659.71"/>
+      <point x="106.659" y="659.71" type="curve" smooth="yes"/>
+      <point x="89.5184" y="659.71"/>
+      <point x="72.4171" y="664.382"/>
       <point x="55" y="670" type="curve"/>
-      <point x="44.416" y="691.333"/>
-      <point x="39.1445" y="712.667"/>
+      <point x="49.0032" y="681.448"/>
+      <point x="44.7896" y="693.194"/>
+      <point x="44.7896" y="704.913" type="curve" smooth="yes"/>
+      <point x="44.7896" y="714.69"/>
+      <point x="47.7226" y="724.448"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>660</integer>
+            <key>width</key>
+            <integer>86</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>45</integer>
+            <key>width</key>
+            <integer>116</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

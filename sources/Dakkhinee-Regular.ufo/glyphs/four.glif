@@ -4,22 +4,22 @@
   <unicode hex="0034"/>
   <outline>
     <contour>
-      <point x="76" y="185" type="line"/>
-      <point x="76" y="257" type="line"/>
-      <point x="384" y="714" type="line"/>
-      <point x="465" y="714" type="line"/>
-      <point x="465" y="257" type="line"/>
-      <point x="559" y="257" type="line"/>
-      <point x="559" y="185" type="line"/>
-      <point x="465" y="185" type="line"/>
-      <point x="465" y="0" type="line"/>
-      <point x="384" y="0" type="line"/>
-      <point x="384" y="185" type="line"/>
+      <point x="76" y="235" type="line"/>
+      <point x="76" y="307" type="line"/>
+      <point x="384" y="764" type="line"/>
+      <point x="465" y="764" type="line"/>
+      <point x="465" y="307" type="line"/>
+      <point x="559" y="307" type="line"/>
+      <point x="559" y="235" type="line"/>
+      <point x="465" y="235" type="line"/>
+      <point x="465" y="50" type="line"/>
+      <point x="384" y="50" type="line"/>
+      <point x="384" y="235" type="line"/>
     </contour>
     <contour>
-      <point x="164" y="257" type="line"/>
-      <point x="384" y="257" type="line"/>
-      <point x="384" y="574" type="line"/>
+      <point x="164" y="307" type="line"/>
+      <point x="384" y="307" type="line"/>
+      <point x="384" y="624" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -30,7 +30,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>185</integer>
+            <integer>235</integer>
             <key>width</key>
             <integer>72</integer>
           </dict>

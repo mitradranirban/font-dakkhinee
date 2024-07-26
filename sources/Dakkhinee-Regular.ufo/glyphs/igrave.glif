@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="igrave" format="2">
-  <advance width="232"/>
+  <advance width="212"/>
   <unicode hex="00EC"/>
   <outline>
-    <component base="gravecomb" xScale="0.8" yScale="0.8" xOffset="-11.3279" yOffset="-4.64899"/>
-    <component base="i" xOffset="4" yOffset="-170.263"/>
+    <component base="gravecomb" xScale="0.8" yScale="0.8" xOffset="-25" yOffset="139"/>
+    <component base="i" xOffset="-4.82562" yOffset="16"/>
   </outline>
   <lib>
     <dict>
@@ -14,25 +14,31 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-125</integer>
+            <integer>55</integer>
             <key>width</key>
             <integer>21</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>282</integer>
+            <integer>463</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>434</integer>
+            <integer>474</integer>
+            <key>width</key>
+            <integer>45</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>627</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>631</integer>
+            <integer>648</integer>
             <key>width</key>
             <integer>152</integer>
           </dict>
@@ -41,21 +47,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-18</integer>
-            <key>width</key>
-            <integer>44</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-13</integer>
+            <integer>9</integer>
             <key>width</key>
             <integer>150</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>104</integer>
+            <integer>28</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>54</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>150</integer>
+            <key>width</key>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

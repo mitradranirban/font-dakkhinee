@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cdotaccent" format="2">
-  <advance width="412"/>
+  <advance width="372"/>
   <unicode hex="010B"/>
   <outline>
-    <component base="uni0307" xOffset="23.105" yOffset="-98.465"/>
+    <component base="uni0307" xOffset="3" yOffset="-98"/>
     <component base="c"/>
   </outline>
   <lib>
@@ -14,37 +14,37 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>67</integer>
+            <integer>72</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>254</integer>
+            <integer>259</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>425</integer>
+            <integer>424</integer>
             <key>width</key>
-            <integer>93</integer>
+            <integer>99</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>471</integer>
+            <integer>468</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>487</integer>
+            <integer>553</integer>
             <key>width</key>
             <integer>109</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>623</integer>
+            <integer>625</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -53,33 +53,33 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>18</integer>
+            <integer>3</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>217</integer>
-            <key>width</key>
-            <integer>50</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>330</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>345</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>531</integer>
+            <integer>97</integer>
             <key>width</key>
             <integer>109</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>190</integer>
+            <key>width</key>
+            <integer>53</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>295</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>310</integer>
+            <key>width</key>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>

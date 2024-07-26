@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scedilla" format="2">
-  <advance width="353"/>
+  <advance width="313"/>
   <unicode hex="015F"/>
   <outline>
-    <component base="uni0327" xOffset="185.05" yOffset="172.066"/>
+    <component base="uni0327" xOffset="162.737" yOffset="172"/>
     <component base="s"/>
   </outline>
   <lib>
@@ -20,40 +20,52 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>57</integer>
+            <integer>47</integer>
             <key>width</key>
-            <integer>66</integer>
+            <integer>75</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>488</integer>
+            <key>width</key>
+            <integer>60</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>498</integer>
             <key>width</key>
-            <integer>51</integer>
+            <integer>50</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>24</integer>
+            <integer>7</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>243</integer>
+            <integer>206</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>302</integer>
+            <integer>265</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>392</integer>
+            <integer>278</integer>
+            <key>width</key>
+            <integer>99</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>370</integer>
             <key>width</key>
             <integer>82</integer>
           </dict>

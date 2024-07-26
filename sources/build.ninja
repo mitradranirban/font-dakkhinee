@@ -43,33 +43,35 @@ rule copy
       gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /tmp/tmp7ycvfz83
-build /tmp/tmp7ycvfz83: buildTTF Dakkhinee.ufo
+# Generating /tmp/tmpzlw0qun9
+build /tmp/tmpzlw0qun9: buildTTF Dakkhinee-Regular.ufo
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter --keep-overlaps
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmppik3wfv9
-build /tmp/tmppik3wfv9: buildOTF Dakkhinee.ufo
+# Generating /tmp/tmp8m6v08hb
+build /tmp/tmp8m6v08hb: buildOTF Dakkhinee-Regular.ufo
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter --keep-overlaps
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating ../fonts/webfonts/Dakkhinee.woff2
-build ../fonts/webfonts/Dakkhinee.woff2: compress ../fonts/ttf/Dakkhinee.ttf
+# Generating ../fonts/webfonts/Dakkhinee-Regular.woff2
+build ../fonts/webfonts/Dakkhinee-Regular.woff2: compress $
+    ../fonts/ttf/Dakkhinee-Regular.ttf
   operation = compress
-# Generating /tmp/tmppxr4hfdd
-build /tmp/tmppxr4hfdd: autohint /tmp/tmp7ycvfz83
+# Generating /tmp/tmp2jc91ul_
+build /tmp/tmp2jc91ul_: autohint /tmp/tmpzlw0qun9
   operation = autohint
   args = --fail-ok 
-# Generating ../fonts/ttf/Dakkhinee.ttf
-build ../fonts/ttf/Dakkhinee.ttf: fix /tmp/tmppxr4hfdd
+# Generating ../fonts/ttf/Dakkhinee-Regular.ttf
+build ../fonts/ttf/Dakkhinee-Regular.ttf: fix /tmp/tmp2jc91ul_
   operation = fix
   args = 
-# Generating ../fonts/otf/Dakkhinee.otf
-build ../fonts/otf/Dakkhinee.otf: fix /tmp/tmppik3wfv9
+# Generating ../fonts/otf/Dakkhinee-Regular.otf
+build ../fonts/otf/Dakkhinee-Regular.otf: fix /tmp/tmp8m6v08hb
   operation = fix
   args = 
-default ../fonts/webfonts/Dakkhinee.woff2 ../fonts/otf/Dakkhinee.otf
+default ../fonts/webfonts/Dakkhinee-Regular.woff2 $
+    ../fonts/otf/Dakkhinee-Regular.otf

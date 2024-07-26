@@ -4,7 +4,7 @@
   <unicode hex="09F9"/>
   <outline>
     <contour>
-      <point x="103" y="130" type="curve"/>
+      <point x="103" y="130" type="curve" smooth="yes"/>
       <point x="103" y="166"/>
       <point x="116" y="197"/>
       <point x="141" y="222" type="curve" smooth="yes"/>
@@ -30,7 +30,7 @@
       <point x="103" y="94"/>
     </contour>
     <contour>
-      <point x="168" y="130" type="curve"/>
+      <point x="168" y="130" type="curve" smooth="yes"/>
       <point x="168" y="112"/>
       <point x="174" y="97"/>
       <point x="187" y="84" type="curve" smooth="yes"/>
@@ -64,24 +64,30 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>137</integer>
+            <integer>0</integer>
             <key>width</key>
-            <integer>73</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>151</integer>
+            <integer>195</integer>
             <key>width</key>
-            <integer>68</integer>
+            <integer>65</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>486</integer>
+            <integer>103</integer>
             <key>width</key>
-            <integer>24</integer>
+            <integer>65</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>65</integer>
           </dict>
         </array>
       </dict>

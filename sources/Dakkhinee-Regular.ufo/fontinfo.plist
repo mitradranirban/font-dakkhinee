@@ -7,21 +7,21 @@
     <key>styleName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>Dakkhini Regular</string>
+    <string>Dakkhinee Regular</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>
-    <integer>0</integer>
-    <key>versionMinor</key>
     <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
     <key>copyright</key>
-    <string>OFL 1.1 (C) 2002 Dr Anirban Mitra </string>
+    <string>Copyright 2024 The Dakkhinee Project Authors (https://github.com/mitradranirban/font-dakkhinee) </string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>capHeight</key>
-    <integer>1493</integer>
+    <integer>800</integer>
     <key>xHeight</key>
-    <integer>1073</integer>
+    <integer>508</integer>
     <key>ascender</key>
     <integer>800</integer>
     <key>descender</key>
@@ -31,9 +31,9 @@
     <key>openTypeHeadCreated</key>
     <string>2006/01/25 18:19:49</string>
     <key>openTypeHheaAscender</key>
-    <integer>1291</integer>
+    <integer>1400</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-264</integer>
+    <integer>-600</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
@@ -43,7 +43,7 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://fonts.atipra.in/</string>
     <key>openTypeNameLicense</key>
-    <string>Copyright (c) 2022 Dr Anirban Mitra
+    <string>Copyright 2022-2024 The Dakkhinee Font Authors
  
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at:http://scripts.sil.org/OFL
@@ -52,28 +52,15 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 0.001</string>
+    <string>Version 1.000</string>
     <key>openTypeNameDescription</key>
     <string>This Bengali or Bangla font is designed like South Indian Scripts </string>
     <key>openTypeNamePreferredFamilyName</key>
-    <string>Dakkhini</string>
+    <string>Dakkhinee</string>
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Regular</string>
     <key>openTypeNameSampleText</key>
-    <string>জগতে আনন্দযজ্ঞে আমার নিমন্ত্রন </string>
-    <key>openTypeOS2Panose</key>
-    <array>
-      <integer>0</integer>
-      <integer>0</integer>
-      <integer>6</integer>
-      <integer>3</integer>
-      <integer>0</integer>
-      <integer>0</integer>
-      <integer>0</integer>
-      <integer>0</integer>
-      <integer>0</integer>
-      <integer>0</integer>
-    </array>
+    <string>Pack My Box With Five Dozen Liquor Jugs</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>
@@ -88,15 +75,15 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>1291</integer>
+    <integer>1400</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-264</integer>
+    <integer>-600</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>1291</integer>
+    <integer>1400</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>264</integer>
+    <integer>600</integer>
     <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>0</integer>
@@ -109,15 +96,15 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
       <integer>45</integer>
     </array>
     <key>postscriptFontName</key>
-    <string>Dakkhinee</string>
+    <string>Dakkhinee-Regular</string>
     <key>postscriptFullName</key>
-    <string>Dakkhinee</string>
+    <string>Dakkhinee Regular</string>
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>postscriptUnderlineThickness</key>
     <integer>73</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-166</integer>
+    <integer>-366</integer>
     <key>guidelines</key>
     <array>
       <dict>

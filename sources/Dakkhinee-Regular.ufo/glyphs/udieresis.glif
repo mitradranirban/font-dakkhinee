@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udieresis" format="2">
-  <advance width="384"/>
+  <advance width="344"/>
   <unicode hex="00FC"/>
   <outline>
-    <component base="uni0308" xScale="0.947938" xOffset="-103.522" yOffset="-122.799"/>
+    <component base="uni0308" xScale="0.947938" xOffset="-78" yOffset="-11"/>
     <component base="u"/>
   </outline>
   <lib>
@@ -14,54 +14,54 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>67</integer>
-            <key>width</key>
             <integer>47</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>478</integer>
             <key>width</key>
-            <integer>110</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>622</integer>
+            <integer>614</integer>
             <key>width</key>
             <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>636</integer>
+            <key>width</key>
+            <integer>110</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
+            <integer>-11</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>4</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>104</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>293</integer>
+            <integer>202</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>104</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>305</integer>
+            <integer>258</integer>
             <key>width</key>
-            <integer>47</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>333</integer>
+            <integer>270</integer>
             <key>width</key>
-            <integer>110</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>542</integer>
-            <key>width</key>
-            <integer>110</integer>
+            <integer>57</integer>
           </dict>
         </array>
       </dict>
