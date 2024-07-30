@@ -1306,8 +1306,6 @@
     <string>O_slash.glif</string>
     <key>uni09CF</key>
     <string>uni09C_F_.glif</string>
-    <key>uni09D0</key>
-    <string>uni09D_0.glif</string>
     <key>u0985</key>
     <string>uni0985.glif</string>
     <key>u09b9</key>
@@ -1334,16 +1332,12 @@
     <string>uni0995.glif</string>
     <key>u099d</key>
     <string>uni099D_.glif</string>
-    <key>uni09D5</key>
-    <string>uni09D_5.glif</string>
     <key>u09a5</key>
     <string>uni09A_5.glif</string>
     <key>u0994</key>
     <string>uni0994.glif</string>
     <key>u0997</key>
     <string>uni0997.glif</string>
-    <key>uni09D6</key>
-    <string>uni09D_6.glif</string>
     <key>u09a1</key>
     <string>uni09A_1.glif</string>
     <key>u0993</key>
@@ -1474,7 +1468,7 @@
     <string>uni09B_7.glif</string>
     <key>u09b8</key>
     <string>uni09B_8.glif</string>
-    <key>uni09bc</key>
+    <key>u09bc</key>
     <string>uni09B_C_.glif</string>
     <key>u09be</key>
     <string>uni09B_E_.glif</string>
@@ -1802,8 +1796,6 @@
     <string>eogonek.glif</string>
     <key>dcaron</key>
     <string>dcaron.glif</string>
-    <key>uni01CD</key>
-    <string>uni01C_D_.glif</string>
     <key>Hbar</key>
     <string>H_bar.glif</string>
     <key>hbar</key>
@@ -1836,5 +1828,13 @@
     <string>uni1E_9E_.glif</string>
     <key>bullet</key>
     <string>bullet.glif</string>
+    <key>IJ</key>
+    <string>I_J_.glif</string>
+    <key>ij</key>
+    <string>ij.glif</string>
+    <key>NameMe.65968</key>
+    <string>N_ameM_e.65968.glif</string>
+    <key>NameMe.65969</key>
+    <string>N_ameM_e.65969.glif</string>
   </dict>
 </plist>

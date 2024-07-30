@@ -29,20 +29,20 @@
       <point x="764" y="968"/>
       <point x="773" y="954"/>
       <point x="780" y="928" type="curve" smooth="yes"/>
-      <point x="784.435" y="912.2"/>
-      <point x="786.642" y="896.708"/>
-      <point x="786.642" y="881.736" type="curve" smooth="yes"/>
-      <point x="786.642" y="842.694"/>
-      <point x="771.635" y="807.19"/>
+      <point x="784" y="912"/>
+      <point x="787" y="897"/>
+      <point x="787" y="882" type="curve" smooth="yes"/>
+      <point x="787" y="843"/>
+      <point x="772" y="807"/>
       <point x="742" y="779" type="curve" smooth="yes"/>
-      <point x="735.653" y="772.829"/>
-      <point x="733.658" y="767.653"/>
-      <point x="733.658" y="763.302" type="curve" smooth="yes"/>
-      <point x="733.658" y="755.934"/>
-      <point x="739.379" y="750.931"/>
-      <point x="739.379" y="747.468" type="curve" smooth="yes"/>
-      <point x="739.379" y="741.376"/>
-      <point x="721.677" y="740.05"/>
+      <point x="736" y="773"/>
+      <point x="734" y="767"/>
+      <point x="734" y="763" type="curve" smooth="yes"/>
+      <point x="734" y="756"/>
+      <point x="739" y="750"/>
+      <point x="739" y="747" type="curve" smooth="yes"/>
+      <point x="739" y="741"/>
+      <point x="722" y="740"/>
       <point x="624" y="739" type="curve"/>
       <point x="621" y="178" type="line" smooth="yes"/>
       <point x="621" y="156"/>
@@ -106,11 +106,11 @@
       <point x="28" y="546"/>
       <point x="45" y="513"/>
       <point x="79" y="485" type="curve" smooth="yes"/>
-      <point x="94.8667" y="471.933"/>
-      <point x="149.062" y="468.449"/>
-      <point x="207.134" y="468.449" type="curve" smooth="yes"/>
-      <point x="273.502" y="468.449"/>
-      <point x="344.933" y="473"/>
+      <point x="95" y="472"/>
+      <point x="149" y="468"/>
+      <point x="207" y="468" type="curve" smooth="yes"/>
+      <point x="273" y="468"/>
+      <point x="345" y="473"/>
       <point x="370" y="473" type="curve"/>
       <point x="388" y="401" type="line"/>
       <point x="341" y="401"/>

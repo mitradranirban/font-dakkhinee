@@ -11,11 +11,11 @@
       <point x="451" y="299"/>
       <point x="486" y="317"/>
       <point x="529" y="353" type="curve" smooth="yes"/>
-      <point x="567.536" y="384.892"/>
-      <point x="589.297" y="411.928"/>
-      <point x="589.297" y="434.694" type="curve" smooth="yes"/>
-      <point x="589.297" y="446.194"/>
-      <point x="583.746" y="456.604"/>
+      <point x="568" y="385"/>
+      <point x="589" y="412"/>
+      <point x="589" y="435" type="curve" smooth="yes"/>
+      <point x="589" y="446"/>
+      <point x="584" y="457"/>
       <point x="572" y="466" type="curve"/>
       <point x="558" y="474" type="line"/>
       <point x="546" y="479"/>
@@ -66,11 +66,11 @@
       <point x="898" y="10"/>
       <point x="900" y="3"/>
       <point x="900" y="-4" type="curve" smooth="yes"/>
-      <point x="900" y="-20.0556"/>
-      <point x="890.188" y="-28.0833"/>
-      <point x="869.722" y="-28.0833" type="curve" smooth="yes"/>
-      <point x="868.519" y="-28.0833"/>
-      <point x="867.278" y="-28.0556"/>
+      <point x="900" y="-20"/>
+      <point x="890" y="-28"/>
+      <point x="870" y="-28" type="curve" smooth="yes"/>
+      <point x="869" y="-28"/>
+      <point x="867" y="-28"/>
       <point x="866" y="-28" type="curve" smooth="yes"/>
       <point x="862" y="-28" type="line"/>
       <point x="742" y="56"/>
@@ -139,17 +139,17 @@
     <contour>
       <point x="338" y="610" type="line"/>
       <point x="102" y="610" type="line"/>
-      <point x="102" y="559.298"/>
-      <point x="212.665" y="537.287"/>
-      <point x="284.815" y="537.287" type="curve" smooth="yes"/>
-      <point x="292.354" y="537.287"/>
-      <point x="299.472" y="537.527"/>
+      <point x="102" y="559"/>
+      <point x="213" y="537"/>
+      <point x="285" y="537" type="curve" smooth="yes"/>
+      <point x="293" y="537"/>
+      <point x="299" y="538"/>
       <point x="306" y="538" type="curve" smooth="yes"/>
-      <point x="306.62" y="538.248"/>
-      <point x="307.287" y="538.373"/>
-      <point x="307.999" y="538.373" type="curve" smooth="yes"/>
-      <point x="313.031" y="538.373"/>
-      <point x="320.364" y="532.139"/>
+      <point x="307" y="538"/>
+      <point x="307" y="538"/>
+      <point x="308" y="538" type="curve" smooth="yes"/>
+      <point x="313" y="538"/>
+      <point x="320" y="532"/>
       <point x="330" y="519" type="curve"/>
       <point x="338" y="505" type="line"/>
     </contour>

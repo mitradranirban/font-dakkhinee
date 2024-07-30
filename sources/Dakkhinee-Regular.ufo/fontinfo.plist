@@ -66,7 +66,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
     <key>openTypeOS2WeightClass</key>
     <integer>400</integer>
     <key>openTypeOS2VendorID</key>
-    <string>    </string>
+    <string>anir</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>0</integer>

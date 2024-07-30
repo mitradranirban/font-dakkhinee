@@ -3,6 +3,6 @@
   <advance width="210"/>
   <unicode hex="2019"/>
   <outline>
-    <component base="quotesingle" xScale="0.965926" yScale="0.965926" xyScale="-0.258819" yxScale="0.258819" xOffset="-201.8" yOffset="19.898"/>
+    <component base="quotesingle" xScale="0.965926" yScale="0.965926" xyScale="-0.258819" yxScale="0.258819" xOffset="-202" yOffset="20"/>
   </outline>
 </glyph>

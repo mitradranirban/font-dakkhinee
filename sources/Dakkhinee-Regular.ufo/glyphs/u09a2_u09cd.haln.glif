@@ -1,58 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09a2_u09cd.haln" format="2">
-  <advance width="504"/>
-  <anchor x="229" y="679" name="Anchor-0"/>
+  <advance width="906"/>
   <outline>
-    <contour>
-      <point x="257" y="-1" type="line"/>
-      <point x="422" y="-122" type="line"/>
-      <point x="390" y="-165" type="line"/>
-      <point x="222" y="-39" type="line"/>
-    </contour>
-    <contour>
-      <point x="156" y="176" type="line" smooth="yes"/>
-      <point x="156" y="143"/>
-      <point x="181" y="115"/>
-      <point x="218" y="115" type="curve" smooth="yes"/>
-      <point x="243" y="115"/>
-      <point x="268" y="128"/>
-      <point x="293" y="154" type="curve" smooth="yes"/>
-      <point x="345" y="210"/>
-      <point x="371" y="264"/>
-      <point x="371" y="315" type="curve" smooth="yes"/>
-      <point x="371" y="342"/>
-      <point x="365" y="362"/>
-      <point x="354" y="375" type="curve"/>
-      <point x="342" y="386" type="line"/>
-      <point x="308" y="412" type="line"/>
-      <point x="305" y="416"/>
-      <point x="304" y="420"/>
-      <point x="304" y="425" type="curve" smooth="yes"/>
-      <point x="304" y="442"/>
-      <point x="320" y="457"/>
-      <point x="340" y="457" type="curve"/>
-      <point x="399" y="416"/>
-      <point x="428" y="371"/>
-      <point x="428" y="321" type="curve" smooth="yes"/>
-      <point x="428" y="260"/>
-      <point x="404" y="198"/>
-      <point x="357" y="135" type="curve" smooth="yes"/>
-      <point x="308" y="69"/>
-      <point x="256" y="35"/>
-      <point x="201" y="35" type="curve" smooth="yes"/>
-      <point x="176" y="35"/>
-      <point x="152" y="47"/>
-      <point x="130" y="72" type="curve" smooth="yes"/>
-      <point x="107" y="100"/>
-      <point x="95" y="129"/>
-      <point x="94" y="160" type="curve"/>
-      <point x="94" y="609" type="line"/>
-      <point x="-6" y="610" type="line"/>
-      <point x="-6" y="673" type="line"/>
-      <point x="504" y="673" type="line"/>
-      <point x="504" y="610" type="line"/>
-      <point x="156" y="610" type="line"/>
-    </contour>
+    <component base="u09a2"/>
   </outline>
   <lib>
     <dict>

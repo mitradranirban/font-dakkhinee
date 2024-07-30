@@ -49,17 +49,17 @@
       <point x="338" y="505" type="line"/>
       <point x="338" y="610" type="line"/>
       <point x="102" y="610" type="line"/>
-      <point x="102" y="560.041"/>
-      <point x="214.211" y="537.31"/>
-      <point x="285.745" y="537.31" type="curve" smooth="yes"/>
-      <point x="292.963" y="537.31"/>
-      <point x="299.767" y="537.542"/>
+      <point x="102" y="560"/>
+      <point x="214" y="537"/>
+      <point x="286" y="537" type="curve" smooth="yes"/>
+      <point x="293" y="537"/>
+      <point x="300" y="538"/>
       <point x="306" y="538" type="curve" smooth="yes"/>
-      <point x="306.62" y="538.248"/>
-      <point x="307.287" y="538.373"/>
-      <point x="307.999" y="538.373" type="curve" smooth="yes"/>
-      <point x="313.031" y="538.373"/>
-      <point x="320.364" y="532.139"/>
+      <point x="307" y="538"/>
+      <point x="307" y="538"/>
+      <point x="308" y="538" type="curve" smooth="yes"/>
+      <point x="313" y="538"/>
+      <point x="320" y="532"/>
       <point x="330" y="519" type="curve"/>
     </contour>
     <contour>

@@ -109,11 +109,11 @@
       <point x="153" y="799"/>
       <point x="193" y="783"/>
       <point x="221" y="756" type="curve" smooth="yes"/>
-      <point x="235.562" y="741.958"/>
-      <point x="254.722" y="738.735"/>
-      <point x="270.04" y="738.735" type="curve" smooth="yes"/>
-      <point x="284.176" y="738.735"/>
-      <point x="295.04" y="741.48"/>
+      <point x="236" y="742"/>
+      <point x="255" y="739"/>
+      <point x="270" y="739" type="curve" smooth="yes"/>
+      <point x="284" y="739"/>
+      <point x="295" y="741"/>
       <point x="296" y="741" type="curve" smooth="yes"/>
     </contour>
   </outline>

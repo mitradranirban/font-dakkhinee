@@ -100,17 +100,17 @@
       <point x="110" y="277"/>
       <point x="89" y="265"/>
       <point x="74" y="242" type="curve" smooth="yes"/>
-      <point x="65.2843" y="227.979"/>
-      <point x="61.3073" y="213.096"/>
-      <point x="61.3073" y="198.93" type="curve" smooth="yes"/>
-      <point x="61.3073" y="175.713"/>
-      <point x="71.9894" y="154.421"/>
+      <point x="65" y="228"/>
+      <point x="61" y="213"/>
+      <point x="61" y="199" type="curve" smooth="yes"/>
+      <point x="61" y="176"/>
+      <point x="72" y="154"/>
       <point x="90" y="142" type="curve" smooth="yes"/>
-      <point x="107.643" y="129.929"/>
-      <point x="131.321" y="123.893"/>
-      <point x="160.235" y="123.893" type="curve" smooth="yes"/>
-      <point x="162.459" y="123.893"/>
-      <point x="164.714" y="123.929"/>
+      <point x="108" y="130"/>
+      <point x="131" y="124"/>
+      <point x="160" y="124" type="curve" smooth="yes"/>
+      <point x="162" y="124"/>
+      <point x="165" y="124"/>
       <point x="167" y="124" type="curve" smooth="yes"/>
       <point x="171" y="124" type="line"/>
       <point x="180" y="120"/>
