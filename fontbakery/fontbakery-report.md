@@ -38,40 +38,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[23] Dakkhinee-Regular.ttf</summary>
+<details><summary>[22] Dakkhinee-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+01CD: LATIN CAPITAL LETTER A WITH CARON</td>
-<td align="left">U+01CE: LATIN SMALL LETTER A WITH CARON</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
     <div>
@@ -147,31 +115,9 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0304
-
-- uni0306
+<pre><code>- tildecomb
 
 - uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0311
-
-- uni031B
 </code></pre>
  [code: unattached-dotted-circle-marks]
 
@@ -286,7 +232,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-caron (U+02C7), u09c7 (U+09C7), u09cd (U+09CD), uni0305 (U+0305) and uni09FE (U+09FE)</p>
+caron (U+02C7) and u09cd (U+09CD)</p>
  [code: spacing-mark-glyphs]
 
 
@@ -305,7 +251,7 @@ caron (U+02C7), u09c7 (U+09C7), u09cd (U+09CD), uni0305 (U+0305) and uni09FE (U+
 
 
 * ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
-uni09E2 (U+09E2) and uni09E3 (U+09E3)</p>
+uni0305 (U+0305)</p>
  [code: mark-chars]
 
 
@@ -324,7 +270,7 @@ uni09E2 (U+09E2) and uni09E3 (U+09E3)</p>
 
 
 * ⚠️ **WARN** <p>The following non-mark characters should not be in the GDEF mark glyph class:
-U+02C7 and U+09C7</p>
+U+02C7</p>
  [code: non-mark-chars]
 
 
@@ -429,7 +375,7 @@ U+02C7 and U+09C7</p>
 
 - Glyph name: f	Contours detected: 2	Expected: 1
 
-- Glyph name: h	Contours detected: 4	Expected: 1
+- Glyph name: h	Contours detected: 3	Expected: 1
 
 - Glyph name: i	Contours detected: 1	Expected: 2
 
@@ -511,11 +457,13 @@ U+02C7 and U+09C7</p>
 
 - Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
 
-- Glyph name: hcircumflex	Contours detected: 5	Expected: 2
+- Glyph name: hcircumflex	Contours detected: 4	Expected: 2
 
 - Glyph name: Hbar	Contours detected: 4	Expected: 2
 
 - Glyph name: hbar	Contours detected: 4	Expected: 1
+
+- Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: Jcircumflex	Contours detected: 3	Expected: 2
 
@@ -588,6 +536,8 @@ U+02C7 and U+09C7</p>
 - Glyph name: Hbar	Contours detected: 4	Expected: 2
 
 - Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
+
+- Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: J	Contours detected: 2	Expected: 1
 
@@ -667,11 +617,11 @@ U+02C7 and U+09C7</p>
 
 - Glyph name: f	Contours detected: 2	Expected: 1
 
-- Glyph name: h	Contours detected: 4	Expected: 1
+- Glyph name: h	Contours detected: 3	Expected: 1
 
 - Glyph name: hbar	Contours detected: 4	Expected: 1
 
-- Glyph name: hcircumflex	Contours detected: 5	Expected: 2
+- Glyph name: hcircumflex	Contours detected: 4	Expected: 2
 
 - Glyph name: i	Contours detected: 1	Expected: 2
 
@@ -765,6 +715,10 @@ minus</p>
 - NameMe.65966
 
 - NameMe.65967
+
+- NameMe.65968
+
+- NameMe.65969
 
 - glyph219
 
@@ -969,7 +923,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * glyph536: B&lt;&lt;-44.0,385.0&gt;-&lt;-84.0,440.0&gt;-&lt;-88.0,500.0&gt;&gt;/L&lt;&lt;-88.0,500.0&gt;--&lt;-88.0,405.0&gt;&gt; = 3.8140748342903783
 
-* m (U+006D): L&lt;&lt;149.0,187.0&gt;--&lt;163.0,123.0&gt;&gt;/B&lt;&lt;163.0,123.0&gt;-&lt;163.0,136.0&gt;-&lt;163.0,148.0&gt;&gt; = 12.33908727832618
+* m (U+006D): L&lt;&lt;149.0,187.0&gt;--&lt;163.0,123.0&gt;&gt;/B&lt;&lt;163.0,123.0&gt;-&lt;163.0,135.0&gt;-&lt;162.5,147.5&gt;&gt; = 12.33908727832618
 
 * m (U+006D): L&lt;&lt;162.0,172.0&gt;--&lt;151.0,240.0&gt;&gt;/L&lt;&lt;151.0,240.0&gt;--&lt;149.0,187.0&gt;&gt; = 11.349915565585112
 
@@ -981,13 +935,19 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a8_u09cd_u09a7_u09b0.vatu: B&lt;&lt;310.5,332.0&gt;-&lt;310.0,312.0&gt;-&lt;310.0,291.0&gt;&gt;/L&lt;&lt;310.0,291.0&gt;--&lt;308.0,312.0&gt;&gt; = 5.4403320310054815
 
-* u09ad (U+09AD): B&lt;&lt;395.0,736.0&gt;-&lt;388.0,738.0&gt;-&lt;381.0,739.0&gt;&gt;/L&lt;&lt;381.0,739.0&gt;--&lt;395.0,739.0&gt;&gt; = 8.13010235415596
+* u09ad (U+09AD): B&lt;&lt;388.0,737.5&gt;-&lt;385.0,738.0&gt;-&lt;381.0,739.0&gt;&gt;/L&lt;&lt;381.0,739.0&gt;--&lt;395.0,739.0&gt;&gt; = 14.036243467926484
 
-* u09ad (U+09AD): L&lt;&lt;65.0,737.0&gt;--&lt;358.0,739.0&gt;&gt;/B&lt;&lt;358.0,739.0&gt;-&lt;328.0,735.0&gt;-&lt;298.5,715.5&gt;&gt; = 7.2035519715344
+* u09ad (U+09AD): L&lt;&lt;65.0,737.0&gt;--&lt;358.0,739.0&gt;&gt;/B&lt;&lt;358.0,739.0&gt;-&lt;327.0,735.0&gt;-&lt;298.0,715.5&gt;&gt; = 6.9612879628353905
+
+* u09ad_u09cd.haln: B&lt;&lt;388.0,737.5&gt;-&lt;385.0,738.0&gt;-&lt;381.0,739.0&gt;&gt;/L&lt;&lt;381.0,739.0&gt;--&lt;395.0,739.0&gt;&gt; = 14.036243467926484
+
+* u09ad_u09cd.haln: L&lt;&lt;65.0,737.0&gt;--&lt;358.0,739.0&gt;&gt;/B&lt;&lt;358.0,739.0&gt;-&lt;327.0,735.0&gt;-&lt;298.0,715.5&gt;&gt; = 6.9612879628353905
 
 * u09b7_u09b0_u09cd.blwf.vatu: L&lt;&lt;33.0,278.0&gt;--&lt;347.0,50.0&gt;&gt;/B&lt;&lt;347.0,50.0&gt;-&lt;328.0,58.0&gt;-&lt;309.0,58.0&gt;&gt; = 13.150296874072227
 
 * u09b8 (U+09B8): L&lt;&lt;82.0,737.0&gt;--&lt;250.0,738.0&gt;&gt;/B&lt;&lt;250.0,738.0&gt;-&lt;226.0,734.0&gt;-&lt;204.5,724.5&gt;&gt; = 9.121279929166732
+
+* u09b8_u09cd.haln: L&lt;&lt;82.0,737.0&gt;--&lt;250.0,738.0&gt;&gt;/B&lt;&lt;250.0,738.0&gt;-&lt;226.0,734.0&gt;-&lt;204.5,724.5&gt;&gt; = 9.121279929166732
 
 * u09b8_u09cd_u09a5.cjct: B&lt;&lt;470.0,316.5&gt;-&lt;440.0,355.0&gt;-&lt;393.0,367.0&gt;&gt;/B&lt;&lt;393.0,367.0&gt;-&lt;401.0,367.0&gt;-&lt;410.0,368.5&gt;&gt; = 14.32271997820355
 
@@ -995,7 +955,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09c0 (U+09C0): L&lt;&lt;350.0,958.0&gt;--&lt;344.0,1068.0&gt;&gt;/B&lt;&lt;344.0,1068.0&gt;-&lt;330.0,994.0&gt;-&lt;285.0,947.0&gt;&gt; = 13.835253484906728
 
-* u09c0.salt: B&lt;&lt;-344.5,760.0&gt;-&lt;-333.0,761.0&gt;-&lt;-322.0,762.0&gt;&gt;/B&lt;&lt;-322.0,762.0&gt;-&lt;-344.0,764.0&gt;-&lt;-353.0,775.0&gt;&gt; = 10.388857815469619
+* u09c0.salt: B&lt;&lt;-344.0,760.0&gt;-&lt;-333.0,761.0&gt;-&lt;-322.0,762.0&gt;&gt;/B&lt;&lt;-322.0,762.0&gt;-&lt;-344.0,764.0&gt;-&lt;-353.0,775.0&gt;&gt; = 10.388857815469619
 
 * u09ce (U+09CE): B&lt;&lt;566.0,-55.0&gt;-&lt;519.0,-100.0&gt;-&lt;445.0,-114.0&gt;&gt;/L&lt;&lt;445.0,-114.0&gt;--&lt;555.0,-120.0&gt;&gt; = 13.835253484906728
 
@@ -1031,14 +991,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <pre><code>* AE (U+00C6): L&lt;&lt;580.0,822.0&gt;--&lt;0.0,818.0&gt;&gt;
 
-* D (U+0044): L&lt;&lt;162.0,136.0&gt;--&lt;160.0,737.0&gt;&gt;
-
-* D (U+0044): L&lt;&lt;74.0,737.0&gt;--&lt;76.0,136.0&gt;&gt;
-
-* Dcaron (U+010E): L&lt;&lt;162.0,136.0&gt;--&lt;160.0,737.0&gt;&gt;
-
-* Dcaron (U+010E): L&lt;&lt;74.0,737.0&gt;--&lt;76.0,136.0&gt;&gt;
-
 * Dcroat (U+0110): L&lt;&lt;161.0,507.0&gt;--&lt;160.0,737.0&gt;&gt;
 
 * Dcroat (U+0110): L&lt;&lt;162.0,136.0&gt;--&lt;161.0,422.0&gt;&gt;
@@ -1055,47 +1007,15 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Eth (U+00D0): L&lt;&lt;75.0,422.0&gt;--&lt;76.0,136.0&gt;&gt;
 
-* I (U+0049): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Iacute (U+00CD): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Ibreve (U+012C): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Icircumflex (U+00CE): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Idieresis (U+00CF): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Idotaccent (U+0130): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Igrave (U+00CC): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Imacron (U+012A): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Iogonek (U+012E): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Itilde (U+0128): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* L (U+004C): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Lacute (U+0139): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
 * Lcaron (U+013D): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* Ldot (U+013F): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
 
 * Lslash (U+0141): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
 
 * NameMe.65963: L&lt;&lt;3.0,737.0&gt;--&lt;272.0,739.0&gt;&gt;
 
-* T (U+0054): L&lt;&lt;-3.0,735.0&gt;--&lt;231.0,736.0&gt;&gt;
+* NameMe.65968: L&lt;&lt;371.0,389.0&gt;--&lt;372.0,658.0&gt;&gt;
 
-* T (U+0054): L&lt;&lt;464.0,815.0&gt;--&lt;-3.0,813.0&gt;&gt;
-
-* Tcaron (U+0164): L&lt;&lt;-3.0,735.0&gt;--&lt;231.0,736.0&gt;&gt;
-
-* Tcaron (U+0164): L&lt;&lt;464.0,815.0&gt;--&lt;-3.0,813.0&gt;&gt;
-
-* Thorn (U+00DE): L&lt;&lt;111.0,542.0&gt;--&lt;112.0,735.0&gt;&gt;
+* NameMe.65969: L&lt;&lt;180.0,788.0&gt;--&lt;182.0,438.0&gt;&gt;
 
 * ae (U+00E6): L&lt;&lt;348.0,513.0&gt;--&lt;0.0,511.0&gt;&gt;
 
@@ -1104,10 +1024,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * brokenbar (U+00A6): L&lt;&lt;137.0,453.0&gt;--&lt;139.0,728.0&gt;&gt;
 
 * brokenbar (U+00A6): L&lt;&lt;137.0,58.0&gt;--&lt;138.0,346.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;117.0,92.0&gt;--&lt;116.0,430.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;44.0,432.0&gt;--&lt;46.0,82.0&gt;&gt;
 
 * danda (U+0964): L&lt;&lt;208.0,41.0&gt;--&lt;205.0,676.0&gt;&gt;
 
@@ -1119,7 +1035,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * dcroat (U+0111): L&lt;&lt;81.0,274.0&gt;--&lt;82.0,102.0&gt;&gt;
 
-* dotlessi (U+0131): L&lt;&lt;197.0,705.0&gt;--&lt;69.0,704.0&gt;&gt;
+* dotlessi (U+0131): L&lt;&lt;197.0,510.0&gt;--&lt;69.0,509.0&gt;&gt;
 
 * doubledanda (U+0965): L&lt;&lt;208.0,41.0&gt;--&lt;205.0,676.0&gt;&gt;
 
@@ -1137,37 +1053,15 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * glyph547: L&lt;&lt;53.0,611.0&gt;--&lt;286.0,609.0&gt;&gt;
 
-* i (U+0069): L&lt;&lt;121.0,504.0&gt;--&lt;-12.0,503.0&gt;&gt;
+* ibreve (U+012D): L&lt;&lt;197.0,361.0&gt;--&lt;69.0,360.0&gt;&gt;
 
-* iacute (U+00ED): L&lt;&lt;121.0,504.0&gt;--&lt;-12.0,503.0&gt;&gt;
-
-* ibreve (U+012D): L&lt;&lt;197.0,705.0&gt;--&lt;69.0,704.0&gt;&gt;
-
-* icircumflex (U+00EE): L&lt;&lt;121.0,504.0&gt;--&lt;-12.0,503.0&gt;&gt;
-
-* idieresis (U+00EF): L&lt;&lt;121.0,504.0&gt;--&lt;-12.0,503.0&gt;&gt;
-
-* igrave (U+00EC): L&lt;&lt;116.0,520.0&gt;--&lt;-17.0,519.0&gt;&gt;
-
-* imacron (U+012B): L&lt;&lt;197.0,705.0&gt;--&lt;69.0,704.0&gt;&gt;
-
-* iogonek (U+012F): L&lt;&lt;121.0,504.0&gt;--&lt;-12.0,503.0&gt;&gt;
-
-* itilde (U+0129): L&lt;&lt;222.0,742.0&gt;--&lt;94.0,741.0&gt;&gt;
-
-* l (U+006C): L&lt;&lt;117.0,506.0&gt;--&lt;-13.0,505.0&gt;&gt;
-
-* lacute (U+013A): L&lt;&lt;113.0,508.0&gt;--&lt;-17.0,507.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;197.0,510.0&gt;--&lt;69.0,509.0&gt;&gt;
 
 * lcaron (U+013E): L&lt;&lt;126.0,505.0&gt;--&lt;-1.0,504.0&gt;&gt;
-
-* ldot (U+0140): L&lt;&lt;117.0,506.0&gt;--&lt;-13.0,505.0&gt;&gt;
 
 * logicalnot (U+00AC): L&lt;&lt;562.0,485.0&gt;--&lt;34.0,486.0&gt;&gt;
 
 * lslash (U+0142): L&lt;&lt;130.0,513.0&gt;--&lt;3.0,512.0&gt;&gt;
-
-* one (U+0031): L&lt;&lt;360.0,571.0&gt;--&lt;361.0,50.0&gt;&gt;
 
 * t (U+0074): L&lt;&lt;-17.0,446.0&gt;--&lt;120.0,447.0&gt;&gt;
 
@@ -1176,10 +1070,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * tcaron (U+0165): L&lt;&lt;1.0,463.0&gt;--&lt;141.0,464.0&gt;&gt;
 
 * tcaron (U+0165): L&lt;&lt;281.0,511.0&gt;--&lt;1.0,510.0&gt;&gt;
-
-* trademark (U+2122): L&lt;&lt;12.0,943.0&gt;--&lt;129.0,944.0&gt;&gt;
-
-* trademark (U+2122): L&lt;&lt;245.0,983.0&gt;--&lt;12.0,982.0&gt;&gt;
 
 * u0985 (U+0985): L&lt;&lt;1.0,738.0&gt;--&lt;1249.0,740.0&gt;&gt;
 
@@ -1207,6 +1097,10 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u0996 (U+0996): L&lt;&lt;724.0,233.0&gt;--&lt;727.0,794.0&gt;&gt;
 
+* u0996_u09cd.haln: L&lt;&lt;606.0,739.0&gt;--&lt;607.0,452.0&gt;&gt;
+
+* u0996_u09cd.hln: L&lt;&lt;724.0,233.0&gt;--&lt;727.0,794.0&gt;&gt;
+
 * u0997 (U+0997): L&lt;&lt;606.0,739.0&gt;--&lt;607.0,452.0&gt;&gt;
 
 * u0997_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;724.0,157.0&gt;--&lt;725.0,310.0&gt;&gt;
@@ -1215,11 +1109,17 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u0998 (U+0998): L&lt;&lt;621.0,178.0&gt;--&lt;624.0,739.0&gt;&gt;
 
+* u0998_u09cd.haln: L&lt;&lt;621.0,178.0&gt;--&lt;624.0,739.0&gt;&gt;
+
 * u099a (U+099A): L&lt;&lt;304.0,736.0&gt;--&lt;508.0,737.0&gt;&gt;
+
+* u099a_u09cd.haln: L&lt;&lt;304.0,736.0&gt;--&lt;508.0,737.0&gt;&gt;
 
 * u099b (U+099B): L&lt;&lt;307.0,736.0&gt;--&lt;511.0,737.0&gt;&gt;
 
 * u099b_u09cd.half: L&lt;&lt;436.0,675.0&gt;--&lt;-6.0,673.0&gt;&gt;
+
+* u099b_u09cd.haln: L&lt;&lt;307.0,736.0&gt;--&lt;511.0,737.0&gt;&gt;
 
 * u099c (U+099C): L&lt;&lt;-5.0,740.0&gt;--&lt;293.0,741.0&gt;&gt;
 
@@ -1229,21 +1129,41 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u099c_u09cd.half: L&lt;&lt;388.0,611.0&gt;--&lt;565.0,610.0&gt;&gt;
 
+* u099c_u09cd.haln: L&lt;&lt;-5.0,740.0&gt;--&lt;293.0,741.0&gt;&gt;
+
+* u099c_u09cd.haln: L&lt;&lt;433.0,741.0&gt;--&lt;811.0,742.0&gt;&gt;
+
 * u099d (U+099D): L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
 
 * u099d (U+099D): L&lt;&lt;573.0,740.0&gt;--&lt;572.0,554.0&gt;&gt;
 
 * u099d (U+099D): L&lt;&lt;658.0,472.0&gt;--&lt;659.0,741.0&gt;&gt;
 
+* u099d_u09cd.haln: L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
+
+* u099d_u09cd.haln: L&lt;&lt;573.0,740.0&gt;--&lt;572.0,554.0&gt;&gt;
+
+* u099d_u09cd.haln: L&lt;&lt;658.0,472.0&gt;--&lt;659.0,741.0&gt;&gt;
+
 * u099e (U+099E): L&lt;&lt;729.0,508.0&gt;--&lt;728.0,642.0&gt;&gt;
 
 * u099e (U+099E): L&lt;&lt;730.0,294.0&gt;--&lt;729.0,432.0&gt;&gt;
 
+* u099e_u09cd.haln: L&lt;&lt;729.0,508.0&gt;--&lt;728.0,642.0&gt;&gt;
+
+* u099e_u09cd.haln: L&lt;&lt;730.0,294.0&gt;--&lt;729.0,432.0&gt;&gt;
+
 * u09a1 (U+09A1): L&lt;&lt;1.0,737.0&gt;--&lt;221.0,738.0&gt;&gt;
+
+* u09a1_u09cd.haln: L&lt;&lt;1.0,737.0&gt;--&lt;221.0,738.0&gt;&gt;
 
 * u09a2 (U+09A2): L&lt;&lt;562.0,742.0&gt;--&lt;694.0,741.0&gt;&gt;
 
+* u09a2_u09cd.haln: L&lt;&lt;562.0,742.0&gt;--&lt;694.0,741.0&gt;&gt;
+
 * u09a4 (U+09A4): L&lt;&lt;77.0,738.0&gt;--&lt;471.0,740.0&gt;&gt;
+
+* u09a4_u09cd.haln: L&lt;&lt;77.0,738.0&gt;--&lt;471.0,740.0&gt;&gt;
 
 * u09a6_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;545.0,167.0&gt;--&lt;546.0,320.0&gt;&gt;
 
@@ -1265,13 +1185,25 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09ab (U+09AB): L&lt;&lt;508.0,596.0&gt;--&lt;684.0,595.0&gt;&gt;
 
+* u09ab_u09cd.haln: L&lt;&lt;425.0,740.0&gt;--&lt;814.0,742.0&gt;&gt;
+
+* u09ab_u09cd.haln: L&lt;&lt;427.0,596.0&gt;--&lt;425.0,269.0&gt;&gt;
+
+* u09ab_u09cd.haln: L&lt;&lt;508.0,596.0&gt;--&lt;684.0,595.0&gt;&gt;
+
 * u09ac (U+09AC): L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
 
 * u09ac (U+09AC): L&lt;&lt;573.0,740.0&gt;--&lt;572.0,554.0&gt;&gt;
 
 * u09ac_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;593.0,167.0&gt;--&lt;594.0,320.0&gt;&gt;
 
+* u09ac_u09cd.haln: L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
+
+* u09ac_u09cd.haln: L&lt;&lt;573.0,740.0&gt;--&lt;572.0,554.0&gt;&gt;
+
 * u09ad (U+09AD): L&lt;&lt;65.0,737.0&gt;--&lt;358.0,739.0&gt;&gt;
+
+* u09ad_u09cd.haln: L&lt;&lt;65.0,737.0&gt;--&lt;358.0,739.0&gt;&gt;
 
 * u09b0 (U+09B0): L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
 
@@ -1279,7 +1211,13 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09b0_u09c2.blws: L&lt;&lt;579.0,167.0&gt;--&lt;580.0,320.0&gt;&gt;
 
+* u09b0_u09cd.haln: L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
+
+* u09b0_u09cd.haln: L&lt;&lt;573.0,740.0&gt;--&lt;572.0,554.0&gt;&gt;
+
 * u09b2 (U+09B2): L&lt;&lt;-11.0,734.0&gt;--&lt;656.0,732.0&gt;&gt;
+
+* u09b2_u09cd.haln: L&lt;&lt;-11.0,734.0&gt;--&lt;656.0,732.0&gt;&gt;
 
 * u09b6 (U+09B6): L&lt;&lt;761.0,732.0&gt;--&lt;762.0,424.0&gt;&gt;
 
@@ -1289,15 +1227,23 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09b6_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;503.0,733.0&gt;--&lt;504.0,609.0&gt;&gt;
 
+* u09b6_u09cd.haln: L&lt;&lt;761.0,732.0&gt;--&lt;762.0,424.0&gt;&gt;
+
 * u09b7_u09cd_u0995.cjct: L&lt;&lt;361.0,676.0&gt;--&lt;-7.0,673.0&gt;&gt;
 
 * u09b8 (U+09B8): L&lt;&lt;552.0,664.0&gt;--&lt;553.0,438.0&gt;&gt;
 
 * u09b8 (U+09B8): L&lt;&lt;82.0,737.0&gt;--&lt;250.0,738.0&gt;&gt;
 
+* u09b8_u09cd.haln: L&lt;&lt;552.0,664.0&gt;--&lt;553.0,438.0&gt;&gt;
+
+* u09b8_u09cd.haln: L&lt;&lt;82.0,737.0&gt;--&lt;250.0,738.0&gt;&gt;
+
 * u09b8_u09cd_u09aa_u09b0.vatu: L&lt;&lt;1021.0,227.0&gt;--&lt;1020.0,612.0&gt;&gt;
 
 * u09b9 (U+09B9): L&lt;&lt;223.0,735.0&gt;--&lt;492.0,737.0&gt;&gt;
+
+* u09b9_u09cd.haln: L&lt;&lt;223.0,735.0&gt;--&lt;492.0,737.0&gt;&gt;
 
 * u09be (U+09BE): L&lt;&lt;69.0,745.0&gt;--&lt;70.0,438.0&gt;&gt;
 
@@ -1313,9 +1259,15 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09dc (U+09DC): L&lt;&lt;366.0,819.0&gt;--&lt;2.0,817.0&gt;&gt;
 
+* u09dc_u09cd.haln: L&lt;&lt;366.0,819.0&gt;--&lt;2.0,817.0&gt;&gt;
+
 * u09dd (U+09DD): L&lt;&lt;305.0,736.0&gt;--&lt;508.0,737.0&gt;&gt;
 
 * u09dd (U+09DD): L&lt;&lt;76.0,735.0&gt;--&lt;214.0,736.0&gt;&gt;
+
+* u09dd_u09cd.haln: L&lt;&lt;305.0,736.0&gt;--&lt;508.0,737.0&gt;&gt;
+
+* u09dd_u09cd.haln: L&lt;&lt;76.0,735.0&gt;--&lt;214.0,736.0&gt;&gt;
 
 * u09f0 (U+09F0): L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
 
@@ -1323,29 +1275,13 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09f1 (U+09F1): L&lt;&lt;-9.0,737.0&gt;--&lt;573.0,739.0&gt;&gt;
 
-* uni013B (U+013B): L&lt;&lt;211.0,815.0&gt;--&lt;-2.0,814.0&gt;&gt;
-
-* uni013C (U+013C): L&lt;&lt;117.0,506.0&gt;--&lt;-13.0,505.0&gt;&gt;
-
-* uni0162 (U+0162): L&lt;&lt;-3.0,735.0&gt;--&lt;231.0,736.0&gt;&gt;
-
-* uni0162 (U+0162): L&lt;&lt;464.0,815.0&gt;--&lt;-3.0,813.0&gt;&gt;
-
 * uni0163 (U+0163): L&lt;&lt;-17.0,446.0&gt;--&lt;120.0,447.0&gt;&gt;
 
 * uni0163 (U+0163): L&lt;&lt;248.0,504.0&gt;--&lt;-17.0,503.0&gt;&gt;
 
-* uni021A (U+021A): L&lt;&lt;-3.0,735.0&gt;--&lt;231.0,736.0&gt;&gt;
-
-* uni021A (U+021A): L&lt;&lt;464.0,815.0&gt;--&lt;-3.0,813.0&gt;&gt;
-
 * uni021B (U+021B): L&lt;&lt;-17.0,446.0&gt;--&lt;120.0,447.0&gt;&gt;
 
 * uni021B (U+021B): L&lt;&lt;248.0,504.0&gt;--&lt;-17.0,503.0&gt;&gt;
-
-* uni09D5 (U+09D5): L&lt;&lt;371.0,389.0&gt;--&lt;372.0,658.0&gt;&gt;
-
-* uni09D6 (U+09D6): L&lt;&lt;180.0,788.0&gt;--&lt;182.0,438.0&gt;&gt;
 
 * uni09E0 (U+09E0): L&lt;&lt;1058.0,745.0&gt;--&lt;1057.0,618.0&gt;&gt;
 
@@ -1433,10 +1369,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Ccircumflex (U+0108) has a counter-clockwise outer contour
 
-* Ccircumflex (U+0108) has a counter-clockwise outer contour
-
-* Cdotaccent (U+010A) has a counter-clockwise outer contour
-
 * Cdotaccent (U+010A) has a counter-clockwise outer contour
 
 * D (U+0044) has a counter-clockwise outer contour
@@ -1463,7 +1395,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Ecircumflex (U+00CA) has a counter-clockwise outer contour
 
-* Ecircumflex (U+00CA) has a counter-clockwise outer contour
+* Edieresis (U+00CB) has a counter-clockwise outer contour
 
 * Edieresis (U+00CB) has a counter-clockwise outer contour
 
@@ -1509,6 +1441,10 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * I (U+0049) has a counter-clockwise outer contour
 
+* IJ (U+0132) has a counter-clockwise outer contour
+
+* IJ (U+0132) has a counter-clockwise outer contour
+
 * Iacute (U+00CD) has a counter-clockwise outer contour
 
 * Iacute (U+00CD) has a counter-clockwise outer contour
@@ -1519,7 +1455,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Icircumflex (U+00CE) has a counter-clockwise outer contour
 
-* Icircumflex (U+00CE) has a counter-clockwise outer contour
+* Idieresis (U+00CF) has a counter-clockwise outer contour
 
 * Idieresis (U+00CF) has a counter-clockwise outer contour
 
@@ -1583,6 +1519,12 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * NameMe.65967 has a counter-clockwise outer contour
 
+* NameMe.65968 has a counter-clockwise outer contour
+
+* NameMe.65969 has a counter-clockwise outer contour
+
+* Ncaron (U+0147) has a counter-clockwise outer contour
+
 * Ncaron (U+0147) has a counter-clockwise outer contour
 
 * Ntilde (U+00D1) has a counter-clockwise outer contour
@@ -1601,7 +1543,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Ocircumflex (U+00D4) has a counter-clockwise outer contour
 
-* Ocircumflex (U+00D4) has a counter-clockwise outer contour
+* Odieresis (U+00D6) has a counter-clockwise outer contour
+
+* Odieresis (U+00D6) has a counter-clockwise outer contour
 
 * Odieresis (U+00D6) has a counter-clockwise outer contour
 
@@ -1620,8 +1564,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * Omacron (U+014C) has a counter-clockwise outer contour
 
 * Oslash (U+00D8) has a counter-clockwise outer contour
-
-* Otilde (U+00D5) has a counter-clockwise outer contour
 
 * Otilde (U+00D5) has a counter-clockwise outer contour
 
@@ -1671,15 +1613,15 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Uacute (U+00DA) has a counter-clockwise outer contour
 
-* Uacute (U+00DA) has a counter-clockwise outer contour
-
 * Ubreve (U+016C) has a counter-clockwise outer contour
 
 * Ubreve (U+016C) has a counter-clockwise outer contour
 
 * Ucircumflex (U+00DB) has a counter-clockwise outer contour
 
-* Ucircumflex (U+00DB) has a counter-clockwise outer contour
+* Udieresis (U+00DC) has a counter-clockwise outer contour
+
+* Udieresis (U+00DC) has a counter-clockwise outer contour
 
 * Udieresis (U+00DC) has a counter-clockwise outer contour
 
@@ -1719,7 +1661,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Wcircumflex (U+0174) has a counter-clockwise outer contour
 
-* Wcircumflex (U+0174) has a counter-clockwise outer contour
+* Wdieresis (U+1E84) has a counter-clockwise outer contour
+
+* Wdieresis (U+1E84) has a counter-clockwise outer contour
 
 * Wdieresis (U+1E84) has a counter-clockwise outer contour
 
@@ -1782,6 +1726,10 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * acute (U+00B4) has a counter-clockwise outer contour
 
 * acutecomb (U+0301) has a counter-clockwise outer contour
+
+* adieresis (U+00E4) has a counter-clockwise outer contour
+
+* adieresis (U+00E4) has a counter-clockwise outer contour
 
 * adieresis (U+00E4) has a counter-clockwise outer contour
 
@@ -2201,6 +2149,10 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * igrave (U+00EC) has a counter-clockwise outer contour
 
+* ij (U+0133) has a counter-clockwise outer contour
+
+* ij (U+0133) has a counter-clockwise outer contour
+
 * imacron (U+012B) has a counter-clockwise outer contour
 
 * imacron (U+012B) has a counter-clockwise outer contour
@@ -2533,8 +2485,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u0995_u09cd.haln has a counter-clockwise outer contour
 
-* u0995_u09cd.haln has a counter-clockwise outer contour
-
 * u0995_u09cd_u0995.cjct has a counter-clockwise outer contour
 
 * u0995_u09cd_u099f.cjct has a counter-clockwise outer contour
@@ -2568,10 +2518,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u0996_u09cd.half has a counter-clockwise outer contour
 
 * u0996_u09cd.haln has a counter-clockwise outer contour
-
-* u0996_u09cd.haln has a counter-clockwise outer contour
-
-* u0996_u09cd.hln has a counter-clockwise outer contour
 
 * u0996_u09cd.hln has a counter-clockwise outer contour
 
@@ -2613,8 +2559,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u0998_u09cd.haln has a counter-clockwise outer contour
 
-* u0998_u09cd.haln has a counter-clockwise outer contour
-
 * u0998_u09cd_u09a8.cjct has a counter-clockwise outer contour
 
 * u0999 (U+0999) has a counter-clockwise outer contour
@@ -2624,8 +2568,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u0999_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u0999_u09cd.half has a counter-clockwise outer contour
-
-* u0999_u09cd.haln has a counter-clockwise outer contour
 
 * u0999_u09cd.haln has a counter-clockwise outer contour
 
@@ -2655,8 +2597,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u099a_u09cd.haln has a counter-clockwise outer contour
 
-* u099a_u09cd.haln has a counter-clockwise outer contour
-
 * u099a_u09cd_u099a.cjct has a counter-clockwise outer contour
 
 * u099a_u09cd_u099b.cjct has a counter-clockwise outer contour
@@ -2675,8 +2615,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u099b_u09cd.haln has a counter-clockwise outer contour
 
-* u099b_u09cd.haln has a counter-clockwise outer contour
-
 * u099b_u09cd_u09ac.cjct has a counter-clockwise outer contour
 
 * u099c (U+099C) has a counter-clockwise outer contour
@@ -2684,8 +2622,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u099c_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u099c_u09cd.half has a counter-clockwise outer contour
-
-* u099c_u09cd.haln has a counter-clockwise outer contour
 
 * u099c_u09cd.haln has a counter-clockwise outer contour
 
@@ -2711,8 +2647,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u099d_u09cd.haln has a counter-clockwise outer contour
 
-* u099d_u09cd.haln has a counter-clockwise outer contour
-
 * u099e (U+099E) has a counter-clockwise outer contour
 
 * u099e_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
@@ -2720,10 +2654,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u099e_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u099e_u09cd.half has a counter-clockwise outer contour
-
-* u099e_u09cd.haln has a counter-clockwise outer contour
-
-* u099e_u09cd.haln has a counter-clockwise outer contour
 
 * u099e_u09cd.haln has a counter-clockwise outer contour
 
@@ -2749,8 +2679,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u099f_u09cd.haln has a counter-clockwise outer contour
 
-* u099f_u09cd.haln has a counter-clockwise outer contour
-
 * u099f_u09cd_u099f.cjct has a counter-clockwise outer contour
 
 * u099f_u09cd_u09ae.cjct has a counter-clockwise outer contour
@@ -2765,15 +2693,11 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a0_u09cd.haln has a counter-clockwise outer contour
 
-* u09a0_u09cd.haln has a counter-clockwise outer contour
-
 * u09a1 (U+09A1) has a counter-clockwise outer contour
 
 * u09a1_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u09a1_u09cd.half has a counter-clockwise outer contour
-
-* u09a1_u09cd.haln has a counter-clockwise outer contour
 
 * u09a1_u09cd.haln has a counter-clockwise outer contour
 
@@ -2791,15 +2715,11 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a2_u09cd.haln has a counter-clockwise outer contour
 
-* u09a2_u09cd.haln has a counter-clockwise outer contour
-
 * u09a3 (U+09A3) has a counter-clockwise outer contour
 
 * u09a3_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u09a3_u09cd.half has a counter-clockwise outer contour
-
-* u09a3_u09cd.haln has a counter-clockwise outer contour
 
 * u09a3_u09cd.haln has a counter-clockwise outer contour
 
@@ -2849,8 +2769,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a4_u09cd.haln has a counter-clockwise outer contour
 
-* u09a4_u09cd.haln has a counter-clockwise outer contour
-
 * u09a4_u09cd_u09a4.cjct has a counter-clockwise outer contour
 
 * u09a4_u09cd_u09a4.cjct has a counter-clockwise outer contour
@@ -2889,8 +2807,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a5_u09cd.haln has a counter-clockwise outer contour
 
-* u09a5_u09cd.haln has a counter-clockwise outer contour
-
 * u09a5_u09cd_u09ac.cjct has a counter-clockwise outer contour
 
 * u09a6 (U+09A6) has a counter-clockwise outer contour
@@ -2902,8 +2818,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09a6_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
 
 * u09a6_u09cd.half has a counter-clockwise outer contour
-
-* u09a6_u09cd.haln has a counter-clockwise outer contour
 
 * u09a6_u09cd.haln has a counter-clockwise outer contour
 
@@ -2943,8 +2857,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a7_u09cd.haln has a counter-clockwise outer contour
 
-* u09a7_u09cd.haln has a counter-clockwise outer contour
-
 * u09a7_u09cd_u09a8.cjct has a counter-clockwise outer contour
 
 * u09a7_u09cd_u09ac.cjct has a counter-clockwise outer contour
@@ -2960,8 +2872,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09a8_u09cd._u09a4.cjct has a counter-clockwise outer contour
 
 * u09a8_u09cd.half has a counter-clockwise outer contour
-
-* u09a8_u09cd.haln has a counter-clockwise outer contour
 
 * u09a8_u09cd.haln has a counter-clockwise outer contour
 
@@ -3023,8 +2933,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09aa_u09cd.haln has a counter-clockwise outer contour
 
-* u09aa_u09cd.haln has a counter-clockwise outer contour
-
 * u09aa_u09cd_u099f.cjct has a counter-clockwise outer contour
 
 * u09aa_u09cd_u09a4.cjct has a counter-clockwise outer contour
@@ -3051,8 +2959,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09ab_u09cd.haln has a counter-clockwise outer contour
 
-* u09ab_u09cd.haln has a counter-clockwise outer contour
-
 * u09ab_u09cd_u09b2.cjct has a counter-clockwise outer contour
 
 * u09ac (U+09AC) has a counter-clockwise outer contour
@@ -3066,8 +2972,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09ac_u09cd.blwf has a counter-clockwise outer contour
 
 * u09ac_u09cd.half has a counter-clockwise outer contour
-
-* u09ac_u09cd.haln has a counter-clockwise outer contour
 
 * u09ac_u09cd.haln has a counter-clockwise outer contour
 
@@ -3111,10 +3015,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09ad_u09cd.haln has a counter-clockwise outer contour
 
-* u09ad_u09cd.haln has a counter-clockwise outer contour
-
-* u09ad_u09cd.haln has a counter-clockwise outer contour
-
 * u09ae (U+09AE) has a counter-clockwise outer contour
 
 * u09ae_alt has a counter-clockwise outer contour
@@ -3122,8 +3022,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09ae_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u09ae_u09cd.half has a counter-clockwise outer contour
-
-* u09ae_u09cd.haln has a counter-clockwise outer contour
 
 * u09ae_u09cd.haln has a counter-clockwise outer contour
 
@@ -3160,8 +3058,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09af_u09cd.half has a counter-clockwise outer contour
 
 * u09af_u09cd.half has a counter-clockwise outer contour
-
-* u09af_u09cd.haln has a counter-clockwise outer contour
 
 * u09af_u09cd.haln has a counter-clockwise outer contour
 
@@ -3203,8 +3099,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09b2_u09cd.haln has a counter-clockwise outer contour
 
-* u09b2_u09cd.haln has a counter-clockwise outer contour
-
 * u09b2_u09cd_u0995.cjct has a counter-clockwise outer contour
 
 * u09b2_u09cd_u099f.cjct has a counter-clockwise outer contour
@@ -3241,8 +3135,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09b6_u09cd.haln has a counter-clockwise outer contour
 
-* u09b6_u09cd.haln has a counter-clockwise outer contour
-
 * u09b6_u09cd_u099a.cjct has a counter-clockwise outer contour
 
 * u09b6_u09cd_u099b.cjct has a counter-clockwise outer contour
@@ -3264,8 +3156,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09b7_u09cd._u09aa.cjct has a counter-clockwise outer contour
 
 * u09b7_u09cd.half has a counter-clockwise outer contour
-
-* u09b7_u09cd.haln has a counter-clockwise outer contour
 
 * u09b7_u09cd.haln has a counter-clockwise outer contour
 
@@ -3296,8 +3186,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09b8_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u09b8_u09cd.half has a counter-clockwise outer contour
-
-* u09b8_u09cd.haln has a counter-clockwise outer contour
 
 * u09b8_u09cd.haln has a counter-clockwise outer contour
 
@@ -3366,6 +3254,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09b9_u09cd_u09ae.salt has a counter-clockwise outer contour
 
 * u09b9_u09cd_u09b2.cjct has a counter-clockwise outer contour
+
+* u09bc (U+09BC) has a counter-clockwise outer contour
 
 * u09bd (U+09BD) has a counter-clockwise outer contour
 
@@ -3447,8 +3337,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09dc_u09cd.haln has a counter-clockwise outer contour
 
-* u09dc_u09cd.haln has a counter-clockwise outer contour
-
 * u09dc_u09cd_u0997.cjct has a counter-clockwise outer contour
 
 * u09dd (U+09DD) has a counter-clockwise outer contour
@@ -3458,8 +3346,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09dd_u09cd.half has a counter-clockwise outer contour
 
 * u09dd_u09cd.half has a counter-clockwise outer contour
-
-* u09dd_u09cd.haln has a counter-clockwise outer contour
 
 * u09dd_u09cd.haln has a counter-clockwise outer contour
 
@@ -3631,10 +3517,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * uni0163 (U+0163) has a counter-clockwise outer contour
 
-* uni01CD (U+01CD) has a counter-clockwise outer contour
-
-* uni01CD (U+01CD) has a counter-clockwise outer contour
-
 * uni0218 (U+0218) has a counter-clockwise outer contour
 
 * uni0218 (U+0218) has a counter-clockwise outer contour
@@ -3701,12 +3583,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * uni09CA (U+09CA) has a counter-clockwise outer contour
 
-* uni09D0 (U+09D0) has a counter-clockwise outer contour
-
-* uni09D5 (U+09D5) has a counter-clockwise outer contour
-
-* uni09D6 (U+09D6) has a counter-clockwise outer contour
-
 * uni09E0 (U+09E0) has a counter-clockwise outer contour
 
 * uni09E0 (U+09E0) has a counter-clockwise outer contour
@@ -3746,8 +3622,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * uni09FD (U+09FD) has a counter-clockwise outer contour
 
 * uni09FE (U+09FE) has a counter-clockwise outer contour
-
-* uni09bc (U+09BC) has a counter-clockwise outer contour
 
 * uni1E9E (U+1E9E) has a counter-clockwise outer contour
 
@@ -3883,23 +3757,23 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, coptic, math, elbasan, gothic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, coptic, elbasan, gothic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, math, old-permic, tifinagh, tai-le, canadian-aboriginal, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, syriac, tai-le, malayalam, math, coptic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, cherokee, gothic, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, syriac, caucasian-albanian, gothic, cherokee</li>
 <li>U+098D : not included in any glyphset definition</li>
 <li>U+098E : not included in any glyphset definition</li>
 <li>U+0991 : not included in any glyphset definition</li>
@@ -3908,9 +3782,6 @@ definitions.</p>
 <li>U+09C9 : not included in any glyphset definition</li>
 <li>U+09CA : not included in any glyphset definition</li>
 <li>U+09CF : not included in any glyphset definition</li>
-<li>U+09D0 : not included in any glyphset definition</li>
-<li>U+09D5 : not included in any glyphset definition</li>
-<li>U+09D6 : not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>bengali</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -3948,7 +3819,7 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
+* ⚠️ **WARN** <p>OS/2 VendorID value 'anir' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
  [code: unknown]
 
 
@@ -4005,7 +3876,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 8 | 17 | 119 | 7 | 101 | 0 | 
+| 0 | 0 | 7 | 17 | 119 | 7 | 102 | 0 | 
 | 0% | 0% | 3% | 7% | 47% | 3% | 40% | 0% | 
 
 
