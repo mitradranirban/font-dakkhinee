@@ -38,7 +38,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[22] Dakkhinee-Regular.ttf</summary>
+<details><summary>[20] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
@@ -50,12 +50,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1406, but got 1400 instead</p>
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1379, but got 1200 instead</p>
  [code: ascent]
 
 
 
-* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 672, but got 600 instead</p>
+* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 672, but got 300 instead</p>
  [code: descent]
 
 
@@ -116,8 +116,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
 <pre><code>- tildecomb
-
-- uni0307
 </code></pre>
  [code: unattached-dotted-circle-marks]
 
@@ -234,25 +232,6 @@ These won't break the CI job for now, but will become effective after some time 
 * ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 caron (U+02C7) and u09cd (U+09CD)</p>
  [code: spacing-mark-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
-uni0305 (U+0305)</p>
- [code: mark-chars]
 
 
 
@@ -393,8 +372,6 @@ U+02C7</p>
 
 - Glyph name: copyright	Contours detected: 4	Expected: 3
 
-- Glyph name: degree	Contours detected: 1	Expected: 2
-
 - Glyph name: AE	Contours detected: 4	Expected: 2
 
 - Glyph name: Ccedilla	Contours detected: 3	Expected: 1 or 2
@@ -595,8 +572,6 @@ U+02C7</p>
 
 - Glyph name: dcroat	Contours detected: 1	Expected: 2
 
-- Glyph name: degree	Contours detected: 1	Expected: 2
-
 - Glyph name: e	Contours detected: 1	Expected: 2
 
 - Glyph name: eacute	Contours detected: 2	Expected: 3
@@ -674,7 +649,7 @@ U+02C7</p>
 
 
 
-* ⚠️ **WARN** <p>The most common width is 661 among a set of 2 math glyphs.
+* ⚠️ **WARN** <p>The most common width is 661 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 872:
 plus</p>
@@ -682,10 +657,6 @@ plus</p>
 equal</p>
 <p>Width = 620:
 logicalnot</p>
-<p>Width = 665:
-multiply</p>
-<p>Width = 832:
-divide</p>
 <p>Width = 692:
 minus</p>
  [code: width-outliers]
@@ -951,9 +922,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09b8_u09cd_u09a5.cjct: B&lt;&lt;470.0,316.5&gt;-&lt;440.0,355.0&gt;-&lt;393.0,367.0&gt;&gt;/B&lt;&lt;393.0,367.0&gt;-&lt;401.0,367.0&gt;-&lt;410.0,368.5&gt;&gt; = 14.32271997820355
 
-* u09bf (U+09BF): B&lt;&lt;119.0,947.0&gt;-&lt;74.0,994.0&gt;-&lt;60.0,1068.0&gt;&gt;/L&lt;&lt;60.0,1068.0&gt;--&lt;54.0,958.0&gt;&gt; = 13.835253484906728
+* u09bf (U+09BF): B&lt;&lt;153.5,838.5&gt;-&lt;184.0,823.0&gt;-&lt;216.0,819.0&gt;&gt;/L&lt;&lt;216.0,819.0&gt;--&lt;0.0,819.0&gt;&gt; = 7.125016348901757
 
-* u09c0 (U+09C0): L&lt;&lt;350.0,958.0&gt;--&lt;344.0,1068.0&gt;&gt;/B&lt;&lt;344.0,1068.0&gt;-&lt;330.0,994.0&gt;-&lt;285.0,947.0&gt;&gt; = 13.835253484906728
+* u09c0 (U+09C0): L&lt;&lt;410.0,819.0&gt;--&lt;197.0,819.0&gt;&gt;/B&lt;&lt;197.0,819.0&gt;-&lt;246.0,826.0&gt;-&lt;287.0,855.5&gt;&gt; = 8.13010235415596
 
 * u09c0.salt: B&lt;&lt;-344.0,760.0&gt;-&lt;-333.0,761.0&gt;-&lt;-322.0,762.0&gt;&gt;/B&lt;&lt;-322.0,762.0&gt;-&lt;-344.0,764.0&gt;-&lt;-353.0,775.0&gt;&gt; = 10.388857815469619
 
@@ -1035,7 +1006,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * dcroat (U+0111): L&lt;&lt;81.0,274.0&gt;--&lt;82.0,102.0&gt;&gt;
 
-* dotlessi (U+0131): L&lt;&lt;197.0,510.0&gt;--&lt;69.0,509.0&gt;&gt;
+* dotlessi (U+0131): L&lt;&lt;128.0,510.0&gt;--&lt;0.0,509.0&gt;&gt;
 
 * doubledanda (U+0965): L&lt;&lt;208.0,41.0&gt;--&lt;205.0,676.0&gt;&gt;
 
@@ -1053,9 +1024,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * glyph547: L&lt;&lt;53.0,611.0&gt;--&lt;286.0,609.0&gt;&gt;
 
-* ibreve (U+012D): L&lt;&lt;197.0,361.0&gt;--&lt;69.0,360.0&gt;&gt;
+* ibreve (U+012D): L&lt;&lt;153.0,501.0&gt;--&lt;25.0,500.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;197.0,510.0&gt;--&lt;69.0,509.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;128.0,510.0&gt;--&lt;0.0,509.0&gt;&gt;
 
 * lcaron (U+013E): L&lt;&lt;126.0,505.0&gt;--&lt;-1.0,504.0&gt;&gt;
 
@@ -1132,6 +1103,12 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u099c_u09cd.haln: L&lt;&lt;-5.0,740.0&gt;--&lt;293.0,741.0&gt;&gt;
 
 * u099c_u09cd.haln: L&lt;&lt;433.0,741.0&gt;--&lt;811.0,742.0&gt;&gt;
+
+* u099c_u09cd_u099e.akhn: L&lt;&lt;1.0,737.0&gt;--&lt;221.0,738.0&gt;&gt;
+
+* u099c_u09cd_u099e.akhn: L&lt;&lt;730.0,426.0&gt;--&lt;729.0,560.0&gt;&gt;
+
+* u099c_u09cd_u099e.akhn: L&lt;&lt;731.0,212.0&gt;--&lt;730.0,350.0&gt;&gt;
 
 * u099d (U+099D): L&lt;&lt;3.0,737.0&gt;--&lt;435.0,739.0&gt;&gt;
 
@@ -1247,9 +1224,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09be (U+09BE): L&lt;&lt;69.0,745.0&gt;--&lt;70.0,438.0&gt;&gt;
 
-* u09bf (U+09BF): L&lt;&lt;273.0,439.0&gt;--&lt;275.0,815.0&gt;&gt;
+* u09bf (U+09BF): L&lt;&lt;292.0,403.0&gt;--&lt;293.0,741.0&gt;&gt;
 
-* u09c0 (U+09C0): L&lt;&lt;130.0,815.0&gt;--&lt;131.0,439.0&gt;&gt;
+* u09c0 (U+09C0): L&lt;&lt;117.0,741.0&gt;--&lt;118.0,403.0&gt;&gt;
 
 * u09cb (U+09CB): L&lt;&lt;658.0,737.0&gt;--&lt;659.0,430.0&gt;&gt;
 
@@ -1371,6 +1348,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Cdotaccent (U+010A) has a counter-clockwise outer contour
 
+* Cdotaccent (U+010A) has a counter-clockwise outer contour
+
 * D (U+0044) has a counter-clockwise outer contour
 
 * Dcaron (U+010E) has a counter-clockwise outer contour
@@ -1455,6 +1434,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Icircumflex (U+00CE) has a counter-clockwise outer contour
 
+* Icircumflex (U+00CE) has a counter-clockwise outer contour
+
 * Idieresis (U+00CF) has a counter-clockwise outer contour
 
 * Idieresis (U+00CF) has a counter-clockwise outer contour
@@ -1525,8 +1506,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Ncaron (U+0147) has a counter-clockwise outer contour
 
-* Ncaron (U+0147) has a counter-clockwise outer contour
-
 * Ntilde (U+00D1) has a counter-clockwise outer contour
 
 * O (U+004F) has a counter-clockwise outer contour
@@ -1540,6 +1519,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * Obreve (U+014E) has a counter-clockwise outer contour
 
 * Obreve (U+014E) has a counter-clockwise outer contour
+
+* Ocircumflex (U+00D4) has a counter-clockwise outer contour
 
 * Ocircumflex (U+00D4) has a counter-clockwise outer contour
 
@@ -1564,6 +1545,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * Omacron (U+014C) has a counter-clockwise outer contour
 
 * Oslash (U+00D8) has a counter-clockwise outer contour
+
+* Otilde (U+00D5) has a counter-clockwise outer contour
 
 * Otilde (U+00D5) has a counter-clockwise outer contour
 
@@ -1613,9 +1596,13 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * Uacute (U+00DA) has a counter-clockwise outer contour
 
+* Uacute (U+00DA) has a counter-clockwise outer contour
+
 * Ubreve (U+016C) has a counter-clockwise outer contour
 
 * Ubreve (U+016C) has a counter-clockwise outer contour
+
+* Ucircumflex (U+00DB) has a counter-clockwise outer contour
 
 * Ucircumflex (U+00DB) has a counter-clockwise outer contour
 
@@ -1660,10 +1647,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * Wacute (U+1E82) has a counter-clockwise outer contour
 
 * Wcircumflex (U+0174) has a counter-clockwise outer contour
-
-* Wdieresis (U+1E84) has a counter-clockwise outer contour
-
-* Wdieresis (U+1E84) has a counter-clockwise outer contour
 
 * Wdieresis (U+1E84) has a counter-clockwise outer contour
 
@@ -3752,15 +3735,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, coptic, elbasan, gothic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, syriac, tai-le, malayalam, math, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, old-permic, malayalam, canadian-aboriginal, tai-le, tifinagh, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -3773,7 +3755,7 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, syriac, caucasian-albanian, gothic, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, tifinagh, caucasian-albanian</li>
 <li>U+098D : not included in any glyphset definition</li>
 <li>U+098E : not included in any glyphset definition</li>
 <li>U+0991 : not included in any glyphset definition</li>
@@ -3826,24 +3808,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 2.0x (2000)</p>
- [code: bad-hhea-range]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -3876,8 +3840,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 17 | 119 | 7 | 102 | 0 | 
-| 0% | 0% | 3% | 7% | 47% | 3% | 40% | 0% | 
+| 0 | 0 | 7 | 15 | 119 | 7 | 104 | 0 | 
+| 0% | 0% | 3% | 6% | 47% | 3% | 41% | 0% | 
 
 
 
