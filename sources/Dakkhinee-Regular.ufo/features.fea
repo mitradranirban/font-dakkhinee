@@ -1,5 +1,7 @@
+languagesystem DFLT dflt;
 languagesystem bng2 ASM ;
 languagesystem bng2 dflt;
+languagesystem latn dflt;
 
 
 # GSUB 
@@ -572,14 +574,16 @@ feature afrc {
 # GPOS 
 
 
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    @kc18_first_0 = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z ];
+    @kc18_second_1 = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
+} kernHorizontalKerninginLatinlookup0;
+
 lookup abvmAboveBaseMarkinBengalilookup0 {
   lookupflag 0;
-  markClass [\u09b0_u09cd.rphf ] <anchor -100 660> @Anchor0;
   markClass [\tildecomb ] <anchor -229 547> @Anchor0;
-  markClass [\uni0307 ] <anchor 149 547> @Anchor0;
   markClass [\caron ] <anchor 180 547> @Anchor0;
-  pos base [\u099c_u09cd_u099e.akhn ] <anchor 441 675> mark @Anchor0;
-  pos base [\u0995_u09cd_u09b7.akhn ] <anchor 455 679> mark @Anchor0;
   pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 373 681> mark @Anchor0;
   pos base [\u09a4_u09cd_u09a4.cjct ] <anchor 399 675> mark @Anchor0;
   pos base [\glyph475 ] <anchor 510 670> mark @Anchor0;
@@ -591,10 +595,19 @@ lookup abvmAboveBaseMarkinBengalilookup0 {
   pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 555 675> mark @Anchor0;
   pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 298 673> mark @Anchor0;
   pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 571 667> mark @Anchor0;
-  pos base [\C ] <anchor 4 406> mark @Anchor0;
-  pos base [\L \u09a6 ] <anchor 300 -25> mark @Anchor0;
-  pos base [\W ] <anchor 381 -18> mark @Anchor0;
+  pos base [\u09a6 ] <anchor 300 -25> mark @Anchor0;
 } abvmAboveBaseMarkinBengalilookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
 
 feature abvm {
 
@@ -812,6 +825,7 @@ feature abvm {
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
+  LigatureCaretByPos \u09b0_u09cd.blwf 24;
 } GDEF;
 
 table BASE {

@@ -74,7 +74,6 @@
       <point x="311" y="456"/>
       <point x="300" y="455"/>
       <point x="289" y="453" type="curve"/>
-      <point x="289" y="453" type="line" smooth="yes"/>
       <point x="278" y="453"/>
       <point x="272" y="437"/>
       <point x="272" y="425" type="curve" smooth="yes"/>

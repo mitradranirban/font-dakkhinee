@@ -43,15 +43,15 @@ rule copy
       gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /tmp/tmptkzu_9gc
-build /tmp/tmptkzu_9gc: buildTTF Dakkhinee-Regular.ufo
+# Generating /tmp/tmpoxzll0ol
+build /tmp/tmpoxzll0ol: buildTTF Dakkhinee-Regular.ufo
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter --keep-overlaps
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpj1177m3i
-build /tmp/tmpj1177m3i: buildOTF Dakkhinee-Regular.ufo
+# Generating /tmp/tmpmkx3q23o
+build /tmp/tmpmkx3q23o: buildOTF Dakkhinee-Regular.ufo
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter --keep-overlaps
@@ -61,16 +61,16 @@ build /tmp/tmpj1177m3i: buildOTF Dakkhinee-Regular.ufo
 build ../fonts/webfonts/Dakkhinee-Regular.woff2: compress $
     ../fonts/ttf/Dakkhinee-Regular.ttf
   operation = compress
-# Generating /tmp/tmpohpbdkpe
-build /tmp/tmpohpbdkpe: autohint /tmp/tmptkzu_9gc
+# Generating /tmp/tmpc1wkqnn3
+build /tmp/tmpc1wkqnn3: autohint /tmp/tmpoxzll0ol
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/Dakkhinee-Regular.ttf
-build ../fonts/ttf/Dakkhinee-Regular.ttf: fix /tmp/tmpohpbdkpe
+build ../fonts/ttf/Dakkhinee-Regular.ttf: fix /tmp/tmpc1wkqnn3
   operation = fix
   args = 
 # Generating ../fonts/otf/Dakkhinee-Regular.otf
-build ../fonts/otf/Dakkhinee-Regular.otf: fix /tmp/tmpj1177m3i
+build ../fonts/otf/Dakkhinee-Regular.otf: fix /tmp/tmpmkx3q23o
   operation = fix
   args = 
 default ../fonts/webfonts/Dakkhinee-Regular.woff2 $
