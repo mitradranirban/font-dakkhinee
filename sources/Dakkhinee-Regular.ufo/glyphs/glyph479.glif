@@ -3,6 +3,13 @@
   <advance width="508"/>
   <outline>
     <contour>
+      <point x="212" y="667" type="curve" smooth="yes"/>
+      <point x="220" y="667" type="line"/>
+      <point x="255" y="666"/>
+      <point x="283" y="660"/>
+      <point x="305" y="651" type="curve" smooth="yes"/>
+      <point x="327" y="642"/>
+      <point x="351" y="626"/>
       <point x="377" y="601" type="curve"/>
       <point x="377" y="638"/>
       <point x="404" y="673"/>
@@ -54,16 +61,6 @@
       <point x="30" y="526" type="curve"/>
       <point x="46" y="607"/>
       <point x="116" y="667"/>
-      <point x="212" y="667" type="curve" smooth="yes"/>
-      <point x="214" y="667"/>
-      <point x="215" y="667"/>
-      <point x="217" y="667" type="curve" smooth="yes"/>
-      <point x="220" y="667" type="line"/>
-      <point x="255" y="666"/>
-      <point x="283" y="660"/>
-      <point x="305" y="651" type="curve" smooth="yes"/>
-      <point x="327" y="642"/>
-      <point x="351" y="626"/>
     </contour>
   </outline>
   <lib>
@@ -74,9 +71,9 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>616</integer>
+            <integer>610</integer>
             <key>width</key>
-            <integer>51</integer>
+            <integer>63</integer>
           </dict>
         </array>
         <key>vhints</key>

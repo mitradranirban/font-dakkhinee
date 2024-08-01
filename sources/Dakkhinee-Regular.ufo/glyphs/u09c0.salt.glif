@@ -25,8 +25,11 @@
       <point x="-422" y="784"/>
       <point x="-416" y="772"/>
       <point x="-420" y="794" type="curve" smooth="yes"/>
-      <point x="-421" y="802"/>
-      <point x="-420" y="815"/>
+      <point x="-420.333" y="796.667"/>
+      <point x="-420.444" y="799.889"/>
+      <point x="-420.444" y="803.333" type="curve" smooth="yes"/>
+      <point x="-420.444" y="810.222"/>
+      <point x="-420" y="818"/>
       <point x="-420" y="824" type="curve" smooth="yes"/>
       <point x="-420" y="826"/>
       <point x="-420" y="827"/>

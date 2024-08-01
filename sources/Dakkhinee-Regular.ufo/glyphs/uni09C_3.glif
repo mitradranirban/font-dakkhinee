@@ -4,30 +4,12 @@
   <unicode hex="09C3"/>
   <outline>
     <contour>
-      <point x="-250" y="-163" type="curve" smooth="yes"/>
-      <point x="-250" y="-182"/>
-      <point x="-245" y="-198"/>
-      <point x="-233" y="-211" type="curve" smooth="yes"/>
-      <point x="-221" y="-224"/>
-      <point x="-209" y="-230"/>
-      <point x="-193" y="-230" type="curve" smooth="yes"/>
-      <point x="0" y="-230" type="line"/>
-      <point x="0" y="-315" type="line"/>
       <point x="-193" y="-315" type="line" smooth="yes"/>
-      <point x="-235" y="-315"/>
-      <point x="-271" y="-300"/>
-      <point x="-300" y="-271" type="curve" smooth="yes"/>
-      <point x="-329" y="-242"/>
-      <point x="-344" y="-205"/>
+      <point x="-277" y="-315"/>
+      <point x="-344" y="-247"/>
       <point x="-344" y="-163" type="curve" smooth="yes"/>
-      <point x="-344" y="-135"/>
-      <point x="-333" y="-107"/>
-      <point x="-314" y="-81" type="curve" smooth="yes"/>
-      <point x="-295" y="-55"/>
-      <point x="-268" y="-33"/>
-      <point x="-236" y="-14" type="curve" smooth="yes"/>
-      <point x="-208" y="2"/>
-      <point x="-184" y="19"/>
+      <point x="-344" y="-55"/>
+      <point x="-225" y="-17"/>
       <point x="-166" y="35" type="curve" smooth="yes"/>
       <point x="-161" y="39"/>
       <point x="-158" y="39"/>
@@ -48,6 +30,12 @@
       <point x="-222" y="-112" type="curve" smooth="yes"/>
       <point x="-242" y="-134"/>
       <point x="-250" y="-151"/>
+      <point x="-250" y="-163" type="curve" smooth="yes"/>
+      <point x="-250" y="-198"/>
+      <point x="-226" y="-230"/>
+      <point x="-193" y="-230" type="curve" smooth="yes"/>
+      <point x="0" y="-230" type="line"/>
+      <point x="0" y="-315" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -61,12 +49,6 @@
             <integer>-315</integer>
             <key>width</key>
             <integer>85</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>20</integer>
-            <key>width</key>
-            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>

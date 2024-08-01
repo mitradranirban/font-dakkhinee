@@ -4,12 +4,14 @@
   <unicode hex="00BA"/>
   <outline>
     <contour>
-      <point x="-22" y="-26" type="line"/>
+      <point x="-22" y="-29" type="curve"/>
       <point x="-22" y="47" type="line"/>
       <point x="447" y="47" type="line"/>
-      <point x="447" y="-26" type="line"/>
+      <point x="447" y="-29" type="line"/>
+      <point x="295" y="-29"/>
+      <point x="134" y="-29"/>
     </contour>
-    <component base="o"/>
+    <component base="o" xOffset="-2" yOffset="67"/>
   </outline>
   <lib>
     <dict>
@@ -19,25 +21,25 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-26</integer>
+            <integer>-29</integer>
             <key>width</key>
-            <integer>73</integer>
+            <integer>76</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>53</integer>
+            <integer>120</integer>
             <key>width</key>
             <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>459</integer>
+            <integer>526</integer>
             <key>width</key>
             <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>626</integer>
+            <integer>693</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -46,19 +48,19 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-9</integer>
+            <integer>-11</integer>
             <key>width</key>
             <integer>67</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>237</integer>
+            <integer>235</integer>
             <key>width</key>
             <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>274</integer>
+            <integer>272</integer>
             <key>width</key>
             <integer>67</integer>
           </dict>

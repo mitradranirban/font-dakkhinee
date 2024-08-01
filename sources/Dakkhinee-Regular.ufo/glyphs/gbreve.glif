@@ -44,9 +44,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>582</integer>
+            <integer>588</integer>
             <key>width</key>
-            <integer>65</integer>
+            <integer>52</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -65,15 +65,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>84</integer>
+            <integer>104</integer>
             <key>width</key>
-            <integer>75</integer>
+            <integer>60</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>218</integer>
             <key>width</key>
-            <integer>56</integer>
+            <integer>55</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -83,9 +83,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>322</integer>
+            <integer>294</integer>
             <key>width</key>
-            <integer>75</integer>
+            <integer>60</integer>
           </dict>
           <dict>
             <key>position</key>

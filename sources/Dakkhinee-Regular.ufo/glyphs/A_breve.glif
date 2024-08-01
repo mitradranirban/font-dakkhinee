@@ -32,15 +32,15 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1006</integer>
+            <integer>900</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>65</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1038</integer>
+            <integer>1006</integer>
             <key>width</key>
-            <integer>65</integer>
+            <integer>20</integer>
           </dict>
         </array>
         <key>vhints</key>
@@ -53,13 +53,13 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>128</integer>
+            <integer>89</integer>
             <key>width</key>
             <integer>75</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>366</integer>
+            <integer>327</integer>
             <key>width</key>
             <integer>75</integer>
           </dict>

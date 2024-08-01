@@ -61,8 +61,11 @@
       <point x="60" y="32"/>
       <point x="39" y="63"/>
       <point x="18" y="110" type="curve"/>
-      <point x="17" y="132"/>
-      <point x="23" y="144"/>
+      <point x="17.9313" y="111.512"/>
+      <point x="17.8956" y="112.977"/>
+      <point x="17.8956" y="114.394" type="curve" smooth="yes"/>
+      <point x="17.8956" y="133.593"/>
+      <point x="24.4433" y="144"/>
       <point x="44" y="144" type="curve" smooth="yes"/>
       <point x="53" y="144"/>
       <point x="63" y="141"/>

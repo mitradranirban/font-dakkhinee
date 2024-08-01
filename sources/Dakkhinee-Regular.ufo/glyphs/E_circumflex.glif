@@ -44,24 +44,24 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>867</integer>
+            <integer>877</integer>
             <key>width</key>
-            <integer>152</integer>
+            <integer>122</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>-24</integer>
-            <key>width</key>
-            <integer>312</integer>
-          </dict>
-          <dict>
-            <key>position</key>
             <integer>6</integer>
             <key>width</key>
             <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>9</integer>
+            <key>width</key>
+            <integer>250</integer>
           </dict>
           <dict>
             <key>position</key>

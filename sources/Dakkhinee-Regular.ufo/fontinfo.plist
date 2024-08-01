@@ -7,7 +7,7 @@
     <key>styleName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>Dakkhinee Regular</string>
+    <string>Dakkhinee</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>
@@ -15,7 +15,7 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>copyright</key>
-    <string>Copyright 2024 The Dakkhinee Project Authors (https://github.com/mitradranirban/font-dakkhinee) </string>
+    <string>Copyright 2024 The Dakkhinee Project Authors (https://github.com/mitradranirban/font-dakkhinee)</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>capHeight</key>
@@ -43,18 +43,15 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://fonts.atipra.in/</string>
     <key>openTypeNameLicense</key>
-    <string>Copyright 2022-2024 The Dakkhinee Font Authors
- 
+    <string>Copyright 2024 The Dakkhinee Font Project Authors (github.com/mitradranirban/font-dakkhinee)
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at:http://scripts.sil.org/OFL
-
-</string>
+This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.000</string>
     <key>openTypeNameDescription</key>
-    <string>This Bengali or Bangla font is designed like South Indian Scripts </string>
+    <string>This Bengali or Bangla font is designed like South Indian Scripts</string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Dakkhinee</string>
     <key>openTypeNamePreferredSubfamilyName</key>
@@ -81,9 +78,13 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>1200</integer>
+    <integer>1379</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>300</integer>
+    <integer>672</integer>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer> 
+    </array>
     <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>0</integer>

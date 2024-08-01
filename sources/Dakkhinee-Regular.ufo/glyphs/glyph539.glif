@@ -27,8 +27,11 @@
       <point x="-477" y="13"/>
       <point x="-498" y="44"/>
       <point x="-519" y="91" type="curve"/>
-      <point x="-520" y="113"/>
-      <point x="-513" y="124"/>
+      <point x="-519.061" y="92.3442"/>
+      <point x="-519.092" y="93.6473"/>
+      <point x="-519.092" y="94.9094" type="curve" smooth="yes"/>
+      <point x="-519.092" y="114.303"/>
+      <point x="-511.717" y="124"/>
       <point x="-492" y="124" type="curve" smooth="yes"/>
       <point x="-483" y="124"/>
       <point x="-474" y="121"/>

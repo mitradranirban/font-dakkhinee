@@ -95,10 +95,12 @@
       <point x="497" y="664"/>
       <point x="401" y="711" type="curve"/>
       <point x="361" y="730" type="line"/>
-      <point x="182" y="732" type="line"/>
-      <point x="2" y="734" type="line"/>
-      <point x="2" y="777" type="line"/>
-      <point x="2" y="819" type="line"/>
+      <point x="241" y="731"/>
+      <point x="122" y="733"/>
+      <point x="2" y="734" type="curve"/>
+      <point x="2" y="762"/>
+      <point x="2" y="791"/>
+      <point x="2" y="819" type="curve"/>
       <point x="245" y="819" type="line" smooth="yes"/>
       <point x="511" y="819"/>
       <point x="514" y="820"/>
@@ -128,7 +130,7 @@
             <key>position</key>
             <integer>392</integer>
             <key>width</key>
-            <integer>99</integer>
+            <integer>98</integer>
           </dict>
           <dict>
             <key>position</key>

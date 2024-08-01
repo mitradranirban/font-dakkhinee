@@ -536,7 +536,7 @@
     <string>u09b0_u09c1.blws.glif</string>
     <key>u09b0_u09c2.blws</key>
     <string>u09b0_u09c2.blws.glif</string>
-    <key>u09a4_u09b0_u09cd.blwf.vatu_u09c1.blws</key>
+    <key>u09a4_u09b0_u09cd_u09c1</key>
     <string>u09a4_u09b0_u09cd.blwf.vatu_u09c1.blws.glif</string>
     <key>u09a4_u09b0_u09cd.blwf.vatu_u09c2.blws</key>
     <string>u09a4_u09b0_u09cd.blwf.vatu_u09c2.blws.glif</string>
@@ -1422,18 +1422,10 @@
     <string>uni09D_D_.glif</string>
     <key>u098c</key>
     <string>uni098C_.glif</string>
-    <key>uni098D</key>
-    <string>uni098D_.glif</string>
-    <key>uni098E</key>
-    <string>uni098E_.glif</string>
     <key>u098F</key>
     <string>uni098F_.glif</string>
     <key>u0990</key>
     <string>uni0990.glif</string>
-    <key>uni0991</key>
-    <string>uni0991.glif</string>
-    <key>u0992</key>
-    <string>uni0992.glif</string>
     <key>u0998</key>
     <string>uni0998.glif</string>
     <key>u0999</key>
@@ -1448,8 +1440,6 @@
     <string>uni09A_3.glif</string>
     <key>u09a6</key>
     <string>uni09A_6.glif</string>
-    <key>u09a9</key>
-    <string>uni09A_9.glif</string>
     <key>u09aa</key>
     <string>uni09A_A_.glif</string>
     <key>u09ab</key>

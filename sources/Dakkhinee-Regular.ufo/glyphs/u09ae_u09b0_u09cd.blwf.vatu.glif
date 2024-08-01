@@ -100,8 +100,11 @@
       <point x="31" y="108"/>
       <point x="10" y="140"/>
       <point x="-11" y="187" type="curve"/>
-      <point x="-12" y="209"/>
-      <point x="-5" y="220"/>
+      <point x="-11.0611" y="188.344"/>
+      <point x="-11.0923" y="189.647"/>
+      <point x="-11.0923" y="190.909" type="curve" smooth="yes"/>
+      <point x="-11.0923" y="210.303"/>
+      <point x="-3.7169" y="220"/>
       <point x="16" y="220" type="curve" smooth="yes"/>
       <point x="25" y="220"/>
       <point x="33" y="217"/>
