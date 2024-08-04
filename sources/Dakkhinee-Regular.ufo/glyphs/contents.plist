@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>.notdef</key>
-    <string>_notdef.glif</string>
     <key>nonmarkingreturn</key>
     <string>nonmarkingreturn.glif</string>
     <key>space</key>
@@ -36,8 +34,6 @@
     <string>euro.glif</string>
     <key>uni25CC</key>
     <string>uni25C_C_.glif</string>
-    <key>.null</key>
-    <string>_null.glif</string>
     <key>u0981.salt</key>
     <string>u0981.salt.glif</string>
     <key>u099c_u09cd_u099e.akhn</key>
@@ -1476,10 +1472,6 @@
     <string>uni09C_7.glif</string>
     <key>u09c8</key>
     <string>uni09C_8.glif</string>
-    <key>uni09C9</key>
-    <string>uni09C_9.glif</string>
-    <key>uni09CA</key>
-    <string>uni09C_A_.glif</string>
     <key>u09cb</key>
     <string>uni09C_B_.glif</string>
     <key>u09cc</key>

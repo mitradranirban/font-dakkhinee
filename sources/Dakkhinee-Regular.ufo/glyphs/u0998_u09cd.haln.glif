@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u0998_u09cd.haln" format="2">
-  <advance width="722"/>
+  <advance width="958"/>
   <outline>
-    <component base="u0998"/>
+    <component base="u09cd" xOffset="559" yOffset="-156"/>
+    <component base="u0998" xOffset="91" yOffset="-12"/>
   </outline>
   <lib>
     <dict>
@@ -10,6 +11,12 @@
       <dict>
         <key>hhints</key>
         <array>
+          <dict>
+            <key>position</key>
+            <integer>-156</integer>
+            <key>width</key>
+            <integer>140</integer>
+          </dict>
           <dict>
             <key>position</key>
             <integer>6</integer>
@@ -39,25 +46,31 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-81</integer>
+            <integer>14</integer>
             <key>width</key>
             <integer>109</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>528</integer>
+            <integer>623</integer>
             <key>width</key>
-            <integer>93</integer>
+            <integer>96</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>535</integer>
+            <integer>630</integer>
             <key>width</key>
             <integer>89</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>709</integer>
+            <integer>757</integer>
+            <key>width</key>
+            <integer>155</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>804</integer>
             <key>width</key>
             <integer>78</integer>
           </dict>

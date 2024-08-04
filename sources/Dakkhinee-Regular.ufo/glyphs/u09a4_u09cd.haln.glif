@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09a4_u09cd.haln" format="2">
-  <advance width="898"/>
+  <advance width="790"/>
   <outline>
+    <component base="u09cd" xOffset="386" yOffset="-93"/>
     <component base="u09a4"/>
   </outline>
   <lib>
