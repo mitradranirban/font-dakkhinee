@@ -719,7 +719,7 @@ feature blwm {
 	\ellipsis \quotesinglbase \quotedblbase \ae \AE \eth \dcroat \thorn \eogonek 
 	\dcaron \Hbar \hbar \itilde \imacron \ibreve \iogonek \Lcaron \lcaron \Lslash 
 	\lslash \tcaron \OE \oe \uni0237 \uni1E9E \bullet \IJ \ij \NameMe.65968 
-	\NameMe.65969 ];
+	\NameMe.65969 \minute \second ];
 @GDEF_Ligature = [\u099c_u09cd_u099e.akhn \u0995_u09cd_u09b7.akhn 
 	\u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct \u0995_u09cd.haln 
 	\u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln \u0999_u09cd.haln 

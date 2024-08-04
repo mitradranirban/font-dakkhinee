@@ -1820,5 +1820,9 @@
     <string>J_acute.glif</string>
     <key>jacute</key>
     <string>jacute.glif</string>
+    <key>minute</key>
+    <string>minute.glif</string>
+    <key>second</key>
+    <string>second.glif</string>
   </dict>
 </plist>
