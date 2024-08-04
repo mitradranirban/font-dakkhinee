@@ -9,8 +9,8 @@ languagesystem latn dflt;
 
 lookup ligaStandardLigaturesinLatinlookup0 {
   lookupflag 0;
-    sub \L \acutecomb  by \Lacute;
-    sub \l \acutecomb  by \lacute;
+    sub \J \acutecomb  by \Jacute;
+    sub \j \acutecomb  by \jacute;
 } ligaStandardLigaturesinLatinlookup0;
 
 lookup nuktNuktaFormsinBengali2lookup1 {
@@ -704,21 +704,22 @@ feature blwm {
 	\uni09E0 \uni09E1 \u09e6 \u09e7 \u09e8 \u09e9 \u09ea \u09eb \u09ec \uni09ED \u09ee 
 	\u09ef \multiply \uni09F2 \uni09F3 \uni09F4 \uni09F5 \uni09F6 \uni09F7 \uni09F8 
 	\uni09F9 \uni09FA \u09d7 \dotlessi \Jcircumflex \jcircumflex \uni0136 \uni0137 
-	\uni013B \uni013C \Ldot \ldot \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
-	\omacron \obreve \ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron 
-	\rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla \scedilla \Scaron 
-	\scaron \uni0162 \uni0163 \Tcaron \Utilde \utilde \Umacron \umacron \Ubreve 
-	\ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek 
-	\Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute 
-	\Zdotaccent \zdotaccent \Zcaron \zcaron \questiondown \Thorn \germandbls 
-	\NameMe.65963 \NameMe.65964 \NameMe.65965 \NameMe.65966 \NameMe.65967 \Dcroat 
-	\uni0122 \uni0123 \circumflex \caron \uni0218 \uni0219 \uni021A \uni021B \breve 
-	\dotaccent \ring \ogonek \tilde \hungarumlaut \Wgrave \wgrave \Wacute \wacute 
-	\Wdieresis \wdieresis \Ygrave \ygrave \endash \emdash \quoteleft \quoteright 
-	\minus \trademark \guilsinglright \guilsinglleft \ellipsis \quotesinglbase 
-	\quotedblbase \ae \AE \eth \dcroat \thorn \eogonek \dcaron \Hbar \hbar \itilde 
-	\imacron \ibreve \iogonek \Lcaron \lcaron \Lslash \lslash \tcaron \OE \oe \uni0237 
-	\uni1E9E \bullet \IJ \ij \NameMe.65968 \NameMe.65969 ];
+	\Lacute \lacute \uni013B \uni013C \Ldot \ldot \Nacute \nacute \uni0145 \uni0146 
+	\Ncaron \ncaron \omacron \obreve \ohungarumlaut \Racute \racute \uni0156 
+	\uni0157 \Rcaron \rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla 
+	\scedilla \Scaron \scaron \uni0162 \uni0163 \Tcaron \Utilde \utilde \Umacron 
+	\umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Ydieresis 
+	\Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron \questiondown \Thorn 
+	\germandbls \NameMe.65963 \NameMe.65964 \NameMe.65965 \NameMe.65966 
+	\NameMe.65967 \Dcroat \uni0122 \uni0123 \circumflex \caron \uni0218 \uni0219 
+	\uni021A \uni021B \breve \dotaccent \ring \ogonek \tilde \hungarumlaut \Wgrave 
+	\wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave \endash \emdash 
+	\quoteleft \quoteright \minus \trademark \guilsinglright \guilsinglleft 
+	\ellipsis \quotesinglbase \quotedblbase \ae \AE \eth \dcroat \thorn \eogonek 
+	\dcaron \Hbar \hbar \itilde \imacron \ibreve \iogonek \Lcaron \lcaron \Lslash 
+	\lslash \tcaron \OE \oe \uni0237 \uni1E9E \bullet \IJ \ij \NameMe.65968 
+	\NameMe.65969 ];
 @GDEF_Ligature = [\u099c_u09cd_u099e.akhn \u0995_u09cd_u09b7.akhn 
 	\u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct \u0995_u09cd.haln 
 	\u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln \u0999_u09cd.haln 
@@ -851,8 +852,8 @@ feature blwm {
 	\u09b2_u09cd_u09ad.cjct \u09b6_u09cd_u09a4.cjct 
 	\u09b7_u09cd_u09aa_u09b0.cjct \u09b7_u09cd_u09ac.cjct 
 	\u0999_u09cd_u0995_u09b7.cjct \u09a1_u09cd_u09ae.cjct 
-	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct \u09dc \u09dd \u09df \Lacute 
-	\lacute ];
+	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct \u09dc \u09dd \u09df \Jacute 
+	\jacute ];
 @GDEF_Mark = [\u0981 \uni09FE \gravecomb \uni030A \acutecomb \uni0302 \tildecomb 
 	\uni0304 \uni0306 \uni0307 \uni0308 \u09bc \u09c1 \u09c2 \u09c3 \u09c4 \u09cd 
 	\uni09E2 \uni09E3 \hookabovecomb \uni030B \uni030C \uni030F \uni0311 \uni0312 

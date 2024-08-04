@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="2">
-  <advance width="548"/>
+  <advance width="440"/>
   <unicode hex="0133"/>
   <outline>
-    <component base="j" xOffset="212"/>
+    <component base="j" xOffset="110" yOffset="-10"/>
     <component base="i"/>
   </outline>
   <lib>
@@ -14,7 +14,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>51</integer>
+            <integer>41</integer>
             <key>width</key>
             <integer>53</integer>
           </dict>
@@ -26,7 +26,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>234</integer>
+            <integer>224</integer>
             <key>width</key>
             <integer>46</integer>
           </dict>
@@ -50,7 +50,7 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>625</integer>
+            <integer>615</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -65,25 +65,25 @@
           </dict>
           <dict>
             <key>position</key>
+            <integer>108</integer>
+            <key>width</key>
+            <integer>52</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>155</integer>
             <key>width</key>
             <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>210</integer>
-            <key>width</key>
-            <integer>52</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>416</integer>
+            <integer>314</integer>
             <key>width</key>
             <integer>55</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>476</integer>
+            <integer>374</integer>
             <key>width</key>
             <integer>57</integer>
           </dict>

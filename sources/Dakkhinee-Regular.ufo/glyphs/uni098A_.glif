@@ -269,39 +269,39 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-170</integer>
+            <integer>-89</integer>
             <key>width</key>
-            <integer>79</integer>
+            <integer>64</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>-13</integer>
+            <integer>39</integer>
             <key>width</key>
-            <integer>84</integer>
+            <integer>68</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>217</integer>
+            <integer>226</integer>
             <key>width</key>
-            <integer>85</integer>
+            <integer>69</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>383</integer>
+            <integer>362</integer>
             <key>width</key>
-            <integer>88</integer>
+            <integer>72</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>557</integer>
+            <integer>503</integer>
             <key>width</key>
-            <integer>88</integer>
+            <integer>72</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>742</integer>
+            <integer>738</integer>
             <key>width</key>
-            <integer>77</integer>
+            <integer>81</integer>
           </dict>
           <dict>
             <key>position</key>

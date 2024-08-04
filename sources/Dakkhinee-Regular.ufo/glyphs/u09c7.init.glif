@@ -54,12 +54,6 @@
             <key>width</key>
             <integer>58</integer>
           </dict>
-          <dict>
-            <key>position</key>
-            <integer>620</integer>
-            <key>width</key>
-            <integer>54</integer>
-          </dict>
         </array>
         <key>vhints</key>
         <array>

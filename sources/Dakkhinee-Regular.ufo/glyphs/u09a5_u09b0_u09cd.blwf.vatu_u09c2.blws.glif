@@ -177,9 +177,9 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>76</integer>
+            <integer>77</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>54</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -207,6 +207,12 @@
             <integer>22</integer>
             <key>width</key>
             <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>47</integer>
+            <key>width</key>
+            <integer>55</integer>
           </dict>
           <dict>
             <key>position</key>

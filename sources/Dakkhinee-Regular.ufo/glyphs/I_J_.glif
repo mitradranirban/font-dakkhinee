@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ" format="2">
-  <advance width="1026"/>
+  <advance width="778"/>
   <unicode hex="0132"/>
   <outline>
-    <component base="J" xOffset="372"/>
+    <component base="J" xOffset="108" yOffset="-8"/>
     <component base="I"/>
   </outline>
   <lib>
@@ -14,21 +14,27 @@
         <array>
           <dict>
             <key>position</key>
+            <integer>49</integer>
+            <key>width</key>
+            <integer>72</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>57</integer>
             <key>width</key>
             <integer>21</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>57</integer>
+            <integer>228</integer>
             <key>width</key>
-            <integer>72</integer>
+            <integer>66</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>236</integer>
+            <integer>346</integer>
             <key>width</key>
-            <integer>186</integer>
+            <integer>68</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -38,13 +44,13 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>1003</integer>
+            <integer>999</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>1007</integer>
+            <integer>1003</integer>
             <key>width</key>
             <integer>20</integer>
           </dict>
@@ -59,25 +65,37 @@
           </dict>
           <dict>
             <key>position</key>
+            <integer>205</integer>
+            <key>width</key>
+            <integer>70</integer>
+          </dict>
+          <dict>
+            <key>position</key>
             <integer>276</integer>
             <key>width</key>
             <integer>78</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>469</integer>
+            <integer>306</integer>
             <key>width</key>
-            <integer>70</integer>
+            <integer>50</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>845</integer>
+            <integer>407</integer>
+            <key>width</key>
+            <integer>66</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>581</integer>
             <key>width</key>
             <integer>76</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>946</integer>
+            <integer>682</integer>
             <key>width</key>
             <integer>78</integer>
           </dict>

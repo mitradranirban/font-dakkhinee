@@ -134,27 +134,21 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>75</integer>
+            <integer>40</integer>
             <key>width</key>
             <integer>97</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>302</integer>
+            <integer>267</integer>
             <key>width</key>
             <integer>98</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>738</integer>
+            <integer>741</integer>
             <key>width</key>
-            <integer>79</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1279</integer>
-            <key>width</key>
-            <integer>100</integer>
+            <integer>78</integer>
           </dict>
         </array>
         <key>vhints</key>

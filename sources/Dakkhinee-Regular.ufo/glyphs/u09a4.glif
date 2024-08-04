@@ -163,31 +163,31 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>58</integer>
+            <integer>0</integer>
             <key>width</key>
             <integer>100</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>266</integer>
+            <integer>208</integer>
             <key>width</key>
             <integer>98</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>443</integer>
+            <integer>385</integer>
             <key>width</key>
             <integer>107</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>719</integer>
+            <integer>661</integer>
             <key>width</key>
             <integer>97</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>770</integer>
+            <integer>712</integer>
             <key>width</key>
             <integer>78</integer>
           </dict>

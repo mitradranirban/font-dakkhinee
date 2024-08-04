@@ -1816,5 +1816,9 @@
     <string>N_ameM_e.65968.glif</string>
     <key>NameMe.65969</key>
     <string>N_ameM_e.65969.glif</string>
+    <key>Jacute</key>
+    <string>J_acute.glif</string>
+    <key>jacute</key>
+    <string>jacute.glif</string>
   </dict>
 </plist>

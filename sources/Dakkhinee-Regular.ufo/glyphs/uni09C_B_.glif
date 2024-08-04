@@ -14,39 +14,33 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>53</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>75</integer>
-            <key>width</key>
-            <integer>98</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>303</integer>
-            <key>width</key>
-            <integer>97</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>737</integer>
-            <key>width</key>
-            <integer>77</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>740</integer>
+            <integer>3</integer>
             <key>width</key>
             <integer>79</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>997</integer>
+            <integer>45</integer>
             <key>width</key>
-            <integer>20</integer>
+            <integer>98</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>273</integer>
+            <key>width</key>
+            <integer>97</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>732</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>741</integer>
+            <key>width</key>
+            <integer>78</integer>
           </dict>
           <dict>
             <key>position</key>
@@ -83,13 +77,13 @@
           </dict>
           <dict>
             <key>position</key>
-            <integer>659</integer>
+            <integer>663</integer>
             <key>width</key>
-            <integer>79</integer>
+            <integer>84</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>782</integer>
+            <integer>879</integer>
             <key>width</key>
             <integer>78</integer>
           </dict>

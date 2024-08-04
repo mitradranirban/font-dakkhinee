@@ -12,66 +12,72 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-85</integer>
+            <integer>42</integer>
             <key>width</key>
-            <integer>44</integer>
+            <integer>136</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>-30</integer>
+            <integer>421</integer>
             <key>width</key>
-            <integer>51</integer>
+            <integer>126</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>39</integer>
+            <integer>741</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>78</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>610</integer>
+            <integer>978</integer>
             <key>width</key>
-            <integer>63</integer>
+            <integer>49</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>996</integer>
+            <integer>1092</integer>
             <key>width</key>
-            <integer>56</integer>
+            <integer>50</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>30</integer>
+            <integer>91</integer>
             <key>width</key>
-            <integer>60</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>69</integer>
+            <integer>117</integer>
             <key>width</key>
-            <integer>58</integer>
+            <integer>57</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>230</integer>
+            <integer>199</integer>
             <key>width</key>
-            <integer>52</integer>
+            <integer>50</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>328</integer>
+            <integer>314</integer>
             <key>width</key>
-            <integer>52</integer>
+            <integer>48</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>384</integer>
+            <integer>432</integer>
             <key>width</key>
-            <integer>54</integer>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>481</integer>
+            <key>width</key>
+            <integer>56</integer>
           </dict>
         </array>
       </dict>
