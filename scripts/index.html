@@ -1,12 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>My Font development</title>
-	</head>
-	<body>
-		<h1>My Font testing pages</h1>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Dakkhinee - A Bangla Font Inspired by South Indian Scripts</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<p>-</p>
+<h1>Dakkhinee - A Bangla font inspired by South Indian scripts</h1>
+<p><a href="https://mitradranirban.github.io/font-dakkhinee/fontbakery/fontbakery-report.html"><img alt="" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Ffont-dakkhinee%2Fgh-pages%2Fbadges%2Foverall.json"></a>
+<a href="https://mitradranirban.github.io/font-dakkhinee/fontbakery/fontbakery-report.html"><img alt="" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Ffont-dakkhinee%2Fgh-pages%2Fbadges%2FUniversal.json"></a>
+<a href="https://mitradranirban.github.io/font-dakkhinee/fontbakery/fontbakery-report.html"><img alt="" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Ffont-dakkhinee%2Fgh-pages%2Fbadges%2FGoogleFonts.json"></a>
+<a href="https://mitradranirban.github.io/font-dakkhinee/fontbakery/fontbakery-report.html"><img alt="" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Ffont-dakkhinee%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json"></a>
+<a href="https://mitradranirban.github.io/font-dakkhinee/fontbakery/fontbakery-report.html"><img alt="" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Ffont-dakkhinee%2Fgh-pages%2Fbadges%2FShapingChecks.json"></a></p>
+<p>Dakkhinee is an attempt to visualise how Bengali script would have evolved had it been a South Indian scripts like Telegu or Kannadda. </p>
+<p>Each Indic script has evolved in it own way from Brahmi and Kharosti depending upon materials used in writing</p>
+<p><img alt="Sample Image" src="documentation/image1.png"></p>
+<h2>About</h2>
+<p>The font is being created by Dr Anirban Mitra, an amateure typographer involved in creating one of the earliest Open Source OpenType Bangla font. </p>
+<p>The Latin glyphs are also given a Kannada like look. </p>
+<p> The Glyph design is inspired by Lohit Kannada Font </p>
+<p><img alt="Sample2 Image" src="documentation/image2.png"> </p>
+<h2>Building</h2>
+<p>Fonts are built automatically by GitHub Actions. We will release the beta when ready </p>
+<br>
+<p>If you want to build fonts manually on your own computer:</p>
+<ul>
+<li>Download the source code from <a href="https://github.com/mitradranirban/font-dakkhinee"> our github repository.</a></li>
+<li>
+<p >Create a Python venv in the root of the repo:</p>
+<p dir="auto"><code>python3 -m venv venv </code></p></li>
+<li>
+<p dir="auto">Activate venv:</p>
+<p dir="auto"><code>source venv/bin/activate</code></p>
+</li>
+<li>
+<p dir="auto">Install general dependencies:</p>
+<p dir="auto"><code>pip install --upgrade pip</code></p>
+<p dir="auto"><code>pip install -r requirements.txt</code></p>
+<p dir="auto"><code>pip install -r requirements-test.txt</code></p>
+
+<li><code>make build</code> will produce font files.</li>
+<li><code>make test</code> will run <a href="https://github.com/googlefonts/fontbakery">FontBakery</a>'s quality assurance tests.</li>
+<li><code>make proof</code> will generate HTML proof files.</li>
+</ul>
+<p>The proof files and QA tests are also available automatically via GitHub Actions <p>
+<h2> Font testing pages</h2>
 		<ul>
 			<li>
 				<a href="fontbakery/fontbakery-report.html">FontBakery Report</a>
@@ -15,5 +61,15 @@
 				<a href="proof/diffenator2-report.html">Diffenator2 Report</a>
 			</li>
 		</ul>
-	</body>
+
+<h2>Changelog</h2>
+<p>Beta Release awaited.</p>
+<h2>License</h2>
+<p>This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at
+https://scripts.sil.org/OFL</p>
+<h2>Repository Layout</h2>
+<p>This font repository structure is inspired by <a href="https://github.com/unified-font-repository/Unified-Font-Repository">Unified Font Repository v0.3</a>, modified for the Google Fonts workflow.</p>
+
+</body>
 </html>
