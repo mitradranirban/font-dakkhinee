@@ -38,10 +38,10 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[12] Dakkhinee-Regular.ttf</summary>
+<details><summary>[13] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
     <div>
 
 
@@ -50,9 +50,9 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
-acutecomb (U+0301), dotbelowcomb (U+0323), gravecomb (U+0300), hookabovecomb (U+0309), tildecomb (U+0303), u0981 (U+0981), u09bc (U+09BC), u09c1 (U+09C1), u09c2 (U+09C2), u09c3 (U+09C3), u09c4 (U+09C4), u09cd (U+09CD), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni030F (U+030F), uni0311 (U+0311), uni0312 (U+0312), uni031B (U+031B), uni0324 (U+0324), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), uni032E (U+032E), uni0331 (U+0331), uni09E2 (U+09E2), uni09E3 (U+09E3) and uni09FE (U+09FE)</p>
- [code: mark-chars]
+* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+u09cd (U+09CD)</p>
+ [code: spacing-mark-glyphs]
 
 
 
@@ -471,9 +471,7 @@ equal</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Jacute
-
-- NameMe.65963
+<pre><code>- NameMe.65963
 
 - NameMe.65964
 
@@ -486,14 +484,6 @@ equal</p>
 - NameMe.65968
 
 - NameMe.65969
-
-- Ra_yaphala
-
-- bn_ka_ssa.akhn_bn_raphala.vatu
-
-- bn_ka_ssa.akhn_u09cd_u09a3.cjct
-
-- bn_ka_ssa.akhn_u09cd_u09ae.cjct
 
 - glyph219
 
@@ -544,8 +534,6 @@ equal</p>
 - glyph500
 
 - glyph501
-
-- glyph509
 
 - glyph513
 
@@ -615,679 +603,25 @@ equal</p>
 
 - glyph547
 
-- jacute
-
 - janya_u09b0_u09cd.blwf.vatu
-
-- kassa_u09cd.half
 
 - u0981.salt
 
-- u0987_u0981.abvs
-
-- u0988_u0981.abvs
-
-- u098a_u0981.abvs
-
-- u0995_alt
-
-- u0995_u09b0_u09cd.blwf.vatu
-
-- u0995_u09cd.half
-
-- u0995_u09cd.haln
-
-- u0995_u09cd_u0995.cjct
-
-- u0995_u09cd_u099f.cjct
-
-- u0995_u09cd_u099f_u09b0.vatu
-
-- u0995_u09cd_u09a4.cjct
-
-- u0995_u09cd_u09a4.salt
-
-- u0995_u09cd_u09a8.cjct
-
-- u0995_u09cd_u09ac.cjct
-
-- u0995_u09cd_u09ae.cjct
-
-- u0995_u09cd_u09b0.salt
-
-- u0995_u09cd_u09b2.cjct
-
-- u0995_u09cd_u09b7.akhn
-
-- u0995_u09cd_u09b8.cjct
-
-- u0996_u09b0_u09cd.blwf.vatu
-
-- u0996_u09cd.half
-
-- u0996_u09cd.haln
-
-- u0996_u09cd.hln
-
-- u0997_alt
-
-- u0997_u09b0_u09cd.blwf.vatu
-
-- u0997_u09cd.half
-
-- u0997_u09cd_u0997.cjct
-
-- u0997_u09cd_u09a4.cjct
-
-- u0997_u09cd_u09a6.cjct
-
-- u0997_u09cd_u09a7.cjct
-
-- u0997_u09cd_u09a8.cjct
-
-- u0997_u09cd_u09ac.cjct
-
-- u0997_u09cd_u09ae.cjct
-
-- u0997_u09cd_u09b2.cjct
-
-- u0998_u09b0_u09cd.blwf.vatu
-
-- u0998_u09cd.half
-
-- u0998_u09cd.haln
-
-- u0998_u09cd_u09a8.cjct
-
-- u0999_u0981.abvs
-
-- u0999_u09b0_u09cd.blwf.vatu
-
-- u0999_u09cd.half
-
-- u0999_u09cd.haln
-
-- u0999_u09cd_u0995.cjct
-
-- u0999_u09cd_u0995.salt
-
-- u0999_u09cd_u0995_u09b7.cjct
-
-- u0999_u09cd_u0996.cjct
-
-- u0999_u09cd_u0997.cjct
-
-- u0999_u09cd_u0997.salt
-
-- u0999_u09cd_u0998.cjct
-
-- u0999_u09cd_u09ae.cjct
-
-- u099a_u09b0_u09cd.blwf.vatu
-
-- u099a_u09cd.half
-
-- u099a_u09cd.haln
-
-- u099a_u09cd_u099a.cjct
-
-- u099a_u09cd_u099b.cjct
-
-- u099a_u09cd_u099b_u09ac.cjct
-
-- u099a_u09cd_u099b_u09b0.vatu
-
-- u099a_u09cd_u099e.cjct
-
-- u099b_u09b0_u09cd.blwf.vatu
-
-- u099b_u09cd.half
-
-- u099b_u09cd.haln
-
-- u099b_u09cd_u09ac.cjct
-
-- u099c_u09b0_u09cd.blwf.vatu
-
-- u099c_u09cd.half
-
-- u099c_u09cd.haln
-
-- u099c_u09cd_u099c.cjct
-
-- u099c_u09cd_u099c_u09ac
-
-- u099c_u09cd_u099d.cjct
-
-- u099c_u09cd_u099e.akhn
-
-- u099c_u09cd_u099e_u09cd.haln
-
-- u099c_u09cd_u09ac.cjct
-
-- u099d_u09b0_u09cd.blwf.vatu
-
-- u099d_u09cd.half
-
-- u099d_u09cd.haln
-
-- u099e_u09b0_u09cd.blwf.vatu
-
-- u099e_u09cd.half
-
-- u099e_u09cd.haln
-
-- u099e_u09cd_u099a.cjct
-
-- u099e_u09cd_u099a.salt
-
-- u099e_u09cd_u099b.cjct
-
-- u099e_u09cd_u099c.cjct
-
-- u099e_u09cd_u099d.pres
-
-- u099f_u0981.abvs
-
-- u099f_u09b0_u09cd.blwf.vatu
-
-- u099f_u09cd.half
-
-- u099f_u09cd.haln
-
-- u099f_u09cd_u099f.cjct
-
-- u099f_u09cd_u09ac.cjct
-
-- u099f_u09cd_u09ae.cjct
-
-- u09a0_u0981.abvs
-
-- u09a0_u09b0_u09cd.blwf.vatu
-
-- u09a0_u09cd.half
-
 - u09a0_u09cd.haln
-
-- u09a1_u09b0_u09cd.blwf.vatu
-
-- u09a1_u09cd.half
-
-- u09a1_u09cd.haln
-
-- u09a1_u09cd_09b2.cjct
-
-- u09a1_u09cd_u09a1.cjct
-
-- u09a1_u09cd_u09ae.cjct
-
-- u09a2_u09b0_u09cd.blwf.vatu
-
-- u09a2_u09cd.half
-
-- u09a2_u09cd.haln
-
-- u09a3_u09b0_u09cd.blwf.vatu
-
-- u09a3_u09cd.half
-
-- u09a3_u09cd.haln
-
-- u09a3_u09cd_u099f.cjct
-
-- u09a3_u09cd_u09a0.cjct
-
-- u09a3_u09cd_u09a1.cjct
-
-- u09a3_u09cd_u09a1_u09b0.vatu
-
-- u09a3_u09cd_u09a2.cjct
-
-- u09a3_u09cd_u09a3.cjct
-
-- u09a3_u09cd_u09ac.cjct
-
-- u09a3_u09cd_u09ae.cjct
-
-- u09a4_alt
-
-- u09a4_u09b0_u09cd.blwf.vatu
-
-- u09a4_u09b0_u09cd.vatu.salt
-
-- u09a4_u09cd.half
-
-- u09a4_u09cd.haln
-
-- u09a4_u09cd_u09a4.cjct
-
-- u09a4_u09cd_u09a4_u09ac.cjct
 
 - u09a4_u09cd_u09a4_u09b0
 
-- u09a4_u09cd_u09a5.cjct
-
-- u09a4_u09cd_u09a8.cjct
-
-- u09a4_u09cd_u09ac.cjct
-
-- u09a4_u09cd_u09ae.cjct
-
-- u09a5_alt
-
-- u09a5_u09b0_u09cd.blwf.vatu
-
-- u09a5_u09cd.half
-
-- u09a5_u09cd.haln
-
-- u09a5_u09cd_u09ac.cjct
-
-- u09a6_u09b0_u09cd.blwf.vatu
-
-- u09a6_u09cd.half
-
-- u09a6_u09cd.haln
-
-- u09a6_u09cd_u0997.cjct
-
-- u09a6_u09cd_u0998.cjct
-
-- u09a6_u09cd_u09a6.cjct
-
-- u09a6_u09cd_u09a6_u09ac.cjct
-
-- u09a6_u09cd_u09a7.cjct
-
-- u09a6_u09cd_u09a7_u09ac.cjct
-
-- u09a6_u09cd_u09a8.cjct
-
-- u09a6_u09cd_u09ac.cjct
-
-- u09a6_u09cd_u09ad.cjct
-
-- u09a6_u09cd_u09ad_u09b0.vatu
-
-- u09a6_u09cd_u09ae.cjct
-
-- u09a7_alt
-
-- u09a7_u09b0_u09cd.blwf.vatu
-
-- u09a7_u09cd.half
-
-- u09a7_u09cd.haln
-
-- u09a7_u09cd_u09a8.cjct
-
-- u09a7_u09cd_u09ac.cjct
-
-- u09a7_u09cd_u09ae.cjct
-
-- u09a8_alt
-
-- u09a8_u09b0_u09cd.blwf.vatu
-
-- u09a8_u09cd._u09a4.cjct
-
-- u09a8_u09cd.half
-
-- u09a8_u09cd.haln
-
-- u09a8_u09cd_u0995.cjct
-
-- u09a8_u09cd_u0995_u09b0.cjct
-
-- u09a8_u09cd_u099a.cjct
-
-- u09a8_u09cd_u099f.cjct
-
-- u09a8_u09cd_u099f_u09b0.vatu
-
-- u09a8_u09cd_u09a0.cjct
-
-- u09a8_u09cd_u09a0_u09b0.vatu
-
-- u09a8_u09cd_u09a1.cjct
-
-- u09a8_u09cd_u09a1_u09b0.cjct
-
-- u09a8_u09cd_u09a4_u09ac.blws
-
-- u09a8_u09cd_u09a4_u09b0.vatu
-
-- u09a8_u09cd_u09a4_u09c1.blws
-
-- u09a8_u09cd_u09a5.cjct
-
-- u09a8_u09cd_u09a6.cjct
-
-- u09a8_u09cd_u09a6_u09ac.cjct
-
-- u09a8_u09cd_u09a6_u09b0.vatu
-
-- u09a8_u09cd_u09a7.cjct
-
-- u09a8_u09cd_u09a7_u09b0.vatu
-
-- u09a8_u09cd_u09a8.cjct
-
-- u09a8_u09cd_u09ac.cjct
-
-- u09a8_u09cd_u09ae.cjct
-
-- u09a8_u09cd_u09b8.cjct
-
-- u09aa_alt
-
-- u09aa_u09b0_u09cd.blwf.vatu
-
-- u09aa_u09cd.half
-
-- u09aa_u09cd.haln
-
-- u09aa_u09cd_u099f.cjct
-
-- u09aa_u09cd_u09a4.cjct
-
-- u09aa_u09cd_u09a4_u09b0.vatu
-
-- u09aa_u09cd_u09a8.cjct
-
-- u09aa_u09cd_u09aa.cjct
-
-- u09aa_u09cd_u09ac.cjct
-
-- u09aa_u09cd_u09ae.cjct
-
-- u09aa_u09cd_u09b2.cjct
-
-- u09aa_u09cd_u09b8.cjct
-
-- u09ab_u09b0_u09cd.blwf.vatu
-
-- u09ab_u09cd.half
-
-- u09ab_u09cd.haln
-
-- u09ab_u09cd_u09b2.cjct
-
-- u09ac_u09b0_u09cd.blwf.vatu
-
 - u09ac_u09cd.blwf
-
-- u09ac_u09cd.half
-
-- u09ac_u09cd.haln
-
-- u09ac_u09cd_u099c.cjct
-
-- u09ac_u09cd_u09a6.cjct
-
-- u09ac_u09cd_u09a6_u09b0.vatu
-
-- u09ac_u09cd_u09a7.cjct
-
-- u09ac_u09cd_u09a8.cjct
-
-- u09ac_u09cd_u09ac.cjct
-
-- u09ac_u09cd_u09ad.cjct
-
-- u09ac_u09cd_u09b2.cjct
-
-- u09ad_alt
-
-- u09ad_u09b0_u09cd.blwf.vatu
-
-- u09ad_u09cd.half
-
-- u09ad_u09cd.haln
-
-- u09ae_alt
-
-- u09ae_u09b0_u09cd.blwf.vatu
-
-- u09ae_u09cd.half
-
-- u09ae_u09cd.haln
-
-- u09ae_u09cd_u09a4.cjct
-
-- u09ae_u09cd_u09a4_u09b0.vatu
-
-- u09ae_u09cd_u09a6.cjct
-
-- u09ae_u09cd_u09a8.cjct
-
-- u09ae_u09cd_u09aa.cjct
-
-- u09ae_u09cd_u09aa_u09b0.vatu
-
-- u09ae_u09cd_u09ab.cjct
-
-- u09ae_u09cd_u09ac.cjct
-
-- u09ae_u09cd_u09ad.09b0_u09cd
-
-- u09ae_u09cd_u09ad.cjct
-
-- u09ae_u09cd_u09ae.cjct
-
-- u09ae_u09cd_u09b2.cjct
-
-- u09ae_u09cd_u09b9.cjct
-
-- u09af_u09b0_u09cd.blwf.vatu
-
-- u09af_u09cd.half
-
-- u09af_u09cd.haln
-
-- u09af_u09cd.pstf
-
-- u09b0_u09b0_u09cd.blwf.vatu
-
-- u09b0_u09cd.blwf
-
-- u09b0_u09cd.half
-
-- u09b0_u09cd.haln
-
-- u09b0_u09cd.rphf
-
-- u09b2_alt
-
-- u09b2_u09b0_u09cd.blwf.vatu
-
-- u09b2_u09cd._u0997.cjct
-
-- u09b2_u09cd.half
 
 - u09b2_u09cd.haln
 
-- u09b2_u09cd_u0995.cjct
-
-- u09b2_u09cd_u099f.cjct
-
-- u09b2_u09cd_u09a1.cjct
-
-- u09b2_u09cd_u09a4.cjct
-
-- u09b2_u09cd_u09a7.cjct
-
-- u09b2_u09cd_u09aa.cjct
-
-- u09b2_u09cd_u09ab.cjct
-
-- u09b2_u09cd_u09ac.cjct
-
-- u09b2_u09cd_u09ad.cjct
-
-- u09b2_u09cd_u09ae.cjct
-
-- u09b2_u09cd_u09b2.cjct
-
-- u09b6_u09b0_u09cd.blwf.vatu
-
-- u09b6_u09cd.half
-
-- u09b6_u09cd.haln
-
-- u09b6_u09cd_u099a.cjct
-
-- u09b6_u09cd_u099b.cjct
-
-- u09b6_u09cd_u09a4.cjct
-
-- u09b6_u09cd_u09a8.cjct
-
-- u09b6_u09cd_u09ac.cjct
-
-- u09b6_u09cd_u09ae.cjct
-
-- u09b6_u09cd_u09b2.cjct
-
-- u09b7_u09b0_u09cd.blwf.vatu
-
-- u09b7_u09cd._u09aa.cjct
-
-- u09b7_u09cd.half
-
-- u09b7_u09cd.haln
-
-- u09b7_u09cd_u0995.cjct
-
-- u09b7_u09cd_u0995_u09b0.vatu
-
-- u09b7_u09cd_u0996.cjct
-
-- u09b7_u09cd_u099f.cjct
-
-- u09b7_u09cd_u099f_u09b0.vatu
-
-- u09b7_u09cd_u09a0.cjct
-
-- u09b7_u09cd_u09a3.cjct
-
-- u09b7_u09cd_u09aa_u09b0.cjct
-
-- u09b7_u09cd_u09ab.cjct
-
-- u09b7_u09cd_u09ac.cjct
-
-- u09b7_u09cd_u09ae.cjct
-
-- u09b8_u09b0_u09cd.blwf.vatu
-
-- u09b8_u09cd.half
-
-- u09b8_u09cd.haln
-
-- u09b8_u09cd.u099f_u09b0.vatu
-
-- u09b8_u09cd_u0995.cjct
-
-- u09b8_u09cd_u0995_u09b0.salt
-
-- u09b8_u09cd_u0995_u09b0.vatu
-
-- u09b8_u09cd_u0996.cjct
-
-- u09b8_u09cd_u099f.cjct
-
-- u09b8_u09cd_u09a4.cjct
-
-- u09b8_u09cd_u09a4_u09b0.salt
-
-- u09b8_u09cd_u09a4_u09b0.vatu
-
-- u09b8_u09cd_u09a4_u09c1.blws
-
-- u09b8_u09cd_u09a5.cjct
-
-- u09b8_u09cd_u09a8.cjct
-
-- u09b8_u09cd_u09aa.cjct
-
-- u09b8_u09cd_u09aa_u09b0.vatu
-
-- u09b8_u09cd_u09ab.cjct
-
-- u09b8_u09cd_u09ac.cjct
-
-- u09b8_u09cd_u09ae.cjct
-
-- u09b8_u09cd_u09b2.cjct
-
-- u09b9_u09b0_u09cd.blwf.vatu
-
-- u09b9_u09cd.half
-
-- u09b9_u09cd.haln
-
-- u09b9_u09cd_u09a3.cjct
-
-- u09b9_u09cd_u09a8.cjct
-
-- u09b9_u09cd_u09ac.cjct
-
-- u09b9_u09cd_u09ae.cjct
-
-- u09b9_u09cd_u09ae.salt
-
-- u09b9_u09cd_u09b2.cjct
-
-- u09be_u0981.abvs
-
-- u09be_u09b0_u09cd.rphf.abvs
-
 - u09bf.salt
 
-- u09bf_u0981.abvs
-
 - u09c0.salt
-
-- u09c0_u0981.abvs
-
-- u09c0_u09b0_u09cd.rphf.abvs
 
 - u09c7.init
 
 - u09c8.init
-
-- u09d7_u0981.abvs
-
-- u09d7_u09b0_u09cd.rphf.abvs
-
-- u09dc_u09cd.half
-
-- u09dc_u09cd.haln
-
-- u09dc_u09cd_u0997.cjct
-
-- u09dd_u09cd.half
-
-- u09dd_u09cd.haln
-
-- u09df_u09cd.half
-
-- u09e7_slash_u09e8.afrc
-
-- u09e7_slash_u09e9.afrc
-
-- u09e7_slash_u09ea.afrc
-
-- u09e7_slash_u09ee.afrc
-
-- u09e8_slash_u09e9.afrc
-
-- u09e9_slash_u09ea.afrc
-
-- u09f0_u09c1.blws
-
-- u09f0_u09c2.blws
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -3874,31 +3208,51 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, malayalam, tifinagh, old-permic, math, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, tai-le, malayalam, old-permic, syriac, coptic, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, tifinagh, cherokee, gothic</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, cherokee</li>
 <li>U+09CF : not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>bengali</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
+- Jacute
+- jacute</p>
+ [code: incomplete-caret-pos-data]
 
 
 
@@ -3950,8 +3304,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 13 | 120 | 7 | 112 | 0 | 
-| 0% | 0% | 0% | 5% | 48% | 3% | 44% | 0% | 
+| 0 | 0 | 0 | 14 | 118 | 7 | 113 | 0 | 
+| 0% | 0% | 0% | 6% | 47% | 3% | 45% | 0% | 
 
 
 
