@@ -38,7 +38,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[13] Dakkhinee-Regular.ttf</summary>
+<details><summary>[14] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
@@ -53,24 +53,6 @@ These won't break the CI job for now, but will become effective after some time 
 * ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 u09cd (U+09CD)</p>
  [code: spacing-mark-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
 
 
 
@@ -631,6 +613,174 @@ equal</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* AE (U+00C6): L&lt;&lt;695.0,822.0&gt;--&lt;580.0,822.0&gt;&gt; -&gt; L&lt;&lt;580.0,822.0&gt;--&lt;0.0,822.0&gt;&gt;
+
+* N (U+004E): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
+
+* Nacute (U+0143): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
+
+* NameMe.65965: L&lt;&lt;0.0,181.0&gt;--&lt;0.0,98.0&gt;&gt; -&gt; L&lt;&lt;0.0,98.0&gt;--&lt;0.0,15.0&gt;&gt;
+
+* NameMe.65966: L&lt;&lt;123.0,474.0&gt;--&lt;191.0,474.0&gt;&gt; -&gt; L&lt;&lt;191.0,474.0&gt;--&lt;367.0,474.0&gt;&gt;
+
+* Ncaron (U+0147): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
+
+* Ntilde (U+00D1): L&lt;&lt;596.0,698.0&gt;--&lt;648.0,725.0&gt;&gt; -&gt; L&lt;&lt;648.0,725.0&gt;--&lt;749.0,767.0&gt;&gt;
+
+* ae (U+00E6): L&lt;&lt;417.0,513.0&gt;--&lt;348.0,513.0&gt;&gt; -&gt; L&lt;&lt;348.0,513.0&gt;--&lt;0.0,513.0&gt;&gt;
+
+* d (U+0064): L&lt;&lt;44.0,432.0&gt;--&lt;44.0,82.0&gt;&gt; -&gt; L&lt;&lt;44.0,82.0&gt;--&lt;44.0,22.0&gt;&gt;
+
+* second (U+2033): L&lt;&lt;159.0,679.0&gt;--&lt;159.0,531.0&gt;&gt; -&gt; L&lt;&lt;159.0,531.0&gt;--&lt;159.0,530.0&gt;&gt;
+
+* second (U+2033): L&lt;&lt;38.0,685.0&gt;--&lt;38.0,538.0&gt;&gt; -&gt; L&lt;&lt;38.0,538.0&gt;--&lt;38.0,537.0&gt;&gt;
+
+* u0980 (U+0980): L&lt;&lt;216.0,282.0&gt;--&lt;297.0,282.0&gt;&gt; -&gt; L&lt;&lt;297.0,282.0&gt;--&lt;319.0,282.0&gt;&gt;
+
+* u0987 (U+0987): L&lt;&lt;318.0,629.0&gt;--&lt;298.0,584.0&gt;&gt; -&gt; L&lt;&lt;298.0,584.0&gt;--&lt;274.0,517.0&gt;&gt;
+
+* u0987 (U+0987): L&lt;&lt;389.0,821.0&gt;--&lt;332.0,821.0&gt;&gt; -&gt; L&lt;&lt;332.0,821.0&gt;--&lt;299.0,821.0&gt;&gt;
+
+* u0988 (U+0988): L&lt;&lt;1214.0,124.0&gt;--&lt;1214.0,207.0&gt;&gt; -&gt; L&lt;&lt;1214.0,207.0&gt;--&lt;1214.0,290.0&gt;&gt;
+
+* u0988 (U+0988): L&lt;&lt;318.0,605.0&gt;--&lt;298.0,552.0&gt;&gt; -&gt; L&lt;&lt;298.0,552.0&gt;--&lt;274.0,478.0&gt;&gt;
+
+* u0988 (U+0988): L&lt;&lt;789.0,827.0&gt;--&lt;732.0,827.0&gt;&gt; -&gt; L&lt;&lt;732.0,827.0&gt;--&lt;699.0,827.0&gt;&gt;
+
+* u098b (U+098B): L&lt;&lt;946.0,773.0&gt;--&lt;946.0,633.0&gt;&gt; -&gt; L&lt;&lt;946.0,633.0&gt;--&lt;946.0,578.0&gt;&gt;
+
+* u0995 (U+0995): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;563.0,741.0&gt;&gt;
+
+* u0995_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;563.0,741.0&gt;&gt;
+
+* u0995_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;563.0,741.0&gt;&gt;
+
+* u0997_u09cd_u09a6.cjct: L&lt;&lt;421.0,611.0&gt;--&lt;504.0,611.0&gt;&gt; -&gt; L&lt;&lt;504.0,611.0&gt;--&lt;553.0,611.0&gt;&gt;
+
+* u0997_u09cd_u09a7.cjct: L&lt;&lt;521.0,190.0&gt;--&lt;521.0,326.0&gt;&gt; -&gt; L&lt;&lt;521.0,326.0&gt;--&lt;521.0,352.0&gt;&gt;
+
+* u0998 (U+0998): L&lt;&lt;0.0,741.0&gt;--&lt;10.0,741.0&gt;&gt; -&gt; L&lt;&lt;10.0,741.0&gt;--&lt;92.0,741.0&gt;&gt;
+
+* u0998_u09b0_u09cd.blwf.vatu: L&lt;&lt;0.0,741.0&gt;--&lt;10.0,741.0&gt;&gt; -&gt; L&lt;&lt;10.0,741.0&gt;--&lt;92.0,741.0&gt;&gt;
+
+* u0998_u09cd.haln: L&lt;&lt;91.0,729.0&gt;--&lt;101.0,729.0&gt;&gt; -&gt; L&lt;&lt;101.0,729.0&gt;--&lt;183.0,729.0&gt;&gt;
+
+* u099b (U+099B): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;142.0,741.0&gt;&gt;
+
+* u099b_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;142.0,741.0&gt;&gt;
+
+* u099b_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;142.0,741.0&gt;&gt;
+
+* u099c (U+099C): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;293.0,741.0&gt;&gt;
+
+* u099c_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;293.0,741.0&gt;&gt;
+
+* u099c_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;293.0,741.0&gt;&gt;
+
+* u099c_u09cd_u099e.akhn: L&lt;&lt;664.0,313.0&gt;--&lt;664.0,246.0&gt;&gt; -&gt; L&lt;&lt;664.0,246.0&gt;--&lt;664.0,136.0&gt;&gt;
+
+* u099c_u09cd_u099e_u09cd.haln: L&lt;&lt;664.0,313.0&gt;--&lt;664.0,246.0&gt;&gt; -&gt; L&lt;&lt;664.0,246.0&gt;--&lt;664.0,136.0&gt;&gt;
+
+* u099f_u0981.abvs: L&lt;&lt;295.0,412.0&gt;--&lt;329.0,386.0&gt;&gt; -&gt; L&lt;&lt;329.0,386.0&gt;--&lt;341.0,375.0&gt;&gt;
+
+* u099f_u09cd_u09ae.cjct: L&lt;&lt;395.0,780.0&gt;--&lt;267.0,795.0&gt;&gt; -&gt; L&lt;&lt;267.0,795.0&gt;--&lt;226.0,803.0&gt;&gt;
+
+* u099f_u09cd_u09ae.cjct: L&lt;&lt;569.0,609.0&gt;--&lt;569.0,526.0&gt;&gt; -&gt; L&lt;&lt;569.0,526.0&gt;--&lt;569.0,464.0&gt;&gt;
+
+* u09a2 (U+09A2): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;208.0,741.0&gt;&gt;
+
+* u09a2_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;208.0,741.0&gt;&gt;
+
+* u09a2_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;208.0,741.0&gt;&gt;
+
+* u09a5_u09cd_u09ac.cjct: L&lt;&lt;372.0,-23.0&gt;--&lt;372.0,275.0&gt;&gt; -&gt; L&lt;&lt;372.0,275.0&gt;--&lt;372.0,287.0&gt;&gt;
+
+* u09a5_u09cd_u09ac.cjct: L&lt;&lt;372.0,275.0&gt;--&lt;372.0,287.0&gt;&gt; -&gt; L&lt;&lt;372.0,287.0&gt;--&lt;372.0,633.0&gt;&gt;
+
+* u09a8_u09cd_u09a7.cjct: L&lt;&lt;372.0,343.0&gt;--&lt;372.0,425.0&gt;&gt; -&gt; L&lt;&lt;372.0,425.0&gt;--&lt;372.0,610.0&gt;&gt;
+
+* u09a8_u09cd_u09a7_u09b0.vatu: L&lt;&lt;372.0,343.0&gt;--&lt;372.0,425.0&gt;&gt; -&gt; L&lt;&lt;372.0,425.0&gt;--&lt;372.0,610.0&gt;&gt;
+
+* u09ac_u09cd.blwf: L&lt;&lt;-60.0,65.0&gt;--&lt;-82.0,65.0&gt;&gt; -&gt; L&lt;&lt;-82.0,65.0&gt;--&lt;-103.0,65.0&gt;&gt;
+
+* u09b6 (U+09B6): L&lt;&lt;908.0,815.0&gt;--&lt;907.0,815.0&gt;&gt; -&gt; L&lt;&lt;907.0,815.0&gt;--&lt;515.0,815.0&gt;&gt;
+
+* u09b6_u09b0_u09cd.blwf.vatu: L&lt;&lt;908.0,815.0&gt;--&lt;907.0,815.0&gt;&gt; -&gt; L&lt;&lt;907.0,815.0&gt;--&lt;515.0,815.0&gt;&gt;
+
+* u09b6_u09cd.haln: L&lt;&lt;908.0,815.0&gt;--&lt;907.0,815.0&gt;&gt; -&gt; L&lt;&lt;907.0,815.0&gt;--&lt;515.0,815.0&gt;&gt;
+
+* u09b7_u09cd_u0995.cjct: L&lt;&lt;339.0,610.0&gt;--&lt;352.0,610.0&gt;&gt; -&gt; L&lt;&lt;352.0,610.0&gt;--&lt;361.0,610.0&gt;&gt;
+
+* u09b7_u09cd_u0995.cjct: L&lt;&lt;352.0,610.0&gt;--&lt;361.0,610.0&gt;&gt; -&gt; L&lt;&lt;361.0,610.0&gt;--&lt;514.0,610.0&gt;&gt;
+
+* u09b7_u09cd_u0995.cjct: L&lt;&lt;392.0,673.0&gt;--&lt;361.0,673.0&gt;&gt; -&gt; L&lt;&lt;361.0,673.0&gt;--&lt;-7.0,673.0&gt;&gt;
+
+* u09b7_u09cd_u0995.cjct: L&lt;&lt;514.0,673.0&gt;--&lt;392.0,673.0&gt;&gt; -&gt; L&lt;&lt;392.0,673.0&gt;--&lt;361.0,673.0&gt;&gt;
+
+* u09b8 (U+09B8): L&lt;&lt;-79.0,741.0&gt;--&lt;8.0,741.0&gt;&gt; -&gt; L&lt;&lt;8.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;
+
+* u09b8 (U+09B8): L&lt;&lt;481.0,741.0&gt;--&lt;481.0,690.0&gt;&gt; -&gt; L&lt;&lt;481.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
+
+* u09b8_u09b0_u09cd.blwf.vatu: L&lt;&lt;-79.0,741.0&gt;--&lt;8.0,741.0&gt;&gt; -&gt; L&lt;&lt;8.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;
+
+* u09b8_u09b0_u09cd.blwf.vatu: L&lt;&lt;481.0,741.0&gt;--&lt;481.0,690.0&gt;&gt; -&gt; L&lt;&lt;481.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
+
+* u09b8_u09b0_u09cd.blwf.vatu: L&lt;&lt;763.0,149.0&gt;--&lt;763.0,149.0&gt;&gt; -&gt; L&lt;&lt;763.0,149.0&gt;--&lt;763.0,149.0&gt;&gt;
+
+* u09b8_u09cd.haln: L&lt;&lt;-79.0,741.0&gt;--&lt;8.0,741.0&gt;&gt; -&gt; L&lt;&lt;8.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;
+
+* u09b8_u09cd.haln: L&lt;&lt;481.0,741.0&gt;--&lt;481.0,690.0&gt;&gt; -&gt; L&lt;&lt;481.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
+
+* u09b8_u09cd_u09aa_u09b0.vatu: L&lt;&lt;1020.0,68.0&gt;--&lt;1020.0,227.0&gt;&gt; -&gt; L&lt;&lt;1020.0,227.0&gt;--&lt;1020.0,612.0&gt;&gt;
+
+* u09b8_u09cd_u09aa_u09b0.vatu: L&lt;&lt;958.0,331.0&gt;--&lt;958.0,197.0&gt;&gt; -&gt; L&lt;&lt;958.0,197.0&gt;--&lt;958.0,117.0&gt;&gt;
+
+* u09b9 (U+09B9): L&lt;&lt;228.0,638.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;188.0,528.0&gt;&gt;
+
+* u09b9_u09b0_u09cd.blwf.vatu: L&lt;&lt;228.0,638.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;188.0,528.0&gt;&gt;
+
+* u09b9_u09cd.haln: L&lt;&lt;228.0,638.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;188.0,528.0&gt;&gt;
+
+* u09b9_u09cd_u09ac.cjct: L&lt;&lt;389.0,333.0&gt;--&lt;390.0,332.0&gt;&gt; -&gt; L&lt;&lt;390.0,332.0&gt;--&lt;701.0,49.0&gt;&gt;
+
+* u09bd (U+09BD): L&lt;&lt;314.0,711.0&gt;--&lt;294.0,661.0&gt;&gt; -&gt; L&lt;&lt;294.0,661.0&gt;--&lt;270.0,587.0&gt;&gt;
+
+* u09c0_u0981.abvs: L&lt;&lt;-48.0,1004.0&gt;--&lt;-48.0,1005.0&gt;&gt; -&gt; L&lt;&lt;-48.0,1005.0&gt;--&lt;-48.0,1010.0&gt;&gt;
+
+* u09c8 (U+09C8): L&lt;&lt;-74.0,741.0&gt;--&lt;74.0,741.0&gt;&gt; -&gt; L&lt;&lt;74.0,741.0&gt;--&lt;90.0,741.0&gt;&gt;
+
+* u09f0 (U+09F0): L&lt;&lt;573.0,740.0&gt;--&lt;573.0,612.0&gt;&gt; -&gt; L&lt;&lt;573.0,612.0&gt;--&lt;573.0,562.0&gt;&gt;
+
+* u09f1 (U+09F1): L&lt;&lt;711.0,740.0&gt;--&lt;711.0,629.0&gt;&gt; -&gt; L&lt;&lt;711.0,629.0&gt;--&lt;711.0,579.0&gt;&gt;
+
+* uni0145 (U+0145): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
+
+* uni09E0 (U+09E0): L&lt;&lt;1058.0,745.0&gt;--&lt;1058.0,618.0&gt;&gt; -&gt; L&lt;&lt;1058.0,618.0&gt;--&lt;1058.0,568.0&gt;&gt;
+
+* uni09ED (U+09ED): L&lt;&lt;607.0,212.0&gt;--&lt;607.0,251.0&gt;&gt; -&gt; L&lt;&lt;607.0,251.0&gt;--&lt;607.0,706.0&gt;&gt;
+
+* uni09F8 (U+09F8): L&lt;&lt;97.0,282.0&gt;--&lt;155.0,282.0&gt;&gt; -&gt; L&lt;&lt;155.0,282.0&gt;--&lt;275.0,282.0&gt;&gt;
+
+* uni09FE (U+09FE): L&lt;&lt;-224.0,879.0&gt;--&lt;-236.0,850.0&gt;&gt; -&gt; L&lt;&lt;-236.0,850.0&gt;--&lt;-250.0,807.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
     <div>
 
@@ -660,8 +810,6 @@ equal</p>
 * K (U+004B): L&lt;&lt;298.0,216.0&gt;--&lt;298.0,281.0&gt;&gt;/B&lt;&lt;298.0,281.0&gt;-&lt;311.0,229.0&gt;-&lt;350.0,186.0&gt;&gt; = 14.036243467926457
 
 * K (U+004B): L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt;/B&lt;&lt;298.0,535.0&gt;-&lt;308.0,494.0&gt;-&lt;330.0,458.0&gt;&gt; = 13.706961004079783
-
-* K (U+004B): L&lt;&lt;301.0,402.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt; = 14.036243467926484
 
 * euro (U+20AC): L&lt;&lt;188.0,386.0&gt;--&lt;193.0,394.0&gt;&gt;/B&lt;&lt;193.0,394.0&gt;-&lt;176.0,354.0&gt;-&lt;176.0,330.0&gt;&gt; = 8.979891199555468
 
@@ -710,8 +858,6 @@ equal</p>
 * uni0136 (U+0136): L&lt;&lt;298.0,216.0&gt;--&lt;298.0,281.0&gt;&gt;/B&lt;&lt;298.0,281.0&gt;-&lt;311.0,229.0&gt;-&lt;350.0,186.0&gt;&gt; = 14.036243467926457
 
 * uni0136 (U+0136): L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt;/B&lt;&lt;298.0,535.0&gt;-&lt;308.0,494.0&gt;-&lt;330.0,458.0&gt;&gt; = 13.706961004079783
-
-* uni0136 (U+0136): L&lt;&lt;301.0,402.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt; = 14.036243467926484
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -3213,12 +3359,12 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, tai-le, malayalam, old-permic, syriac, coptic, math</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, old-permic, syriac, math, canadian-aboriginal, malayalam, coptic, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
@@ -3228,11 +3374,33 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, tifinagh, syriac, caucasian-albanian</li>
 <li>U+09CF : not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>bengali</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- J + acutecomb
+
+- j + acutecomb
+</code></pre>
+ [code: lacks-kern-info]
 
 
 
@@ -3304,8 +3472,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 14 | 118 | 7 | 113 | 0 | 
-| 0% | 0% | 0% | 6% | 47% | 3% | 45% | 0% | 
+| 0 | 0 | 0 | 15 | 117 | 7 | 113 | 0 | 
+| 0% | 0% | 0% | 6% | 46% | 3% | 45% | 0% | 
 
 
 
