@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09b0_u09cd.blwf" format="2">
   <advance width="0"/>
-  <anchor x="-75" y="45" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="-110" y="38" type="curve"/>
@@ -29,20 +28,4 @@
       <point x="-131" y="-28"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-297</integer>
-            <key>width</key>
-            <integer>68</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

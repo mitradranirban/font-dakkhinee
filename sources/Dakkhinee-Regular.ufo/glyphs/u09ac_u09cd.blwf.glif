@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09ac_u09cd.blwf" format="2">
   <advance width="0"/>
-  <anchor x="-80" y="74" name="_Anchor-1"/>
   <outline>
     <contour>
-      <point x="-103" y="64" type="line"/>
+      <point x="-103" y="65" type="line"/>
       <point x="-82" y="65" type="line"/>
       <point x="-60" y="65" type="line"/>
       <point x="-60" y="-157" type="line" smooth="yes"/>
@@ -60,47 +59,4 @@
       <point x="-234" y="-157"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-213</integer>
-            <key>width</key>
-            <integer>33</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-196</integer>
-            <key>width</key>
-            <integer>39</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>10</integer>
-            <key>width</key>
-            <integer>39</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-318</integer>
-            <key>width</key>
-            <integer>39</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>-103</integer>
-            <key>width</key>
-            <integer>43</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

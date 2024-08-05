@@ -38,10 +38,10 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[15] Dakkhinee-Regular.ttf</summary>
+<details><summary>[12] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
     <div>
 
 
@@ -50,9 +50,9 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-u09cd (U+09CD)</p>
- [code: spacing-mark-glyphs]
+* ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), dotbelowcomb (U+0323), gravecomb (U+0300), hookabovecomb (U+0309), tildecomb (U+0303), u0981 (U+0981), u09bc (U+09BC), u09c1 (U+09C1), u09c2 (U+09C2), u09c3 (U+09C3), u09c4 (U+09C4), u09cd (U+09CD), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni030F (U+030F), uni0311 (U+0311), uni0312 (U+0312), uni031B (U+031B), uni0324 (U+0324), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), uni032E (U+032E), uni0331 (U+0331), uni09E2 (U+09E2), uni09E3 (U+09E3) and uni09FE (U+09FE)</p>
+ [code: mark-chars]
 
 
 
@@ -124,9 +124,7 @@ u09cd (U+09CD)</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni0000	Contours detected: 5	Expected: 0
-
-- Glyph name: C	Contours detected: 2	Expected: 1
+<pre><code>- Glyph name: C	Contours detected: 2	Expected: 1
 
 - Glyph name: D	Contours detected: 1	Expected: 2
 
@@ -451,14 +449,10 @@ u09cd (U+09CD)</p>
 
 
 
-* ⚠️ **WARN** <p>The most common width is 661 among a set of 5 math glyphs.
+* ⚠️ **WARN** <p>The most common width is 661 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 798:
 equal</p>
-<p>Width = 620:
-logicalnot</p>
-<p>Width = 391:
-minus</p>
  [code: width-outliers]
 
 
@@ -477,7 +471,9 @@ minus</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- NameMe.65963
+<pre><code>- Jacute
+
+- NameMe.65963
 
 - NameMe.65964
 
@@ -490,6 +486,14 @@ minus</p>
 - NameMe.65968
 
 - NameMe.65969
+
+- Ra_yaphala
+
+- bn_ka_ssa.akhn_bn_raphala.vatu
+
+- bn_ka_ssa.akhn_u09cd_u09a3.cjct
+
+- bn_ka_ssa.akhn_u09cd_u09ae.cjct
 
 - glyph219
 
@@ -540,6 +544,8 @@ minus</p>
 - glyph500
 
 - glyph501
+
+- glyph509
 
 - glyph513
 
@@ -609,206 +615,681 @@ minus</p>
 
 - glyph547
 
+- jacute
+
 - janya_u09b0_u09cd.blwf.vatu
+
+- kassa_u09cd.half
 
 - u0981.salt
 
+- u0987_u0981.abvs
+
+- u0988_u0981.abvs
+
+- u098a_u0981.abvs
+
+- u0995_alt
+
+- u0995_u09b0_u09cd.blwf.vatu
+
+- u0995_u09cd.half
+
+- u0995_u09cd.haln
+
+- u0995_u09cd_u0995.cjct
+
+- u0995_u09cd_u099f.cjct
+
+- u0995_u09cd_u099f_u09b0.vatu
+
+- u0995_u09cd_u09a4.cjct
+
+- u0995_u09cd_u09a4.salt
+
+- u0995_u09cd_u09a8.cjct
+
+- u0995_u09cd_u09ac.cjct
+
+- u0995_u09cd_u09ae.cjct
+
+- u0995_u09cd_u09b0.salt
+
+- u0995_u09cd_u09b2.cjct
+
+- u0995_u09cd_u09b7.akhn
+
+- u0995_u09cd_u09b8.cjct
+
+- u0996_u09b0_u09cd.blwf.vatu
+
+- u0996_u09cd.half
+
+- u0996_u09cd.haln
+
+- u0996_u09cd.hln
+
+- u0997_alt
+
+- u0997_u09b0_u09cd.blwf.vatu
+
+- u0997_u09cd.half
+
+- u0997_u09cd_u0997.cjct
+
+- u0997_u09cd_u09a4.cjct
+
+- u0997_u09cd_u09a6.cjct
+
+- u0997_u09cd_u09a7.cjct
+
+- u0997_u09cd_u09a8.cjct
+
+- u0997_u09cd_u09ac.cjct
+
+- u0997_u09cd_u09ae.cjct
+
+- u0997_u09cd_u09b2.cjct
+
+- u0998_u09b0_u09cd.blwf.vatu
+
+- u0998_u09cd.half
+
+- u0998_u09cd.haln
+
+- u0998_u09cd_u09a8.cjct
+
+- u0999_u0981.abvs
+
+- u0999_u09b0_u09cd.blwf.vatu
+
+- u0999_u09cd.half
+
+- u0999_u09cd.haln
+
+- u0999_u09cd_u0995.cjct
+
+- u0999_u09cd_u0995.salt
+
+- u0999_u09cd_u0995_u09b7.cjct
+
+- u0999_u09cd_u0996.cjct
+
+- u0999_u09cd_u0997.cjct
+
+- u0999_u09cd_u0997.salt
+
+- u0999_u09cd_u0998.cjct
+
+- u0999_u09cd_u09ae.cjct
+
+- u099a_u09b0_u09cd.blwf.vatu
+
+- u099a_u09cd.half
+
+- u099a_u09cd.haln
+
+- u099a_u09cd_u099a.cjct
+
+- u099a_u09cd_u099b.cjct
+
+- u099a_u09cd_u099b_u09ac.cjct
+
+- u099a_u09cd_u099b_u09b0.vatu
+
+- u099a_u09cd_u099e.cjct
+
+- u099b_u09b0_u09cd.blwf.vatu
+
+- u099b_u09cd.half
+
+- u099b_u09cd.haln
+
+- u099b_u09cd_u09ac.cjct
+
+- u099c_u09b0_u09cd.blwf.vatu
+
+- u099c_u09cd.half
+
+- u099c_u09cd.haln
+
+- u099c_u09cd_u099c.cjct
+
+- u099c_u09cd_u099c_u09ac
+
+- u099c_u09cd_u099d.cjct
+
+- u099c_u09cd_u099e.akhn
+
+- u099c_u09cd_u099e_u09cd.haln
+
+- u099c_u09cd_u09ac.cjct
+
+- u099d_u09b0_u09cd.blwf.vatu
+
+- u099d_u09cd.half
+
+- u099d_u09cd.haln
+
+- u099e_u09b0_u09cd.blwf.vatu
+
+- u099e_u09cd.half
+
+- u099e_u09cd.haln
+
+- u099e_u09cd_u099a.cjct
+
+- u099e_u09cd_u099a.salt
+
+- u099e_u09cd_u099b.cjct
+
+- u099e_u09cd_u099c.cjct
+
+- u099e_u09cd_u099d.pres
+
+- u099f_u0981.abvs
+
+- u099f_u09b0_u09cd.blwf.vatu
+
+- u099f_u09cd.half
+
+- u099f_u09cd.haln
+
+- u099f_u09cd_u099f.cjct
+
+- u099f_u09cd_u09ac.cjct
+
+- u099f_u09cd_u09ae.cjct
+
+- u09a0_u0981.abvs
+
+- u09a0_u09b0_u09cd.blwf.vatu
+
+- u09a0_u09cd.half
+
 - u09a0_u09cd.haln
+
+- u09a1_u09b0_u09cd.blwf.vatu
+
+- u09a1_u09cd.half
+
+- u09a1_u09cd.haln
+
+- u09a1_u09cd_09b2.cjct
+
+- u09a1_u09cd_u09a1.cjct
+
+- u09a1_u09cd_u09ae.cjct
+
+- u09a2_u09b0_u09cd.blwf.vatu
+
+- u09a2_u09cd.half
+
+- u09a2_u09cd.haln
+
+- u09a3_u09b0_u09cd.blwf.vatu
+
+- u09a3_u09cd.half
+
+- u09a3_u09cd.haln
+
+- u09a3_u09cd_u099f.cjct
+
+- u09a3_u09cd_u09a0.cjct
+
+- u09a3_u09cd_u09a1.cjct
+
+- u09a3_u09cd_u09a1_u09b0.vatu
+
+- u09a3_u09cd_u09a2.cjct
+
+- u09a3_u09cd_u09a3.cjct
+
+- u09a3_u09cd_u09ac.cjct
+
+- u09a3_u09cd_u09ae.cjct
+
+- u09a4_alt
+
+- u09a4_u09b0_u09cd.blwf.vatu
+
+- u09a4_u09b0_u09cd.vatu.salt
+
+- u09a4_u09cd.half
+
+- u09a4_u09cd.haln
+
+- u09a4_u09cd_u09a4.cjct
+
+- u09a4_u09cd_u09a4_u09ac.cjct
 
 - u09a4_u09cd_u09a4_u09b0
 
+- u09a4_u09cd_u09a5.cjct
+
+- u09a4_u09cd_u09a8.cjct
+
+- u09a4_u09cd_u09ac.cjct
+
+- u09a4_u09cd_u09ae.cjct
+
+- u09a5_alt
+
+- u09a5_u09b0_u09cd.blwf.vatu
+
+- u09a5_u09cd.half
+
+- u09a5_u09cd.haln
+
+- u09a5_u09cd_u09ac.cjct
+
+- u09a6_u09b0_u09cd.blwf.vatu
+
+- u09a6_u09cd.half
+
+- u09a6_u09cd.haln
+
+- u09a6_u09cd_u0997.cjct
+
+- u09a6_u09cd_u0998.cjct
+
+- u09a6_u09cd_u09a6.cjct
+
+- u09a6_u09cd_u09a6_u09ac.cjct
+
+- u09a6_u09cd_u09a7.cjct
+
+- u09a6_u09cd_u09a7_u09ac.cjct
+
+- u09a6_u09cd_u09a8.cjct
+
+- u09a6_u09cd_u09ac.cjct
+
+- u09a6_u09cd_u09ad.cjct
+
+- u09a6_u09cd_u09ad_u09b0.vatu
+
+- u09a6_u09cd_u09ae.cjct
+
+- u09a7_alt
+
+- u09a7_u09b0_u09cd.blwf.vatu
+
+- u09a7_u09cd.half
+
+- u09a7_u09cd.haln
+
+- u09a7_u09cd_u09a8.cjct
+
+- u09a7_u09cd_u09ac.cjct
+
+- u09a7_u09cd_u09ae.cjct
+
+- u09a8_alt
+
+- u09a8_u09b0_u09cd.blwf.vatu
+
+- u09a8_u09cd._u09a4.cjct
+
+- u09a8_u09cd.half
+
+- u09a8_u09cd.haln
+
+- u09a8_u09cd_u0995.cjct
+
+- u09a8_u09cd_u0995_u09b0.cjct
+
+- u09a8_u09cd_u099a.cjct
+
+- u09a8_u09cd_u099f.cjct
+
+- u09a8_u09cd_u099f_u09b0.vatu
+
+- u09a8_u09cd_u09a0.cjct
+
+- u09a8_u09cd_u09a0_u09b0.vatu
+
+- u09a8_u09cd_u09a1.cjct
+
+- u09a8_u09cd_u09a1_u09b0.cjct
+
+- u09a8_u09cd_u09a4_u09ac.blws
+
+- u09a8_u09cd_u09a4_u09b0.vatu
+
+- u09a8_u09cd_u09a4_u09c1.blws
+
+- u09a8_u09cd_u09a5.cjct
+
+- u09a8_u09cd_u09a6.cjct
+
+- u09a8_u09cd_u09a6_u09ac.cjct
+
+- u09a8_u09cd_u09a6_u09b0.vatu
+
+- u09a8_u09cd_u09a7.cjct
+
+- u09a8_u09cd_u09a7_u09b0.vatu
+
+- u09a8_u09cd_u09a8.cjct
+
+- u09a8_u09cd_u09ac.cjct
+
+- u09a8_u09cd_u09ae.cjct
+
+- u09a8_u09cd_u09b8.cjct
+
+- u09aa_alt
+
+- u09aa_u09b0_u09cd.blwf.vatu
+
+- u09aa_u09cd.half
+
+- u09aa_u09cd.haln
+
+- u09aa_u09cd_u099f.cjct
+
+- u09aa_u09cd_u09a4.cjct
+
+- u09aa_u09cd_u09a4_u09b0.vatu
+
+- u09aa_u09cd_u09a8.cjct
+
+- u09aa_u09cd_u09aa.cjct
+
+- u09aa_u09cd_u09ac.cjct
+
+- u09aa_u09cd_u09ae.cjct
+
+- u09aa_u09cd_u09b2.cjct
+
+- u09aa_u09cd_u09b8.cjct
+
+- u09ab_u09b0_u09cd.blwf.vatu
+
+- u09ab_u09cd.half
+
+- u09ab_u09cd.haln
+
+- u09ab_u09cd_u09b2.cjct
+
+- u09ac_u09b0_u09cd.blwf.vatu
+
 - u09ac_u09cd.blwf
+
+- u09ac_u09cd.half
+
+- u09ac_u09cd.haln
+
+- u09ac_u09cd_u099c.cjct
+
+- u09ac_u09cd_u09a6.cjct
+
+- u09ac_u09cd_u09a6_u09b0.vatu
+
+- u09ac_u09cd_u09a7.cjct
+
+- u09ac_u09cd_u09a8.cjct
+
+- u09ac_u09cd_u09ac.cjct
+
+- u09ac_u09cd_u09ad.cjct
+
+- u09ac_u09cd_u09b2.cjct
+
+- u09ad_alt
+
+- u09ad_u09b0_u09cd.blwf.vatu
+
+- u09ad_u09cd.half
+
+- u09ad_u09cd.haln
+
+- u09ae_alt
+
+- u09ae_u09b0_u09cd.blwf.vatu
+
+- u09ae_u09cd.half
+
+- u09ae_u09cd.haln
+
+- u09ae_u09cd_u09a4.cjct
+
+- u09ae_u09cd_u09a4_u09b0.vatu
+
+- u09ae_u09cd_u09a6.cjct
+
+- u09ae_u09cd_u09a8.cjct
+
+- u09ae_u09cd_u09aa.cjct
+
+- u09ae_u09cd_u09aa_u09b0.vatu
+
+- u09ae_u09cd_u09ab.cjct
+
+- u09ae_u09cd_u09ac.cjct
+
+- u09ae_u09cd_u09ad.09b0_u09cd
+
+- u09ae_u09cd_u09ad.cjct
+
+- u09ae_u09cd_u09ae.cjct
+
+- u09ae_u09cd_u09b2.cjct
+
+- u09ae_u09cd_u09b9.cjct
+
+- u09af_u09b0_u09cd.blwf.vatu
+
+- u09af_u09cd.half
+
+- u09af_u09cd.haln
+
+- u09af_u09cd.pstf
+
+- u09b0_u09b0_u09cd.blwf.vatu
+
+- u09b0_u09cd.blwf
+
+- u09b0_u09cd.half
+
+- u09b0_u09cd.haln
+
+- u09b0_u09cd.rphf
+
+- u09b2_alt
+
+- u09b2_u09b0_u09cd.blwf.vatu
+
+- u09b2_u09cd._u0997.cjct
+
+- u09b2_u09cd.half
 
 - u09b2_u09cd.haln
 
+- u09b2_u09cd_u0995.cjct
+
+- u09b2_u09cd_u099f.cjct
+
+- u09b2_u09cd_u09a1.cjct
+
+- u09b2_u09cd_u09a4.cjct
+
+- u09b2_u09cd_u09a7.cjct
+
+- u09b2_u09cd_u09aa.cjct
+
+- u09b2_u09cd_u09ab.cjct
+
+- u09b2_u09cd_u09ac.cjct
+
+- u09b2_u09cd_u09ad.cjct
+
+- u09b2_u09cd_u09ae.cjct
+
+- u09b2_u09cd_u09b2.cjct
+
+- u09b6_u09b0_u09cd.blwf.vatu
+
+- u09b6_u09cd.half
+
+- u09b6_u09cd.haln
+
+- u09b6_u09cd_u099a.cjct
+
+- u09b6_u09cd_u099b.cjct
+
+- u09b6_u09cd_u09a4.cjct
+
+- u09b6_u09cd_u09a8.cjct
+
+- u09b6_u09cd_u09ac.cjct
+
+- u09b6_u09cd_u09ae.cjct
+
+- u09b6_u09cd_u09b2.cjct
+
+- u09b7_u09b0_u09cd.blwf.vatu
+
+- u09b7_u09cd._u09aa.cjct
+
+- u09b7_u09cd.half
+
+- u09b7_u09cd.haln
+
+- u09b7_u09cd_u0995.cjct
+
+- u09b7_u09cd_u0995_u09b0.vatu
+
+- u09b7_u09cd_u0996.cjct
+
+- u09b7_u09cd_u099f.cjct
+
+- u09b7_u09cd_u099f_u09b0.vatu
+
+- u09b7_u09cd_u09a0.cjct
+
+- u09b7_u09cd_u09a3.cjct
+
+- u09b7_u09cd_u09aa_u09b0.cjct
+
+- u09b7_u09cd_u09ab.cjct
+
+- u09b7_u09cd_u09ac.cjct
+
+- u09b7_u09cd_u09ae.cjct
+
+- u09b8_u09b0_u09cd.blwf.vatu
+
+- u09b8_u09cd.half
+
+- u09b8_u09cd.haln
+
+- u09b8_u09cd.u099f_u09b0.vatu
+
+- u09b8_u09cd_u0995.cjct
+
+- u09b8_u09cd_u0995_u09b0.salt
+
+- u09b8_u09cd_u0995_u09b0.vatu
+
+- u09b8_u09cd_u0996.cjct
+
+- u09b8_u09cd_u099f.cjct
+
+- u09b8_u09cd_u09a4.cjct
+
+- u09b8_u09cd_u09a4_u09b0.salt
+
+- u09b8_u09cd_u09a4_u09b0.vatu
+
+- u09b8_u09cd_u09a4_u09c1.blws
+
+- u09b8_u09cd_u09a5.cjct
+
+- u09b8_u09cd_u09a8.cjct
+
+- u09b8_u09cd_u09aa.cjct
+
+- u09b8_u09cd_u09aa_u09b0.vatu
+
+- u09b8_u09cd_u09ab.cjct
+
+- u09b8_u09cd_u09ac.cjct
+
+- u09b8_u09cd_u09ae.cjct
+
+- u09b8_u09cd_u09b2.cjct
+
+- u09b9_u09b0_u09cd.blwf.vatu
+
+- u09b9_u09cd.half
+
+- u09b9_u09cd.haln
+
+- u09b9_u09cd_u09a3.cjct
+
+- u09b9_u09cd_u09a8.cjct
+
+- u09b9_u09cd_u09ac.cjct
+
+- u09b9_u09cd_u09ae.cjct
+
+- u09b9_u09cd_u09ae.salt
+
+- u09b9_u09cd_u09b2.cjct
+
+- u09be_u0981.abvs
+
+- u09be_u09b0_u09cd.rphf.abvs
+
 - u09bf.salt
 
+- u09bf_u0981.abvs
+
 - u09c0.salt
+
+- u09c0_u0981.abvs
+
+- u09c0_u09b0_u09cd.rphf.abvs
 
 - u09c7.init
 
 - u09c8.init
+
+- u09d7_u0981.abvs
+
+- u09d7_u09b0_u09cd.rphf.abvs
+
+- u09dc_u09cd.half
+
+- u09dc_u09cd.haln
+
+- u09dc_u09cd_u0997.cjct
+
+- u09dd_u09cd.half
+
+- u09dd_u09cd.haln
+
+- u09df_u09cd.half
+
+- u09e7_slash_u09e8.afrc
+
+- u09e7_slash_u09e9.afrc
+
+- u09e7_slash_u09ea.afrc
+
+- u09e7_slash_u09ee.afrc
+
+- u09e8_slash_u09e9.afrc
+
+- u09e9_slash_u09ea.afrc
+
+- u09f0_u09c1.blws
+
+- u09f0_u09c2.blws
 </code></pre>
  [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-characters length limit:
-u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, u09a4_u09b0_u09cd.blwf.vatu_u09c2.blws, u09a5_u09b0_u09cd.blwf.vatu_u09c1.blws, u09a5_u09b0_u09cd.blwf.vatu_u09c2.blws, u09a6_u09b0_u09cd.blwf.vatu_u09c1.blws, u09a6_u09b0_u09cd.blwf.vatu_u09c2.blws, u09a7_u09b0_u09cd.blwf.vatu_u09c1.blws, u09a7_u09b0_u09cd.blwf.vatu_u09c2.blws, u09aa_u09b0_u09cd.blwf.vatu_u09c1.blws, u09aa_u09b0_u09cd.blwf.vatu_u09c2.blws, u09ac_u09b0_u09cd.blwf.vatu_u09c1.blws, u09ac_u09b0_u09cd.blwf.vatu_u09c2.blws, u09ad_u09b0_u09cd.blwf.vatu_u09c1.blws, u09ad_u09b0_u09cd.blwf.vatu_u09c2.blws, u09b6_u09b0_u09cd.blwf.vatu_u09c1.blws and u09b6_u09b0_u09cd.blwf.vatu_u09c2.blws</p>
- [code: legacy-long-names]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;695.0,822.0&gt;--&lt;580.0,822.0&gt;&gt; -&gt; L&lt;&lt;580.0,822.0&gt;--&lt;0.0,822.0&gt;&gt;
-
-* N (U+004E): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
-
-* Nacute (U+0143): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
-
-* NameMe.65965: L&lt;&lt;0.0,181.0&gt;--&lt;0.0,98.0&gt;&gt; -&gt; L&lt;&lt;0.0,98.0&gt;--&lt;0.0,15.0&gt;&gt;
-
-* NameMe.65966: L&lt;&lt;123.0,474.0&gt;--&lt;191.0,474.0&gt;&gt; -&gt; L&lt;&lt;191.0,474.0&gt;--&lt;367.0,474.0&gt;&gt;
-
-* Ncaron (U+0147): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
-
-* Ntilde (U+00D1): L&lt;&lt;596.0,698.0&gt;--&lt;648.0,725.0&gt;&gt; -&gt; L&lt;&lt;648.0,725.0&gt;--&lt;749.0,767.0&gt;&gt;
-
-* ae (U+00E6): L&lt;&lt;417.0,513.0&gt;--&lt;348.0,513.0&gt;&gt; -&gt; L&lt;&lt;348.0,513.0&gt;--&lt;0.0,513.0&gt;&gt;
-
-* d (U+0064): L&lt;&lt;44.0,432.0&gt;--&lt;44.0,82.0&gt;&gt; -&gt; L&lt;&lt;44.0,82.0&gt;--&lt;44.0,22.0&gt;&gt;
-
-* u0980 (U+0980): L&lt;&lt;216.0,282.0&gt;--&lt;297.0,282.0&gt;&gt; -&gt; L&lt;&lt;297.0,282.0&gt;--&lt;319.0,282.0&gt;&gt;
-
-* u0987 (U+0987): L&lt;&lt;318.0,629.0&gt;--&lt;298.0,584.0&gt;&gt; -&gt; L&lt;&lt;298.0,584.0&gt;--&lt;274.0,517.0&gt;&gt;
-
-* u0987 (U+0987): L&lt;&lt;389.0,821.0&gt;--&lt;332.0,821.0&gt;&gt; -&gt; L&lt;&lt;332.0,821.0&gt;--&lt;299.0,821.0&gt;&gt;
-
-* u0988 (U+0988): L&lt;&lt;1214.0,124.0&gt;--&lt;1214.0,207.0&gt;&gt; -&gt; L&lt;&lt;1214.0,207.0&gt;--&lt;1214.0,290.0&gt;&gt;
-
-* u0988 (U+0988): L&lt;&lt;318.0,605.0&gt;--&lt;298.0,552.0&gt;&gt; -&gt; L&lt;&lt;298.0,552.0&gt;--&lt;274.0,478.0&gt;&gt;
-
-* u0988 (U+0988): L&lt;&lt;789.0,827.0&gt;--&lt;732.0,827.0&gt;&gt; -&gt; L&lt;&lt;732.0,827.0&gt;--&lt;699.0,827.0&gt;&gt;
-
-* u098b (U+098B): L&lt;&lt;946.0,773.0&gt;--&lt;946.0,633.0&gt;&gt; -&gt; L&lt;&lt;946.0,633.0&gt;--&lt;946.0,578.0&gt;&gt;
-
-* u0995 (U+0995): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;563.0,741.0&gt;&gt;
-
-* u0995_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;563.0,741.0&gt;&gt;
-
-* u0995_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;563.0,741.0&gt;&gt;
-
-* u0997_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;725.0,157.0&gt;--&lt;725.0,310.0&gt;&gt; -&gt; L&lt;&lt;725.0,310.0&gt;--&lt;725.0,315.0&gt;&gt;
-
-* u0997_u09cd_u09a6.cjct: L&lt;&lt;421.0,611.0&gt;--&lt;504.0,611.0&gt;&gt; -&gt; L&lt;&lt;504.0,611.0&gt;--&lt;553.0,611.0&gt;&gt;
-
-* u0997_u09cd_u09a7.cjct: L&lt;&lt;521.0,190.0&gt;--&lt;521.0,326.0&gt;&gt; -&gt; L&lt;&lt;521.0,326.0&gt;--&lt;521.0,352.0&gt;&gt;
-
-* u0998 (U+0998): L&lt;&lt;0.0,741.0&gt;--&lt;10.0,741.0&gt;&gt; -&gt; L&lt;&lt;10.0,741.0&gt;--&lt;92.0,741.0&gt;&gt;
-
-* u0998_u09b0_u09cd.blwf.vatu: L&lt;&lt;0.0,741.0&gt;--&lt;10.0,741.0&gt;&gt; -&gt; L&lt;&lt;10.0,741.0&gt;--&lt;92.0,741.0&gt;&gt;
-
-* u0998_u09cd.haln: L&lt;&lt;91.0,729.0&gt;--&lt;101.0,729.0&gt;&gt; -&gt; L&lt;&lt;101.0,729.0&gt;--&lt;183.0,729.0&gt;&gt;
-
-* u099b (U+099B): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;142.0,741.0&gt;&gt;
-
-* u099b_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;142.0,741.0&gt;&gt;
-
-* u099b_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;142.0,741.0&gt;&gt;
-
-* u099c (U+099C): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;293.0,741.0&gt;&gt;
-
-* u099c_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;293.0,741.0&gt;&gt;
-
-* u099c_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;293.0,741.0&gt;&gt;
-
-* u099c_u09cd_u099e.akhn: L&lt;&lt;664.0,313.0&gt;--&lt;664.0,246.0&gt;&gt; -&gt; L&lt;&lt;664.0,246.0&gt;--&lt;664.0,136.0&gt;&gt;
-
-* u099c_u09cd_u099e_u09cd.haln: L&lt;&lt;664.0,313.0&gt;--&lt;664.0,246.0&gt;&gt; -&gt; L&lt;&lt;664.0,246.0&gt;--&lt;664.0,136.0&gt;&gt;
-
-* u099f_u0981.abvs: L&lt;&lt;295.0,412.0&gt;--&lt;329.0,386.0&gt;&gt; -&gt; L&lt;&lt;329.0,386.0&gt;--&lt;341.0,375.0&gt;&gt;
-
-* u099f_u09cd_u09ae.cjct: L&lt;&lt;395.0,780.0&gt;--&lt;267.0,795.0&gt;&gt; -&gt; L&lt;&lt;267.0,795.0&gt;--&lt;226.0,803.0&gt;&gt;
-
-* u099f_u09cd_u09ae.cjct: L&lt;&lt;569.0,609.0&gt;--&lt;569.0,526.0&gt;&gt; -&gt; L&lt;&lt;569.0,526.0&gt;--&lt;569.0,464.0&gt;&gt;
-
-* u09a2 (U+09A2): L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;208.0,741.0&gt;&gt;
-
-* u09a2_u09b0_u09cd.blwf.vatu: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;208.0,741.0&gt;&gt;
-
-* u09a2_u09cd.haln: L&lt;&lt;11.0,741.0&gt;--&lt;11.0,741.0&gt;&gt; -&gt; L&lt;&lt;11.0,741.0&gt;--&lt;208.0,741.0&gt;&gt;
-
-* u09a5_u09cd_u09ac.cjct: L&lt;&lt;372.0,-23.0&gt;--&lt;372.0,275.0&gt;&gt; -&gt; L&lt;&lt;372.0,275.0&gt;--&lt;372.0,287.0&gt;&gt;
-
-* u09a5_u09cd_u09ac.cjct: L&lt;&lt;372.0,275.0&gt;--&lt;372.0,287.0&gt;&gt; -&gt; L&lt;&lt;372.0,287.0&gt;--&lt;372.0,633.0&gt;&gt;
-
-* u09a6_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;546.0,167.0&gt;--&lt;546.0,320.0&gt;&gt; -&gt; L&lt;&lt;546.0,320.0&gt;--&lt;546.0,325.0&gt;&gt;
-
-* u09a8_u09cd_u09a7.cjct: L&lt;&lt;372.0,343.0&gt;--&lt;372.0,425.0&gt;&gt; -&gt; L&lt;&lt;372.0,425.0&gt;--&lt;372.0,610.0&gt;&gt;
-
-* u09a8_u09cd_u09a7_u09b0.vatu: L&lt;&lt;372.0,343.0&gt;--&lt;372.0,425.0&gt;&gt; -&gt; L&lt;&lt;372.0,425.0&gt;--&lt;372.0,610.0&gt;&gt;
-
-* u09ac_u09b0_u09cd.blwf.vatu_u09c2.blws: L&lt;&lt;594.0,167.0&gt;--&lt;594.0,320.0&gt;&gt; -&gt; L&lt;&lt;594.0,320.0&gt;--&lt;594.0,325.0&gt;&gt;
-
-* u09b0_u09c2.blws: L&lt;&lt;580.0,167.0&gt;--&lt;580.0,320.0&gt;&gt; -&gt; L&lt;&lt;580.0,320.0&gt;--&lt;580.0,325.0&gt;&gt;
-
-* u09b7_u09cd_u0995.cjct: L&lt;&lt;339.0,610.0&gt;--&lt;352.0,610.0&gt;&gt; -&gt; L&lt;&lt;352.0,610.0&gt;--&lt;361.0,610.0&gt;&gt;
-
-* u09b7_u09cd_u0995.cjct: L&lt;&lt;352.0,610.0&gt;--&lt;361.0,610.0&gt;&gt; -&gt; L&lt;&lt;361.0,610.0&gt;--&lt;514.0,610.0&gt;&gt;
-
-* u09b7_u09cd_u0995.cjct: L&lt;&lt;392.0,673.0&gt;--&lt;361.0,673.0&gt;&gt; -&gt; L&lt;&lt;361.0,673.0&gt;--&lt;-7.0,673.0&gt;&gt;
-
-* u09b7_u09cd_u0995.cjct: L&lt;&lt;514.0,673.0&gt;--&lt;392.0,673.0&gt;&gt; -&gt; L&lt;&lt;392.0,673.0&gt;--&lt;361.0,673.0&gt;&gt;
-
-* u09b8 (U+09B8): L&lt;&lt;-79.0,741.0&gt;--&lt;8.0,741.0&gt;&gt; -&gt; L&lt;&lt;8.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;
-
-* u09b8 (U+09B8): L&lt;&lt;481.0,741.0&gt;--&lt;481.0,690.0&gt;&gt; -&gt; L&lt;&lt;481.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
-
-* u09b8_u09b0_u09cd.blwf.vatu: L&lt;&lt;-79.0,741.0&gt;--&lt;8.0,741.0&gt;&gt; -&gt; L&lt;&lt;8.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;
-
-* u09b8_u09b0_u09cd.blwf.vatu: L&lt;&lt;481.0,741.0&gt;--&lt;481.0,690.0&gt;&gt; -&gt; L&lt;&lt;481.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
-
-* u09b8_u09cd.haln: L&lt;&lt;-79.0,741.0&gt;--&lt;8.0,741.0&gt;&gt; -&gt; L&lt;&lt;8.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;
-
-* u09b8_u09cd.haln: L&lt;&lt;481.0,741.0&gt;--&lt;481.0,690.0&gt;&gt; -&gt; L&lt;&lt;481.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
-
-* u09b8_u09cd_u09aa_u09b0.vatu: L&lt;&lt;1020.0,68.0&gt;--&lt;1020.0,227.0&gt;&gt; -&gt; L&lt;&lt;1020.0,227.0&gt;--&lt;1020.0,612.0&gt;&gt;
-
-* u09b8_u09cd_u09aa_u09b0.vatu: L&lt;&lt;958.0,331.0&gt;--&lt;958.0,197.0&gt;&gt; -&gt; L&lt;&lt;958.0,197.0&gt;--&lt;958.0,117.0&gt;&gt;
-
-* u09b9 (U+09B9): L&lt;&lt;228.0,638.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;188.0,528.0&gt;&gt;
-
-* u09b9_u09b0_u09cd.blwf.vatu: L&lt;&lt;228.0,638.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;188.0,528.0&gt;&gt;
-
-* u09b9_u09cd.haln: L&lt;&lt;228.0,638.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;188.0,528.0&gt;&gt;
-
-* u09b9_u09cd_u09ac.cjct: L&lt;&lt;389.0,333.0&gt;--&lt;390.0,332.0&gt;&gt; -&gt; L&lt;&lt;390.0,332.0&gt;--&lt;701.0,49.0&gt;&gt;
-
-* u09bd (U+09BD): L&lt;&lt;314.0,711.0&gt;--&lt;294.0,661.0&gt;&gt; -&gt; L&lt;&lt;294.0,661.0&gt;--&lt;270.0,587.0&gt;&gt;
-
-* u09c8 (U+09C8): L&lt;&lt;-74.0,741.0&gt;--&lt;74.0,741.0&gt;&gt; -&gt; L&lt;&lt;74.0,741.0&gt;--&lt;90.0,741.0&gt;&gt;
-
-* u09f0 (U+09F0): L&lt;&lt;573.0,740.0&gt;--&lt;573.0,612.0&gt;&gt; -&gt; L&lt;&lt;573.0,612.0&gt;--&lt;573.0,562.0&gt;&gt;
-
-* u09f1 (U+09F1): L&lt;&lt;711.0,740.0&gt;--&lt;711.0,629.0&gt;&gt; -&gt; L&lt;&lt;711.0,629.0&gt;--&lt;711.0,579.0&gt;&gt;
-
-* uni0145 (U+0145): L&lt;&lt;588.0,710.0&gt;--&lt;640.0,737.0&gt;&gt; -&gt; L&lt;&lt;640.0,737.0&gt;--&lt;741.0,779.0&gt;&gt;
-
-* uni09E0 (U+09E0): L&lt;&lt;1058.0,745.0&gt;--&lt;1058.0,618.0&gt;&gt; -&gt; L&lt;&lt;1058.0,618.0&gt;--&lt;1058.0,568.0&gt;&gt;
-
-* uni09ED (U+09ED): L&lt;&lt;607.0,212.0&gt;--&lt;607.0,251.0&gt;&gt; -&gt; L&lt;&lt;607.0,251.0&gt;--&lt;607.0,706.0&gt;&gt;
-
-* uni09F8 (U+09F8): L&lt;&lt;97.0,282.0&gt;--&lt;155.0,282.0&gt;&gt; -&gt; L&lt;&lt;155.0,282.0&gt;--&lt;275.0,282.0&gt;&gt;
-
-* uni09FE (U+09FE): L&lt;&lt;-224.0,879.0&gt;--&lt;-236.0,850.0&gt;&gt; -&gt; L&lt;&lt;-236.0,850.0&gt;--&lt;-250.0,807.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
 
 
 
@@ -846,6 +1327,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * K (U+004B): L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt;/B&lt;&lt;298.0,535.0&gt;-&lt;308.0,494.0&gt;-&lt;330.0,458.0&gt;&gt; = 13.706961004079783
 
+* K (U+004B): L&lt;&lt;301.0,402.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt; = 14.036243467926484
+
 * euro (U+20AC): L&lt;&lt;188.0,386.0&gt;--&lt;193.0,394.0&gt;&gt;/B&lt;&lt;193.0,394.0&gt;-&lt;176.0,354.0&gt;-&lt;176.0,330.0&gt;&gt; = 8.979891199555468
 
 * euro (U+20AC): L&lt;&lt;251.0,312.0&gt;--&lt;260.0,269.0&gt;&gt;/B&lt;&lt;260.0,269.0&gt;-&lt;255.0,280.0&gt;-&lt;251.0,300.5&gt;&gt; = 12.622466439809251
@@ -860,17 +1343,17 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u099a_u09cd_u099b_u09ac.cjct: B&lt;&lt;668.0,61.5&gt;-&lt;667.0,62.0&gt;-&lt;664.0,63.0&gt;&gt;/B&lt;&lt;664.0,63.0&gt;-&lt;707.0,54.0&gt;-&lt;739.0,44.0&gt;&gt; = 6.613460482314664
 
-* u09ad (U+09AD): B&lt;&lt;377.5,702.5&gt;-&lt;353.0,732.0&gt;-&lt;316.0,739.0&gt;&gt;/L&lt;&lt;316.0,739.0&gt;--&lt;330.0,739.0&gt;&gt; = 10.713123022791033
+* u09ad (U+09AD): B&lt;&lt;377.5,703.0&gt;-&lt;353.0,732.0&gt;-&lt;316.0,739.0&gt;&gt;/L&lt;&lt;316.0,739.0&gt;--&lt;330.0,739.0&gt;&gt; = 10.713123022791033
 
-* u09ad (U+09AD): L&lt;&lt;0.0,739.0&gt;--&lt;293.0,739.0&gt;&gt;/B&lt;&lt;293.0,739.0&gt;-&lt;255.0,734.0&gt;-&lt;220.5,706.5&gt;&gt; = 7.495857639729836
+* u09ad (U+09AD): L&lt;&lt;0.0,739.0&gt;--&lt;293.0,739.0&gt;&gt;/B&lt;&lt;293.0,739.0&gt;-&lt;255.0,735.0&gt;-&lt;220.5,707.0&gt;&gt; = 6.009005957494474
 
-* u09ad_u09b0_u09cd.blwf.vatu: B&lt;&lt;377.5,702.5&gt;-&lt;353.0,732.0&gt;-&lt;316.0,739.0&gt;&gt;/L&lt;&lt;316.0,739.0&gt;--&lt;330.0,739.0&gt;&gt; = 10.713123022791033
+* u09ad_u09b0_u09cd.blwf.vatu: B&lt;&lt;377.5,703.0&gt;-&lt;353.0,732.0&gt;-&lt;316.0,739.0&gt;&gt;/L&lt;&lt;316.0,739.0&gt;--&lt;330.0,739.0&gt;&gt; = 10.713123022791033
 
-* u09ad_u09b0_u09cd.blwf.vatu: L&lt;&lt;0.0,739.0&gt;--&lt;293.0,739.0&gt;&gt;/B&lt;&lt;293.0,739.0&gt;-&lt;255.0,734.0&gt;-&lt;220.5,706.5&gt;&gt; = 7.495857639729836
+* u09ad_u09b0_u09cd.blwf.vatu: L&lt;&lt;0.0,739.0&gt;--&lt;293.0,739.0&gt;&gt;/B&lt;&lt;293.0,739.0&gt;-&lt;255.0,735.0&gt;-&lt;220.5,707.0&gt;&gt; = 6.009005957494474
 
-* u09ad_u09cd.haln: B&lt;&lt;377.5,702.5&gt;-&lt;353.0,732.0&gt;-&lt;316.0,739.0&gt;&gt;/L&lt;&lt;316.0,739.0&gt;--&lt;330.0,739.0&gt;&gt; = 10.713123022791033
+* u09ad_u09cd.haln: B&lt;&lt;377.5,703.0&gt;-&lt;353.0,732.0&gt;-&lt;316.0,739.0&gt;&gt;/L&lt;&lt;316.0,739.0&gt;--&lt;330.0,739.0&gt;&gt; = 10.713123022791033
 
-* u09ad_u09cd.haln: L&lt;&lt;0.0,739.0&gt;--&lt;293.0,739.0&gt;&gt;/B&lt;&lt;293.0,739.0&gt;-&lt;255.0,734.0&gt;-&lt;220.5,706.5&gt;&gt; = 7.495857639729836
+* u09ad_u09cd.haln: L&lt;&lt;0.0,739.0&gt;--&lt;293.0,739.0&gt;&gt;/B&lt;&lt;293.0,739.0&gt;-&lt;255.0,735.0&gt;-&lt;220.5,707.0&gt;&gt; = 6.009005957494474
 
 * u09b8_u09cd_u09a5.cjct: B&lt;&lt;470.0,316.5&gt;-&lt;440.0,355.0&gt;-&lt;393.0,367.0&gt;&gt;/B&lt;&lt;393.0,367.0&gt;-&lt;401.0,367.0&gt;-&lt;410.0,368.5&gt;&gt; = 14.32271997820355
 
@@ -880,7 +1363,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09c0.salt: B&lt;&lt;-344.0,760.0&gt;-&lt;-333.0,761.0&gt;-&lt;-322.0,762.0&gt;&gt;/B&lt;&lt;-322.0,762.0&gt;-&lt;-344.0,764.0&gt;-&lt;-353.0,775.0&gt;&gt; = 10.388857815469619
 
-* u09ce (U+09CE): B&lt;&lt;346.5,79.5&gt;-&lt;315.0,61.0&gt;-&lt;282.0,55.0&gt;&gt;/L&lt;&lt;282.0,55.0&gt;--&lt;371.0,55.0&gt;&gt; = 10.304846468766009
+* u09ce (U+09CE): B&lt;&lt;346.0,79.5&gt;-&lt;315.0,61.0&gt;-&lt;282.0,55.0&gt;&gt;/L&lt;&lt;282.0,55.0&gt;--&lt;371.0,55.0&gt;&gt; = 10.304846468766009
 
 * u09d7_u0981.abvs: B&lt;&lt;-167.0,824.5&gt;-&lt;-145.0,805.0&gt;-&lt;-114.0,799.0&gt;&gt;/L&lt;&lt;-114.0,799.0&gt;--&lt;-169.0,803.0&gt;&gt; = 6.79442034968569
 
@@ -893,6 +1376,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * uni0136 (U+0136): L&lt;&lt;298.0,216.0&gt;--&lt;298.0,281.0&gt;&gt;/B&lt;&lt;298.0,281.0&gt;-&lt;311.0,229.0&gt;-&lt;350.0,186.0&gt;&gt; = 14.036243467926457
 
 * uni0136 (U+0136): L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt;/B&lt;&lt;298.0,535.0&gt;-&lt;308.0,494.0&gt;-&lt;330.0,458.0&gt;&gt; = 13.706961004079783
+
+* uni0136 (U+0136): L&lt;&lt;301.0,402.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt; = 14.036243467926484
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -912,7 +1397,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* zwnj (U+200C): L&lt;&lt;-12.0,683.0&gt;--&lt;-13.0,12.0&gt;&gt;
+<pre><code>* yen (U+00A5): L&lt;&lt;208.0,262.0&gt;--&lt;209.0,57.0&gt;&gt;
+
+* zwnj (U+200C): L&lt;&lt;-12.0,683.0&gt;--&lt;-13.0,12.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -932,7 +1419,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 
 * ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
-<pre><code>* A (U+0041) has a counter-clockwise outer contour
+<pre><code>* .notdef has a counter-clockwise outer contour
+
+* A (U+0041) has a counter-clockwise outer contour
 
 * AE (U+00C6) has a counter-clockwise outer contour
 
@@ -1105,6 +1594,8 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * Itilde (U+0128) has a counter-clockwise outer contour
 
 * J (U+004A) has a counter-clockwise outer contour
+
+* Jacute has a counter-clockwise outer contour
 
 * Jacute has a counter-clockwise outer contour
 
@@ -1798,7 +2289,7 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * jacute has a counter-clockwise outer contour
 
-* janya_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
+* jacute has a counter-clockwise outer contour
 
 * jcircumflex (U+0135) has a counter-clockwise outer contour
 
@@ -2114,8 +2605,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u0995_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u0995_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
 * u0995_u09cd.half has a counter-clockwise outer contour
 
 * u0995_u09cd.haln has a counter-clockwise outer contour
@@ -2152,8 +2641,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u0996_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u0996_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
 * u0996_u09cd.half has a counter-clockwise outer contour
 
 * u0996_u09cd.haln has a counter-clockwise outer contour
@@ -2169,14 +2656,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u0997_alt has a counter-clockwise outer contour
 
 * u0997_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u0997_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u0997_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u0997_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
-* u0997_u09c1.blws has a counter-clockwise outer contour
 
 * u0997_u09cd.half has a counter-clockwise outer contour
 
@@ -2414,17 +2893,9 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a4_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u09a4_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
-* u09a4_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
 * u09a4_u09b0_u09cd.vatu.salt has a counter-clockwise outer contour
 
 * u09a4_u09b0_u09cd.vatu.salt has a counter-clockwise outer contour
-
-* u09a4_u09b0_u09cd_u09c1 has a counter-clockwise outer contour
-
-* u09a4_u09b0_u09cd_u09c1 has a counter-clockwise outer contour
 
 * u09a4_u09cd.half has a counter-clockwise outer contour
 
@@ -2466,10 +2937,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09a5_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u09a5_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09a5_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
 * u09a5_u09cd.half has a counter-clockwise outer contour
 
 * u09a5_u09cd.haln has a counter-clockwise outer contour
@@ -2481,10 +2948,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09a6 (U+09A6) has a counter-clockwise outer contour
 
 * u09a6_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u09a6_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09a6_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
 
 * u09a6_u09cd.half has a counter-clockwise outer contour
 
@@ -2519,10 +2982,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09a7_alt has a counter-clockwise outer contour
 
 * u09a7_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u09a7_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09a7_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
 
 * u09a7_u09cd.half has a counter-clockwise outer contour
 
@@ -2600,10 +3059,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09aa_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u09aa_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09aa_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
 * u09aa_u09cd.half has a counter-clockwise outer contour
 
 * u09aa_u09cd.haln has a counter-clockwise outer contour
@@ -2644,10 +3099,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09ac_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u09ac_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09ac_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
 * u09ac_u09cd.blwf has a counter-clockwise outer contour
 
 * u09ac_u09cd.half has a counter-clockwise outer contour
@@ -2679,14 +3130,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09ad_alt has a counter-clockwise outer contour
 
 * u09ad_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u09ad_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09ad_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09ad_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
-* u09ad_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
 
 * u09ad_u09cd.half has a counter-clockwise outer contour
 
@@ -2754,12 +3197,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 
 * u09b0_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
-* u09b0_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u09b0_u09c1.blws has a counter-clockwise outer contour
-
-* u09b0_u09c2.blws has a counter-clockwise outer contour
-
 * u09b0_u09cd.blwf has a counter-clockwise outer contour
 
 * u09b0_u09cd.half has a counter-clockwise outer contour
@@ -2773,8 +3210,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09b0_u09cd.haln has a counter-clockwise outer contour
 
 * u09b0_u09cd.rphf has a counter-clockwise outer contour
-
-* u09b0_u09cd_u0997_u09c1.blws has a counter-clockwise outer contour
 
 * u09b2 (U+09B2) has a counter-clockwise outer contour
 
@@ -2815,12 +3250,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09b6 (U+09B6) has a counter-clockwise outer contour
 
 * u09b6_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u09b6_u09b0_u09cd.blwf.vatu_u09c1.blws has a counter-clockwise outer contour
-
-* u09b6_u09b0_u09cd.blwf.vatu_u09c2.blws has a counter-clockwise outer contour
-
-* u09b6_u09c1.blws has a counter-clockwise outer contour
 
 * u09b6_u09cd.half has a counter-clockwise outer contour
 
@@ -2929,12 +3358,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * u09b9_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u09b9_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
-
-* u09b9_u09c1.blws has a counter-clockwise outer contour
-
-* u09b9_u09c1.blws has a counter-clockwise outer contour
-
-* u09b9_u09c3.blws has a counter-clockwise outer contour
 
 * u09b9_u09cd.half has a counter-clockwise outer contour
 
@@ -3165,8 +3588,6 @@ u0997_u09b0_u09cd.blwf.vatu_u09c1.blws, u0997_u09b0_u09cd.blwf.vatu_u09c2.blws, 
 * umacron (U+016B) has a counter-clockwise outer contour
 
 * underscore (U+005F) has a counter-clockwise outer contour
-
-* uni0000 (U+0000) has a counter-clockwise outer contour
 
 * uni00B2 (U+00B2) has a counter-clockwise outer contour
 
@@ -3453,51 +3874,31 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, canadian-aboriginal, tifinagh, syriac, math, tai-le, malayalam, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, malayalam, coptic, syriac, canadian-aboriginal, math, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, tifinagh, cherokee, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, cherokee, syriac, gothic</li>
 <li>U+09CF : not included in any glyphset definition</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>bengali</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- Jacute
-- jacute</p>
- [code: incomplete-caret-pos-data]
 
 
 
@@ -3549,8 +3950,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 16 | 118 | 7 | 111 | 0 | 
-| 0% | 0% | 0% | 6% | 47% | 3% | 44% | 0% | 
+| 0 | 0 | 0 | 13 | 120 | 7 | 112 | 0 | 
+| 0% | 0% | 0% | 5% | 48% | 3% | 44% | 0% | 
 
 
 

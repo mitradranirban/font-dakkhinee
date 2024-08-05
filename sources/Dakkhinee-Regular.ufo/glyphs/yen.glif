@@ -4,6 +4,8 @@
   <unicode hex="00A5"/>
   <outline>
     <contour>
+      <point x="209" y="57" type="line"/>
+      <point x="208" y="262" type="line"/>
       <point x="158" y="262" type="line" smooth="yes"/>
       <point x="139" y="262"/>
       <point x="122" y="283"/>
@@ -27,9 +29,7 @@
       <point x="138" y="440"/>
       <point x="148" y="442"/>
       <point x="157" y="442" type="curve" smooth="yes"/>
-      <point x="159" y="442"/>
-      <point x="161" y="442"/>
-      <point x="163" y="442" type="curve" smooth="yes"/>
+      <point x="163" y="442" type="line"/>
       <point x="190" y="438" type="line"/>
       <point x="190" y="488" type="line"/>
       <point x="166" y="514" type="line" smooth="yes"/>
@@ -86,9 +86,7 @@
       <point x="347" y="372"/>
       <point x="330" y="355"/>
       <point x="310" y="355" type="curve" smooth="yes"/>
-      <point x="298" y="355"/>
-      <point x="287" y="355"/>
-      <point x="275" y="355" type="curve"/>
+      <point x="275" y="355" type="line"/>
       <point x="275" y="331" type="line"/>
       <point x="314" y="331" type="line" smooth="yes"/>
       <point x="333" y="331"/>
@@ -100,96 +98,8 @@
       <point x="332" y="258"/>
       <point x="322" y="256"/>
       <point x="313" y="256" type="curve" smooth="yes"/>
-      <point x="303" y="256"/>
-      <point x="293" y="256"/>
-      <point x="283" y="256" type="curve"/>
-      <point x="283" y="98" type="line" smooth="yes"/>
-      <point x="283" y="96"/>
-      <point x="296" y="98"/>
-      <point x="296" y="96" type="curve" smooth="yes"/>
-      <point x="296" y="87"/>
-      <point x="294" y="76"/>
-      <point x="286" y="68" type="curve" smooth="yes"/>
-      <point x="278" y="60"/>
-      <point x="268" y="58"/>
-      <point x="259" y="58" type="curve" smooth="yes"/>
-      <point x="239" y="58"/>
-      <point x="210" y="74"/>
-      <point x="208" y="92" type="curve"/>
-      <point x="208" y="262" type="line"/>
+      <point x="283" y="256" type="line"/>
+      <point x="283" y="57" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>58</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>256</integer>
-            <key>width</key>
-            <integer>75</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>262</integer>
-            <key>width</key>
-            <integer>75</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>355</integer>
-            <key>width</key>
-            <integer>75</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>367</integer>
-            <key>width</key>
-            <integer>75</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>8</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>190</integer>
-            <key>width</key>
-            <integer>73</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>208</integer>
-            <key>width</key>
-            <integer>88</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>208</integer>
-            <key>width</key>
-            <integer>75</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>334</integer>
-            <key>width</key>
-            <integer>75</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

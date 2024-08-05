@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus" format="2">
-  <advance width="391"/>
+  <advance width="661"/>
   <unicode hex="2212"/>
   <outline>
-    <component base="hyphen"/>
+    <contour>
+      <point x="138" y="235" type="line" smooth="yes"/>
+      <point x="127" y="235"/>
+      <point x="118" y="239"/>
+      <point x="111" y="246" type="curve" smooth="yes"/>
+      <point x="104" y="253"/>
+      <point x="100" y="262"/>
+      <point x="100" y="273" type="curve" smooth="yes"/>
+      <point x="100" y="284"/>
+      <point x="104" y="294"/>
+      <point x="111" y="301" type="curve" smooth="yes"/>
+      <point x="118" y="308"/>
+      <point x="127" y="312"/>
+      <point x="138" y="312" type="curve" smooth="yes"/>
+      <point x="522" y="312" type="line" smooth="yes"/>
+      <point x="533" y="312"/>
+      <point x="543" y="308"/>
+      <point x="550" y="301" type="curve" smooth="yes"/>
+      <point x="557" y="294"/>
+      <point x="561" y="284"/>
+      <point x="561" y="273" type="curve" smooth="yes"/>
+      <point x="561" y="262"/>
+      <point x="557" y="253"/>
+      <point x="550" y="246" type="curve" smooth="yes"/>
+      <point x="543" y="239"/>
+      <point x="533" y="235"/>
+      <point x="522" y="235" type="curve" smooth="yes"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>235</integer>
-            <key>width</key>
-            <integer>77</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>38</integer>
-            <key>width</key>
-            <integer>312</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

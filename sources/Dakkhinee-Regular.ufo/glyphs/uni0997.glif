@@ -5,8 +5,8 @@
   <outline>
     <contour>
       <point x="818" y="127" type="curve" smooth="yes"/>
-      <point x="818" y="83.8467"/>
-      <point x="724.682" y="42"/>
+      <point x="818" y="84"/>
+      <point x="725" y="42"/>
       <point x="678" y="42" type="curve" smooth="yes"/>
       <point x="639" y="42"/>
       <point x="603" y="57"/>
@@ -19,8 +19,8 @@
       <point x="177" y="739"/>
       <point x="130" y="715"/>
       <point x="130" y="674" type="curve" smooth="yes"/>
-      <point x="130" y="522.796"/>
-      <point x="494" y="599.104"/>
+      <point x="130" y="523"/>
+      <point x="494" y="599"/>
       <point x="494" y="401" type="curve" smooth="yes"/>
       <point x="494" y="298"/>
       <point x="381" y="232"/>
@@ -42,14 +42,14 @@
       <point x="39" y="567"/>
       <point x="39" y="674" type="curve" smooth="yes"/>
       <point x="39" y="760"/>
-      <point x="131.001" y="818.443"/>
-      <point x="221" y="818.737" type="curve" smooth="yes"/>
-      <point x="752" y="818.737" type="line"/>
-      <point x="752" y="822.737"/>
+      <point x="131" y="819"/>
+      <point x="221" y="819" type="curve" smooth="yes"/>
+      <point x="752" y="819" type="line"/>
+      <point x="752" y="823"/>
       <point x="772" y="839"/>
       <point x="775" y="845" type="curve" smooth="yes"/>
-      <point x="780.118" y="855.237"/>
-      <point x="785" y="872.947"/>
+      <point x="780" y="855"/>
+      <point x="785" y="873"/>
       <point x="785" y="885" type="curve" smooth="yes"/>
       <point x="785" y="908"/>
       <point x="766" y="944"/>
@@ -59,8 +59,8 @@
       <point x="761" y="1011"/>
       <point x="774" y="1022"/>
       <point x="778" y="1022" type="curve" smooth="yes"/>
-      <point x="820.964" y="1022"/>
-      <point x="863" y="929.585"/>
+      <point x="821" y="1022"/>
+      <point x="863" y="930"/>
       <point x="863" y="883" type="curve" smooth="yes"/>
       <point x="863" y="844"/>
       <point x="848" y="808"/>
@@ -69,8 +69,11 @@
       <point x="769" y="741"/>
       <point x="617" y="740" type="curve"/>
       <point x="617" y="462" type="line" smooth="yes"/>
-      <point x="617" y="168.284"/>
-      <point x="599.843" y="120"/>
+      <point x="617" y="374"/>
+      <point x="615" y="308"/>
+      <point x="615" y="259" type="curve" smooth="yes"/>
+      <point x="615" y="144"/>
+      <point x="624" y="120"/>
       <point x="680" y="120" type="curve" smooth="yes"/>
       <point x="703" y="120"/>
       <point x="740" y="139"/>
@@ -81,65 +84,4 @@
       <point x="818" y="131"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>42</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>232</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>739</integer>
-            <key>width</key>
-            <integer>80</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1002</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>39</integer>
-            <key>width</key>
-            <integer>91</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>403</integer>
-            <key>width</key>
-            <integer>91</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>534</integer>
-            <key>width</key>
-            <integer>83</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>785</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

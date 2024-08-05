@@ -56,7 +56,7 @@
       <point x="311" y="162"/>
       <point x="301" y="156"/>
       <point x="291" y="144" type="curve"/>
-      <point x="300" y="137" type="line"/>
+      <point x="300" y="137" type="line" smooth="yes"/>
       <point x="320" y="123"/>
       <point x="335" y="105"/>
       <point x="345" y="79" type="curve" smooth="yes"/>
@@ -88,47 +88,4 @@
       <point x="30" y="442"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>47</integer>
-            <key>width</key>
-            <integer>57</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>614</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-11</integer>
-            <key>width</key>
-            <integer>65</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>258</integer>
-            <key>width</key>
-            <integer>64</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>270</integer>
-            <key>width</key>
-            <integer>57</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
