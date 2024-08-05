@@ -38,12 +38,12 @@ lookup blwfBelowBaseFormsinBengali2lookup4 {
     sub \u09cd \u09b0  by \u09b0_u09cd.blwf;
 } blwfBelowBaseFormsinBengali2lookup4;
 
-lookup pstfPostBaseFormsinBengali2lookup5 {
+lookup pstfPostBaseFormsinBengali2lookup6 {
   lookupflag 0;
     sub \u09cd \u09af  by \u09af_u09cd.pstf;
-} pstfPostBaseFormsinBengali2lookup5;
+} pstfPostBaseFormsinBengali2lookup6;
 
-lookup cjctConjunctFormsinBengali2lookup6 {
+lookup cjctConjunctFormsinBengali2lookup13 {
   lookupflag 0;
     sub \u09b9 \u09cd \u09ae  by \u09b9_u09cd_u09ae.cjct;
     sub \u09a4 \u09cd \u09a4  by \u09a4_u09cd_u09a4.cjct;
@@ -266,9 +266,9 @@ lookup cjctConjunctFormsinBengali2lookup6 {
     sub \u09a1 \u09cd \u09b2  by \u09a1_u09cd_09b2.cjct;
     sub \u09a5 \u09cd \u09f1  by \u09a5_u09cd_u09ac.cjct;
     sub \u09a5 \u09cd \u09ac  by \u09a5_u09cd_u09ac.cjct;
-} cjctConjunctFormsinBengali2lookup6;
+} cjctConjunctFormsinBengali2lookup13;
 
-lookup halfHalfFormsinBengali2lookup7 {
+lookup halfHalfFormsinBengali2lookup5 {
   lookupflag 0;
     sub \u099c_u09cd_u099e.akhn \u09cd \zwj  by \u099c_u09cd_u099e_u09cd.haln;
     sub \u0995_u09cd_u09b7.akhn \u09cd \zwj  by \kassa_u09cd.half;
@@ -307,9 +307,9 @@ lookup halfHalfFormsinBengali2lookup7 {
     sub \u09dc \u09cd \zwj  by \u09dc_u09cd.half;
     sub \u09dd \u09cd \zwj  by \u09dd_u09cd.half;
     sub \u09df \u09cd \zwj  by \u09df_u09cd.half;
-} halfHalfFormsinBengali2lookup7;
+} halfHalfFormsinBengali2lookup5;
 
-lookup vatuVattuVariantsinBengali2lookup8 {
+lookup vatuVattuVariantsinBengalilookup7 {
   lookupflag 0;
     sub \u0995 \u09b0_u09cd.blwf  by \u0995_u09b0_u09cd.blwf.vatu;
     sub \u0996 \u09b0_u09cd.blwf  by \u0996_u09b0_u09cd.blwf.vatu;
@@ -345,18 +345,18 @@ lookup vatuVattuVariantsinBengali2lookup8 {
     sub \u09b9 \u09b0_u09cd.blwf  by \u09b9_u09b0_u09cd.blwf.vatu;
     sub \u0995_u09cd_u09b7.akhn \u09b0_u09cd.blwf  by \bn_ka_ssa.akhn_bn_raphala.vatu;
     sub \u0995 \zwnj \u09b0_u09cd.blwf  by \u0995_u09cd_u09b0.salt;
-} vatuVattuVariantsinBengali2lookup8;
+} vatuVattuVariantsinBengalilookup7;
 
-lookup blwsBelowBaseSubstitutionsinBengali2lookup9 {
+lookup blwsBelowBaseSubstitutionsinBengalilookup10 {
   lookupflag 0;
     sub \u09a8_u09cd._u09a4.cjct \u09c1  by \u09a8_u09cd_u09a4_u09c1.blws;
     sub \u09aa_u09cd_u09a4.cjct \u09c1  by \u09ae_u09cd_u09a4_u09b0.vatu;
     sub \u09b8_u09cd_u09a4.cjct \u09c1  by \u09b8_u09cd_u09a4_u09c1.blws;
     sub \u09f0 \u09c1  by \u09f0_u09c1.blws;
     sub \u09f0 \u09c2  by \u09f0_u09c2.blws;
-} blwsBelowBaseSubstitutionsinBengali2lookup9;
+} blwsBelowBaseSubstitutionsinBengalilookup10;
 
-lookup abvsAboveBaseSubstitutionsinBengali2lookup10 {
+lookup abvsAboveBaseSubstitutionsinBengalilookup11 {
   lookupflag 0;
     sub \u0987 \u0981  by \u0987_u0981.abvs;
     sub \u0988 \u0981  by \u0988_u0981.abvs;
@@ -371,9 +371,9 @@ lookup abvsAboveBaseSubstitutionsinBengali2lookup10 {
     sub \u09c0 \u09b0_u09cd.rphf  by \u09c0_u09b0_u09cd.rphf.abvs;
     sub \u09d7 \u0981  by \u09d7_u0981.abvs;
     sub \u09d7 \u09b0_u09cd.rphf  by \u09d7_u09b0_u09cd.rphf.abvs;
-} abvsAboveBaseSubstitutionsinBengali2lookup10;
+} abvsAboveBaseSubstitutionsinBengalilookup11;
 
-lookup abvsAboveBaseSubstitutionsinBengali2lookup11 {
+lookup abvsAboveBaseSubstitutionsinBengali2lookup20 {
   lookupflag 0;
     ignore sub [\u0987 \u0988 \u0989 \u098a \u099f \u09a0 \u099f_u09cd.haln \u09a0_u09cd.haln 
 	\u099f_u09b0_u09cd.blwf.vatu \u09a0_u09b0_u09cd.blwf.vatu 
@@ -386,9 +386,9 @@ lookup abvsAboveBaseSubstitutionsinBengali2lookup11 {
 	\u09a8_u09cd_u099f_u09b0.vatu \u09a8_u09cd_u09a0_u09b0.vatu 
 	\u09aa_u09cd_u099f.cjct \u09b2_u09cd_u099f.cjct 
 	\u099f_u09cd_u09ac.cjct \u099f_u09cd_u09ae.cjct ]' [\u09c0 ] ;
-} abvsAboveBaseSubstitutionsinBengali2lookup11;
+} abvsAboveBaseSubstitutionsinBengali2lookup20;
 
-lookup halnHalantFormsinBengali2lookup12 {
+lookup halnHalantFormsinBengalilookup12 {
   lookupflag 0;
     sub \u0995 \u09cd  by \u0995_u09cd.haln;
     sub \u0996 \u09cd  by \u0996_u09cd.hln;
@@ -424,9 +424,9 @@ lookup halnHalantFormsinBengali2lookup12 {
     sub \u09dd \u09cd  by \u09dd_u09cd.haln;
     sub \u099c_u09cd_u099e.akhn \u09cd  by \u099c_u09cd_u099e_u09cd.haln;
     sub \u0995_u09cd_u09b7.akhn \u09cd  by \kassa_u09cd.half;
-} halnHalantFormsinBengali2lookup12;
+} halnHalantFormsinBengalilookup12;
 
-lookup saltStylisticAlternativesinBengali2lookup13 {
+lookup saltStylisticAlternativesinBengali2lookup17 {
   lookupflag 0;
     sub \u09b9_u09cd_u09ae.cjct by \u09b9_u09cd_u09ae.salt ;
     sub \u0995_u09b0_u09cd.blwf.vatu by \u0995_u09cd_u09b0.salt ;
@@ -437,9 +437,9 @@ lookup saltStylisticAlternativesinBengali2lookup13 {
     sub \u099e_u09cd_u099a.cjct by \u099e_u09cd_u099a.salt ;
     sub \u09b8_u09cd_u09a4_u09b0.vatu by \u09b8_u09cd_u09a4_u09b0.salt ;
     sub \u09b8_u09cd_u0995_u09b0.vatu by \u09b8_u09cd_u0995_u09b0.salt ;
-} saltStylisticAlternativesinBengali2lookup13;
+} saltStylisticAlternativesinBengali2lookup17;
 
-lookup afrcVerticalFractionsinBengali2lookup15 {
+lookup afrcVerticalFractionsinBengalilookup13 {
   lookupflag 0;
     sub \u09e7 \slash \u09e8  by \u09e7_slash_u09e8.afrc;
     sub \u09e7 \slash \u09e9  by \u09e7_slash_u09e9.afrc;
@@ -447,7 +447,7 @@ lookup afrcVerticalFractionsinBengali2lookup15 {
     sub \u09e7 \slash \u09ee  by \u09e7_slash_u09ee.afrc;
     sub \u09e8 \slash \u09e9  by \u09e8_slash_u09e9.afrc;
     sub \u09e9 \slash \u09ea  by \u09e9_slash_u09ea.afrc;
-} afrcVerticalFractionsinBengali2lookup15;
+} afrcVerticalFractionsinBengalilookup13;
 
 feature liga {
 
@@ -498,68 +498,68 @@ feature pstf {
 
  script bng2;
      language dflt ;
-      lookup pstfPostBaseFormsinBengali2lookup5;
+      lookup pstfPostBaseFormsinBengali2lookup6;
 } pstf;
 
 feature cjct {
 
  script bng2;
      language dflt ;
-      lookup cjctConjunctFormsinBengali2lookup6;
+      lookup cjctConjunctFormsinBengali2lookup13;
 } cjct;
 
 feature half {
 
  script bng2;
      language dflt ;
-      lookup halfHalfFormsinBengali2lookup7;
+      lookup halfHalfFormsinBengali2lookup5;
 } half;
 
 feature vatu {
 
  script bng2;
      language dflt ;
-      lookup vatuVattuVariantsinBengali2lookup8;
+      lookup vatuVattuVariantsinBengalilookup7;
 } vatu;
 
 feature blws {
 
  script bng2;
      language dflt ;
-      lookup blwsBelowBaseSubstitutionsinBengali2lookup9;
+      lookup blwsBelowBaseSubstitutionsinBengalilookup10;
 } blws;
 
 feature abvs {
 
  script bng2;
      language dflt ;
-      lookup abvsAboveBaseSubstitutionsinBengali2lookup10;
-      lookup abvsAboveBaseSubstitutionsinBengali2lookup11;
+      lookup abvsAboveBaseSubstitutionsinBengalilookup11;
+      lookup abvsAboveBaseSubstitutionsinBengali2lookup20;
      language ASM  exclude_dflt;
-      lookup abvsAboveBaseSubstitutionsinBengali2lookup11;
+      lookup abvsAboveBaseSubstitutionsinBengali2lookup20;
 } abvs;
 
 feature haln {
 
  script bng2;
      language dflt ;
-      lookup halnHalantFormsinBengali2lookup12;
+      lookup halnHalantFormsinBengalilookup12;
 } haln;
 
 feature salt {
 
  script bng2;
      language dflt ;
-      lookup saltStylisticAlternativesinBengali2lookup13;
+      lookup saltStylisticAlternativesinBengali2lookup17;
 } salt;
 
 feature afrc {
 
  script bng2;
      language dflt ;
-      lookup afrcVerticalFractionsinBengali2lookup15;
+      lookup afrcVerticalFractionsinBengalilookup13;
      language ASM  exclude_dflt;
-      lookup afrcVerticalFractionsinBengali2lookup15;
+      lookup afrcVerticalFractionsinBengalilookup13;
 } afrc;
 
 # GPOS 
@@ -567,11 +567,12 @@ feature afrc {
 
 lookup kernHorizontalKerninginLatinlookup0 {
   lookupflag 0;
-    @kc16_first_0 = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z ];
-    @kc16_second_1 = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
+    @kc19_first_0 = [\T ];
+    @kc19_second_1 = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
+    pos @kc19_first_0 @kc19_second_1 -173;
 } kernHorizontalKerninginLatinlookup0;
 
-lookup abvmAboveBaseMarkinBengali2lookup1 {
+lookup abvmAboveBaseMarkinBengalilookup0 {
   lookupflag 0;
   markClass [\u09b0_u09cd.rphf ] <anchor -272 812> @Anchor0;
   pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 373 681> mark @Anchor0;
@@ -585,9 +586,9 @@ lookup abvmAboveBaseMarkinBengali2lookup1 {
   pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 555 675> mark @Anchor0;
   pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 298 673> mark @Anchor0;
   pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 571 667> mark @Anchor0;
-} abvmAboveBaseMarkinBengali2lookup1;
+} abvmAboveBaseMarkinBengalilookup0;
 
-lookup blwmBelowBaseMarkinBengali2lookup2 {
+lookup blwmBelowBaseMarkinBengalilookup1 {
   lookupflag 0;
   markClass [\u09ac_u09cd.blwf ] <anchor -80 74> @Anchor1;
   pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 505 85> mark @Anchor1;
@@ -602,7 +603,7 @@ lookup blwmBelowBaseMarkinBengali2lookup2 {
   pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 441 35> mark @Anchor1;
   pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 456 -39> mark @Anchor1;
   pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 839 32> mark @Anchor1;
-} blwmBelowBaseMarkinBengali2lookup2;
+} blwmBelowBaseMarkinBengalilookup1;
 
 feature kern {
 
@@ -619,66 +620,21 @@ feature abvm {
 
  script bng2;
      language dflt ;
-      lookup abvmAboveBaseMarkinBengali2lookup1;
+      lookup abvmAboveBaseMarkinBengalilookup0;
 } abvm;
 
 feature blwm {
 
  script bng2;
      language dflt ;
-      lookup blwmBelowBaseMarkinBengali2lookup2;
+      lookup blwmBelowBaseMarkinBengalilookup1;
 } blwm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @MarkClass1 = [ u09c1 u09c2 u09c3 u09c4 u09cd ];
 
-@GDEF_Simple = [\nonmarkingreturn \space \exclam \quotedbl \numbersign \dollar 
-	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
-	\hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight \nine 
-	\colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L 
-	\M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
-	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
-	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \exclamdown \cent \sterling 
-	\currency \yen \brokenbar \section \dieresis \copyright \ordfeminine 
-	\guillemotleft \logicalnot \registered \macron \degree \uni00B2 \uni00B3 \acute 
-	\mu \paragraph \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright 
-	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
-	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
-	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
-	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
-	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
-	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
-	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
-	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
-	\yacute \thorn \ydieresis \Amacron \amacron \Abreve \abreve \Aogonek \aogonek 
-	\Cacute \cacute \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron 
-	\ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve 
-	\Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex 
-	\gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 \uni0123 
-	\Hcircumflex \hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron \Ibreve 
-	\ibreve \Iogonek \iogonek \Idotaccent \dotlessi \IJ \ij \Jcircumflex 
-	\jcircumflex \uni0136 \uni0137 \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron 
-	\Ldot \ldot \Lslash \lslash \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
-	\Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe \Racute 
-	\racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute \Scircumflex 
-	\scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 \uni0163 \Tcaron 
-	\tcaron \Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring 
-	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex 
-	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
-	\Zcaron \zcaron \uni0218 \uni0219 \uni021A \uni021B \uni0237 \circumflex \caron 
-	\breve \dotaccent \ring \ogonek \tilde \hungarumlaut \danda \doubledanda \u0980 
-	\u0982 \u0983 \u0985 \u0986 \u0987 \u0988 \u0989 \u098a \u098b \u098c \u098F \u0990 
-	\u0993 \u0994 \u0995 \u0996 \u0997 \u0998 \u0999 \u099a \u099b \u099c \u099d \u099e 
-	\u099f \u09a0 \u09a1 \u09a2 \u09a3 \u09a4 \u09a5 \u09a6 \u09a7 \u09a8 \u09aa \u09ab 
-	\u09ac \u09ad \u09ae \u09af \u09b0 \u09b2 \u09b6 \u09b7 \u09b8 \u09b9 \u09bd \u09be 
-	\u09bf \u09c0 \u09c7 \u09c8 \u09cb \u09cc \u09ce \uni09CF \u09d7 \uni09E0 \uni09E1 
-	\u09e6 \u09e7 \u09e8 \u09e9 \u09ea \u09eb \u09ec \uni09ED \u09ee \u09ef \u09f0 
-	\u09f1 \uni09F2 \uni09F3 \uni09F4 \uni09F5 \uni09F6 \uni09F7 \uni09F8 \uni09F9 
-	\uni09FA \u09fb \uni09FC \uni09FD \Wgrave \wgrave \Wacute \wacute \Wdieresis 
-	\wdieresis \uni1E9E \Ygrave \ygrave \uni200B \zwnj \zwj \endash \emdash 
-	\quoteleft \quoteright \quotesinglbase \quotedblleft \quotedblright 
-	\quotedblbase \bullet \ellipsis \minute \second \guilsinglleft \guilsinglright 
-	\euro \uni20B9 \trademark \minus \uni25CC \u0981.salt \u09b2_u09cd.haln 
-	\glyph219 \u09b2_u09b0_u09cd.blwf.vatu \u09be_u0981.abvs 
+@GDEF_Simple = [\nonmarkingreturn \space \comma \danda \doubledanda \u0982 \u0983 
+	\u09a4 \u09ce \zwnj \zwj \quotedblleft \quotedblright \euro \uni25CC \u0981.salt 
+	\u09b2_u09cd.haln \glyph219 \u09b2_u09b0_u09cd.blwf.vatu \u09be_u0981.abvs 
 	\u09be_u09b0_u09cd.rphf.abvs \u09bf_u0981.abvs \glyph475 \glyph478 \glyph479 
 	\glyph480 \glyph481 \glyph482 \glyph483 \glyph484 \glyph485 \glyph486 \glyph487 
 	\glyph488 \glyph489 \glyph490 \glyph491 \glyph492 \glyph493 \glyph494 \glyph495 
@@ -691,23 +647,66 @@ feature blwm {
 	\glyph542 \glyph543 \glyph544 \glyph545 \Ra_yaphala \glyph547 
 	\u099e_u09cd_u099a.salt \u09e7_slash_u09e8.afrc \u09e7_slash_u09e9.afrc 
 	\u09e7_slash_u09ea.afrc \u09e7_slash_u09ee.afrc \u09e8_slash_u09e9.afrc 
-	\u09e9_slash_u09ea.afrc \u09c7.init \u09c8.init \u09b2_u09cd.half 
-	\u09a4_u09b0_u09cd.vatu.salt \u09b8_u09cd_u0995_u09b0.salt 
-	\u09b8_u09cd_u09a4_u09b0.salt \u09bf.salt \u09c0.salt \NameMe.65963 
-	\NameMe.65964 \NameMe.65965 \NameMe.65966 \NameMe.65967 \NameMe.65968 
-	\NameMe.65969 ];
-@GDEF_Ligature = [\u09dc \u09dd \u09df \u099c_u09cd_u099e.akhn 
-	\u0995_u09cd_u09b7.akhn \u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct 
-	\u0995_u09cd.haln \u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln 
-	\u0999_u09cd.haln \u099a_u09cd.haln \u099b_u09cd.haln \u099c_u09cd.haln 
-	\u099d_u09cd.haln \u099e_u09cd.haln \u099f_u09cd.haln \u09a0_u09cd.haln 
-	\u09a1_u09cd.haln \u09a2_u09cd.haln \u09a3_u09cd.haln \u09a4_u09cd.haln 
-	\u09a5_u09cd.haln \u09a6_u09cd.haln \u09a7_u09cd.haln \u09a8_u09cd.haln 
-	\u09aa_u09cd.haln \u09ab_u09cd.haln \u09ac_u09cd.haln \u09ad_u09cd.haln 
-	\u09ae_u09cd.haln \u09af_u09cd.haln \u09b0_u09cd.haln \u09b6_u09cd.haln 
-	\u09b7_u09cd.haln \u09b8_u09cd.haln \u09b9_u09cd.haln \u09dc_u09cd.haln 
-	\u09dd_u09cd.haln \u099c_u09cd_u099e_u09cd.haln \kassa_u09cd.half 
-	\u09b0_u09cd.rphf \u09af_u09cd.pstf \u09b0_u09cd.blwf \u09ac_u09cd.blwf 
+	\u09e9_slash_u09ea.afrc \u09c7.init \u09c8.init \u09b2_u09cd.half \uni20B9 
+	\u09fb \uni200B \u0980 \uni09FC \uni09FD \u09a4_u09b0_u09cd.vatu.salt 
+	\u09b8_u09cd_u0995_u09b0.salt \u09b8_u09cd_u09a4_u09b0.salt \u09bf.salt 
+	\u09c0.salt \exclam \quotedbl \quotesingle \numbersign \dollar \A \B \C \D \E \F \G 
+	\H \I \J \K \L \M \N \O \P \Q \R \percent \ampersand \parenleft \parenright \asterisk 
+	\plus \hyphen \period \slash \zero \S \T \U \Agrave \grave \V \W \X \Y \Z \one \two 
+	\three \four \five \six \seven \eight \nine \colon \semicolon \equal \less \greater 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \a \b \d \c \e \f \g 
+	\h \question \at \i \j \l \k \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \braceright 
+	\asciitilde \exclamdown \cent \sterling \currency \yen \brokenbar \section 
+	\dieresis \degree \copyright \ordfeminine \guillemotleft \guillemotright 
+	\registered \macron \logicalnot \bar \uni00B2 \uni00B3 \acute \uni00B9 \mu 
+	\paragraph \ordmasculine \periodcentered \cedilla \onequarter \threequarters 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve \Aogonek 
+	\Ccedilla \Cacute \Ccircumflex \Cdotaccent \Ccaron \Egrave \Eacute \Ecircumflex 
+	\Edieresis \Emacron \Ebreve \Edotaccent \Eogonek \Ecaron \Igrave \Iacute 
+	\Icircumflex \Idieresis \Itilde \Imacron \Ibreve \Iogonek \Idotaccent \Ograve 
+	\Oacute \Ocircumflex \Otilde \Odieresis \Omacron \Obreve \Ohungarumlaut \Eth 
+	\Ntilde \Uacute \Ucircumflex \Udieresis \Yacute \agrave \aacute \acircumflex 
+	\atilde \adieresis \aring \ccedilla \egrave \eacute \ecircumflex \edieresis 
+	\igrave \iacute \icircumflex \idieresis \ograve \oacute \ocircumflex \otilde 
+	\odieresis \ugrave \uacute \ucircumflex \udieresis \amacron \abreve \aogonek 
+	\yacute \ydieresis \onehalf \Ugrave \Oslash \uni09CF \u0985 \u09b9 \u0986 \u09b6 
+	\u0987 \u0988 \u0989 \u098a \u09a8 \u09ac \u09b0 \u0995 \u099d \u09a5 \u0994 \u0997 
+	\u09a1 \u0993 \u099c \u099a \u09a7 \u09f0 \u09f1 \divide \oslash \ntilde \cacute 
+	\ccircumflex \cdotaccent \ccaron \Dcaron \emacron \ebreve \edotaccent \ecaron 
+	\Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \Hcircumflex 
+	\hcircumflex \u09a2 \u099f \u09bd \u098b \u0996 \u098c \u098F \u0990 \u0998 \u0999 
+	\u099b \u099e \u09a0 \u09a3 \u09a6 \u09aa \u09ab \u09ad \u09ae \u09af \u09b2 \u09b7 
+	\u09b8 \u09be \u09bf \u09c0 \u09c7 \u09c8 \u09cb \u09cc \uni09E0 \uni09E1 \u09e6 
+	\u09e7 \u09e8 \u09e9 \u09ea \u09eb \u09ec \uni09ED \u09ee \u09ef \multiply 
+	\uni09F2 \uni09F3 \uni09F4 \uni09F5 \uni09F6 \uni09F7 \uni09F8 \uni09F9 \uni09FA 
+	\u09d7 \dotlessi \Jcircumflex \jcircumflex \uni0136 \uni0137 \Lacute \lacute 
+	\uni013B \uni013C \Ldot \ldot \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
+	\omacron \obreve \ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron 
+	\rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla \scedilla \Scaron 
+	\scaron \uni0162 \uni0163 \Tcaron \Utilde \utilde \Umacron \umacron \Ubreve 
+	\ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek 
+	\Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute 
+	\Zdotaccent \zdotaccent \Zcaron \zcaron \questiondown \Thorn \germandbls 
+	\NameMe.65963 \NameMe.65964 \NameMe.65965 \NameMe.65966 \NameMe.65967 \Dcroat 
+	\uni0122 \uni0123 \circumflex \caron \uni0218 \uni0219 \uni021A \uni021B \breve 
+	\dotaccent \ring \ogonek \tilde \hungarumlaut \Wgrave \wgrave \Wacute \wacute 
+	\Wdieresis \wdieresis \Ygrave \ygrave \endash \emdash \quoteleft \quoteright 
+	\minus \trademark \guilsinglright \guilsinglleft \ellipsis \quotesinglbase 
+	\quotedblbase \ae \AE \eth \dcroat \thorn \eogonek \dcaron \Hbar \hbar \itilde 
+	\imacron \ibreve \iogonek \Lcaron \lcaron \Lslash \lslash \tcaron \OE \oe \uni0237 
+	\uni1E9E \bullet \IJ \ij \NameMe.65968 \NameMe.65969 \minute \second ];
+@GDEF_Ligature = [\u099c_u09cd_u099e.akhn \u0995_u09cd_u09b7.akhn 
+	\u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct \u0995_u09cd.haln 
+	\u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln \u0999_u09cd.haln 
+	\u099a_u09cd.haln \u099b_u09cd.haln \u099c_u09cd.haln \u099d_u09cd.haln 
+	\u099e_u09cd.haln \u099f_u09cd.haln \u09a0_u09cd.haln \u09a1_u09cd.haln 
+	\u09a2_u09cd.haln \u09a3_u09cd.haln \u09a4_u09cd.haln \u09a5_u09cd.haln 
+	\u09a6_u09cd.haln \u09a7_u09cd.haln \u09a8_u09cd.haln \u09aa_u09cd.haln 
+	\u09ab_u09cd.haln \u09ac_u09cd.haln \u09ad_u09cd.haln \u09ae_u09cd.haln 
+	\u09af_u09cd.haln \u09b0_u09cd.haln \u09b6_u09cd.haln \u09b7_u09cd.haln 
+	\u09b8_u09cd.haln \u09b9_u09cd.haln \u09dc_u09cd.haln \u09dd_u09cd.haln 
+	\u099c_u09cd_u099e_u09cd.haln \kassa_u09cd.half \u09b0_u09cd.rphf 
+	\u09af_u09cd.pstf \u09b0_u09cd.blwf \u09ac_u09cd.blwf 
 	\u0995_u09b0_u09cd.blwf.vatu \u0996_u09b0_u09cd.blwf.vatu 
 	\u0997_u09b0_u09cd.blwf.vatu \u0998_u09b0_u09cd.blwf.vatu 
 	\u0999_u09b0_u09cd.blwf.vatu \u099a_u09b0_u09cd.blwf.vatu 
@@ -808,11 +807,12 @@ feature blwm {
 	\u09a7_u09cd_u09ae.cjct \u09b2_u09cd_u09ad.cjct \u09b6_u09cd_u09a4.cjct 
 	\u09b7_u09cd_u09aa_u09b0.cjct \u09b7_u09cd_u09ac.cjct 
 	\u0999_u09cd_u0995_u09b7.cjct \u09a1_u09cd_u09ae.cjct 
-	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct \Jacute \jacute ];
-@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 
-	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030F \uni0311 \uni0312 
-	\uni031B \dotbelowcomb \uni0324 \uni0326 \uni0327 \uni0328 \uni032E \uni0331 
-	\u0981 \u09bc \u09c1 \u09c2 \u09c3 \u09c4 \u09cd \uni09E2 \uni09E3 \uni09FE ];
+	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct \u09dc \u09dd \u09df \Jacute 
+	\jacute ];
+@GDEF_Mark = [\u0981 \uni09FE \gravecomb \uni030A \acutecomb \uni0302 \tildecomb 
+	\uni0304 \uni0306 \uni0307 \uni0308 \u09bc \u09c1 \u09c2 \u09c3 \u09c4 \u09cd 
+	\uni09E2 \uni09E3 \hookabovecomb \uni030B \uni030C \uni030F \uni0311 \uni0312 
+	\uni031B \dotbelowcomb \uni0324 \uni0326 \uni0327 \uni0328 \uni032E \uni0331 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;

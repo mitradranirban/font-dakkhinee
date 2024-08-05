@@ -74,13 +74,15 @@
       <point x="80" y="441"/>
       <point x="55" y="458"/>
       <point x="30" y="492" type="curve"/>
-      <point x="30" y="497" type="line" smooth="yes"/>
+      <point x="30" y="494"/>
+      <point x="30" y="495"/>
+      <point x="30" y="497" type="curve" smooth="yes"/>
       <point x="30" y="515"/>
       <point x="43" y="530"/>
       <point x="61" y="530" type="curve" smooth="yes"/>
       <point x="64" y="530"/>
       <point x="68" y="529"/>
-      <point x="72" y="528" type="curve" smooth="yes"/>
+      <point x="72" y="528" type="curve"/>
       <point x="78" y="509"/>
       <point x="86" y="500"/>
       <point x="99" y="500" type="curve" smooth="yes"/>

@@ -30,7 +30,9 @@
       <point x="-151" y="858"/>
       <point x="-129" y="832"/>
       <point x="-99" y="832" type="curve" smooth="yes"/>
-      <point x="-94" y="832" type="line" smooth="yes"/>
+      <point x="-97" y="832"/>
+      <point x="-96" y="832"/>
+      <point x="-94" y="832" type="curve" smooth="yes"/>
       <point x="-49" y="834"/>
       <point x="-40" y="853"/>
       <point x="-25" y="888" type="curve"/>
@@ -85,7 +87,7 @@
       <point x="-271" y="871" type="curve" smooth="yes"/>
       <point x="-271" y="832"/>
       <point x="-237" y="809"/>
-      <point x="-169" y="803" type="curve" smooth="yes"/>
+      <point x="-169" y="803" type="curve"/>
     </contour>
   </outline>
 </glyph>
