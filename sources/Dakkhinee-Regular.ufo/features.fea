@@ -1,4 +1,635 @@
+languagesystem DFLT dflt;
+languagesystem bng2 ASM ;
+languagesystem bng2 dflt;
+languagesystem latn dflt;
 
+
+# GSUB 
+
+
+lookup ligaStandardLigaturesinLatinlookup0 {
+  lookupflag 0;
+    sub \J \acutecomb  by \Jacute;
+    sub \j \acutecomb  by \jacute;
+} ligaStandardLigaturesinLatinlookup0;
+
+lookup nuktNuktaFormsinBengali2lookup1 {
+  lookupflag 0;
+    sub \u09a1 \u09be  by \u09dc;
+    sub \u09a2 \u09bc  by \u09dd;
+    sub \u09af \u09bc  by \u09df;
+} nuktNuktaFormsinBengali2lookup1;
+
+lookup akhnAkhandinBengali2lookup2 {
+  lookupflag 0;
+    sub \u099c \u09cd \u099e  by \u099c_u09cd_u099e.akhn;
+    sub \u0995 \u09cd \u09b7  by \u0995_u09cd_u09b7.akhn;
+} akhnAkhandinBengali2lookup2;
+
+lookup rphfRephForminBengali2lookup3 {
+  lookupflag 0;
+    sub \u09f0 \u09cd  by \u09b0_u09cd.rphf;
+    sub \u09b0 \u09cd  by \u09b0_u09cd.rphf;
+} rphfRephForminBengali2lookup3;
+
+lookup blwfBelowBaseFormsinBengali2lookup4 {
+  lookupflag 0;
+    sub \u09cd \u09f0  by \u09b0_u09cd.blwf;
+    sub \u09cd \u09b0  by \u09b0_u09cd.blwf;
+} blwfBelowBaseFormsinBengali2lookup4;
+
+lookup pstfPostBaseFormsinBengali2lookup5 {
+  lookupflag 0;
+    sub \u09cd \u09af  by \u09af_u09cd.pstf;
+} pstfPostBaseFormsinBengali2lookup5;
+
+lookup cjctConjunctFormsinBengali2lookup6 {
+  lookupflag 0;
+    sub \u09b9 \u09cd \u09ae  by \u09b9_u09cd_u09ae.cjct;
+    sub \u09a4 \u09cd \u09a4  by \u09a4_u09cd_u09a4.cjct;
+    sub \u0995 \u09cd \u0995  by \u0995_u09cd_u0995.cjct;
+    sub \u0995 \u09cd \u099f  by \u0995_u09cd_u099f.cjct;
+    sub \u0995 \u09cd \u09a4  by \u0995_u09cd_u09a4.cjct;
+    sub \u0995 \u09cd \u09a8  by \u0995_u09cd_u09a8.cjct;
+    sub \u0995 \u09cd \u09ae  by \u0995_u09cd_u09ae.cjct;
+    sub \u0995 \u09cd \u09b2  by \u0995_u09cd_u09b2.cjct;
+    sub \u0995 \u09cd \u09b8  by \u0995_u09cd_u09b8.cjct;
+    sub \u0995_u09cd_u09b7.akhn \u09cd \u09a3  by \bn_ka_ssa.akhn_u09cd_u09a3.cjct;
+    sub \u0995_u09cd_u09b7.akhn \u09cd \u09ae  by \bn_ka_ssa.akhn_u09cd_u09ae.cjct;
+    sub \u0997 \u09cd \u0997  by \u0997_u09cd_u0997.cjct;
+    sub \u0997 \u09cd \u09a4  by \u0997_u09cd_u09a4.cjct;
+    sub \u0997 \u09cd \u09a6  by \u0997_u09cd_u09a6.cjct;
+    sub \u0997 \u09cd \u09a7  by \u0997_u09cd_u09a7.cjct;
+    sub \u0997 \u09cd \u09a8  by \u0997_u09cd_u09a8.cjct;
+    sub \u0997 \u09cd \u09ae  by \u0997_u09cd_u09ae.cjct;
+    sub \u0997 \u09cd \u09b2  by \u0997_u09cd_u09b2.cjct;
+    sub \u0999 \u09cd \u0995  by \u0999_u09cd_u0995.cjct;
+    sub \u0999 \u09cd \u0996  by \u0999_u09cd_u0996.cjct;
+    sub \u0999 \u09cd \u0997  by \u0999_u09cd_u0997.cjct;
+    sub \u099a \u09cd \u099b  by \u099a_u09cd_u099b.cjct;
+    sub \u099a \u09cd \u099e  by \u099a_u09cd_u099e.cjct;
+    sub \u099c \u09cd \u099c  by \u099c_u09cd_u099c.cjct;
+    sub \u099c \u09cd \u099d  by \u099c_u09cd_u099d.cjct;
+    sub \u099e \u09cd \u099a  by \u099e_u09cd_u099a.cjct;
+    sub \u099e \u09cd \u099b  by \u099e_u09cd_u099b.cjct;
+    sub \u099e \u09cd \u099c  by \u099e_u09cd_u099c.cjct;
+    sub \u099e \u09cd \u099d  by \u099e_u09cd_u099d.pres;
+    sub \u099f \u09cd \u099f  by \u099f_u09cd_u099f.cjct;
+    sub \u09a1 \u09cd \u09a1  by \u09a1_u09cd_u09a1.cjct;
+    sub \u09a3 \u09cd \u099f  by \u09a3_u09cd_u099f.cjct;
+    sub \u09a3 \u09cd \u09a0  by \u09a3_u09cd_u09a0.cjct;
+    sub \u09a3 \u09cd \u09a1  by \u09a3_u09cd_u09a1.cjct;
+    sub \u09a4 \u09cd \u09a5  by \u09a4_u09cd_u09a5.cjct;
+    sub \u09a4 \u09cd \u09a8  by \u09a4_u09cd_u09a8.cjct;
+    sub \u09a4 \u09cd \u09ae  by \u09a4_u09cd_u09ae.cjct;
+    sub \u09a6 \u09cd \u09a6  by \u09a6_u09cd_u09a6.cjct;
+    sub \u09a6 \u09cd \u09a7  by \u09a6_u09cd_u09a7.cjct;
+    sub \u09a6 \u09cd \u09ae  by \u09a6_u09cd_u09ae.cjct;
+    sub \u0998 \u09cd \u09a8  by \u0998_u09cd_u09a8.cjct;
+    sub \u09a6 \u09cd \u09ad  by \u09a6_u09cd_u09ad.cjct;
+    sub \u0995 \u09cd \u09f1  by \u0995_u09cd_u09ac.cjct;
+    sub \u0995 \u09cd \u09ac  by \u0995_u09cd_u09ac.cjct;
+    sub \u0997 \u09cd \u09f1  by \u0997_u09cd_u09ac.cjct;
+    sub \u0997 \u09cd \u09ac  by \u0997_u09cd_u09ac.cjct;
+    sub \u099b \u09cd \u09f1  by \u099b_u09cd_u09ac.cjct;
+    sub \u099b \u09cd \u09ac  by \u099b_u09cd_u09ac.cjct;
+    sub \u099c \u09cd \u09f1  by \u099c_u09cd_u09ac.cjct;
+    sub \u099c \u09cd \u09ac  by \u099c_u09cd_u09ac.cjct;
+    sub \u09a3 \u09cd \u09ac  by \u09a3_u09cd_u09ac.cjct;
+    sub \u09a3 \u09cd \u09f1  by \u09a3_u09cd_u09ac.cjct;
+    sub \u09a4 \u09cd \u09ac  by \u09a4_u09cd_u09ac.cjct;
+    sub \u09a4 \u09cd \u09f1  by \u09a4_u09cd_u09ac.cjct;
+    sub \u09a6 \u09cd \u09ac  by \u09a6_u09cd_u09ac.cjct;
+    sub \u09a6 \u09cd \u09f1  by \u09a6_u09cd_u09ac.cjct;
+    sub \u09a7 \u09cd \u09f1  by \u09a7_u09cd_u09ac.cjct;
+    sub \u09a7 \u09cd \u09ac  by \u09a7_u09cd_u09ac.cjct;
+    sub \u09a8 \u09cd \u09f1  by \u09a8_u09cd_u09ac.cjct;
+    sub \u09a8 \u09cd \u09ac  by \u09a8_u09cd_u09ac.cjct;
+    sub \u09aa \u09cd \u09f1  by \u09aa_u09cd_u09ac.cjct;
+    sub \u09aa \u09cd \u09ac  by \u09aa_u09cd_u09ac.cjct;
+    sub \u09ac \u09cd \u09f1  by \u09ac_u09cd_u09ac.cjct;
+    sub \u09ac \u09cd \u09ac  by \u09ac_u09cd_u09ac.cjct;
+    sub \u09b6 \u09cd \u09f1  by \u09b6_u09cd_u09ac.cjct;
+    sub \u09b6 \u09cd \u09ac  by \u09b6_u09cd_u09ac.cjct;
+    sub \u09b8 \u09cd \u09f1  by \u09b8_u09cd_u09ac.cjct;
+    sub \u09b8 \u09cd \u09ac  by \u09b8_u09cd_u09ac.cjct;
+    sub \u09a6 \u09cd \u09a8  by \u09a6_u09cd_u09a8.cjct;
+    sub \u09a7 \u09cd \u09a8  by \u09a7_u09cd_u09a8.cjct;
+    sub \u09a8 \u09cd \u09a4  by \u09a8_u09cd._u09a4.cjct;
+    sub \u09a8 \u09cd \u09a4_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a4_u09b0.vatu;
+    sub \u09a8 \u09cd \u09a5  by \u09a8_u09cd_u09a5.cjct;
+    sub \u09a8 \u09cd \u09a6  by \u09a8_u09cd_u09a6.cjct;
+    sub \u09a8 \u09cd \u09a7  by \u09a8_u09cd_u09a7.cjct;
+    sub \u09a8 \u09cd \u09a8  by \u09a8_u09cd_u09a8.cjct;
+    sub \u09a8 \u09cd \u09ae  by \u09a8_u09cd_u09ae.cjct;
+    sub \u09a8 \u09cd \u09b8  by \u09a8_u09cd_u09b8.cjct;
+    sub \u09aa \u09cd \u09a4  by \u09aa_u09cd_u09a4.cjct;
+    sub \u09aa \u09cd \u09aa  by \u09aa_u09cd_u09aa.cjct;
+    sub \u09aa \u09cd \u09ae  by \u09aa_u09cd_u09ae.cjct;
+    sub \u09aa \u09cd \u09a8  by \u09aa_u09cd_u09a8.cjct;
+    sub \u09aa \u09cd \u09b2  by \u09aa_u09cd_u09b2.cjct;
+    sub \u09ab \u09cd \u09b2  by \u09ab_u09cd_u09b2.cjct;
+    sub \u09ae \u09cd \u09aa  by \u09ae_u09cd_u09aa.cjct;
+    sub \u09ae \u09cd \u09ab  by \u09ae_u09cd_u09ab.cjct;
+    sub \u09ae \u09cd \u09ad  by \u09ae_u09cd_u09ad.cjct;
+    sub \u09ae \u09cd \u09a8  by \u09ae_u09cd_u09a8.cjct;
+    sub \u09ae \u09cd \u09ae  by \u09ae_u09cd_u09ae.cjct;
+    sub \u09ae \u09cd \u09b2  by \u09ae_u09cd_u09b2.cjct;
+    sub \u09ae \u09cd \u09ad_u09b0_u09cd.blwf.vatu  by \u09ae_u09cd_u09ad.09b0_u09cd;
+    sub \u09b2 \u09cd \u0995  by \u09b2_u09cd_u0995.cjct;
+    sub \u09b2 \u09cd \u0997  by \u09b2_u09cd._u0997.cjct;
+    sub \u09b2 \u09cd \u09f1  by \u09b2_u09cd_u09ac.cjct;
+    sub \u09b2 \u09cd \u09ac  by \u09b2_u09cd_u09ac.cjct;
+    sub \u09b2 \u09cd \u09aa  by \u09b2_u09cd_u09aa.cjct;
+    sub \u09b2 \u09cd \u09ae  by \u09b2_u09cd_u09ae.cjct;
+    sub \u09b2 \u09cd \u09b2  by \u09b2_u09cd_u09b2.cjct;
+    sub \u09ac \u09cd \u099c  by \u09ac_u09cd_u099c.cjct;
+    sub \u09ac \u09cd \u09a6  by \u09ac_u09cd_u09a6.cjct;
+    sub \u09ac \u09cd \u09a7  by \u09ac_u09cd_u09a7.cjct;
+    sub \u09ac \u09cd \u09a8  by \u09ac_u09cd_u09a8.cjct;
+    sub \u09ac \u09cd \u09b2  by \u09ac_u09cd_u09b2.cjct;
+    sub \u09b6 \u09cd \u09b2  by \u09b6_u09cd_u09b2.cjct;
+    sub \u09b7 \u09cd \u0995  by \u09b7_u09cd_u0995.cjct;
+    sub \u09b7 \u09cd \u099f  by \u09b7_u09cd_u099f.cjct;
+    sub \u09b7 \u09cd \u09a0  by \u09b7_u09cd_u09a0.cjct;
+    sub \u09b7 \u09cd \u09a3  by \u09b7_u09cd_u09a3.cjct;
+    sub \u09b7 \u09cd \u09aa  by \u09b7_u09cd._u09aa.cjct;
+    sub \u09b8 \u09cd \u0995  by \u09b8_u09cd_u0995.cjct;
+    sub \u09b8 \u09cd \u09a4  by \u09b8_u09cd_u09a4.cjct;
+    sub \u09b8 \u09cd \u09a5  by \u09b8_u09cd_u09a5.cjct;
+    sub \u09b8 \u09cd \u09a8  by \u09b8_u09cd_u09a8.cjct;
+    sub \u09b8 \u09cd \u09ae  by \u09b8_u09cd_u09ae.cjct;
+    sub \u09b8 \u09cd \u09b2  by \u09b8_u09cd_u09b2.cjct;
+    sub \u09b8 \u09cd \u09ab  by \u09b8_u09cd_u09ab.cjct;
+    sub \u09b8 \u09cd \u099f  by \u09b8_u09cd_u099f.cjct;
+    sub \u09b8 \u09cd \u099f_u09b0_u09cd.blwf.vatu  by \u09b8_u09cd.u099f_u09b0.vatu;
+    sub \u09b8 \u09cd \u09aa  by \u09b8_u09cd_u09aa.cjct;
+    sub \u09b8 \u09cd \u09a4_u09b0_u09cd.blwf.vatu  by \u09b8_u09cd_u09a4_u09b0.vatu;
+    sub \u09b8 \u09cd \u0995_u09b0_u09cd.blwf.vatu  by \u09b8_u09cd_u0995_u09b0.vatu;
+    sub \u09b9 \u09cd \u09a8  by \u09b9_u09cd_u09a8.cjct;
+    sub \u099c \u09cd \u099c \u09cd \u09ac  by \u099c_u09cd_u099c_u09ac;
+    sub \u099c \u09cd \u099c \u09cd \u09f1  by \u099c_u09cd_u099c_u09ac;
+    sub \u0995 \u09cd \u099f_u09b0_u09cd.blwf.vatu  by \u0995_u09cd_u099f_u09b0.vatu;
+    sub \u09a8 \u09cd \u09a6_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a6_u09b0.vatu;
+    sub \u09a8 \u09cd \u09a7_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a7_u09b0.vatu;
+    sub \u09aa \u09cd \u09a4_u09b0_u09cd.blwf.vatu  by \u09aa_u09cd_u09a4_u09b0.vatu;
+    sub \u09ae \u09cd \u09aa_u09b0_u09cd.blwf.vatu  by \u09ae_u09cd_u09aa_u09b0.vatu;
+    sub \u09b7 \u09cd \u099f_u09b0_u09cd.blwf.vatu  by \u09b7_u09cd_u099f_u09b0.vatu;
+    sub \u09b8 \u09cd \u09aa_u09b0_u09cd.blwf.vatu  by \u09b8_u09cd_u09aa_u09b0.vatu;
+    sub \u09a4 \u09cd \u09a4 \u09cd \u09f1  by \u09a4_u09cd_u09a4_u09ac.cjct;
+    sub \u09a4 \u09cd \u09a4 \u09cd \u09ac  by \u09a4_u09cd_u09a4_u09ac.cjct;
+    sub \u09a8 \u09cd \u09a6 \u09cd \u09ac  by \u09a8_u09cd_u09a6_u09ac.cjct;
+    sub \u09a8 \u09cd \u09a6 \u09cd \u09f1  by \u09a8_u09cd_u09a6_u09ac.cjct;
+    sub \u09a8 \u09cd \u099f  by \u09a8_u09cd_u099f.cjct;
+    sub \u09a8 \u09cd \u09a0  by \u09a8_u09cd_u09a0.cjct;
+    sub \u09a8 \u09cd \u09a1  by \u09a8_u09cd_u09a1.cjct;
+    sub \u09a8 \u09cd \u099a  by \u09a8_u09cd_u099a.cjct;
+    sub \u09a3 \u09cd \u09a1_u09b0_u09cd.blwf.vatu  by \u09a3_u09cd_u09a1_u09b0.vatu;
+    sub \u09a8 \u09cd \u099f_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u099f_u09b0.vatu;
+    sub \u09a8 \u09cd \u09a0_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a0_u09b0.vatu;
+    sub \u09a8 \u09cd \u09a1_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a1_u09b0.cjct;
+    sub \u09b8 \u09cd \u0996  by \u09b8_u09cd_u0996.cjct;
+    sub \u09b6 \u09cd \u099a  by \u09b6_u09cd_u099a.cjct;
+    sub \u09a8 \u09cd \u0995  by \u09a8_u09cd_u0995.cjct;
+    sub \u09a8 \u09cd \u0995_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u0995_u09b0.cjct;
+    sub \u09b6 \u09cd \u099b  by \u09b6_u09cd_u099b.cjct;
+    sub \u09a3 \u09cd \u09ae  by \u09a3_u09cd_u09ae.cjct;
+    sub \u09b6 \u09cd \u09ae  by \u09b6_u09cd_u09ae.cjct;
+    sub \u09a6 \u09cd \u09a6 \u09cd \u09ac  by \u09a6_u09cd_u09a6_u09ac.cjct;
+    sub \u09b7 \u09cd \u09ae  by \u09b7_u09cd_u09ae.cjct;
+    sub \u09ac \u09cd \u09a6_u09b0_u09cd.blwf.vatu  by \u09ac_u09cd_u09a6_u09b0.vatu;
+    sub \u099a \u09cd \u099a  by \u099a_u09cd_u099a.cjct;
+    sub \u099a \u09cd \u099b \u09cd \u09ac  by \u099a_u09cd_u099b_u09ac.cjct;
+    sub \u099a \u09cd \u099b \u09cd \u09f1  by \u099a_u09cd_u099b_u09ac.cjct;
+    sub \u0999 \u09cd \u09ae  by \u0999_u09cd_u09ae.cjct;
+    sub \u09a8 \u09cd \u09a4 \u09cd \u09f1  by \u09a8_u09cd_u09a4_u09ac.blws;
+    sub \u09a8 \u09cd \u09a4 \u09cd \u09ac  by \u09a8_u09cd_u09a4_u09ac.blws;
+    sub \u09aa \u09cd \u099f  by \u09aa_u09cd_u099f.cjct;
+    sub \u09b6 \u09cd \u09a8  by \u09b6_u09cd_u09a8.cjct;
+    sub \u09aa \u09cd \u09b8  by \u09aa_u09cd_u09b8.cjct;
+    sub \u09b9 \u09cd \u09b2  by \u09b9_u09cd_u09b2.cjct;
+    sub \u09b2 \u09cd \u09a1  by \u09b2_u09cd_u09a1.cjct;
+    sub \u09b7 \u09cd \u09ab  by \u09b7_u09cd_u09ab.cjct;
+    sub \u09dc \u09cd \u0997  by \u09dc_u09cd_u0997.cjct;
+    sub \u09a6 \u09cd \u09ad_u09b0_u09cd.blwf.vatu  by \u09a6_u09cd_u09ad_u09b0.vatu;
+    sub \u09ac \u09cd \u09ad  by \u09ac_u09cd_u09ad.cjct;
+    sub \u09b9 \u09cd \u09f1  by \u09b9_u09cd_u09ac.cjct;
+    sub \u09b9 \u09cd \u09ac  by \u09b9_u09cd_u09ac.cjct;
+    sub \u09b9 \u09cd \u09a3  by \u09b9_u09cd_u09a3.cjct;
+    sub \u0999 \u09cd \u0998  by \u0999_u09cd_u0998.cjct;
+    sub \u09a6 \u09cd \u09a7 \u09cd \u09ac  by \u09a6_u09cd_u09a7_u09ac.cjct;
+    sub \u09a6 \u09cd \u09a7 \u09cd \u09f1  by \u09a6_u09cd_u09a7_u09ac.cjct;
+    sub \u09b2 \u09cd \u09ab  by \u09b2_u09cd_u09ab.cjct;
+    sub \u09b7 \u09cd \u0996  by \u09b7_u09cd_u0996.cjct;
+    sub \u09b2 \u09cd \u099f  by \u09b2_u09cd_u099f.cjct;
+    sub \u09ae \u09cd \u09f1  by \u09ae_u09cd_u09ac.cjct;
+    sub \u09ae \u09cd \u09ac  by \u09ae_u09cd_u09ac.cjct;
+    sub \u09a3 \u09cd \u09a2  by \u09a3_u09cd_u09a2.cjct;
+    sub \u099a \u09cd \u099b_u09b0_u09cd.blwf.vatu  by \u099a_u09cd_u099b_u09b0.vatu;
+    sub \u09a3 \u09cd \u09a3  by \u09a3_u09cd_u09a3.cjct;
+    sub \space \u09cd \u0995  by \u0995_alt;
+    sub \space \u09cd \u0997  by \u0997_alt;
+    sub \space \u09cd \u09a4  by \u09a4_alt;
+    sub \space \u09cd \u09a5  by \u09a5_alt;
+    sub \space \u09cd \u09a7  by \u09a7_alt;
+    sub \space \u09cd \u09a8  by \u09a8_alt;
+    sub \space \u09cd \u09aa  by \u09aa_alt;
+    sub \space \u09cd \u09f1  by \glyph509;
+    sub \space \u09cd \u09ac  by \glyph509;
+    sub \space \u09cd \u09ad  by \u09ad_alt;
+    sub \space \u09cd \u09b2  by \u09b2_alt;
+    sub \space \u09cd \u09ae  by \u09ae_alt;
+    sub \u09b0 \zwnj \u09cd \u09af  by \Ra_yaphala;
+    sub \u09b7 \u09cd \u0995_u09b0_u09cd.blwf.vatu  by \u09b7_u09cd_u0995_u09b0.vatu;
+    sub \u09a6 \u09cd \u0997  by \u09a6_u09cd_u0997.cjct;
+    sub \u09a6 \u09cd \u0998  by \u09a6_u09cd_u0998.cjct;
+    sub \u0995 \u09cd \zwnj \u09a4  by \u0995_u09cd_u09a4.salt;
+    sub \u09b9 \u09cd \zwnj \u09ae  by \u09b9_u09cd_u09ae.salt;
+    sub \u0999 \u09cd \zwnj \u0997  by \u0999_u09cd_u0997.salt;
+    sub \u0999 \u09cd \zwnj \u0995  by \u0999_u09cd_u0995.salt;
+    sub \u09ae \u09cd \u09a4  by \u09ae_u09cd_u09a4.cjct;
+    sub \u09ae \u09cd \u09a6  by \u09ae_u09cd_u09a6.cjct;
+    sub \u09ae \u09cd \u09b9  by \u09ae_u09cd_u09b9.cjct;
+    sub \u099f \u09cd \u09ac  by \u099f_u09cd_u09ac.cjct;
+    sub \u099f \u09cd \u09f1  by \u099f_u09cd_u09ac.cjct;
+    sub \u099f \u09cd \u09ae  by \u099f_u09cd_u09ae.cjct;
+    sub \u09b2 \u09cd \u09a4  by \u09b2_u09cd_u09a4.cjct;
+    sub \u09b2 \u09cd \u09a7  by \u09b2_u09cd_u09a7.cjct;
+    sub \u09a7 \u09cd \u09ae  by \u09a7_u09cd_u09ae.cjct;
+    sub \u09b2 \u09cd \u09ad  by \u09b2_u09cd_u09ad.cjct;
+    sub \u09b6 \u09cd \u09a4  by \u09b6_u09cd_u09a4.cjct;
+    sub \u09b7 \u09cd \u09aa_u09b0_u09cd.blwf.vatu  by \u09b7_u09cd_u09aa_u09b0.cjct;
+    sub \u09b7 \u09cd \u09f1  by \u09b7_u09cd_u09ac.cjct;
+    sub \u09b7 \u09cd \u09ac  by \u09b7_u09cd_u09ac.cjct;
+    sub \u0999 \u09cd \u0995_u09cd_u09b7.akhn  by \u0999_u09cd_u0995_u09b7.cjct;
+    sub \u09a1 \u09cd \u09ae  by \u09a1_u09cd_u09ae.cjct;
+    sub \u09a1 \u09cd \u09b2  by \u09a1_u09cd_09b2.cjct;
+    sub \u09a5 \u09cd \u09f1  by \u09a5_u09cd_u09ac.cjct;
+    sub \u09a5 \u09cd \u09ac  by \u09a5_u09cd_u09ac.cjct;
+} cjctConjunctFormsinBengali2lookup6;
+
+lookup halfHalfFormsinBengali2lookup7 {
+  lookupflag 0;
+    sub \u099c_u09cd_u099e.akhn \u09cd \zwj  by \u099c_u09cd_u099e_u09cd.haln;
+    sub \u0995_u09cd_u09b7.akhn \u09cd \zwj  by \kassa_u09cd.half;
+    sub \u0995 \u09cd \zwj  by \u0995_u09cd.half;
+    sub \u0996 \u09cd \zwj  by \u0996_u09cd.half;
+    sub \u0997 \u09cd \zwj  by \u0997_u09cd.half;
+    sub \u0998 \u09cd \zwj  by \u0998_u09cd.half;
+    sub \u0999 \u09cd \zwj  by \u0999_u09cd.half;
+    sub \u099a \u09cd \zwj  by \u099a_u09cd.half;
+    sub \u099b \u09cd \zwj  by \u099b_u09cd.half;
+    sub \u099c \u09cd \zwj  by \u099c_u09cd.half;
+    sub \u099d \u09cd \zwj  by \u099d_u09cd.half;
+    sub \u099e \u09cd \zwj  by \u099e_u09cd.half;
+    sub \u099f \u09cd \zwj  by \u099f_u09cd.half;
+    sub \u09a0 \u09cd \zwj  by \u09a0_u09cd.half;
+    sub \u09a1 \u09cd \zwj  by \u09a1_u09cd.half;
+    sub \u09a2 \u09cd \zwj  by \u09a2_u09cd.half;
+    sub \u09a3 \u09cd \zwj  by \u09a3_u09cd.half;
+    sub \u09a4 \u09cd \zwj  by \u09a4_u09cd.half;
+    sub \u09a5 \u09cd \zwj  by \u09a5_u09cd.half;
+    sub \u09a6 \u09cd \zwj  by \u09a6_u09cd.half;
+    sub \u09a7 \u09cd \zwj  by \u09a7_u09cd.half;
+    sub \u09a8 \u09cd \zwj  by \u09a8_u09cd.half;
+    sub \u09aa \u09cd \zwj  by \u09aa_u09cd.half;
+    sub \u09ab \u09cd \zwj  by \u09ab_u09cd.half;
+    sub \u09ac \u09cd \zwj  by \u09ac_u09cd.half;
+    sub \u09ad \u09cd \zwj  by \u09ad_u09cd.half;
+    sub \u09ae \u09cd \zwj  by \u09ae_u09cd.half;
+    sub \u09af \u09cd \zwj  by \u09af_u09cd.half;
+    sub \u09b0 \u09cd \zwj  by \u09b0_u09cd.half;
+    sub \u09b2 \u09cd \zwj  by \u09b2_u09cd.half;
+    sub \u09b6 \u09cd \zwj  by \u09b6_u09cd.half;
+    sub \u09b7 \u09cd \zwj  by \u09b7_u09cd.half;
+    sub \u09b8 \u09cd \zwj  by \u09b8_u09cd.half;
+    sub \u09b9 \u09cd \zwj  by \u09b9_u09cd.half;
+    sub \u09dc \u09cd \zwj  by \u09dc_u09cd.half;
+    sub \u09dd \u09cd \zwj  by \u09dd_u09cd.half;
+    sub \u09df \u09cd \zwj  by \u09df_u09cd.half;
+} halfHalfFormsinBengali2lookup7;
+
+lookup vatuVattuVariantsinBengali2lookup8 {
+  lookupflag 0;
+    sub \u0995 \u09b0_u09cd.blwf  by \u0995_u09b0_u09cd.blwf.vatu;
+    sub \u0996 \u09b0_u09cd.blwf  by \u0996_u09b0_u09cd.blwf.vatu;
+    sub \u0997 \u09b0_u09cd.blwf  by \u0997_u09b0_u09cd.blwf.vatu;
+    sub \u0998 \u09b0_u09cd.blwf  by \u0998_u09b0_u09cd.blwf.vatu;
+    sub \u0999 \u09b0_u09cd.blwf  by \u0999_u09b0_u09cd.blwf.vatu;
+    sub \u099a \u09b0_u09cd.blwf  by \u099a_u09b0_u09cd.blwf.vatu;
+    sub \u099b \u09b0_u09cd.blwf  by \u099b_u09b0_u09cd.blwf.vatu;
+    sub \u099c \u09b0_u09cd.blwf  by \u099c_u09b0_u09cd.blwf.vatu;
+    sub \u099d \u09b0_u09cd.blwf  by \u099d_u09b0_u09cd.blwf.vatu;
+    sub \u099e \u09b0_u09cd.blwf  by \u099e_u09b0_u09cd.blwf.vatu;
+    sub \u099f \u09b0_u09cd.blwf  by \u099f_u09b0_u09cd.blwf.vatu;
+    sub \u09a0 \u09b0_u09cd.blwf  by \u09a0_u09b0_u09cd.blwf.vatu;
+    sub \u09a1 \u09b0_u09cd.blwf  by \u09a1_u09b0_u09cd.blwf.vatu;
+    sub \u09a2 \u09b0_u09cd.blwf  by \u09a2_u09b0_u09cd.blwf.vatu;
+    sub \u09a3 \u09b0_u09cd.blwf  by \u09a3_u09b0_u09cd.blwf.vatu;
+    sub \u09a4 \u09b0_u09cd.blwf  by \u09a4_u09b0_u09cd.blwf.vatu;
+    sub \u09a5 \u09b0_u09cd.blwf  by \u09a5_u09b0_u09cd.blwf.vatu;
+    sub \u09a6 \u09b0_u09cd.blwf  by \u09a6_u09b0_u09cd.blwf.vatu;
+    sub \u09a7 \u09b0_u09cd.blwf  by \u09a7_u09b0_u09cd.blwf.vatu;
+    sub \u09a8 \u09b0_u09cd.blwf  by \u09a8_u09b0_u09cd.blwf.vatu;
+    sub \u09aa \u09b0_u09cd.blwf  by \u09aa_u09b0_u09cd.blwf.vatu;
+    sub \u09ab \u09b0_u09cd.blwf  by \u09ab_u09b0_u09cd.blwf.vatu;
+    sub \u09ac \u09b0_u09cd.blwf  by \u09ac_u09b0_u09cd.blwf.vatu;
+    sub \u09ad \u09b0_u09cd.blwf  by \u09ad_u09b0_u09cd.blwf.vatu;
+    sub \u09ae \u09b0_u09cd.blwf  by \u09ae_u09b0_u09cd.blwf.vatu;
+    sub \u09af \u09b0_u09cd.blwf  by \u09af_u09b0_u09cd.blwf.vatu;
+    sub \u09b0 \u09b0_u09cd.blwf  by \u09b0_u09b0_u09cd.blwf.vatu;
+    sub \u09b2 \u09b0_u09cd.blwf  by \u09b2_u09b0_u09cd.blwf.vatu;
+    sub \u09b6 \u09b0_u09cd.blwf  by \u09b6_u09b0_u09cd.blwf.vatu;
+    sub \u09b7 \u09b0_u09cd.blwf  by \u09b7_u09b0_u09cd.blwf.vatu;
+    sub \u09b8 \u09b0_u09cd.blwf  by \u09b8_u09b0_u09cd.blwf.vatu;
+    sub \u09b9 \u09b0_u09cd.blwf  by \u09b9_u09b0_u09cd.blwf.vatu;
+    sub \u0995_u09cd_u09b7.akhn \u09b0_u09cd.blwf  by \bn_ka_ssa.akhn_bn_raphala.vatu;
+    sub \u0995 \zwnj \u09b0_u09cd.blwf  by \u0995_u09cd_u09b0.salt;
+} vatuVattuVariantsinBengali2lookup8;
+
+lookup blwsBelowBaseSubstitutionsinBengali2lookup9 {
+  lookupflag 0;
+    sub \u09a8_u09cd._u09a4.cjct \u09c1  by \u09a8_u09cd_u09a4_u09c1.blws;
+    sub \u09aa_u09cd_u09a4.cjct \u09c1  by \u09ae_u09cd_u09a4_u09b0.vatu;
+    sub \u09b8_u09cd_u09a4.cjct \u09c1  by \u09b8_u09cd_u09a4_u09c1.blws;
+    sub \u09f0 \u09c1  by \u09f0_u09c1.blws;
+    sub \u09f0 \u09c2  by \u09f0_u09c2.blws;
+} blwsBelowBaseSubstitutionsinBengali2lookup9;
+
+lookup abvsAboveBaseSubstitutionsinBengali2lookup10 {
+  lookupflag 0;
+    sub \u0987 \u0981  by \u0987_u0981.abvs;
+    sub \u0988 \u0981  by \u0988_u0981.abvs;
+    sub \u0989 \u0981  by \u0999_u0981.abvs;
+    sub \u098a \u0981  by \u098a_u0981.abvs;
+    sub \u099f \u0981  by \u099f_u0981.abvs;
+    sub \u09a0 \u0981  by \u09a0_u0981.abvs;
+    sub \u09be \u0981  by \u09be_u0981.abvs;
+    sub \u09be \u09b0_u09cd.rphf  by \u09be_u09b0_u09cd.rphf.abvs;
+    sub \u09bf \u0981  by \u09bf_u0981.abvs;
+    sub \u09c0 \u0981  by \u09c0_u0981.abvs;
+    sub \u09c0 \u09b0_u09cd.rphf  by \u09c0_u09b0_u09cd.rphf.abvs;
+    sub \u09d7 \u0981  by \u09d7_u0981.abvs;
+    sub \u09d7 \u09b0_u09cd.rphf  by \u09d7_u09b0_u09cd.rphf.abvs;
+} abvsAboveBaseSubstitutionsinBengali2lookup10;
+
+lookup abvsAboveBaseSubstitutionsinBengali2lookup11 {
+  lookupflag 0;
+    ignore sub [\u0987 \u0988 \u0989 \u098a \u099f \u09a0 \u099f_u09cd.haln \u09a0_u09cd.haln 
+	\u099f_u09b0_u09cd.blwf.vatu \u09a0_u09b0_u09cd.blwf.vatu 
+	\u0995_u09cd_u099f.cjct \u099f_u09cd_u099f.cjct 
+	\u09a3_u09cd_u099f.cjct \u09a3_u09cd_u09a0.cjct 
+	\u09b7_u09cd_u099f.cjct \u09b7_u09cd_u09a0.cjct 
+	\u09b8_u09cd_u099f.cjct \u09b8_u09cd.u099f_u09b0.vatu 
+	\u0995_u09cd_u099f_u09b0.vatu \u09b7_u09cd_u099f_u09b0.vatu 
+	\u09a8_u09cd_u099f.cjct \u09a8_u09cd_u09a0.cjct 
+	\u09a8_u09cd_u099f_u09b0.vatu \u09a8_u09cd_u09a0_u09b0.vatu 
+	\u09aa_u09cd_u099f.cjct \u09b2_u09cd_u099f.cjct 
+	\u099f_u09cd_u09ac.cjct \u099f_u09cd_u09ae.cjct ]' [\u09c0 ] ;
+} abvsAboveBaseSubstitutionsinBengali2lookup11;
+
+lookup halnHalantFormsinBengali2lookup12 {
+  lookupflag 0;
+    sub \u0995 \u09cd  by \u0995_u09cd.haln;
+    sub \u0996 \u09cd  by \u0996_u09cd.hln;
+    sub \u0997 \u09cd  by \u0996_u09cd.haln;
+    sub \u0998 \u09cd  by \u0998_u09cd.haln;
+    sub \u0989 \u09cd  by \u0999_u09cd.haln;
+    sub \u099a \u09cd  by \u099a_u09cd.haln;
+    sub \u099b \u09cd  by \u099b_u09cd.haln;
+    sub \u099c \u09cd  by \u099c_u09cd.haln;
+    sub \u099d \u09cd  by \u099d_u09cd.haln;
+    sub \u099e \u09cd  by \u099e_u09cd.haln;
+    sub \u099f \u09cd \zwnj  by \u099f_u09cd.haln;
+    sub \u09a1 \u09cd  by \u09a1_u09cd.haln;
+    sub \u09a2 \u09cd  by \u09a2_u09cd.haln;
+    sub \u09a3 \u09cd  by \u09a3_u09cd.haln;
+    sub \u09a4 \u09cd  by \u09a4_u09cd.haln;
+    sub \u09a5 \u09cd  by \u09a5_u09cd.haln;
+    sub \u09a6 \u09cd  by \u09a6_u09cd.haln;
+    sub \u09a7 \u09cd  by \u09a7_u09cd.haln;
+    sub \u09a8 \u09cd  by \u09a8_u09cd.haln;
+    sub \u09aa \u09cd  by \u09aa_u09cd.haln;
+    sub \u09ab \u09cd  by \u09ab_u09cd.haln;
+    sub \u09ac \u09cd  by \u09ac_u09cd.haln;
+    sub \u09ad \u09cd  by \u09ad_u09cd.haln;
+    sub \u09ae \u09cd  by \u09ae_u09cd.haln;
+    sub \u09af \u09cd  by \u09af_u09cd.haln;
+    sub \u09b0 \u09cd  by \u09b0_u09cd.haln;
+    sub \u09b6 \u09cd  by \u09b6_u09cd.haln;
+    sub \u09b7 \u09cd  by \u09b7_u09cd.haln;
+    sub \u09b8 \u09cd  by \u09b8_u09cd.haln;
+    sub \u09b9 \u09cd  by \u09b9_u09cd.haln;
+    sub \u09dc \u09cd  by \u09dc_u09cd.haln;
+    sub \u09dd \u09cd  by \u09dd_u09cd.haln;
+    sub \u099c_u09cd_u099e.akhn \u09cd  by \u099c_u09cd_u099e_u09cd.haln;
+    sub \u0995_u09cd_u09b7.akhn \u09cd  by \kassa_u09cd.half;
+} halnHalantFormsinBengali2lookup12;
+
+lookup saltStylisticAlternativesinBengali2lookup13 {
+  lookupflag 0;
+    sub \u09b9_u09cd_u09ae.cjct by \u09b9_u09cd_u09ae.salt ;
+    sub \u0995_u09b0_u09cd.blwf.vatu by \u0995_u09cd_u09b0.salt ;
+    sub \u09a4_u09b0_u09cd.blwf.vatu by \u09a4_u09b0_u09cd.vatu.salt ;
+    sub \u0995_u09cd_u09a4.cjct by \u0995_u09cd_u09a4.salt ;
+    sub \u0999_u09cd_u0995.cjct by \u0999_u09cd_u0995.salt ;
+    sub \u0999_u09cd_u0997.cjct by \u0999_u09cd_u0997.salt ;
+    sub \u099e_u09cd_u099a.cjct by \u099e_u09cd_u099a.salt ;
+    sub \u09b8_u09cd_u09a4_u09b0.vatu by \u09b8_u09cd_u09a4_u09b0.salt ;
+    sub \u09b8_u09cd_u0995_u09b0.vatu by \u09b8_u09cd_u0995_u09b0.salt ;
+} saltStylisticAlternativesinBengali2lookup13;
+
+lookup afrcVerticalFractionsinBengali2lookup15 {
+  lookupflag 0;
+    sub \u09e7 \slash \u09e8  by \u09e7_slash_u09e8.afrc;
+    sub \u09e7 \slash \u09e9  by \u09e7_slash_u09e9.afrc;
+    sub \u09e7 \slash \u09ea  by \u09e7_slash_u09ea.afrc;
+    sub \u09e7 \slash \u09ee  by \u09e7_slash_u09ee.afrc;
+    sub \u09e8 \slash \u09e9  by \u09e8_slash_u09e9.afrc;
+    sub \u09e9 \slash \u09ea  by \u09e9_slash_u09ea.afrc;
+} afrcVerticalFractionsinBengali2lookup15;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup0;
+} liga;
+
+feature nukt {
+
+ script bng2;
+     language dflt ;
+      lookup nuktNuktaFormsinBengali2lookup1;
+     language ASM  exclude_dflt;
+      lookup nuktNuktaFormsinBengali2lookup1;
+} nukt;
+
+feature akhn {
+
+ script bng2;
+     language dflt ;
+      lookup akhnAkhandinBengali2lookup2;
+} akhn;
+
+feature rphf {
+
+ script bng2;
+     language dflt ;
+      lookup rphfRephForminBengali2lookup3;
+     language ASM  exclude_dflt;
+      lookup rphfRephForminBengali2lookup3;
+} rphf;
+
+feature blwf {
+
+ script bng2;
+     language dflt ;
+      lookup blwfBelowBaseFormsinBengali2lookup4;
+     language ASM  exclude_dflt;
+      lookup blwfBelowBaseFormsinBengali2lookup4;
+} blwf;
+
+feature pstf {
+
+ script bng2;
+     language dflt ;
+      lookup pstfPostBaseFormsinBengali2lookup5;
+} pstf;
+
+feature cjct {
+
+ script bng2;
+     language dflt ;
+      lookup cjctConjunctFormsinBengali2lookup6;
+} cjct;
+
+feature half {
+
+ script bng2;
+     language dflt ;
+      lookup halfHalfFormsinBengali2lookup7;
+} half;
+
+feature vatu {
+
+ script bng2;
+     language dflt ;
+      lookup vatuVattuVariantsinBengali2lookup8;
+} vatu;
+
+feature blws {
+
+ script bng2;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionsinBengali2lookup9;
+} blws;
+
+feature abvs {
+
+ script bng2;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionsinBengali2lookup10;
+      lookup abvsAboveBaseSubstitutionsinBengali2lookup11;
+     language ASM  exclude_dflt;
+      lookup abvsAboveBaseSubstitutionsinBengali2lookup11;
+} abvs;
+
+feature haln {
+
+ script bng2;
+     language dflt ;
+      lookup halnHalantFormsinBengali2lookup12;
+} haln;
+
+feature salt {
+
+ script bng2;
+     language dflt ;
+      lookup saltStylisticAlternativesinBengali2lookup13;
+} salt;
+
+feature afrc {
+
+ script bng2;
+     language dflt ;
+      lookup afrcVerticalFractionsinBengali2lookup15;
+     language ASM  exclude_dflt;
+      lookup afrcVerticalFractionsinBengali2lookup15;
+} afrc;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    @kc16_first_0 = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z ];
+    @kc16_second_1 = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
+} kernHorizontalKerninginLatinlookup0;
+
+lookup abvmAboveBaseMarkinBengali2lookup1 {
+  lookupflag 0;
+  markClass [\u09b0_u09cd.rphf ] <anchor -272 812> @Anchor0;
+  pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 373 681> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09a4.cjct ] <anchor 399 675> mark @Anchor0;
+  pos base [\glyph475 ] <anchor 510 670> mark @Anchor0;
+  pos base [\u099a_u09cd_u099b_u09b0.vatu ] <anchor 431 675> mark @Anchor0;
+  pos base [\u0999_u09cd_u0995.salt ] <anchor 336 682> mark @Anchor0;
+  pos base [\u09a4_u09b0_u09cd.vatu.salt ] <anchor 380 673> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09b9.cjct ] <anchor 261 669> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09a7.cjct ] <anchor 330 677> mark @Anchor0;
+  pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 555 675> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 298 673> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 571 667> mark @Anchor0;
+} abvmAboveBaseMarkinBengali2lookup1;
+
+lookup blwmBelowBaseMarkinBengali2lookup2 {
+  lookupflag 0;
+  markClass [\u09ac_u09cd.blwf ] <anchor -80 74> @Anchor1;
+  pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 505 85> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09a4.cjct ] <anchor 475 31> mark @Anchor1;
+  pos base [\u09b0_u09cd.blwf ] <anchor -75 45> mark @Anchor1;
+  pos base [\glyph475 ] <anchor 1095 60> mark @Anchor1;
+  pos base [\u099a_u09cd_u099b_u09b0.vatu ] <anchor 605 -87> mark @Anchor1;
+  pos base [\u0999_u09cd_u0995.salt ] <anchor 418 -124> mark @Anchor1;
+  pos base [\u09a4_u09b0_u09cd.vatu.salt ] <anchor 576 20> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09b9.cjct ] <anchor 501 -59> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09a7.cjct ] <anchor 596 -55> mark @Anchor1;
+  pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 441 35> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 456 -39> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 839 32> mark @Anchor1;
+} blwmBelowBaseMarkinBengali2lookup2;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+
+feature abvm {
+
+ script bng2;
+     language dflt ;
+      lookup abvmAboveBaseMarkinBengali2lookup1;
+} abvm;
+
+feature blwm {
+
+ script bng2;
+     language dflt ;
+      lookup blwmBelowBaseMarkinBengali2lookup2;
+} blwm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+@MarkClass1 = [ u09c1 u09c2 u09c3 u09c4 u09cd ];
 
 @GDEF_Simple = [\nonmarkingreturn \space \exclam \quotedbl \numbersign \dollar 
 	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
@@ -34,23 +665,38 @@
 	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex 
 	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
 	\Zcaron \zcaron \uni0218 \uni0219 \uni021A \uni021B \uni0237 \circumflex \caron 
-	\breve \dotaccent \ring \ogonek \tilde \hungarumlaut \gravecomb \acutecomb 
-	\uni0302 \tildecomb \uni0304 \uni0306 \uni0307 \uni0308 \hookabovecomb \uni030A 
-	\uni030B \uni030C \uni030F \uni0311 \uni0312 \uni031B \dotbelowcomb \uni0324 
-	\uni0326 \uni0327 \uni0328 \uni032E \uni0331 \danda \doubledanda \u0980 \u0981 
+	\breve \dotaccent \ring \ogonek \tilde \hungarumlaut \danda \doubledanda \u0980 
 	\u0982 \u0983 \u0985 \u0986 \u0987 \u0988 \u0989 \u098a \u098b \u098c \u098F \u0990 
 	\u0993 \u0994 \u0995 \u0996 \u0997 \u0998 \u0999 \u099a \u099b \u099c \u099d \u099e 
 	\u099f \u09a0 \u09a1 \u09a2 \u09a3 \u09a4 \u09a5 \u09a6 \u09a7 \u09a8 \u09aa \u09ab 
-	\u09ac \u09ad \u09ae \u09af \u09b0 \u09b2 \u09b6 \u09b7 \u09b8 \u09b9 \u09bc \u09bd 
-	\u09be \u09bf \u09c0 \u09c1 \u09c2 \u09c3 \u09c4 \u09c7 \u09c8 \u09cb \u09cc \u09cd 
-	\u09ce \uni09CF \u09d7 \u09dc \u09dd \u09df \uni09E0 \uni09E1 \uni09E2 \uni09E3 
+	\u09ac \u09ad \u09ae \u09af \u09b0 \u09b2 \u09b6 \u09b7 \u09b8 \u09b9 \u09bd \u09be 
+	\u09bf \u09c0 \u09c7 \u09c8 \u09cb \u09cc \u09ce \uni09CF \u09d7 \uni09E0 \uni09E1 
 	\u09e6 \u09e7 \u09e8 \u09e9 \u09ea \u09eb \u09ec \uni09ED \u09ee \u09ef \u09f0 
 	\u09f1 \uni09F2 \uni09F3 \uni09F4 \uni09F5 \uni09F6 \uni09F7 \uni09F8 \uni09F9 
-	\uni09FA \u09fb \uni09FC \uni09FD \uni09FE \Wgrave \wgrave \Wacute \wacute 
-	\Wdieresis \wdieresis \uni1E9E \Ygrave \ygrave \uni200B \zwnj \zwj \endash 
-	\emdash \quoteleft \quoteright \quotesinglbase \quotedblleft \quotedblright 
+	\uni09FA \u09fb \uni09FC \uni09FD \Wgrave \wgrave \Wacute \wacute \Wdieresis 
+	\wdieresis \uni1E9E \Ygrave \ygrave \uni200B \zwnj \zwj \endash \emdash 
+	\quoteleft \quoteright \quotesinglbase \quotedblleft \quotedblright 
 	\quotedblbase \bullet \ellipsis \minute \second \guilsinglleft \guilsinglright 
-	\euro \uni20B9 \trademark \minus \uni25CC \u0981.salt \u099c_u09cd_u099e.akhn 
+	\euro \uni20B9 \trademark \minus \uni25CC \u0981.salt \u09b2_u09cd.haln 
+	\glyph219 \u09b2_u09b0_u09cd.blwf.vatu \u09be_u0981.abvs 
+	\u09be_u09b0_u09cd.rphf.abvs \u09bf_u0981.abvs \glyph475 \glyph478 \glyph479 
+	\glyph480 \glyph481 \glyph482 \glyph483 \glyph484 \glyph485 \glyph486 \glyph487 
+	\glyph488 \glyph489 \glyph490 \glyph491 \glyph492 \glyph493 \glyph494 \glyph495 
+	\glyph496 \glyph498 \glyph499 \glyph500 \glyph501 \u0995_alt \u0997_alt 
+	\u09a4_alt \u09a5_alt \u09a7_alt \u09a8_alt \u09aa_alt \glyph509 \u09ad_alt 
+	\u09b2_alt \u09ae_alt \glyph513 \glyph514 \glyph515 \glyph516 \glyph517 
+	\glyph518 \glyph519 \glyph520 \glyph521 \glyph522 \glyph523 \glyph524 \glyph525 
+	\glyph526 \glyph527 \glyph528 \glyph529 \glyph530 \glyph531 \glyph532 \glyph533 
+	\glyph534 \glyph535 \glyph536 \glyph537 \glyph538 \glyph539 \glyph540 \glyph541 
+	\glyph542 \glyph543 \glyph544 \glyph545 \Ra_yaphala \glyph547 
+	\u099e_u09cd_u099a.salt \u09e7_slash_u09e8.afrc \u09e7_slash_u09e9.afrc 
+	\u09e7_slash_u09ea.afrc \u09e7_slash_u09ee.afrc \u09e8_slash_u09e9.afrc 
+	\u09e9_slash_u09ea.afrc \u09c7.init \u09c8.init \u09b2_u09cd.half 
+	\u09a4_u09b0_u09cd.vatu.salt \u09b8_u09cd_u0995_u09b0.salt 
+	\u09b8_u09cd_u09a4_u09b0.salt \u09bf.salt \u09c0.salt \NameMe.65963 
+	\NameMe.65964 \NameMe.65965 \NameMe.65966 \NameMe.65967 \NameMe.65968 
+	\NameMe.65969 ];
+@GDEF_Ligature = [\u09dc \u09dd \u09df \u099c_u09cd_u099e.akhn 
 	\u0995_u09cd_u09b7.akhn \u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct 
 	\u0995_u09cd.haln \u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln 
 	\u0999_u09cd.haln \u099a_u09cd.haln \u099b_u09cd.haln \u099c_u09cd.haln 
@@ -58,25 +704,24 @@
 	\u09a1_u09cd.haln \u09a2_u09cd.haln \u09a3_u09cd.haln \u09a4_u09cd.haln 
 	\u09a5_u09cd.haln \u09a6_u09cd.haln \u09a7_u09cd.haln \u09a8_u09cd.haln 
 	\u09aa_u09cd.haln \u09ab_u09cd.haln \u09ac_u09cd.haln \u09ad_u09cd.haln 
-	\u09ae_u09cd.haln \u09af_u09cd.haln \u09b0_u09cd.haln \u09b2_u09cd.haln 
-	\u09b6_u09cd.haln \u09b7_u09cd.haln \u09b8_u09cd.haln \u09b9_u09cd.haln 
-	\u09dc_u09cd.haln \u09dd_u09cd.haln \glyph219 \u099c_u09cd_u099e_u09cd.haln 
-	\kassa_u09cd.half \u09b0_u09cd.rphf \u09af_u09cd.pstf \u09b0_u09cd.blwf 
-	\u09ac_u09cd.blwf \u0995_u09b0_u09cd.blwf.vatu 
-	\u0996_u09b0_u09cd.blwf.vatu \u0997_u09b0_u09cd.blwf.vatu 
-	\u0998_u09b0_u09cd.blwf.vatu \u0999_u09b0_u09cd.blwf.vatu 
-	\u099a_u09b0_u09cd.blwf.vatu \u099b_u09b0_u09cd.blwf.vatu 
-	\u099c_u09b0_u09cd.blwf.vatu \u099d_u09b0_u09cd.blwf.vatu 
-	\u099e_u09b0_u09cd.blwf.vatu \u099f_u09b0_u09cd.blwf.vatu 
-	\u09a0_u09b0_u09cd.blwf.vatu \u09a1_u09b0_u09cd.blwf.vatu 
-	\u09a2_u09b0_u09cd.blwf.vatu \u09a3_u09b0_u09cd.blwf.vatu 
-	\u09a4_u09b0_u09cd.blwf.vatu \u09a5_u09b0_u09cd.blwf.vatu 
-	\u09a6_u09b0_u09cd.blwf.vatu \u09a7_u09b0_u09cd.blwf.vatu 
-	\u09a8_u09b0_u09cd.blwf.vatu \u09aa_u09b0_u09cd.blwf.vatu 
-	\u09ab_u09b0_u09cd.blwf.vatu \u09ac_u09b0_u09cd.blwf.vatu 
-	\u09ad_u09b0_u09cd.blwf.vatu \u09ae_u09b0_u09cd.blwf.vatu 
-	\u09af_u09b0_u09cd.blwf.vatu \u09b0_u09b0_u09cd.blwf.vatu 
-	\u09b2_u09b0_u09cd.blwf.vatu \u09b6_u09b0_u09cd.blwf.vatu 
+	\u09ae_u09cd.haln \u09af_u09cd.haln \u09b0_u09cd.haln \u09b6_u09cd.haln 
+	\u09b7_u09cd.haln \u09b8_u09cd.haln \u09b9_u09cd.haln \u09dc_u09cd.haln 
+	\u09dd_u09cd.haln \u099c_u09cd_u099e_u09cd.haln \kassa_u09cd.half 
+	\u09b0_u09cd.rphf \u09af_u09cd.pstf \u09b0_u09cd.blwf \u09ac_u09cd.blwf 
+	\u0995_u09b0_u09cd.blwf.vatu \u0996_u09b0_u09cd.blwf.vatu 
+	\u0997_u09b0_u09cd.blwf.vatu \u0998_u09b0_u09cd.blwf.vatu 
+	\u0999_u09b0_u09cd.blwf.vatu \u099a_u09b0_u09cd.blwf.vatu 
+	\u099b_u09b0_u09cd.blwf.vatu \u099c_u09b0_u09cd.blwf.vatu 
+	\u099d_u09b0_u09cd.blwf.vatu \u099e_u09b0_u09cd.blwf.vatu 
+	\u099f_u09b0_u09cd.blwf.vatu \u09a0_u09b0_u09cd.blwf.vatu 
+	\u09a1_u09b0_u09cd.blwf.vatu \u09a2_u09b0_u09cd.blwf.vatu 
+	\u09a3_u09b0_u09cd.blwf.vatu \u09a4_u09b0_u09cd.blwf.vatu 
+	\u09a5_u09b0_u09cd.blwf.vatu \u09a6_u09b0_u09cd.blwf.vatu 
+	\u09a7_u09b0_u09cd.blwf.vatu \u09a8_u09b0_u09cd.blwf.vatu 
+	\u09aa_u09b0_u09cd.blwf.vatu \u09ab_u09b0_u09cd.blwf.vatu 
+	\u09ac_u09b0_u09cd.blwf.vatu \u09ad_u09b0_u09cd.blwf.vatu 
+	\u09ae_u09b0_u09cd.blwf.vatu \u09af_u09b0_u09cd.blwf.vatu 
+	\u09b0_u09b0_u09cd.blwf.vatu \u09b6_u09b0_u09cd.blwf.vatu 
 	\u09b7_u09b0_u09cd.blwf.vatu \u09b8_u09b0_u09cd.blwf.vatu 
 	\u09b9_u09b0_u09cd.blwf.vatu \janya_u09b0_u09cd.blwf.vatu 
 	\bn_ka_ssa.akhn_bn_raphala.vatu \u09a4_u09cd_u09a4_u09b0 
@@ -140,50 +785,46 @@
 	\u09ac_u09cd_u09ad.cjct \u09b9_u09cd_u09ac.cjct 
 	\u09b8_u09cd_u09a4_u09c1.blws \u09b9_u09cd_u09a3.cjct \u0987_u0981.abvs 
 	\u0988_u0981.abvs \u0999_u0981.abvs \u098a_u0981.abvs \u099f_u0981.abvs 
-	\u09a0_u0981.abvs \u09be_u0981.abvs \u09be_u09b0_u09cd.rphf.abvs 
-	\u09bf_u0981.abvs \u09c0_u0981.abvs \u09c0_u09b0_u09cd.rphf.abvs 
+	\u09a0_u0981.abvs \u09c0_u0981.abvs \u09c0_u09b0_u09cd.rphf.abvs 
 	\u09d7_u0981.abvs \u09d7_u09b0_u09cd.rphf.abvs \u0999_u09cd_u0998.cjct 
 	\u09a6_u09cd_u09a7_u09ac.cjct \u09b2_u09cd_u09ab.cjct 
 	\u09b7_u09cd_u0996.cjct \u09b2_u09cd_u099f.cjct \u09ae_u09cd_u09ac.cjct 
-	\u09a3_u09cd_u09a2.cjct \glyph475 \u099a_u09cd_u099b_u09b0.vatu 
-	\u09a3_u09cd_u09a3.cjct \glyph478 \glyph479 \glyph480 \glyph481 \glyph482 
-	\glyph483 \glyph484 \glyph485 \glyph486 \glyph487 \glyph488 \glyph489 \glyph490 
-	\glyph491 \glyph492 \glyph493 \glyph494 \glyph495 \glyph496 \glyph498 \glyph499 
-	\glyph500 \glyph501 \u0995_alt \u0997_alt \u09a4_alt \u09a5_alt \u09a7_alt 
-	\u09a8_alt \u09aa_alt \glyph509 \u09ad_alt \u09b2_alt \u09ae_alt \glyph513 
-	\glyph514 \glyph515 \glyph516 \glyph517 \glyph518 \glyph519 \glyph520 \glyph521 
-	\glyph522 \glyph523 \glyph524 \glyph525 \glyph526 \glyph527 \glyph528 \glyph529 
-	\glyph530 \glyph531 \glyph532 \glyph533 \glyph534 \glyph535 \glyph536 \glyph537 
-	\glyph538 \glyph539 \glyph540 \glyph541 \glyph542 \glyph543 \glyph544 \glyph545 
-	\Ra_yaphala \glyph547 \u099e_u09cd_u099a.salt \u09e7_slash_u09e8.afrc 
-	\u09e7_slash_u09e9.afrc \u09e7_slash_u09ea.afrc \u09e7_slash_u09ee.afrc 
-	\u09e8_slash_u09e9.afrc \u09e9_slash_u09ea.afrc 
-	\u09b7_u09cd_u0995_u09b0.vatu \u09a6_u09cd_u0997.cjct 
-	\u09a6_u09cd_u0998.cjct \u09c7.init \u09c8.init \u0995_u09cd.half 
+	\u09a3_u09cd_u09a2.cjct \u099a_u09cd_u099b_u09b0.vatu 
+	\u09a3_u09cd_u09a3.cjct \u09b7_u09cd_u0995_u09b0.vatu 
+	\u09a6_u09cd_u0997.cjct \u09a6_u09cd_u0998.cjct \u0995_u09cd.half 
 	\u0996_u09cd.half \u0997_u09cd.half \u0998_u09cd.half \u0999_u09cd.half 
 	\u099a_u09cd.half \u099b_u09cd.half \u099c_u09cd.half \u099d_u09cd.half 
 	\u099e_u09cd.half \u099f_u09cd.half \u09a0_u09cd.half \u09a1_u09cd.half 
 	\u09a2_u09cd.half \u09a3_u09cd.half \u09a4_u09cd.half \u09a5_u09cd.half 
 	\u09a6_u09cd.half \u09a7_u09cd.half \u09a8_u09cd.half \u09aa_u09cd.half 
 	\u09ab_u09cd.half \u09ac_u09cd.half \u09ad_u09cd.half \u09ae_u09cd.half 
-	\u09af_u09cd.half \u09b0_u09cd.half \u09b2_u09cd.half \u09b6_u09cd.half 
-	\u09b7_u09cd.half \u09b8_u09cd.half \u09b9_u09cd.half \u09dc_u09cd.half 
-	\u09dd_u09cd.half \u09df_u09cd.half \u0995_u09cd_u09a4.salt 
-	\u09b9_u09cd_u09ae.salt \u0999_u09cd_u0997.salt \u0995_u09cd_u09b0.salt 
-	\u0999_u09cd_u0995.salt \u09f0_u09c1.blws \u09f0_u09c2.blws 
-	\u09a4_u09b0_u09cd.vatu.salt \u09b8_u09cd_u0995_u09b0.salt 
-	\u09b8_u09cd_u09a4_u09b0.salt \u09bf.salt \u09c0.salt 
-	\u09ae_u09cd_u09a4.cjct \u09ae_u09cd_u09a6.cjct \u09ae_u09cd_u09b9.cjct 
-	\u099f_u09cd_u09ac.cjct \u099f_u09cd_u09ae.cjct \u09b2_u09cd_u09a4.cjct 
-	\u09b2_u09cd_u09a7.cjct \u09a7_u09cd_u09ae.cjct \u09b2_u09cd_u09ad.cjct 
-	\u09b6_u09cd_u09a4.cjct \u09b7_u09cd_u09aa_u09b0.cjct 
-	\u09b7_u09cd_u09ac.cjct \u0999_u09cd_u0995_u09b7.cjct 
-	\u09a1_u09cd_u09ae.cjct \u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct 
-	\NameMe.65963 \NameMe.65964 \NameMe.65965 \NameMe.65966 \NameMe.65967 
-	\NameMe.65968 \NameMe.65969 \Jacute \jacute ];
+	\u09af_u09cd.half \u09b0_u09cd.half \u09b6_u09cd.half \u09b7_u09cd.half 
+	\u09b8_u09cd.half \u09b9_u09cd.half \u09dc_u09cd.half \u09dd_u09cd.half 
+	\u09df_u09cd.half \u0995_u09cd_u09a4.salt \u09b9_u09cd_u09ae.salt 
+	\u0999_u09cd_u0997.salt \u0995_u09cd_u09b0.salt \u0999_u09cd_u0995.salt 
+	\u09f0_u09c1.blws \u09f0_u09c2.blws \u09ae_u09cd_u09a4.cjct 
+	\u09ae_u09cd_u09a6.cjct \u09ae_u09cd_u09b9.cjct \u099f_u09cd_u09ac.cjct 
+	\u099f_u09cd_u09ae.cjct \u09b2_u09cd_u09a4.cjct \u09b2_u09cd_u09a7.cjct 
+	\u09a7_u09cd_u09ae.cjct \u09b2_u09cd_u09ad.cjct \u09b6_u09cd_u09a4.cjct 
+	\u09b7_u09cd_u09aa_u09b0.cjct \u09b7_u09cd_u09ac.cjct 
+	\u0999_u09cd_u0995_u09b7.cjct \u09a1_u09cd_u09ae.cjct 
+	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct \Jacute \jacute ];
+@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 
+	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030F \uni0311 \uni0312 
+	\uni031B \dotbelowcomb \uni0324 \uni0326 \uni0327 \uni0328 \uni032E \uni0331 
+	\u0981 \u09bc \u09c1 \u09c2 \u09c3 \u09c4 \u09cd \uni09E2 \uni09E3 \uni09FE ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
+  LigatureCaretByPos \u09b0_u09cd.blwf 24;
 } GDEF;
+
+table BASE {
+  VertAxis.BaseTagList hang romn;
+  VertAxis.BaseScriptList
+	beng hang 1024 0,
+	deva hang 1024 0,
+	latn romn 0 0;
+} BASE;
 

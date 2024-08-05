@@ -120,7 +120,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <array>
       <integer>7</integer> 
     </array>
-   <key>openTypeOS2UnicodeRanges</key>
+    <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>0</integer>
       <integer>1</integer>

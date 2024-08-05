@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09a4_u09b0_u09cd.vatu.salt" format="2">
   <advance width="726"/>
+  <anchor x="576" y="20" name="Anchor-1"/>
+  <anchor x="380" y="673" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="-6" y="673" type="line"/>
