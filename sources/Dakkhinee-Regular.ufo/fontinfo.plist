@@ -81,6 +81,10 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <integer>1295</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>672</integer>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer> 
+    </array>
     <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>0</integer>
@@ -92,10 +96,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
       <integer>33</integer>
       <integer>45</integer>
     </array>
-    <key>openTypeOS2Selection</key>
-    <array>
-      <integer>7</integer> 
-    </array>
+
     <key>postscriptFontName</key>
     <string>Dakkhinee-Regular</string>
     <key>postscriptFullName</key>

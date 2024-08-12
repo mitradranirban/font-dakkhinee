@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="janya_u09b0_u09cd.blwf.vatu" format="2">
-  <advance width="864"/>
+  <advance width="995"/>
+  <outline>
+    <component base="u09b0_u09cd.blwf" xOffset="858" yOffset="39"/>
+    <component base="u099c_u09cd_u099e_u09cd.haln"/>
+  </outline>
 </glyph>

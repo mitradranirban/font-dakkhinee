@@ -546,52 +546,6 @@
     <string>u099a_u09cd_u099b_u09b0.vatu.glif</string>
     <key>u09a3_u09cd_u09a3.cjct</key>
     <string>u09a3_u09cd_u09a3.cjct.glif</string>
-    <key>glyph478</key>
-    <string>glyph478.glif</string>
-    <key>glyph479</key>
-    <string>glyph479.glif</string>
-    <key>glyph480</key>
-    <string>glyph480.glif</string>
-    <key>glyph481</key>
-    <string>glyph481.glif</string>
-    <key>glyph482</key>
-    <string>glyph482.glif</string>
-    <key>glyph483</key>
-    <string>glyph483.glif</string>
-    <key>glyph484</key>
-    <string>glyph484.glif</string>
-    <key>glyph485</key>
-    <string>glyph485.glif</string>
-    <key>glyph486</key>
-    <string>glyph486.glif</string>
-    <key>glyph487</key>
-    <string>glyph487.glif</string>
-    <key>glyph488</key>
-    <string>glyph488.glif</string>
-    <key>glyph489</key>
-    <string>glyph489.glif</string>
-    <key>glyph490</key>
-    <string>glyph490.glif</string>
-    <key>glyph491</key>
-    <string>glyph491.glif</string>
-    <key>glyph492</key>
-    <string>glyph492.glif</string>
-    <key>glyph493</key>
-    <string>glyph493.glif</string>
-    <key>glyph494</key>
-    <string>glyph494.glif</string>
-    <key>glyph495</key>
-    <string>glyph495.glif</string>
-    <key>glyph496</key>
-    <string>glyph496.glif</string>
-    <key>glyph498</key>
-    <string>glyph498.glif</string>
-    <key>glyph499</key>
-    <string>glyph499.glif</string>
-    <key>glyph500</key>
-    <string>glyph500.glif</string>
-    <key>glyph501</key>
-    <string>glyph501.glif</string>
     <key>u0995_alt</key>
     <string>u0995_alt.glif</string>
     <key>u0997_alt</key>
@@ -606,79 +560,13 @@
     <string>u09a8_alt.glif</string>
     <key>u09aa_alt</key>
     <string>u09aa_alt.glif</string>
-    <key>glyph509</key>
-    <string>glyph509.glif</string>
     <key>u09ad_alt</key>
     <string>u09ad_alt.glif</string>
     <key>u09b2_alt</key>
     <string>u09b2_alt.glif</string>
     <key>u09ae_alt</key>
     <string>u09ae_alt.glif</string>
-    <key>glyph513</key>
-    <string>glyph513.glif</string>
-    <key>glyph514</key>
-    <string>glyph514.glif</string>
-    <key>glyph515</key>
-    <string>glyph515.glif</string>
-    <key>glyph516</key>
-    <string>glyph516.glif</string>
-    <key>glyph517</key>
-    <string>glyph517.glif</string>
-    <key>glyph518</key>
-    <string>glyph518.glif</string>
-    <key>glyph519</key>
-    <string>glyph519.glif</string>
-    <key>glyph520</key>
-    <string>glyph520.glif</string>
-    <key>glyph521</key>
-    <string>glyph521.glif</string>
-    <key>glyph522</key>
-    <string>glyph522.glif</string>
-    <key>glyph523</key>
-    <string>glyph523.glif</string>
-    <key>glyph524</key>
-    <string>glyph524.glif</string>
-    <key>glyph525</key>
-    <string>glyph525.glif</string>
-    <key>glyph526</key>
-    <string>glyph526.glif</string>
-    <key>glyph527</key>
-    <string>glyph527.glif</string>
-    <key>glyph528</key>
-    <string>glyph528.glif</string>
-    <key>glyph529</key>
-    <string>glyph529.glif</string>
-    <key>glyph530</key>
-    <string>glyph530.glif</string>
-    <key>glyph531</key>
-    <string>glyph531.glif</string>
-    <key>glyph532</key>
-    <string>glyph532.glif</string>
-    <key>glyph533</key>
-    <string>glyph533.glif</string>
-    <key>glyph534</key>
-    <string>glyph534.glif</string>
-    <key>glyph535</key>
-    <string>glyph535.glif</string>
-    <key>glyph536</key>
-    <string>glyph536.glif</string>
-    <key>glyph537</key>
-    <string>glyph537.glif</string>
-    <key>glyph538</key>
-    <string>glyph538.glif</string>
-    <key>glyph539</key>
-    <string>glyph539.glif</string>
-    <key>glyph540</key>
-    <string>glyph540.glif</string>
-    <key>glyph541</key>
-    <string>glyph541.glif</string>
-    <key>glyph542</key>
-    <string>glyph542.glif</string>
-    <key>glyph543</key>
-    <string>glyph543.glif</string>
-    <key>glyph544</key>
-    <string>glyph544.glif</string>
-    <key>glyph545</key>
+    <key>u09b8_alt</key>
     <string>glyph545.glif</string>
     <key>Ra_yaphala</key>
     <string>R_a_yaphala.glif</string>
@@ -782,22 +670,8 @@
     <string>uni20B_9.glif</string>
     <key>u09fb</key>
     <string>u09fb.glif</string>
-    <key>uni200B</key>
+    <key>zwsp</key>
     <string>uni200B_.glif</string>
-    <key>u0995_u09cd_u09a4.salt</key>
-    <string>u0995_u09cd_u09a4.salt.glif</string>
-    <key>u09b9_u09cd_u09ae.salt</key>
-    <string>u09b9_u09cd_u09ae.salt.glif</string>
-    <key>u0999_u09cd_u0997.salt</key>
-    <string>u0999_u09cd_u0997.salt.glif</string>
-    <key>u0995_u09cd_u09b0.salt</key>
-    <string>u0995_u09cd_u09b0.salt.glif</string>
-    <key>u0999_u09cd_u0995.salt</key>
-    <string>u0999_u09cd_u0995.salt.glif</string>
-    <key>u09f0_u09c1.blws</key>
-    <string>u09f0_u09c1.blws.glif</string>
-    <key>u09f0_u09c2.blws</key>
-    <string>u09f0_u09c2.blws.glif</string>
     <key>u0980</key>
     <string>uni0980.glif</string>
     <key>uni09FC</key>
@@ -806,16 +680,6 @@
     <string>uni09F_D_.glif</string>
     <key>uni09FE</key>
     <string>uni09F_E_.glif</string>
-    <key>u09a4_u09b0_u09cd.vatu.salt</key>
-    <string>u09a4_u09b0_u09cd.vatu.salt.glif</string>
-    <key>u09b8_u09cd_u0995_u09b0.salt</key>
-    <string>u09b8_u09cd_u0995_u09b0.salt.glif</string>
-    <key>u09b8_u09cd_u09a4_u09b0.salt</key>
-    <string>u09b8_u09cd_u09a4_u09b0.salt.glif</string>
-    <key>u09bf.salt</key>
-    <string>u09bf.salt.glif</string>
-    <key>u09c0.salt</key>
-    <string>u09c0.salt.glif</string>
     <key>u09ae_u09cd_u09a4.cjct</key>
     <string>u09ae_u09cd_u09a4.cjct.glif</string>
     <key>u09ae_u09cd_u09a6.cjct</key>
