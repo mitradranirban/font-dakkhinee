@@ -2,6 +2,7 @@
 <glyph name="u099c_u09cd_u099e_u09cd.haln" format="2">
   <advance width="995"/>
   <outline>
+    <component base="u09cd" xOffset="453" yOffset="-75"/>
     <component base="u099c_u09cd_u099e.akhn"/>
   </outline>
 </glyph>

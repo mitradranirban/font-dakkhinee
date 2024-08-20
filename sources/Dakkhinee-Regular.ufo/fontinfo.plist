@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2006/01/25 18:19:49</string>
+    <string>2021/11/29 19:13:09</string>
     <key>openTypeHheaAscender</key>
     <integer>1200</integer>
     <key>openTypeHheaDescender</key>
@@ -96,7 +96,6 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
       <integer>33</integer>
       <integer>45</integer>
     </array>
-
     <key>postscriptFontName</key>
     <string>Dakkhinee-Regular</string>
     <key>postscriptFullName</key>

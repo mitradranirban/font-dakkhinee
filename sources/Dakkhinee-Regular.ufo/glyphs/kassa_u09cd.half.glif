@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kassa_u09cd.half" format="2">
   <advance width="1165"/>
+  <anchor x="550" y="839" name="Anchor-0"/>
   <outline>
+    <component base="u09cd" xOffset="588" yOffset="-81"/>
     <component base="u0995_u09cd_u09b7.akhn" xOffset="-27" yOffset="9"/>
   </outline>
 </glyph>
