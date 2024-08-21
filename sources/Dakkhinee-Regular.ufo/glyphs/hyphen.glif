@@ -5,19 +5,19 @@
   <outline>
     <contour>
       <point x="350" y="273" type="qcurve" smooth="yes"/>
-      <point x="350" y="257"/>
-      <point x="328" y="235"/>
-      <point x="311" y="235" type="qcurve" smooth="yes"/>
-      <point x="76" y="235" type="line" smooth="yes"/>
-      <point x="60" y="235"/>
-      <point x="38" y="257"/>
-      <point x="38" y="273" type="qcurve" smooth="yes"/>
-      <point x="38" y="290"/>
-      <point x="60" y="312"/>
-      <point x="76" y="312" type="qcurve" smooth="yes"/>
-      <point x="311" y="312" type="line" smooth="yes"/>
-      <point x="328" y="312"/>
       <point x="350" y="290"/>
+      <point x="328" y="312"/>
+      <point x="311" y="312" type="qcurve" smooth="yes"/>
+      <point x="76" y="312" type="line" smooth="yes"/>
+      <point x="60" y="312"/>
+      <point x="38" y="290"/>
+      <point x="38" y="273" type="qcurve" smooth="yes"/>
+      <point x="38" y="257"/>
+      <point x="60" y="235"/>
+      <point x="76" y="235" type="qcurve" smooth="yes"/>
+      <point x="311" y="235" type="line" smooth="yes"/>
+      <point x="328" y="235"/>
+      <point x="350" y="257"/>
     </contour>
   </outline>
 </glyph>

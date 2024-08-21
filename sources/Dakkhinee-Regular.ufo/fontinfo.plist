@@ -12,8 +12,6 @@
     <string>regular</string>
     <key>versionMajor</key>
     <integer>1</integer>
-    <key>versionMinor</key>
-    <integer>1</integer>
     <key>copyright</key>
     <string>Copyright 2024 The Dakkhinee Project Authors (https://github.com/mitradranirban/font-dakkhinee)</string>
     <key>unitsPerEm</key>
@@ -43,21 +41,15 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://fonts.atipra.in/</string>
     <key>openTypeNameLicense</key>
-    <string>Copyright 2024 The Dakkhinee Font Project Authors (github.com/mitradranirban/font-dakkhinee)
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org</string>
     <key>openTypeNameLicenseURL</key>
-    <string>http://scripts.sil.org/OFL</string>
+    <string>https://openfontlicense.org</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.001</string>
+    <string>Version 1.001; ttfautohint (v1.8.4.7-5d5b)</string>
     <key>openTypeNameUniqueID</key>
     <string>FontForge : Dakkhinee Regular : 21-8-2024</string>
     <key>openTypeNameDescription</key>
     <string>This Bengali or Bangla font is designed like South Indian Scripts</string>
-    <key>openTypeNamePreferredFamilyName</key>
-    <string>Dakkhinee</string>
-    <key>openTypeNamePreferredSubfamilyName</key>
-    <string>Regular</string>
     <key>openTypeNameSampleText</key>
     <string>Pack My Box With Five Dozen Liquor Jugs</string>
     <key>openTypeOS2Panose</key>
@@ -147,7 +139,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <key>postscriptUnderlineThickness</key>
     <integer>73</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-365</integer>
+    <integer>-401</integer>
     <key>guidelines</key>
     <array/>
   </dict>

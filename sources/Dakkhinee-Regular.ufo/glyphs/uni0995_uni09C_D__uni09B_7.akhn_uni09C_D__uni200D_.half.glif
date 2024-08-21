@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0995_uni09CD_uni09B7.akhn_uni09CD_uni200D.half" format="2">
+  <advance width="1132"/>
+  <anchor x="550" y="839" name="Anchor-0"/>
+  <outline>
+    <component base="uni09CD" xOffset="1008" yOffset="3"/>
+    <component base="uni0995_uni09CD_uni09B7.akhn" xOffset="-57" yOffset="9"/>
+  </outline>
+</glyph>

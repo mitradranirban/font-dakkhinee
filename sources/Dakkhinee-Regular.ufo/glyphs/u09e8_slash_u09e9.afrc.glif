@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="u09e8_slash_u09e9.afrc" format="2">
-  <advance width="661"/>
-  <outline>
-    <component base="u09e8" xScale="0.5" yScale="0.5" xOffset="194" yOffset="318"/>
-    <component base="u09e9" xScale="0.5" yScale="0.5" xOffset="148" yOffset="-164"/>
-    <component base="minus" yOffset="-16"/>
-  </outline>
-</glyph>

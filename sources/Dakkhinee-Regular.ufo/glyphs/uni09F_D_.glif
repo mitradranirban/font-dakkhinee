@@ -4,24 +4,24 @@
   <unicode hex="09FD"/>
   <outline>
     <contour>
-      <point x="206" y="195"/>
-      <point x="168" y="157"/>
-      <point x="168" y="103"/>
-      <point x="206" y="65"/>
-      <point x="260" y="65"/>
-      <point x="298" y="103"/>
-      <point x="298" y="157"/>
       <point x="260" y="195"/>
+      <point x="298" y="157"/>
+      <point x="298" y="103"/>
+      <point x="260" y="65"/>
+      <point x="206" y="65"/>
+      <point x="168" y="103"/>
+      <point x="168" y="157"/>
+      <point x="206" y="195"/>
     </contour>
     <contour>
-      <point x="179" y="0"/>
-      <point x="103" y="76"/>
-      <point x="103" y="184"/>
-      <point x="179" y="260"/>
-      <point x="287" y="260"/>
-      <point x="363" y="184"/>
-      <point x="363" y="76"/>
       <point x="287" y="0"/>
+      <point x="363" y="76"/>
+      <point x="363" y="184"/>
+      <point x="287" y="260"/>
+      <point x="179" y="260"/>
+      <point x="103" y="184"/>
+      <point x="103" y="76"/>
+      <point x="179" y="0"/>
     </contour>
   </outline>
 </glyph>

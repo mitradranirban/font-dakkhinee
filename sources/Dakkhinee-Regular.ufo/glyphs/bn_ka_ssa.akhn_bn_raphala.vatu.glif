@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bn_ka_ssa.akhn_bn_raphala.vatu" format="2">
-  <advance width="1153"/>
-  <outline>
-    <component base="u09b0_u09cd.blwf" xOffset="840" yOffset="29"/>
-    <component base="u0995_u09cd_u09b7.akhn"/>
-  </outline>
-</glyph>
