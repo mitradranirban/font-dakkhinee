@@ -2,7 +2,7 @@
 <glyph name="u09dd_u09cd.haln" format="2">
   <advance width="883"/>
   <outline>
-    <component base="u09cd" xOffset="396" yOffset="-150"/>
+    <component base="u09cd" xOffset="765" yOffset="-99"/>
     <component base="u09dd"/>
   </outline>
 </glyph>

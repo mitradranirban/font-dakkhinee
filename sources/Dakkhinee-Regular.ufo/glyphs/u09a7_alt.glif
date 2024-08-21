@@ -55,8 +55,6 @@
       <point x="307" y="274"/>
       <point x="448" y="272" type="curve"/>
       <point x="448" y="433" type="line"/>
-      <point x="478" y="433" type="line"/>
-      <point x="509" y="433" type="line"/>
       <point x="517" y="433" type="line"/>
     </contour>
   </outline>
