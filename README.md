@@ -43,7 +43,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-Beta Release awaited.
+2024-08-21 Initial Release Version 1.001
  
 
 ## License
