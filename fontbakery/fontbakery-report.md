@@ -38,7 +38,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[15] Dakkhinee-Regular.ttf</summary>
+<details><summary>[13] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.fontbakery.html#"></a></summary>
@@ -52,25 +52,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>Current FontBakery version is 0.12.9, while a newer 0.12.10 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-u09cd (U+09CD)</p>
- [code: spacing-mark-glyphs]
 
 
 
@@ -459,29 +440,6 @@ U+09FC</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The most common width is 661 among a set of 11 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 798:
-equal</p>
-<p>Width = 662:
-notequal</p>
- [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
 
@@ -492,21 +450,7 @@ notequal</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- NameMe.65963
-
-- NameMe.65964
-
-- NameMe.65965
-
-- NameMe.65966
-
-- NameMe.65967
-
-- NameMe.65968
-
-- NameMe.65969
-
-- glyph219
+<pre><code>- glyph219
 
 - glyph475
 
@@ -566,23 +510,19 @@ notequal</p>
 
 * K (U+004B): L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt;/B&lt;&lt;298.0,535.0&gt;-&lt;308.0,494.0&gt;-&lt;330.0,458.0&gt;&gt; = 13.706961004079783
 
+* K (U+004B): L&lt;&lt;301.0,402.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt; = 14.036243467926484
+
 * euro (U+20AC): L&lt;&lt;188.0,386.0&gt;--&lt;193.0,394.0&gt;&gt;/B&lt;&lt;193.0,394.0&gt;-&lt;176.0,354.0&gt;-&lt;176.0,330.0&gt;&gt; = 8.979891199555468
 
 * euro (U+20AC): L&lt;&lt;251.0,312.0&gt;--&lt;260.0,269.0&gt;&gt;/B&lt;&lt;260.0,269.0&gt;-&lt;255.0,280.0&gt;-&lt;251.0,300.5&gt;&gt; = 12.622466439809251
 
-* glyph475: B&lt;&lt;439.5,235.5&gt;-&lt;465.0,266.0&gt;-&lt;472.0,301.0&gt;&gt;/L&lt;&lt;472.0,301.0&gt;--&lt;472.0,138.0&gt;&gt; = 11.309932474020195
-
-* glyph475: L&lt;&lt;472.0,678.0&gt;--&lt;472.0,366.0&gt;&gt;/B&lt;&lt;472.0,366.0&gt;-&lt;459.0,426.0&gt;-&lt;393.0,475.0&gt;&gt; = 12.225122675735754
-
 * u0995_u09cd_u09b2.cjct: L&lt;&lt;752.0,424.0&gt;--&lt;679.0,428.0&gt;&gt;/L&lt;&lt;679.0,428.0&gt;--&lt;712.0,418.0&gt;&gt; = 13.722040399405659
-
-* u099a_u09cd_u099b_u09ac.cjct: B&lt;&lt;526.5,93.5&gt;-&lt;577.0,88.0&gt;-&lt;619.0,80.0&gt;&gt;/L&lt;&lt;619.0,80.0&gt;--&lt;616.0,80.0&gt;&gt; = 10.784297867562596
-
-* u099a_u09cd_u099b_u09ac.cjct: B&lt;&lt;668.0,61.5&gt;-&lt;667.0,62.0&gt;-&lt;664.0,63.0&gt;&gt;/B&lt;&lt;664.0,63.0&gt;-&lt;707.0,54.0&gt;-&lt;739.0,44.0&gt;&gt; = 6.613460482314664
 
 * u09a4_u09cd_u09a8.cjct: B&lt;&lt;566.0,400.0&gt;-&lt;562.0,402.0&gt;-&lt;534.0,402.0&gt;&gt;/B&lt;&lt;534.0,402.0&gt;-&lt;637.0,424.0&gt;-&lt;697.5,470.5&gt;&gt; = 12.05676253383262
 
-* u09a6_u09cd_u09ad.cjct: B&lt;&lt;383.5,365.0&gt;-&lt;362.0,376.0&gt;-&lt;334.0,383.0&gt;&gt;/B&lt;&lt;334.0,383.0&gt;-&lt;345.0,383.0&gt;-&lt;355.0,384.0&gt;&gt; = 14.036243467926484
+* u09a6_u09cd_u0997.cjct: B&lt;&lt;174.0,331.0&gt;-&lt;228.0,306.0&gt;-&lt;300.0,301.0&gt;&gt;/B&lt;&lt;300.0,301.0&gt;-&lt;274.0,304.0&gt;-&lt;246.0,341.0&gt;&gt; = 2.6094487144272733
+
+* u09a6_u09cd_u09ad.cjct: B&lt;&lt;383.5,365.0&gt;-&lt;362.0,376.0&gt;-&lt;334.0,383.0&gt;&gt;/B&lt;&lt;334.0,383.0&gt;-&lt;339.0,383.0&gt;-&lt;344.5,383.5&gt;&gt; = 14.036243467926484
 
 * u09a7_u09cd_u09a8.cjct: B&lt;&lt;434.5,465.0&gt;-&lt;445.0,457.0&gt;-&lt;458.0,452.0&gt;&gt;/B&lt;&lt;458.0,452.0&gt;-&lt;452.0,453.0&gt;-&lt;447.5,453.0&gt;&gt; = 11.575188817396182
 
@@ -599,6 +539,8 @@ notequal</p>
 * u09ab_u09cd.half: B&lt;&lt;214.5,722.5&gt;-&lt;188.0,738.0&gt;-&lt;159.0,742.0&gt;&gt;/L&lt;&lt;159.0,742.0&gt;--&lt;814.0,742.0&gt;&gt; = 7.853313301978193
 
 * u09ab_u09cd_u09b2.cjct: B&lt;&lt;475.5,722.5&gt;-&lt;449.0,738.0&gt;-&lt;420.0,742.0&gt;&gt;/L&lt;&lt;420.0,742.0&gt;--&lt;1075.0,742.0&gt;&gt; = 7.853313301978193
+
+* u09ac_u09cd_u09ad.cjct: B&lt;&lt;366.5,401.0&gt;-&lt;374.0,401.0&gt;-&lt;379.0,402.0&gt;&gt;/B&lt;&lt;379.0,402.0&gt;-&lt;339.0,390.0&gt;-&lt;312.0,366.0&gt;&gt; = 5.389311759973354
 
 * u09ac_u09cd_u09b2.cjct: L&lt;&lt;852.0,439.0&gt;--&lt;757.0,439.0&gt;&gt;/L&lt;&lt;757.0,439.0&gt;--&lt;797.0,435.0&gt;&gt; = 5.710593137499633
 
@@ -620,6 +562,8 @@ notequal</p>
 
 * u09ae_u09cd.half: B&lt;&lt;589.5,726.5&gt;-&lt;576.0,739.0&gt;-&lt;561.0,742.0&gt;&gt;/B&lt;&lt;561.0,742.0&gt;-&lt;639.0,746.0&gt;-&lt;676.5,782.0&gt;&gt; = 14.245605920441355
 
+* u09ae_u09cd_u09a4.cjct: B&lt;&lt;589.5,726.5&gt;-&lt;576.0,739.0&gt;-&lt;561.0,742.0&gt;&gt;/B&lt;&lt;561.0,742.0&gt;-&lt;639.0,746.0&gt;-&lt;676.5,782.0&gt;&gt; = 14.245605920441355
+
 * u09ae_u09cd_u09a8.cjct: B&lt;&lt;589.5,726.5&gt;-&lt;576.0,739.0&gt;-&lt;561.0,742.0&gt;&gt;/B&lt;&lt;561.0,742.0&gt;-&lt;639.0,746.0&gt;-&lt;676.5,782.0&gt;&gt; = 14.245605920441355
 
 * u09ae_u09cd_u09aa.cjct: B&lt;&lt;574.0,737.0&gt;-&lt;567.0,741.0&gt;-&lt;561.0,742.0&gt;&gt;/B&lt;&lt;561.0,742.0&gt;-&lt;566.0,742.0&gt;-&lt;571.0,742.5&gt;&gt; = 9.462322208025613
@@ -628,7 +572,11 @@ notequal</p>
 
 * u09ae_u09cd_u09ab.cjct: B&lt;&lt;590.5,726.5&gt;-&lt;577.0,739.0&gt;-&lt;562.0,742.0&gt;&gt;/L&lt;&lt;562.0,742.0&gt;--&lt;1142.0,742.0&gt;&gt; = 11.309932474020195
 
+* u09ae_u09cd_u09ac.cjct: B&lt;&lt;441.0,592.0&gt;-&lt;389.0,562.0&gt;-&lt;337.0,549.0&gt;&gt;/B&lt;&lt;337.0,549.0&gt;-&lt;345.0,552.0&gt;-&lt;345.0,563.0&gt;&gt; = 6.519801751656973
+
 * u09ae_u09cd_u09b2.cjct: B&lt;&lt;989.5,726.5&gt;-&lt;976.0,739.0&gt;-&lt;961.0,742.0&gt;&gt;/B&lt;&lt;961.0,742.0&gt;-&lt;1039.0,746.0&gt;-&lt;1076.5,782.0&gt;&gt; = 14.245605920441355
+
+* u09ae_u09cd_u09b9.cjct: B&lt;&lt;589.5,726.5&gt;-&lt;576.0,739.0&gt;-&lt;561.0,742.0&gt;&gt;/B&lt;&lt;561.0,742.0&gt;-&lt;639.0,746.0&gt;-&lt;676.5,782.0&gt;&gt; = 14.245605920441355
 
 * u09af_u09cd.half: B&lt;&lt;215.0,720.5&gt;-&lt;189.0,735.0&gt;-&lt;159.0,739.0&gt;&gt;/L&lt;&lt;159.0,739.0&gt;--&lt;272.0,739.0&gt;&gt; = 7.594643368591447
 
@@ -636,15 +584,31 @@ notequal</p>
 
 * u09b7_u09cd._u09aa.cjct: B&lt;&lt;452.0,412.5&gt;-&lt;403.0,427.0&gt;-&lt;341.0,434.0&gt;&gt;/B&lt;&lt;341.0,434.0&gt;-&lt;370.0,438.0&gt;-&lt;396.0,444.5&gt;&gt; = 14.294913401313233
 
+* u09b8_u09cd_u09a4_u09c1.blws: L&lt;&lt;-79.0,741.0&gt;--&lt;119.0,741.0&gt;&gt;/L&lt;&lt;119.0,741.0&gt;--&lt;107.0,738.0&gt;&gt; = 14.036243467926484
+
 * u09b9_u09cd_u09ae.cjct: B&lt;&lt;331.0,439.5&gt;-&lt;336.0,415.0&gt;-&lt;338.0,388.0&gt;&gt;/B&lt;&lt;338.0,388.0&gt;-&lt;336.0,403.0&gt;-&lt;329.5,419.5&gt;&gt; = 3.358248569532639
 
 * u09bf (U+09BF): B&lt;&lt;128.0,856.0&gt;-&lt;168.0,826.0&gt;-&lt;216.0,819.0&gt;&gt;/L&lt;&lt;216.0,819.0&gt;--&lt;0.0,819.0&gt;&gt; = 8.297144969836856
 
+* u09bf_u0981.abvs: B&lt;&lt;128.0,856.0&gt;-&lt;166.0,827.0&gt;-&lt;216.0,819.0&gt;&gt;/L&lt;&lt;216.0,819.0&gt;--&lt;0.0,819.0&gt;&gt; = 9.090276920822312
+
 * u09c0 (U+09C0): L&lt;&lt;410.0,819.0&gt;--&lt;197.0,819.0&gt;&gt;/B&lt;&lt;197.0,819.0&gt;-&lt;246.0,826.0&gt;-&lt;284.0,855.5&gt;&gt; = 8.13010235415596
+
+* u09c0_u0981.abvs: L&lt;&lt;331.0,928.0&gt;--&lt;331.0,1008.0&gt;&gt;/B&lt;&lt;331.0,1008.0&gt;-&lt;318.0,955.0&gt;-&lt;272.0,920.0&gt;&gt; = 13.78159723565362
+
+* u09c0_u0981.abvs: L&lt;&lt;410.0,819.0&gt;--&lt;197.0,819.0&gt;&gt;/B&lt;&lt;197.0,819.0&gt;-&lt;247.0,827.0&gt;-&lt;284.0,856.0&gt;&gt; = 9.090276920822312
+
+* u09c0_u09b0_u09cd.rphf.abvs: B&lt;&lt;-191.0,844.0&gt;-&lt;-144.0,870.0&gt;-&lt;-129.0,913.0&gt;&gt;/B&lt;&lt;-129.0,913.0&gt;-&lt;-130.0,905.0&gt;-&lt;-130.5,899.5&gt;&gt; = 12.105656026759446
+
+* u09c0_u09b0_u09cd.rphf.abvs: L&lt;&lt;331.0,928.0&gt;--&lt;331.0,1008.0&gt;&gt;/B&lt;&lt;331.0,1008.0&gt;-&lt;318.0,955.0&gt;-&lt;272.0,920.0&gt;&gt; = 13.78159723565362
+
+* u09c0_u09b0_u09cd.rphf.abvs: L&lt;&lt;410.0,819.0&gt;--&lt;197.0,819.0&gt;&gt;/B&lt;&lt;197.0,819.0&gt;-&lt;247.0,827.0&gt;-&lt;284.0,856.0&gt;&gt; = 9.090276920822312
 
 * u09ce (U+09CE): B&lt;&lt;347.0,79.5&gt;-&lt;316.0,61.0&gt;-&lt;283.0,55.0&gt;&gt;/L&lt;&lt;283.0,55.0&gt;--&lt;372.0,55.0&gt;&gt; = 10.304846468766009
 
-* u09d7_u0981.abvs: B&lt;&lt;-167.0,824.5&gt;-&lt;-145.0,805.0&gt;-&lt;-114.0,799.0&gt;&gt;/L&lt;&lt;-114.0,799.0&gt;--&lt;-169.0,803.0&gt;&gt; = 6.79442034968569
+* u09d7_u0981.abvs: B&lt;&lt;-82.0,750.0&gt;-&lt;-91.0,745.0&gt;-&lt;-98.0,744.0&gt;&gt;/L&lt;&lt;-98.0,744.0&gt;--&lt;24.0,744.0&gt;&gt; = 8.13010235415596
+
+* u09d7_u09b0_u09cd.rphf.abvs: B&lt;&lt;-82.0,750.0&gt;-&lt;-91.0,745.0&gt;-&lt;-98.0,744.0&gt;&gt;/L&lt;&lt;-98.0,744.0&gt;--&lt;24.0,744.0&gt;&gt; = 8.13010235415596
 
 * u09df_u09cd.half: B&lt;&lt;215.0,720.5&gt;-&lt;189.0,735.0&gt;-&lt;159.0,739.0&gt;&gt;/L&lt;&lt;159.0,739.0&gt;--&lt;272.0,739.0&gt;&gt; = 7.594643368591447
 
@@ -657,6 +621,8 @@ notequal</p>
 * uni0136 (U+0136): L&lt;&lt;298.0,216.0&gt;--&lt;298.0,281.0&gt;&gt;/B&lt;&lt;298.0,281.0&gt;-&lt;311.0,229.0&gt;-&lt;350.0,186.0&gt;&gt; = 14.036243467926457
 
 * uni0136 (U+0136): L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt;/B&lt;&lt;298.0,535.0&gt;-&lt;308.0,494.0&gt;-&lt;330.0,458.0&gt;&gt; = 13.706961004079783
+
+* uni0136 (U+0136): L&lt;&lt;301.0,402.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;298.0,535.0&gt;&gt; = 14.036243467926484
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -680,7 +646,15 @@ notequal</p>
 
 * u0995_u09cd_u09b8.cjct: L&lt;&lt;1072.0,741.0&gt;--&lt;1073.0,607.0&gt;&gt;
 
+* u099f_u09cd_u09ae.cjct: L&lt;&lt;210.0,741.0&gt;--&lt;209.0,450.0&gt;&gt;
+
+* u099f_u09cd_u09ae.cjct: L&lt;&lt;307.0,741.0&gt;--&lt;510.0,742.0&gt;&gt;
+
+* u09a5_u09cd_u09ac.cjct: L&lt;&lt;291.0,807.0&gt;--&lt;164.0,808.0&gt;&gt;
+
 * u09b8_alt: L&lt;&lt;483.0,690.0&gt;--&lt;481.0,382.0&gt;&gt;
+
+* u09b9_u09cd_u09b2.cjct: L&lt;&lt;473.0,815.0&gt;--&lt;-8.0,819.0&gt;&gt;
 
 * zwnj (U+200C): L&lt;&lt;-12.0,683.0&gt;--&lt;-13.0,12.0&gt;&gt;
 </code></pre>
@@ -908,20 +882,6 @@ notequal</p>
 
 * Nacute (U+0143) has a counter-clockwise outer contour
 
-* NameMe.65963 has a counter-clockwise outer contour
-
-* NameMe.65964 has a counter-clockwise outer contour
-
-* NameMe.65965 has a counter-clockwise outer contour
-
-* NameMe.65966 has a counter-clockwise outer contour
-
-* NameMe.65967 has a counter-clockwise outer contour
-
-* NameMe.65968 has a counter-clockwise outer contour
-
-* NameMe.65969 has a counter-clockwise outer contour
-
 * Ncaron (U+0147) has a counter-clockwise outer contour
 
 * Ntilde (U+00D1) has a counter-clockwise outer contour
@@ -973,6 +933,8 @@ notequal</p>
 * Q (U+0051) has a counter-clockwise outer contour
 
 * R (U+0052) has a counter-clockwise outer contour
+
+* Ra_yaphala has a counter-clockwise outer contour
 
 * Ra_yaphala has a counter-clockwise outer contour
 
@@ -1758,9 +1720,17 @@ notequal</p>
 
 * u0987_u0981.abvs has a counter-clockwise outer contour
 
+* u0987_u0981.abvs has a counter-clockwise outer contour
+
+* u0987_u0981.abvs has a counter-clockwise outer contour
+
 * u0988 (U+0988) has a counter-clockwise outer contour
 
 * u0988 (U+0988) has a counter-clockwise outer contour
+
+* u0988_u0981.abvs has a counter-clockwise outer contour
+
+* u0988_u0981.abvs has a counter-clockwise outer contour
 
 * u0988_u0981.abvs has a counter-clockwise outer contour
 
@@ -1769,6 +1739,8 @@ notequal</p>
 * u098F (U+098F) has a counter-clockwise outer contour
 
 * u098a (U+098A) has a counter-clockwise outer contour
+
+* u098a_u0981.abvs has a counter-clockwise outer contour
 
 * u098a_u0981.abvs has a counter-clockwise outer contour
 
@@ -1868,6 +1840,8 @@ notequal</p>
 
 * u0999_u0981.abvs has a counter-clockwise outer contour
 
+* u0999_u0981.abvs has a counter-clockwise outer contour
+
 * u0999_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u0999_u09cd.half has a counter-clockwise outer contour
@@ -1883,8 +1857,6 @@ notequal</p>
 * u0999_u09cd_u0996.cjct has a counter-clockwise outer contour
 
 * u0999_u09cd_u0997.cjct has a counter-clockwise outer contour
-
-* u0999_u09cd_u0998.cjct has a counter-clockwise outer contour
 
 * u0999_u09cd_u0998.cjct has a counter-clockwise outer contour
 
@@ -1978,6 +1950,8 @@ notequal</p>
 
 * u099f_u0981.abvs has a counter-clockwise outer contour
 
+* u099f_u0981.abvs has a counter-clockwise outer contour
+
 * u099f_u09b0_u09cd.blwf.vatu has a counter-clockwise outer contour
 
 * u099f_u09cd.half has a counter-clockwise outer contour
@@ -1993,6 +1967,8 @@ notequal</p>
 * u099f_u09cd_u09ae.cjct has a counter-clockwise outer contour
 
 * u09a0 (U+09A0) has a counter-clockwise outer contour
+
+* u09a0_u0981.abvs has a counter-clockwise outer contour
 
 * u09a0_u0981.abvs has a counter-clockwise outer contour
 
@@ -2556,13 +2532,19 @@ notequal</p>
 
 * u09b9_u09cd_u09a3.cjct has a counter-clockwise outer contour
 
+* u09b9_u09cd_u09a3.cjct has a counter-clockwise outer contour
+
 * u09b9_u09cd_u09a8.cjct has a counter-clockwise outer contour
 
 * u09b9_u09cd_u09a8.cjct has a counter-clockwise outer contour
 
 * u09b9_u09cd_u09ac.cjct has a counter-clockwise outer contour
 
+* u09b9_u09cd_u09ac.cjct has a counter-clockwise outer contour
+
 * u09b9_u09cd_u09ae.cjct has a counter-clockwise outer contour
+
+* u09b9_u09cd_u09b2.cjct has a counter-clockwise outer contour
 
 * u09b9_u09cd_u09b2.cjct has a counter-clockwise outer contour
 
@@ -2571,8 +2553,6 @@ notequal</p>
 * u09bd (U+09BD) has a counter-clockwise outer contour
 
 * u09be (U+09BE) has a counter-clockwise outer contour
-
-* u09be_u0981.abvs has a counter-clockwise outer contour
 
 * u09be_u0981.abvs has a counter-clockwise outer contour
 
@@ -2587,10 +2567,6 @@ notequal</p>
 * u09bf_u0981.abvs has a counter-clockwise outer contour
 
 * u09c0 (U+09C0) has a counter-clockwise outer contour
-
-* u09c0_u0981.abvs has a counter-clockwise outer contour
-
-* u09c0_u0981.abvs has a counter-clockwise outer contour
 
 * u09c0_u0981.abvs has a counter-clockwise outer contour
 
@@ -2630,7 +2606,17 @@ notequal</p>
 
 * u09d7_u0981.abvs has a counter-clockwise outer contour
 
+* u09d7_u0981.abvs has a counter-clockwise outer contour
+
+* u09d7_u0981.abvs has a counter-clockwise outer contour
+
+* u09d7_u0981.abvs has a path with no bounds (probably a single point)
+
 * u09d7_u09b0_u09cd.rphf.abvs has a counter-clockwise outer contour
+
+* u09d7_u09b0_u09cd.rphf.abvs has a counter-clockwise outer contour
+
+* u09d7_u09b0_u09cd.rphf.abvs has a path with no bounds (probably a single point)
 
 * u09dc (U+09DC) has a counter-clockwise outer contour
 
@@ -2912,6 +2898,8 @@ notequal</p>
 
 * uni09FC (U+09FC) has a counter-clockwise outer contour
 
+* uni09FC (U+09FC) has a counter-clockwise outer contour
+
 * uni09FD (U+09FD) has a counter-clockwise outer contour
 
 * uni09FE (U+09FE) has a counter-clockwise outer contour
@@ -3045,27 +3033,27 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, malayalam, syriac, coptic, old-permic, tai-le, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tai-le, tifinagh, math, malayalam, coptic, old-permic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, gothic, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, tifinagh, cherokee, caucasian-albanian</li>
 <li>U+09CF : not included in any glyphset definition</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
@@ -3170,8 +3158,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 15 | 117 | 7 | 112 | 0 | 
-| 0% | 0% | 0% | 6% | 46% | 3% | 44% | 0% | 
+| 0 | 0 | 1 | 13 | 117 | 7 | 114 | 0 | 
+| 0% | 0% | 0% | 5% | 46% | 3% | 45% | 0% | 
 
 
 
