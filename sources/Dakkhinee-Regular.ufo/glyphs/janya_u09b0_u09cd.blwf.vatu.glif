@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="janya_u09b0_u09cd.blwf.vatu" format="2">
   <advance width="995"/>
+  <anchor x="834" y="3" name="Anchor-1"/>
+  <anchor x="441" y="840" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="750" y="85" type="curve"/>

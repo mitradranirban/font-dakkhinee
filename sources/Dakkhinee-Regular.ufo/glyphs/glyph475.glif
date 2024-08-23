@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="glyph475" format="2">
   <advance width="1216"/>
+  <anchor x="858" y="41" name="Anchor-1"/>
+  <anchor x="542" y="849" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="640" y="372" type="line" smooth="yes"/>
@@ -209,8 +211,8 @@
       <point x="633" y="818"/>
       <point x="680" y="817" type="curve" smooth="yes"/>
       <point x="727" y="816"/>
-      <point x="764" y="814"/>
-      <point x="790" y="813" type="curve" smooth="yes"/>
+      <point x="764" y="812"/>
+      <point x="790" y="811" type="curve" smooth="yes"/>
       <point x="828" y="811" type="line"/>
       <point x="968" y="811" type="line" smooth="yes"/>
       <point x="1011" y="811"/>

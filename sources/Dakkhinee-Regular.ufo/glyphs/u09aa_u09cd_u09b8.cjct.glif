@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09aa_u09cd_u09b8.cjct" format="2">
   <advance width="1253"/>
+  <anchor x="1098" y="54" name="Anchor-1"/>
+  <anchor x="696" y="822" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="1248" y="885" type="curve" smooth="yes"/>
@@ -99,13 +101,19 @@
       <point x="783" y="414"/>
       <point x="751" y="417" type="curve" smooth="yes"/>
       <point x="708" y="421"/>
-      <point x="667" y="432"/>
+      <point x="665" y="429"/>
       <point x="627" y="451" type="curve" smooth="yes"/>
-      <point x="587" y="470"/>
-      <point x="557" y="494"/>
-      <point x="536" y="523" type="curve"/>
+      <point x="603" y="464"/>
+      <point x="587" y="468"/>
+      <point x="575" y="468" type="curve" smooth="yes"/>
+      <point x="565" y="468"/>
+      <point x="559" y="465"/>
+      <point x="556" y="465" type="curve" smooth="yes"/>
+      <point x="556" y="465"/>
+      <point x="555" y="465"/>
+      <point x="555" y="465" type="curve"/>
       <point x="506" y="428" type="line" smooth="yes"/>
-      <point x="497" y="399"/>
+      <point x="483" y="411"/>
       <point x="474" y="382"/>
       <point x="436" y="374" type="curve" smooth="yes"/>
       <point x="398" y="366"/>

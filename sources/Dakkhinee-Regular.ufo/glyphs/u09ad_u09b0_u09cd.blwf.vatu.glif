@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09ad_u09b0_u09cd.blwf.vatu" format="2">
   <advance width="711"/>
+  <anchor x="552" y="72" name="Anchor-1"/>
+  <anchor x="315" y="837" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="316" y="739" type="line"/>

@@ -51,7 +51,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.001</string>
     <key>openTypeNameUniqueID</key>
-    <string>FontForge : Dakkhinee Regular : 22-8-2024</string>
+    <string>FontForge : Dakkhinee Regular : 23-8-2024</string>
     <key>openTypeNameDescription</key>
     <string>This Bengali or Bangla font is designed like South Indian Scripts</string>
     <key>openTypeNamePreferredFamilyName</key>
@@ -150,16 +150,16 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <integer>-365</integer>
     <key>postscriptBlueValues</key>
     <array>
-      <integer>40</integer>
-      <integer>62</integer>
-      <integer>617</integer>
+      <integer>41</integer>
+      <integer>58</integer>
+      <integer>596</integer>
       <integer>647</integer>
-      <integer>626</integer>
+      <integer>622</integer>
       <integer>650</integer>
       <integer>754</integer>
       <integer>764</integer>
       <integer>1022</integer>
-      <integer>1024</integer>
+      <integer>1027</integer>
     </array>
     <key>postscriptStemSnapH</key>
     <array>
@@ -181,7 +181,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <key>postscriptBlueShift</key>
     <integer>19</integer>
     <key>postscriptBlueScale</key>
-    <real>0.0333333</real>
+    <real>0.0208333</real>
     <key>guidelines</key>
     <array/>
   </dict>

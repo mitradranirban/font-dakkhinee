@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09b2_u09cd.haln" format="2">
   <advance width="1140"/>
+  <anchor x="894" y="-5" name="Anchor-1"/>
+  <anchor x="582" y="847" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="973" y="6" type="curve"/>

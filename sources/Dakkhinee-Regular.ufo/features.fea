@@ -368,17 +368,17 @@ lookup abvsAboveBaseSubstitutionsinBengali2lookup10 {
 
 lookup abvsAboveBaseSubstitutionsinBengali2lookup11 {
   lookupflag 0;
-    ignore sub [\u099f_u09cd.haln \u09a0_u09cd.haln \u099f_u09b0_u09cd.blwf.vatu 
-	\u09a0_u09b0_u09cd.blwf.vatu \u0995_u09cd_u099f.cjct 
-	\u099f_u09cd_u099f.cjct \u09a3_u09cd_u099f.cjct 
-	\u09a3_u09cd_u09a0.cjct \u09b7_u09cd_u099f.cjct 
-	\u09b7_u09cd_u09a0.cjct \u09b8_u09cd_u099f.cjct 
-	\u09b8_u09cd.u099f_u09b0.vatu \u0995_u09cd_u099f_u09b0.vatu 
-	\u09b7_u09cd_u099f_u09b0.vatu \u09a8_u09cd_u099f.cjct 
-	\u09a8_u09cd_u09a0.cjct \u09a8_u09cd_u099f_u09b0.vatu 
-	\u09a8_u09cd_u09a0_u09b0.vatu \u09aa_u09cd_u099f.cjct 
-	\u09b2_u09cd_u099f.cjct \u099f_u09cd_u09ac.cjct 
-	\u099f_u09cd_u09ae.cjct \u0987 \u0988 \u0989 \u098a \u099f \u09a0 ]' [\u09c0 ] ;
+    ignore sub [\u0987 \u0988 \u0989 \u098a \u099f \u09a0 \u099f_u09cd.haln \u09a0_u09cd.haln 
+	\u099f_u09b0_u09cd.blwf.vatu \u09a0_u09b0_u09cd.blwf.vatu 
+	\u0995_u09cd_u099f.cjct \u099f_u09cd_u099f.cjct 
+	\u09a3_u09cd_u099f.cjct \u09a3_u09cd_u09a0.cjct 
+	\u09b7_u09cd_u099f.cjct \u09b7_u09cd_u09a0.cjct 
+	\u09b8_u09cd_u099f.cjct \u09b8_u09cd.u099f_u09b0.vatu 
+	\u0995_u09cd_u099f_u09b0.vatu \u09b7_u09cd_u099f_u09b0.vatu 
+	\u09a8_u09cd_u099f.cjct \u09a8_u09cd_u09a0.cjct 
+	\u09a8_u09cd_u099f_u09b0.vatu \u09a8_u09cd_u09a0_u09b0.vatu 
+	\u09aa_u09cd_u099f.cjct \u09b2_u09cd_u099f.cjct 
+	\u099f_u09cd_u09ac.cjct \u099f_u09cd_u09ae.cjct ]' [\u0981 ] ;
 } abvsAboveBaseSubstitutionsinBengali2lookup11;
 
 lookup halnHalantFormsinBengali2lookup12 {
@@ -548,20 +548,318 @@ lookup kernHorizontalKerninginLatinlookup0 {
 lookup abvmAboveBaseMarkinBengali2lookup1 {
   lookupflag 0;
   markClass [\u0981 ] <anchor -197 968> @Anchor0;
-  markClass [\u09b0_u09cd.rphf ] <anchor -272 812> @Anchor0;
   markClass [\uni09FC ] <anchor -269 701> @Anchor0;
   markClass [\uni09FE ] <anchor -34 467> @Anchor0;
+  markClass [\u09b0_u09cd.rphf ] <anchor -272 812> @Anchor0;
+  pos base [\u0985 ] <anchor 598 827> mark @Anchor0;
+  pos base [\u0986 ] <anchor 751 830> mark @Anchor0;
+  pos base [\u0987 ] <anchor 391 1139> mark @Anchor0;
+  pos base [\u0988 ] <anchor 748 1121> mark @Anchor0;
+  pos base [\u0989 ] <anchor 358 1145> mark @Anchor0;
+  pos base [\u098a ] <anchor 373 1109> mark @Anchor0;
+  pos base [\u098b ] <anchor 946 830> mark @Anchor0;
+  pos base [\u098c ] <anchor 403 848> mark @Anchor0;
+  pos base [\u098F ] <anchor 553 836> mark @Anchor0;
+  pos base [\u0990 ] <anchor 538 896> mark @Anchor0;
+  pos base [\u0993 ] <anchor 205 857> mark @Anchor0;
+  pos base [\u0994 ] <anchor 226 848> mark @Anchor0;
+  pos base [\u0995 ] <anchor 520 860> mark @Anchor0;
+  pos base [\u0996 ] <anchor 505 887> mark @Anchor0;
+  pos base [\u0997 ] <anchor 385 878> mark @Anchor0;
+  pos base [\u0998 ] <anchor 415 872> mark @Anchor0;
+  pos base [\u0999 ] <anchor 316 860> mark @Anchor0;
+  pos base [\u099a ] <anchor 376 854> mark @Anchor0;
+  pos base [\u099b ] <anchor 352 860> mark @Anchor0;
+  pos base [\u099c ] <anchor 505 854> mark @Anchor0;
+  pos base [\u099d ] <anchor 577 842> mark @Anchor0;
+  pos base [\u099e ] <anchor 595 857> mark @Anchor0;
+  pos base [\u099f ] <anchor 304 842> mark @Anchor0;
+  pos base [\u09a0 ] <anchor 343 863> mark @Anchor0;
+  pos base [\u09a1 ] <anchor 244 842> mark @Anchor0;
+  pos base [\u09a2 ] <anchor 418 869> mark @Anchor0;
+  pos base [\u09a3 ] <anchor 250 854> mark @Anchor0;
+  pos base [\u09a4 ] <anchor 361 872> mark @Anchor0;
+  pos base [\u09a5 ] <anchor 301 827> mark @Anchor0;
+  pos base [\u09a6 ] <anchor 193 863> mark @Anchor0;
+  pos base [\u09a7 ] <anchor 256 863> mark @Anchor0;
+  pos base [\u09a8 ] <anchor 220 851> mark @Anchor0;
+  pos base [\u09aa ] <anchor 259 839> mark @Anchor0;
+  pos base [\u09ab ] <anchor 499 830> mark @Anchor0;
+  pos base [\u09ac ] <anchor 403 827> mark @Anchor0;
+  pos base [\u09ad ] <anchor 283 857> mark @Anchor0;
+  pos base [\u09ae ] <anchor 229 842> mark @Anchor0;
+  pos base [\u09af ] <anchor 298 854> mark @Anchor0;
+  pos base [\u09b0 ] <anchor 391 845> mark @Anchor0;
+  pos base [\u09b2 ] <anchor 523 854> mark @Anchor0;
+  pos base [\u09b6 ] <anchor 544 854> mark @Anchor0;
+  pos base [\u09b7 ] <anchor 283 860> mark @Anchor0;
+  pos base [\u09b8 ] <anchor 346 833> mark @Anchor0;
+  pos base [\u09b9 ] <anchor 316 836> mark @Anchor0;
+  pos base [\u09ce ] <anchor 256 765> mark @Anchor0;
+  pos base [\u09f0 ] <anchor 410 837> mark @Anchor0;
+  pos base [\u09f1 ] <anchor 449 879> mark @Anchor0;
   pos base [\uni25CC ] <anchor 442 748> mark @Anchor0;
-  pos base [\kassa_u09cd.half ] <anchor 550 839> mark @Anchor0;
+  pos base [\u099c_u09cd_u099e.akhn ] <anchor 476 836> mark @Anchor0;
+  pos base [\u0995_u09cd_u09b7.akhn ] <anchor 527 843> mark @Anchor0;
+  pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 326 834> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09a4.cjct ] <anchor 302 830> mark @Anchor0;
+  pos base [\u0995_u09cd.haln ] <anchor 512 846> mark @Anchor0;
+  pos base [\u0996_u09cd.hln ] <anchor 332 866> mark @Anchor0;
+  pos base [\u0996_u09cd.haln ] <anchor 396 840> mark @Anchor0;
+  pos base [\u0998_u09cd.haln ] <anchor 510 822> mark @Anchor0;
+  pos base [\u0999_u09cd.haln ] <anchor 354 838> mark @Anchor0;
+  pos base [\u099a_u09cd.haln ] <anchor 454 828> mark @Anchor0;
+  pos base [\u099b_u09cd.haln ] <anchor 370 840> mark @Anchor0;
+  pos base [\u099c_u09cd.haln ] <anchor 502 832> mark @Anchor0;
+  pos base [\u099d_u09cd.haln ] <anchor 556 846> mark @Anchor0;
+  pos base [\u099e_u09cd.haln ] <anchor 612 834> mark @Anchor0;
+  pos base [\u099f_u09cd.haln ] <anchor 192 854> mark @Anchor0;
+  pos base [\u09a0_u09cd.haln ] <anchor 358 852> mark @Anchor0;
+  pos base [\u09a1_u09cd.haln ] <anchor 314 850> mark @Anchor0;
+  pos base [\u09a2_u09cd.haln ] <anchor 438 860> mark @Anchor0;
+  pos base [\u09a3_u09cd.haln ] <anchor 284 856> mark @Anchor0;
+  pos base [\u09a4_u09cd.haln ] <anchor 390 829> mark @Anchor0;
+  pos base [\u09a5_u09cd.haln \u09af_u09cd.haln ] <anchor 360 859> mark @Anchor0;
+  pos base [\u09a6_u09cd.haln ] <anchor 204 865> mark @Anchor0;
+  pos base [\u09a7_u09cd.haln ] <anchor 240 877> mark @Anchor0;
+  pos base [\u09a8_u09cd.haln ] <anchor 288 847> mark @Anchor0;
+  pos base [\u09aa_u09cd.haln ] <anchor 312 859> mark @Anchor0;
+  pos base [\u09ab_u09cd.haln ] <anchor 576 877> mark @Anchor0;
+  pos base [\u09ac_u09cd.haln ] <anchor 432 829> mark @Anchor0;
+  pos base [\u09ad_u09cd.haln ] <anchor 318 853> mark @Anchor0;
+  pos base [\u09ae_u09cd.haln \u09a4_u09b0_u09cd ] <anchor 336 841> mark @Anchor0;
+  pos base [\u09b0_u09cd.haln ] <anchor 402 859> mark @Anchor0;
+  pos base [\u09b2_u09cd.haln ] <anchor 582 847> mark @Anchor0;
+  pos base [\u09b6_u09cd.haln ] <anchor 534 811> mark @Anchor0;
+  pos base [\u09b7_u09cd.haln ] <anchor 312 853> mark @Anchor0;
+  pos base [\u09b8_u09cd.haln ] <anchor 348 871> mark @Anchor0;
+  pos base [\u09b9_u09cd.haln ] <anchor 354 871> mark @Anchor0;
+  pos base [\u09dc_u09cd.haln ] <anchor 384 835> mark @Anchor0;
+  pos base [\u09dd_u09cd.haln ] <anchor 498 847> mark @Anchor0;
+  pos base [\glyph219 ] <anchor 408 835> mark @Anchor0;
+  pos base [\u099c_u09cd_u099e_u09cd.haln ] <anchor 474 817> mark @Anchor0;
+  pos base [\kassa_u09cd.half ] <anchor 574 829> mark @Anchor0;
+  pos base [\u0995_u09b0_u09cd ] <anchor 528 823> mark @Anchor0;
+  pos base [\u0996_u09b0_u09cd.blwf.vatu ] <anchor 288 889> mark @Anchor0;
+  pos base [\u0997_u09b0_u09cd.blwf.vatu ] <anchor 372 859> mark @Anchor0;
+  pos base [\u0998_u09b0_u09cd.blwf.vatu ] <anchor 426 853> mark @Anchor0;
+  pos base [\u0999_u09b0_u09cd.blwf.vatu ] <anchor 294 877> mark @Anchor0;
+  pos base [\u099a_u09b0_u09cd.blwf.vatu ] <anchor 474 871> mark @Anchor0;
+  pos base [\u099b_u09b0_u09cd.blwf.vatu ] <anchor 438 841> mark @Anchor0;
+  pos base [\u099c_u09b0_u09cd.blwf.vatu ] <anchor 504 853> mark @Anchor0;
+  pos base [\u099d_u09b0_u09cd.blwf.vatu ] <anchor 528 835> mark @Anchor0;
+  pos base [\u099e_u09b0_u09cd.blwf.vatu ] <anchor 546 859> mark @Anchor0;
+  pos base [\u099f_u09b0_u09cd.blwf.vatu ] <anchor 210 889> mark @Anchor0;
+  pos base [\u09a0_u09b0_u09cd.blwf.vatu ] <anchor 360 865> mark @Anchor0;
+  pos base [\u09a1_u09b0_u09cd.blwf.vatu ] <anchor 270 853> mark @Anchor0;
+  pos base [\u09a2_u09b0_u09cd.blwf.vatu ] <anchor 408 841> mark @Anchor0;
+  pos base [\u09a3_u09b0_u09cd.blwf.vatu ] <anchor 264 853> mark @Anchor0;
+  pos base [\u09a5_u09b0_u09cd.blwf.vatu ] <anchor 330 829> mark @Anchor0;
+  pos base [\u09a6_u09b0_u09cd.blwf.vatu ] <anchor 252 853> mark @Anchor0;
+  pos base [\u09a7_u09b0_u09cd.blwf.vatu ] <anchor 197 840> mark @Anchor0;
+  pos base [\u09a8_u09b0_u09cd.blwf.vatu ] <anchor 287 837> mark @Anchor0;
+  pos base [\u09aa_u09b0_u09cd.blwf.vatu ] <anchor 275 813> mark @Anchor0;
+  pos base [\u09ab_u09b0_u09cd.blwf.vatu ] <anchor 494 828> mark @Anchor0;
+  pos base [\u09ac_u09b0_u09cd.blwf.vatu ] <anchor 360 816> mark @Anchor0;
+  pos base [\u09ad_u09b0_u09cd.blwf.vatu ] <anchor 315 837> mark @Anchor0;
+  pos base [\u09ae_u09b0_u09cd.blwf.vatu ] <anchor 342 852> mark @Anchor0;
+  pos base [\u09af_u09b0_u09cd.blwf.vatu ] <anchor 321 822> mark @Anchor0;
+  pos base [\u09b0_u09b0_u09cd.blwf.vatu ] <anchor 360 843> mark @Anchor0;
+  pos base [\u09b2_u09b0_u09cd.blwf.vatu ] <anchor 552 831> mark @Anchor0;
   pos base [\u09b6_u09b0_u09cd.blwf.vatu ] <anchor 577 834> mark @Anchor0;
+  pos base [\u09b7_u09b0_u09cd.blwf.vatu ] <anchor 324 837> mark @Anchor0;
+  pos base [\u09b8_u09b0_u09cd.blwf.vatu ] <anchor 369 831> mark @Anchor0;
+  pos base [\u09b9_u09b0_u09cd.blwf.vatu ] <anchor 330 831> mark @Anchor0;
+  pos base [\janya_u09b0_u09cd.blwf.vatu ] <anchor 441 840> mark @Anchor0;
+  pos base [\bn_ka_ssa.akhn_bn_raphala.vatu ] <anchor 564 843> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09a4_u09b0 ] <anchor 363 825> mark @Anchor0;
   pos base [\u0995_u09cd_u0995.cjct ] <anchor 610 849> mark @Anchor0;
+  pos base [\u0995_u09cd_u099f.cjct ] <anchor 576 828> mark @Anchor0;
+  pos base [\u0995_u09cd_u09a4.cjct ] <anchor 558 834> mark @Anchor0;
+  pos base [\u0995_u09cd_u09a8.cjct ] <anchor 510 837> mark @Anchor0;
+  pos base [\u0995_u09cd_u09ae.cjct ] <anchor 600 834> mark @Anchor0;
+  pos base [\u0995_u09cd_u09b2.cjct ] <anchor 543 828> mark @Anchor0;
+  pos base [\u0995_u09cd_u09b8.cjct ] <anchor 660 828> mark @Anchor0;
+  pos base [\bn_ka_ssa.akhn_u09cd_u09a3.cjct ] <anchor 501 831> mark @Anchor0;
+  pos base [\bn_ka_ssa.akhn_u09cd_u09ae.cjct ] <anchor 507 825> mark @Anchor0;
   pos base [\u0997_u09cd_u0997.cjct ] <anchor 541 824> mark @Anchor0;
+  pos base [\u0997_u09cd_u09a4.cjct ] <anchor 390 807> mark @Anchor0;
+  pos base [\u0997_u09cd_u09a6.cjct ] <anchor 507 852> mark @Anchor0;
+  pos base [\u0997_u09cd_u09a7.cjct ] <anchor 612 876> mark @Anchor0;
+  pos base [\u0997_u09cd_u09a8.cjct ] <anchor 405 828> mark @Anchor0;
+  pos base [\u0997_u09cd_u09ae.cjct ] <anchor 546 826> mark @Anchor0;
+  pos base [\u0997_u09cd_u09b2.cjct ] <anchor 598 832> mark @Anchor0;
+  pos base [\u0999_u09cd_u0995.cjct ] <anchor 644 842> mark @Anchor0;
+  pos base [\u0999_u09cd_u0996.cjct ] <anchor 582 828> mark @Anchor0;
   pos base [\u0999_u09cd_u0997.cjct ] <anchor 665 824> mark @Anchor0;
+  pos base [\u099a_u09cd_u099b.cjct ] <anchor 650 818> mark @Anchor0;
+  pos base [\u099a_u09cd_u099e.cjct ] <anchor 500 816> mark @Anchor0;
+  pos base [\u099c_u09cd_u099c.cjct ] <anchor 864 832> mark @Anchor0;
+  pos base [\u099c_u09cd_u099d.cjct ] <anchor 802 820> mark @Anchor0;
+  pos base [\u099e_u09cd_u099a.cjct ] <anchor 640 828> mark @Anchor0;
+  pos base [\u099e_u09cd_u099b.cjct ] <anchor 552 742> mark @Anchor0;
+  pos base [\u099e_u09cd_u099c.cjct ] <anchor 572 796> mark @Anchor0;
+  pos base [\u099e_u09cd_u099d.pres ] <anchor 530 814> mark @Anchor0;
+  pos base [\u099f_u09cd_u099f.cjct ] <anchor 206 834> mark @Anchor0;
+  pos base [\u09a1_u09cd_u09a1.cjct ] <anchor 582 832> mark @Anchor0;
+  pos base [\u09a3_u09cd_u099f.cjct ] <anchor 396 812> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09a0.cjct ] <anchor 236 836> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09a1.cjct ] <anchor 568 832> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09a5.cjct ] <anchor 581 815> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09a8.cjct ] <anchor 371 820> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09ae.cjct ] <anchor 473 816> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09a6.cjct ] <anchor 293 816> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09a7.cjct ] <anchor 527 846> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09ae.cjct ] <anchor 383 837> mark @Anchor0;
+  pos base [\u0998_u09cd_u09a8.cjct ] <anchor 473 798> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09ad.cjct ] <anchor 242 831> mark @Anchor0;
+  pos base [\u0995_u09cd_u09ac.cjct ] <anchor 506 834> mark @Anchor0;
+  pos base [\u0997_u09cd_u09ac.cjct ] <anchor 410 828> mark @Anchor0;
+  pos base [\u099b_u09cd_u09ac.cjct ] <anchor 436 816> mark @Anchor0;
+  pos base [\u099c_u09cd_u09ac.cjct ] <anchor 568 843> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09ac.cjct ] <anchor 340 819> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09ac.cjct ] <anchor 400 831> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09ac.cjct ] <anchor 310 828> mark @Anchor0;
+  pos base [\u09a7_u09cd_u09ac.cjct ] <anchor 694 822> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09ac.cjct ] <anchor 290 828> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09ac.cjct ] <anchor 256 807> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09ac.cjct ] <anchor 506 816> mark @Anchor0;
+  pos base [\u09b6_u09cd_u09ac.cjct ] <anchor 488 825> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09ac.cjct ] <anchor 328 825> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09a8.cjct ] <anchor 268 831> mark @Anchor0;
+  pos base [\u09a7_u09cd_u09a8.cjct ] <anchor 272 852> mark @Anchor0;
+  pos base [\u09a8_u09cd._u09a4.cjct ] <anchor 328 828> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a4_u09b0.vatu ] <anchor 272 822> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a4_u09c1.blws ] <anchor 284 828> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a5.cjct ] <anchor 566 822> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a6.cjct ] <anchor 418 834> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a7.cjct ] <anchor 566 864> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a8.cjct ] <anchor 250 843> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09ae.cjct \u09b8_u09cd_u09a4_u09b0.vatu ] <anchor 358 819> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09b8.cjct ] <anchor 460 831> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09a4.cjct ] <anchor 286 792> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09aa.cjct ] <anchor 280 792> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09ae.cjct ] <anchor 548 810> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09a8.cjct ] <anchor 276 798> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09b2.cjct ] <anchor 532 798> mark @Anchor0;
+  pos base [\u09ab_u09cd_u09b2.cjct ] <anchor 656 846> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09aa.cjct ] <anchor 531 840> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09ab.cjct ] <anchor 696 831> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09ad.cjct ] <anchor 348 831> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09a8.cjct ] <anchor 357 831> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09ae.cjct ] <anchor 393 834> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09b2.cjct ] <anchor 522 828> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09ad.09b0_u09cd ] <anchor 345 846> mark @Anchor0;
+  pos base [\u09b2_u09cd_u0995.cjct ] <anchor 561 819> mark @Anchor0;
+  pos base [\u09b2_u09cd._u0997.cjct ] <anchor 540 831> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09ac.cjct ] <anchor 522 837> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09aa.cjct ] <anchor 546 816> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09ae.cjct ] <anchor 507 819> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09b2.cjct ] <anchor 540 825> mark @Anchor0;
+  pos base [\u09ac_u09cd_u099c.cjct ] <anchor 639 822> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09a6.cjct ] <anchor 477 831> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09a7.cjct ] <anchor 420 819> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09a8.cjct ] <anchor 414 822> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09b2.cjct ] <anchor 507 822> mark @Anchor0;
+  pos base [\u09b6_u09cd_u09b2.cjct ] <anchor 489 826> mark @Anchor0;
+  pos base [\u09b7_u09cd_u0995.cjct ] <anchor 465 822> mark @Anchor0;
+  pos base [\u09b7_u09cd_u099f.cjct ] <anchor 353 842> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09a0.cjct ] <anchor 129 838> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09a3.cjct ] <anchor 265 822> mark @Anchor0;
+  pos base [\u09b7_u09cd._u09aa.cjct ] <anchor 349 834> mark @Anchor0;
+  pos base [\u09b8_u09cd_u0995.cjct ] <anchor 473 818> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09a4.cjct ] <anchor 293 818> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09a5.cjct ] <anchor 329 830> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09a8.cjct ] <anchor 337 818> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09ae.cjct ] <anchor 349 826> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09b2.cjct ] <anchor 377 846> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09ab.cjct ] <anchor 789 838> mark @Anchor0;
+  pos base [\u09b8_u09cd_u099f.cjct ] <anchor 292 815> mark @Anchor0;
+  pos base [\u09b8_u09cd.u099f_u09b0.vatu ] <anchor 262 821> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09aa.cjct ] <anchor 319 834> mark @Anchor0;
+  pos base [\u09b8_u09cd_u0995_u09b0.vatu ] <anchor 414 828> mark @Anchor0;
+  pos base [\u09b9_u09cd_u09a8.cjct ] <anchor 486 828> mark @Anchor0;
+  pos base [\u099c_u09cd_u099c_u09ac ] <anchor 842 852> mark @Anchor0;
+  pos base [\u0995_u09cd_u099f_u09b0.vatu ] <anchor 390 872> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a6_u09b0.vatu ] <anchor 430 840> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a7_u09b0.vatu ] <anchor 554 876> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09a4_u09b0.vatu ] <anchor 302 808> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09aa_u09b0.vatu ] <anchor 526 848> mark @Anchor0;
+  pos base [\u09b7_u09cd_u099f_u09b0.vatu ] <anchor 286 852> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09aa_u09b0.vatu ] <anchor 318 848> mark @Anchor0;
+  pos base [\u09a4_u09cd_u09a4_u09ac.cjct ] <anchor 294 820> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a6_u09ac.cjct ] <anchor 414 836> mark @Anchor0;
+  pos base [\u09a8_u09cd_u099f.cjct ] <anchor 366 836> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a0.cjct ] <anchor 130 848> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a1.cjct ] <anchor 498 832> mark @Anchor0;
+  pos base [\u09a8_u09cd_u099a.cjct ] <anchor 522 816> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09a1_u09b0.vatu ] <anchor 538 832> mark @Anchor0;
+  pos base [\u09a8_u09cd_u099f_u09b0.vatu ] <anchor 378 864> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a0_u09b0.vatu ] <anchor 146 876> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a1_u09b0.cjct ] <anchor 406 852> mark @Anchor0;
+  pos base [\u09b8_u09cd_u0996.cjct ] <anchor 439 816> mark @Anchor0;
   pos base [\u09b6_u09cd_u099a.cjct ] <anchor 837 836> mark @Anchor0;
+  pos base [\u09a8_u09cd_u0995.cjct ] <anchor 389 823> mark @Anchor0;
+  pos base [\u09a8_u09cd_u0995_u09b0.cjct ] <anchor 473 844> mark @Anchor0;
+  pos base [\u09b6_u09cd_u099b.cjct ] <anchor 734 820> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09ae.cjct ] <anchor 374 832> mark @Anchor0;
+  pos base [\u09b6_u09cd_u09ae.cjct ] <anchor 593 817> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09a6_u09ac.cjct ] <anchor 330 827> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09ae.cjct ] <anchor 441 845> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09a6_u09b0.vatu ] <anchor 469 820> mark @Anchor0;
+  pos base [\u099a_u09cd_u099a.cjct ] <anchor 681 836> mark @Anchor0;
+  pos base [\u099a_u09cd_u099b_u09ac.cjct ] <anchor 660 819> mark @Anchor0;
+  pos base [\u0999_u09cd_u09ae.cjct ] <anchor 423 819> mark @Anchor0;
+  pos base [\u09a8_u09cd_u09a4_u09ac.blws ] <anchor 273 819> mark @Anchor0;
+  pos base [\u09aa_u09cd_u099f.cjct ] <anchor 522 861> mark @Anchor0;
+  pos base [\u09b6_u09cd_u09a8.cjct ] <anchor 510 834> mark @Anchor0;
+  pos base [\u09aa_u09cd_u09b8.cjct ] <anchor 696 822> mark @Anchor0;
+  pos base [\u09b9_u09cd_u09b2.cjct ] <anchor 336 826> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09a1.cjct ] <anchor 446 824> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09ab.cjct ] <anchor 662 824> mark @Anchor0;
+  pos base [\u09dc_u09cd_u0997.cjct ] <anchor 596 832> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09a4_u09b0.vatu ] <anchor 248 822> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09ad_u09b0.vatu ] <anchor 298 834> mark @Anchor0;
+  pos base [\u09ac_u09cd_u09ad.cjct ] <anchor 414 850> mark @Anchor0;
+  pos base [\u09b9_u09cd_u09ac.cjct ] <anchor 320 838> mark @Anchor0;
+  pos base [\u09b8_u09cd_u09a4_u09c1.blws ] <anchor 340 828> mark @Anchor0;
+  pos base [\u09b9_u09cd_u09a3.cjct ] <anchor 332 818> mark @Anchor0;
+  pos base [\u099f_u0981.abvs ] <anchor 146 852> mark @Anchor0;
+  pos base [\u09a0_u0981.abvs ] <anchor 28 836> mark @Anchor0;
+  pos base [\u0999_u09cd_u0998.cjct ] <anchor 651 843> mark @Anchor0;
+  pos base [\u09a6_u09cd_u09a7_u09ac.cjct ] <anchor 527 854> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09ab.cjct ] <anchor 687 826> mark @Anchor0;
+  pos base [\u09b7_u09cd_u0996.cjct ] <anchor 699 833> mark @Anchor0;
+  pos base [\u09b2_u09cd_u099f.cjct ] <anchor 546 831> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09ac.cjct ] <anchor 210 817> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09a2.cjct ] <anchor 496 825> mark @Anchor0;
+  pos base [\glyph475 ] <anchor 542 849> mark @Anchor0;
+  pos base [\u099a_u09cd_u099b_u09b0.vatu ] <anchor 626 818> mark @Anchor0;
+  pos base [\u09a3_u09cd_u09a3.cjct ] <anchor 253 830> mark @Anchor0;
+  pos base [\u09b7_u09cd_u0995_u09b0.vatu ] <anchor 464 825> mark @Anchor0;
+  pos base [\u09a6_u09cd_u0997.cjct ] <anchor 452 824> mark @Anchor0;
+  pos base [\u09a6_u09cd_u0998.cjct ] <anchor 580 830> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09a4.cjct ] <anchor 330 819> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09a6.cjct ] <anchor 393 828> mark @Anchor0;
+  pos base [\u09ae_u09cd_u09b9.cjct ] <anchor 327 828> mark @Anchor0;
+  pos base [\u099f_u09cd_u09ac.cjct ] <anchor 216 831> mark @Anchor0;
+  pos base [\u099f_u09cd_u09ae.cjct ] <anchor 171 828> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09a4.cjct ] <anchor 402 822> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09a7.cjct ] <anchor 264 825> mark @Anchor0;
+  pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 372 825> mark @Anchor0;
+  pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 288 846> mark @Anchor0;
+  pos base [\u09b6_u09cd_u09a4.cjct ] <anchor 516 837> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 477 813> mark @Anchor0;
+  pos base [\u09b7_u09cd_u09ac.cjct ] <anchor 333 819> mark @Anchor0;
+  pos base [\u0999_u09cd_u0995_u09b7.cjct ] <anchor 615 822> mark @Anchor0;
+  pos base [\u09a1_u09cd_u09ae.cjct ] <anchor 363 819> mark @Anchor0;
+  pos base [\u09a1_u09cd_09b2.cjct ] <anchor 333 831> mark @Anchor0;
+  pos base [\u09a5_u09cd_u09ac.cjct ] <anchor 366 825> mark @Anchor0;
 } abvmAboveBaseMarkinBengali2lookup1;
 
 lookup blwmBelowBaseMarkinBengali2lookup2 {
   lookupflag 0;
+  markClass [\u09bc ] <anchor -101 29> @Anchor1;
   markClass [\u09c1 ] <anchor -210 60> @Anchor1;
   markClass [\u09c2 ] <anchor -354 86> @Anchor1;
   markClass [\u09c3 ] <anchor -112 44> @Anchor1;
@@ -569,18 +867,239 @@ lookup blwmBelowBaseMarkinBengali2lookup2 {
   markClass [\u09cd ] <anchor -178 28> @Anchor1;
   markClass [\uni09E2 ] <anchor -170 0> @Anchor1;
   markClass [\uni09E3 ] <anchor -132 -10> @Anchor1;
+  markClass [\u09ac_u09cd.blwf ] <anchor -264 175> @Anchor1;
+  markClass [\u09a6_u09cd_u09a6_u09ac.cjct ] <anchor 621 -63> @Anchor1;
+  pos base [\u0985 ] <anchor 913 50> mark @Anchor1;
+  pos base [\u0986 ] <anchor 973 26> mark @Anchor1;
+  pos base [\u0987 ] <anchor 652 20> mark @Anchor1;
+  pos base [\u0988 ] <anchor 976 38> mark @Anchor1;
+  pos base [\u0989 ] <anchor 511 56> mark @Anchor1;
+  pos base [\u098a ] <anchor 667 65> mark @Anchor1;
+  pos base [\u098b ] <anchor 919 47> mark @Anchor1;
+  pos base [\u098c ] <anchor 694 62> mark @Anchor1;
+  pos base [\u098F ] <anchor 484 65> mark @Anchor1;
+  pos base [\u0990 ] <anchor 592 80> mark @Anchor1;
+  pos base [\u0993 ] <anchor 496 8> mark @Anchor1;
+  pos base [\u0994 ] <anchor 526 17> mark @Anchor1;
+  pos base [\u0995 ] <anchor 820 23> mark @Anchor1;
+  pos base [\u0996 ] <anchor 796 35> mark @Anchor1;
+  pos base [\u0997 ] <anchor 712 11> mark @Anchor1;
+  pos base [\u0998 ] <anchor 826 5> mark @Anchor1;
+  pos base [\u0999 ] <anchor 565 83> mark @Anchor1;
+  pos base [\u099a ] <anchor 565 41> mark @Anchor1;
+  pos base [\u099b ] <anchor 817 -10> mark @Anchor1;
+  pos base [\u099c ] <anchor 982 104> mark @Anchor1;
+  pos base [\u099d ] <anchor 721 5> mark @Anchor1;
+  pos base [\u099e ] <anchor 691 98> mark @Anchor1;
+  pos base [\u099f ] <anchor 529 44> mark @Anchor1;
+  pos base [\u09a0 ] <anchor 319 29> mark @Anchor1;
+  pos base [\u09a1 ] <anchor 517 71> mark @Anchor1;
+  pos base [\u09a2 ] <anchor 583 62> mark @Anchor1;
+  pos base [\u09a3 \u09a3_u09cd_u09a3.cjct ] <anchor 589 29> mark @Anchor1;
+  pos base [\u09a4 ] <anchor 475 29> mark @Anchor1;
+  pos base [\u09a5 ] <anchor 790 26> mark @Anchor1;
+  pos base [\u09a6 ] <anchor 355 20> mark @Anchor1;
+  pos base [\u09a7 ] <anchor 538 29> mark @Anchor1;
+  pos base [\u09a8 ] <anchor 484 59> mark @Anchor1;
+  pos base [\u09aa ] <anchor 706 17> mark @Anchor1;
+  pos base [\u09ab ] <anchor 583 23> mark @Anchor1;
+  pos base [\u09ac ] <anchor 709 26> mark @Anchor1;
+  pos base [\u09ad ] <anchor 304 35> mark @Anchor1;
+  pos base [\u09ae ] <anchor 517 -13> mark @Anchor1;
+  pos base [\u09af ] <anchor 586 20> mark @Anchor1;
+  pos base [\u09b0 ] <anchor 718 14> mark @Anchor1;
+  pos base [\u09b2 ] <anchor 949 32> mark @Anchor1;
+  pos base [\u09b6 ] <anchor 871 14> mark @Anchor1;
+  pos base [\u09b7 ] <anchor 625 23> mark @Anchor1;
+  pos base [\u09b8 ] <anchor 640 35> mark @Anchor1;
+  pos base [\u09b9 ] <anchor 571 32> mark @Anchor1;
+  pos base [\u09ce ] <anchor 415 27> mark @Anchor1;
+  pos base [\u09f0 ] <anchor 728 -27> mark @Anchor1;
+  pos base [\u09f1 ] <anchor 881 -9> mark @Anchor1;
   pos base [\uni25CC ] <anchor 486 -30> mark @Anchor1;
+  pos base [\u099c_u09cd_u099e.akhn ] <anchor 790 64> mark @Anchor1;
+  pos base [\u0995_u09cd_u09b7.akhn ] <anchor 770 54> mark @Anchor1;
+  pos base [\u09b9_u09cd_u09ae.cjct ] <anchor 494 -6> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09a4.cjct ] <anchor 338 26> mark @Anchor1;
+  pos base [\u0995_u09cd.haln ] <anchor 706 22> mark @Anchor1;
+  pos base [\u0996_u09cd.hln ] <anchor 702 18> mark @Anchor1;
+  pos base [\u0996_u09cd.haln ] <anchor 590 -4> mark @Anchor1;
+  pos base [\u0998_u09cd.haln ] <anchor 730 -12> mark @Anchor1;
+  pos base [\u0999_u09cd.haln ] <anchor 334 30> mark @Anchor1;
+  pos base [\u099a_u09cd.haln ] <anchor 526 32> mark @Anchor1;
+  pos base [\u099b_u09cd.haln ] <anchor 654 32> mark @Anchor1;
+  pos base [\u099c_u09cd.haln ] <anchor 794 36> mark @Anchor1;
+  pos base [\u099d_u09cd.haln ] <anchor 734 10> mark @Anchor1;
+  pos base [\u099e_u09cd.haln ] <anchor 632 50> mark @Anchor1;
+  pos base [\u099f_u09cd.haln ] <anchor 554 36> mark @Anchor1;
+  pos base [\u09a0_u09cd.haln ] <anchor 310 2> mark @Anchor1;
+  pos base [\u09a1_u09cd.haln ] <anchor 360 38> mark @Anchor1;
+  pos base [\u09a2_u09cd.haln ] <anchor 556 62> mark @Anchor1;
+  pos base [\u09a3_u09cd.haln ] <anchor 486 18> mark @Anchor1;
+  pos base [\u09a4_u09cd.haln ] <anchor 402 -29> mark @Anchor1;
+  pos base [\u09a5_u09cd.haln ] <anchor 654 19> mark @Anchor1;
+  pos base [\u09a6_u09cd.haln ] <anchor 348 1> mark @Anchor1;
+  pos base [\u09a7_u09cd.haln ] <anchor 372 7> mark @Anchor1;
+  pos base [\u09a8_u09cd.haln ] <anchor 402 43> mark @Anchor1;
+  pos base [\u09aa_u09cd.haln ] <anchor 576 7> mark @Anchor1;
+  pos base [\u09ab_u09cd.haln ] <anchor 552 19> mark @Anchor1;
+  pos base [\u09ac_u09cd.haln ] <anchor 522 49> mark @Anchor1;
+  pos base [\u09ad_u09cd.haln ] <anchor 348 43> mark @Anchor1;
+  pos base [\u09ae_u09cd.haln ] <anchor 456 -53> mark @Anchor1;
+  pos base [\u09af_u09cd.haln ] <anchor 408 55> mark @Anchor1;
+  pos base [\u09b0_u09cd.haln ] <anchor 612 -47> mark @Anchor1;
+  pos base [\u09b2_u09cd.haln ] <anchor 894 -5> mark @Anchor1;
+  pos base [\u09b6_u09cd.haln ] <anchor 792 1> mark @Anchor1;
+  pos base [\u09b7_u09cd.haln ] <anchor 456 19> mark @Anchor1;
+  pos base [\u09b8_u09cd.haln ] <anchor 570 31> mark @Anchor1;
+  pos base [\u09b9_u09cd.haln ] <anchor 480 7> mark @Anchor1;
+  pos base [\u09dc_u09cd.haln ] <anchor 438 -71> mark @Anchor1;
+  pos base [\u09dd_u09cd.haln ] <anchor 546 -65> mark @Anchor1;
+  pos base [\glyph219 ] <anchor 426 -17> mark @Anchor1;
+  pos base [\u099c_u09cd_u099e_u09cd.haln ] <anchor 678 43> mark @Anchor1;
+  pos base [\kassa_u09cd.half ] <anchor 774 61> mark @Anchor1;
   pos base [\u09b0_u09cd.blwf ] <anchor -75 45> mark @Anchor1;
+  pos base [\u0995_u09b0_u09cd ] <anchor 858 1> mark @Anchor1;
+  pos base [\u0996_u09b0_u09cd.blwf.vatu ] <anchor 912 -89> mark @Anchor1;
+  pos base [\u0997_u09b0_u09cd.blwf.vatu ] <anchor 726 7> mark @Anchor1;
+  pos base [\u0998_u09b0_u09cd.blwf.vatu \u09a5_u09b0_u09cd.blwf.vatu ] <anchor 768 1> mark @Anchor1;
   pos base [\u0999_u09b0_u09cd.blwf.vatu ] <anchor 488 -56> mark @Anchor1;
+  pos base [\u099a_u09b0_u09cd.blwf.vatu ] <anchor 750 61> mark @Anchor1;
+  pos base [\u099b_u09b0_u09cd.blwf.vatu ] <anchor 774 -227> mark @Anchor1;
+  pos base [\u099c_u09b0_u09cd.blwf.vatu ] <anchor 1002 -71> mark @Anchor1;
+  pos base [\u099d_u09b0_u09cd.blwf.vatu ] <anchor 882 -5> mark @Anchor1;
+  pos base [\u099e_u09b0_u09cd.blwf.vatu ] <anchor 810 73> mark @Anchor1;
+  pos base [\u099f_u09b0_u09cd.blwf.vatu ] <anchor 774 55> mark @Anchor1;
+  pos base [\u09a0_u09b0_u09cd.blwf.vatu ] <anchor 432 43> mark @Anchor1;
+  pos base [\u09a1_u09b0_u09cd.blwf.vatu ] <anchor 582 67> mark @Anchor1;
+  pos base [\u09a2_u09b0_u09cd.blwf.vatu ] <anchor 750 121> mark @Anchor1;
+  pos base [\u09a3_u09b0_u09cd.blwf.vatu ] <anchor 648 -59> mark @Anchor1;
+  pos base [\u09a4_u09b0_u09cd ] <anchor 654 85> mark @Anchor1;
+  pos base [\u09a6_u09b0_u09cd.blwf.vatu ] <anchor 462 -77> mark @Anchor1;
+  pos base [\u09a7_u09b0_u09cd.blwf.vatu ] <anchor 608 -54> mark @Anchor1;
+  pos base [\u09a8_u09b0_u09cd.blwf.vatu ] <anchor 554 -6> mark @Anchor1;
+  pos base [\u09aa_u09b0_u09cd.blwf.vatu ] <anchor 611 -3> mark @Anchor1;
+  pos base [\u09ab_u09b0_u09cd.blwf.vatu ] <anchor 716 51> mark @Anchor1;
+  pos base [\u09ac_u09b0_u09cd.blwf.vatu ] <anchor 810 -54> mark @Anchor1;
+  pos base [\u09ad_u09b0_u09cd.blwf.vatu ] <anchor 552 72> mark @Anchor1;
+  pos base [\u09ae_u09b0_u09cd.blwf.vatu ] <anchor 579 9> mark @Anchor1;
+  pos base [\u09af_u09b0_u09cd.blwf.vatu \u09b7_u09b0_u09cd.blwf.vatu ] <anchor 642 -15> mark @Anchor1;
+  pos base [\u09b0_u09b0_u09cd.blwf.vatu ] <anchor 804 -69> mark @Anchor1;
+  pos base [\u09b2_u09b0_u09cd.blwf.vatu ] <anchor 1020 -9> mark @Anchor1;
   pos base [\u09b6_u09b0_u09cd.blwf.vatu ] <anchor 607 -60> mark @Anchor1;
+  pos base [\u09b8_u09b0_u09cd.blwf.vatu ] <anchor 702 -39> mark @Anchor1;
+  pos base [\u09b9_u09b0_u09cd.blwf.vatu ] <anchor 600 -21> mark @Anchor1;
+  pos base [\janya_u09b0_u09cd.blwf.vatu ] <anchor 834 3> mark @Anchor1;
+  pos base [\bn_ka_ssa.akhn_bn_raphala.vatu ] <anchor 840 9> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09a4_u09b0 ] <anchor 567 24> mark @Anchor1;
   pos base [\u0995_u09cd_u0995.cjct ] <anchor 708 -1> mark @Anchor1;
+  pos base [\u0995_u09cd_u099f.cjct ] <anchor 639 39> mark @Anchor1;
+  pos base [\u0995_u09cd_u09a4.cjct ] <anchor 597 -3> mark @Anchor1;
+  pos base [\u0995_u09cd_u09a8.cjct ] <anchor 663 69> mark @Anchor1;
+  pos base [\u0995_u09cd_u09ae.cjct ] <anchor 1041 9> mark @Anchor1;
+  pos base [\u0995_u09cd_u09b2.cjct ] <anchor 756 15> mark @Anchor1;
+  pos base [\u0995_u09cd_u09b8.cjct ] <anchor 1218 45> mark @Anchor1;
+  pos base [\bn_ka_ssa.akhn_u09cd_u09a3.cjct ] <anchor 738 177> mark @Anchor1;
+  pos base [\bn_ka_ssa.akhn_u09cd_u09ae.cjct ] <anchor 837 -9> mark @Anchor1;
   pos base [\u0997_u09cd_u0997.cjct ] <anchor 676 28> mark @Anchor1;
+  pos base [\u0997_u09cd_u09a4.cjct ] <anchor 450 48> mark @Anchor1;
+  pos base [\u0997_u09cd_u09a6.cjct ] <anchor 795 36> mark @Anchor1;
+  pos base [\u0997_u09cd_u09a7.cjct ] <anchor 1014 27> mark @Anchor1;
+  pos base [\u0997_u09cd_u09a8.cjct ] <anchor 738 6> mark @Anchor1;
+  pos base [\u0997_u09cd_u09ae.cjct ] <anchor 842 6> mark @Anchor1;
+  pos base [\u0997_u09cd_u09b2.cjct ] <anchor 850 -62> mark @Anchor1;
+  pos base [\u0999_u09cd_u0995.cjct ] <anchor 844 -4> mark @Anchor1;
+  pos base [\u0999_u09cd_u0996.cjct ] <anchor 774 54> mark @Anchor1;
   pos base [\u0999_u09cd_u0997.cjct ] <anchor 800 28> mark @Anchor1;
+  pos base [\u099a_u09cd_u099b.cjct ] <anchor 1268 -10> mark @Anchor1;
+  pos base [\u099a_u09cd_u099e.cjct ] <anchor 790 60> mark @Anchor1;
+  pos base [\u099c_u09cd_u099c.cjct ] <anchor 1618 14> mark @Anchor1;
+  pos base [\u099c_u09cd_u099d.cjct ] <anchor 1260 68> mark @Anchor1;
+  pos base [\u099e_u09cd_u099a.cjct ] <anchor 628 2> mark @Anchor1;
+  pos base [\u099e_u09cd_u099b.cjct ] <anchor 1150 40> mark @Anchor1;
+  pos base [\u099e_u09cd_u099c.cjct ] <anchor 896 156> mark @Anchor1;
+  pos base [\u099e_u09cd_u099d.pres ] <anchor 722 42> mark @Anchor1;
+  pos base [\u099f_u09cd_u099f.cjct ] <anchor 604 100> mark @Anchor1;
+  pos base [\u09a1_u09cd_u09a1.cjct ] <anchor 832 42> mark @Anchor1;
+  pos base [\u09a3_u09cd_u099f.cjct ] <anchor 758 46> mark @Anchor1;
+  pos base [\u09a3_u09cd_u09a0.cjct ] <anchor 588 34> mark @Anchor1;
+  pos base [\u09a3_u09cd_u09a1.cjct ] <anchor 562 26> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09a5.cjct ] <anchor 981 27> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09a8.cjct ] <anchor 455 94> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09ae.cjct ] <anchor 812 -6> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09a6.cjct ] <anchor 485 48> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09a7.cjct ] <anchor 899 57> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09ae.cjct ] <anchor 662 -3> mark @Anchor1;
+  pos base [\u0998_u09cd_u09a8.cjct ] <anchor 815 12> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09ad.cjct ] <anchor 431 57> mark @Anchor1;
+  pos base [\u0995_u09cd_u09ac.cjct ] <anchor 713 18> mark @Anchor1;
+  pos base [\u0997_u09cd_u09ac.cjct ] <anchor 682 -39> mark @Anchor1;
+  pos base [\u099b_u09cd_u09ac.cjct ] <anchor 790 -6> mark @Anchor1;
+  pos base [\u099c_u09cd_u09ac.cjct ] <anchor 1190 -60> mark @Anchor1;
+  pos base [\u09a3_u09cd_u09ac.cjct ] <anchor 544 -36> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09ac.cjct ] <anchor 670 39> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09ac.cjct ] <anchor 562 48> mark @Anchor1;
+  pos base [\u09a7_u09cd_u09ac.cjct ] <anchor 1190 54> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09ac.cjct ] <anchor 560 51> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09ac.cjct ] <anchor 658 27> mark @Anchor1;
+  pos base [\u09ac_u09cd_u09ac.cjct ] <anchor 1078 45> mark @Anchor1;
+  pos base [\u09b6_u09cd_u09ac.cjct ] <anchor 844 60> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09ac.cjct ] <anchor 610 57> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09a8.cjct ] <anchor 422 36> mark @Anchor1;
+  pos base [\u09a7_u09cd_u09a8.cjct ] <anchor 484 126> mark @Anchor1;
+  pos base [\u09a8_u09cd._u09a4.cjct ] <anchor 422 6> mark @Anchor1;
   pos base [\u09a8_u09cd_u09a4_u09b0.vatu ] <anchor 501 -139> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a4_u09c1.blws ] <anchor 556 12> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a5.cjct ] <anchor 1030 48> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a6.cjct ] <anchor 722 60> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a7.cjct ] <anchor 964 45> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a8.cjct ] <anchor 434 84> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09ae.cjct ] <anchor 662 -6> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09b8.cjct ] <anchor 812 42> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09a4.cjct ] <anchor 424 -36> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09aa.cjct ] <anchor 650 -39> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09ae.cjct ] <anchor 776 -14> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09a8.cjct ] <anchor 516 22> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09b2.cjct ] <anchor 844 18> mark @Anchor1;
+  pos base [\u09ab_u09cd_u09b2.cjct ] <anchor 840 50> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09aa.cjct ] <anchor 1194 36> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09ab.cjct ] <anchor 906 51> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09ad.cjct ] <anchor 375 84> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09a8.cjct ] <anchor 444 105> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09ae.cjct ] <anchor 663 -15> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09b2.cjct ] <anchor 879 60> mark @Anchor1;
   pos base [\u09ae_u09cd_u09ad.09b0_u09cd ] <anchor 659 -1> mark @Anchor1;
+  pos base [\u09b2_u09cd_u0995.cjct ] <anchor 1020 69> mark @Anchor1;
+  pos base [\u09b2_u09cd._u0997.cjct ] <anchor 1002 -42> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09ac.cjct ] <anchor 1116 102> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09aa.cjct ] <anchor 1056 -3> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09ae.cjct ] <anchor 978 -3> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09b2.cjct ] <anchor 909 69> mark @Anchor1;
+  pos base [\u09ac_u09cd_u099c.cjct ] <anchor 1338 132> mark @Anchor1;
+  pos base [\u09ac_u09cd_u09a6.cjct ] <anchor 804 60> mark @Anchor1;
+  pos base [\u09ac_u09cd_u09a7.cjct ] <anchor 741 -24> mark @Anchor1;
+  pos base [\u09ac_u09cd_u09a8.cjct ] <anchor 639 90> mark @Anchor1;
+  pos base [\u09ac_u09cd_u09b2.cjct ] <anchor 861 48> mark @Anchor1;
+  pos base [\u09b6_u09cd_u09b2.cjct ] <anchor 833 -114> mark @Anchor1;
+  pos base [\u09b7_u09cd_u0995.cjct ] <anchor 621 58> mark @Anchor1;
+  pos base [\u09b7_u09cd_u099f.cjct ] <anchor 389 30> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09a0.cjct ] <anchor 409 26> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09a3.cjct ] <anchor 553 34> mark @Anchor1;
+  pos base [\u09b7_u09cd._u09aa.cjct ] <anchor 685 38> mark @Anchor1;
+  pos base [\u09b8_u09cd_u0995.cjct ] <anchor 629 58> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09a4.cjct ] <anchor 413 42> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09a5.cjct ] <anchor 517 70> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09a8.cjct ] <anchor 525 122> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09ae.cjct ] <anchor 669 2> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09b2.cjct ] <anchor 629 54> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09ab.cjct ] <anchor 1009 54> mark @Anchor1;
+  pos base [\u09b8_u09cd_u099f.cjct ] <anchor 485 34> mark @Anchor1;
   pos base [\u09b8_u09cd.u099f_u09b0.vatu ] <anchor 903 39> mark @Anchor1;
-  pos base [\u09b8_u09cd_u09a4_u09b0.vatu ] <anchor 558 -69> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09aa.cjct ] <anchor 685 30> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09a4_u09b0.vatu ] <anchor 570 3> mark @Anchor1;
   pos base [\u09b8_u09cd_u0995_u09b0.vatu ] <anchor 786 51> mark @Anchor1;
+  pos base [\u09b9_u09cd_u09a8.cjct ] <anchor 562 -12> mark @Anchor1;
+  pos base [\u099c_u09cd_u099c_u09ac ] <anchor 1590 -36> mark @Anchor1;
   pos base [\u0995_u09cd_u099f_u09b0.vatu ] <anchor 1033 27> mark @Anchor1;
   pos base [\u09a8_u09cd_u09a6_u09b0.vatu ] <anchor 897 10> mark @Anchor1;
   pos base [\u09a8_u09cd_u09a7_u09b0.vatu ] <anchor 987 -55> mark @Anchor1;
@@ -588,15 +1107,72 @@ lookup blwmBelowBaseMarkinBengali2lookup2 {
   pos base [\u09ae_u09cd_u09aa_u09b0.vatu ] <anchor 1293 21> mark @Anchor1;
   pos base [\u09b7_u09cd_u099f_u09b0.vatu ] <anchor 949 -59> mark @Anchor1;
   pos base [\u09b8_u09cd_u09aa_u09b0.vatu ] <anchor 771 3> mark @Anchor1;
+  pos base [\u09a4_u09cd_u09a4_u09ac.cjct ] <anchor 630 -32> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a6_u09ac.cjct ] <anchor 782 60> mark @Anchor1;
+  pos base [\u09a8_u09cd_u099f.cjct ] <anchor 498 12> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a0.cjct ] <anchor 582 16> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a1.cjct ] <anchor 610 36> mark @Anchor1;
+  pos base [\u09a8_u09cd_u099a.cjct ] <anchor 434 36> mark @Anchor1;
   pos base [\u09a3_u09cd_u09a1_u09b0.vatu ] <anchor 774 -12> mark @Anchor1;
   pos base [\u09a8_u09cd_u099f_u09b0.vatu ] <anchor 1038 -28> mark @Anchor1;
-  pos base [\u09a8_u09cd_u09a0_u09b0.vatu ] <anchor 735 -33> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a0_u09b0.vatu ] <anchor 755 -13> mark @Anchor1;
   pos base [\u09a8_u09cd_u09a1_u09b0.cjct ] <anchor 906 3> mark @Anchor1;
+  pos base [\u09b8_u09cd_u0996.cjct ] <anchor 855 50> mark @Anchor1;
   pos base [\u09b6_u09cd_u099a.cjct ] <anchor 1107 35> mark @Anchor1;
-  pos base [\u09a8_u09cd_u0995_u09b0.cjct ] <anchor 687 -54> mark @Anchor1;
+  pos base [\u09a8_u09cd_u0995.cjct ] <anchor 623 58> mark @Anchor1;
+  pos base [\u09a8_u09cd_u0995_u09b0.cjct ] <anchor 750 5> mark @Anchor1;
+  pos base [\u09b6_u09cd_u099b.cjct ] <anchor 1394 4> mark @Anchor1;
+  pos base [\u09a3_u09cd_u09ae.cjct ] <anchor 596 -2> mark @Anchor1;
+  pos base [\u09b6_u09cd_u09ae.cjct ] <anchor 1007 -17> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09ae.cjct ] <anchor 677 -15> mark @Anchor1;
   pos base [\u09ac_u09cd_u09a6_u09b0.vatu ] <anchor 845 -87> mark @Anchor1;
+  pos base [\u099a_u09cd_u099a.cjct ] <anchor 821 12> mark @Anchor1;
+  pos base [\u099a_u09cd_u099b_u09ac.cjct ] <anchor 1275 -20> mark @Anchor1;
+  pos base [\u0999_u09cd_u09ae.cjct ] <anchor 696 -24> mark @Anchor1;
+  pos base [\u09a8_u09cd_u09a4_u09ac.blws ] <anchor 543 -9> mark @Anchor1;
+  pos base [\u09aa_u09cd_u099f.cjct ] <anchor 831 45> mark @Anchor1;
+  pos base [\u09b6_u09cd_u09a8.cjct ] <anchor 930 12> mark @Anchor1;
+  pos base [\u09aa_u09cd_u09b8.cjct ] <anchor 1098 54> mark @Anchor1;
+  pos base [\u09b9_u09cd_u09b2.cjct ] <anchor 670 94> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09a1.cjct ] <anchor 568 36> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09ab.cjct ] <anchor 940 62> mark @Anchor1;
+  pos base [\u09dc_u09cd_u0997.cjct ] <anchor 1282 36> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09a4_u09b0.vatu ] <anchor 668 -22> mark @Anchor1;
   pos base [\u09a6_u09cd_u09ad_u09b0.vatu ] <anchor 581 -51> mark @Anchor1;
+  pos base [\u09ac_u09cd_u09ad.cjct ] <anchor 556 64> mark @Anchor1;
+  pos base [\u09b9_u09cd_u09ac.cjct ] <anchor 634 58> mark @Anchor1;
+  pos base [\u09b8_u09cd_u09a4_u09c1.blws ] <anchor 704 44> mark @Anchor1;
+  pos base [\u09b9_u09cd_u09a3.cjct ] <anchor 450 -4> mark @Anchor1;
+  pos base [\u099f_u0981.abvs ] <anchor 528 50> mark @Anchor1;
+  pos base [\u09a0_u0981.abvs ] <anchor 268 34> mark @Anchor1;
+  pos base [\u0999_u09cd_u0998.cjct ] <anchor 1398 51> mark @Anchor1;
+  pos base [\u09a6_u09cd_u09a7_u09ac.cjct ] <anchor 955 18> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09ab.cjct ] <anchor 1059 46> mark @Anchor1;
+  pos base [\u09b7_u09cd_u0996.cjct ] <anchor 909 47> mark @Anchor1;
+  pos base [\u09b2_u09cd_u099f.cjct ] <anchor 802 31> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09ac.cjct ] <anchor 582 -23> mark @Anchor1;
+  pos base [\u09a3_u09cd_u09a2.cjct ] <anchor 806 61> mark @Anchor1;
+  pos base [\glyph475 ] <anchor 858 41> mark @Anchor1;
   pos base [\u099a_u09cd_u099b_u09b0.vatu ] <anchor 1349 -79> mark @Anchor1;
+  pos base [\u09b7_u09cd_u0995_u09b0.vatu ] <anchor 625 42> mark @Anchor1;
+  pos base [\u09a6_u09cd_u0997.cjct ] <anchor 992 32> mark @Anchor1;
+  pos base [\u09a6_u09cd_u0998.cjct ] <anchor 1160 32> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09a4.cjct ] <anchor 315 9> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09a6.cjct ] <anchor 732 51> mark @Anchor1;
+  pos base [\u09ae_u09cd_u09b9.cjct ] <anchor 417 63> mark @Anchor1;
+  pos base [\u099f_u09cd_u09ac.cjct ] <anchor 681 42> mark @Anchor1;
+  pos base [\u099f_u09cd_u09ae.cjct ] <anchor 894 -3> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09a4.cjct ] <anchor 510 21> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09a7.cjct ] <anchor 360 36> mark @Anchor1;
+  pos base [\u09a7_u09cd_u09ae.cjct ] <anchor 549 -6> mark @Anchor1;
+  pos base [\u09b2_u09cd_u09ad.cjct ] <anchor 399 81> mark @Anchor1;
+  pos base [\u09b6_u09cd_u09a4.cjct ] <anchor 678 0> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09aa_u09b0.cjct ] <anchor 969 -66> mark @Anchor1;
+  pos base [\u09b7_u09cd_u09ac.cjct ] <anchor 618 81> mark @Anchor1;
+  pos base [\u0999_u09cd_u0995_u09b7.cjct ] <anchor 1320 54> mark @Anchor1;
+  pos base [\u09a1_u09cd_u09ae.cjct ] <anchor 720 -3> mark @Anchor1;
+  pos base [\u09a1_u09cd_09b2.cjct ] <anchor 528 54> mark @Anchor1;
+  pos base [\u09a5_u09cd_u09ac.cjct ] <anchor 762 99> mark @Anchor1;
 } blwmBelowBaseMarkinBengali2lookup2;
 
 feature kern {
@@ -626,72 +1202,72 @@ feature blwm {
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @MarkClass1 = [ u09c1 u09c2 u09c3 u09c4 u09cd ];
 
-@GDEF_Simple = [\nonmarkingreturn \space \comma \danda \doubledanda \u0982 \u0983 
-	\u09a4 \u09ce \zwnj \zwj \quotedblleft \quotedblright \euro \uni25CC \u0981.salt 
+@GDEF_Simple = [\nonmarkingreturn \space \exclam \quotedbl \numbersign \dollar 
+	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
+	\hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight \nine 
+	\colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L 
+	\M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
+	\v \w \x \y \z \braceleft \bar \braceright \asciitilde \exclamdown \cent \sterling 
+	\currency \yen \brokenbar \section \dieresis \copyright \ordfeminine 
+	\guillemotleft \logicalnot \registered \macron \degree \plusminus \uni00B2 
+	\uni00B3 \acute \mu \paragraph \periodcentered \cedilla \uni00B9 \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \Amacron \amacron \Abreve 
+	\abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex \ccircumflex \Cdotaccent 
+	\cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron 
+	\Ebreve \ebreve \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron 
+	\Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \uni0122 
+	\uni0123 \Hcircumflex \hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron 
+	\Ibreve \ibreve \Iogonek \iogonek \Idotaccent \dotlessi \IJ \ij \Jcircumflex 
+	\jcircumflex \uni0136 \uni0137 \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron 
+	\Ldot \ldot \Lslash \lslash \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
+	\Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe \Racute 
+	\racute \uni0156 \uni0157 \Rcaron \rcaron \Sacute \sacute \Scircumflex 
+	\scircumflex \Scedilla \scedilla \Scaron \scaron \uni0162 \uni0163 \Tcaron 
+	\tcaron \Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring 
+	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex 
+	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
+	\Zcaron \zcaron \uni0218 \uni0219 \uni021A \uni021B \uni0237 \circumflex \caron 
+	\breve \dotaccent \ring \ogonek \tilde \hungarumlaut \danda \doubledanda \u0980 
+	\u0982 \u0983 \u0985 \u0986 \u0987 \u0988 \u0989 \u098a \u098b \u098c \u098F \u0990 
+	\u0993 \u0994 \u0995 \u0996 \u0997 \u0998 \u0999 \u099a \u099b \u099c \u099d \u099e 
+	\u099f \u09a0 \u09a1 \u09a2 \u09a3 \u09a4 \u09a5 \u09a6 \u09a7 \u09a8 \u09aa \u09ab 
+	\u09ac \u09ad \u09ae \u09af \u09b0 \u09b2 \u09b6 \u09b7 \u09b8 \u09b9 \u09bd \u09be 
+	\u09bf \u09c0 \u09c7 \u09c8 \u09cb \u09cc \u09ce \uni09CF \u09d7 \uni09E0 \uni09E1 
+	\u09e6 \u09e7 \u09e8 \u09e9 \u09ea \u09eb \u09ec \uni09ED \u09ee \u09ef \u09f0 
+	\u09f1 \uni09F2 \uni09F3 \uni09F4 \uni09F5 \uni09F6 \uni09F7 \uni09F8 \uni09F9 
+	\uni09FA \u09fb \uni09FD \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
+	\uni1E9E \Ygrave \ygrave \zwsp \zwnj \zwj \endash \emdash \quoteleft \quoteright 
+	\quotesinglbase \quotedblleft \quotedblright \quotedblbase \bullet \ellipsis 
+	\minute \second \guilsinglleft \guilsinglright \euro \uni20B9 \trademark \minus 
+	\infinity \approxequal \notequal \lessequal \greaterequal \uni25CC \u0981.salt 
 	\u09b2_u09cd.haln \glyph219 \u09b2_u09b0_u09cd.blwf.vatu \u09be_u0981.abvs 
 	\u09be_u09b0_u09cd.rphf.abvs \u09bf_u0981.abvs \glyph475 \u0995_alt 
 	\u0997_alt \u09a4_alt \u09a5_alt \u09a7_alt \u09a8_alt \u09aa_alt \u09ad_alt 
-	\u09b2_alt \u09ae_alt \u09b8_alt \Ra_yaphala \glyph547 
-	\u09e7_slash_u09e8.afrc \u09e7_slash_u09e9.afrc \u09e7_slash_u09ea.afrc 
-	\u09e7_slash_u09ee.afrc \u09e8_slash_u09e9.afrc \u09e9_slash_u09ea.afrc 
-	\u09c7.init \u09c8.init \u09b2_u09cd.half \uni20B9 \u09fb \zwsp \u0980 \uni09FD 
-	\exclam \quotedbl \quotesingle \numbersign \dollar \A \B \C \D \E \F \G \H \I \J \K \L \M 
-	\N \O \P \Q \R \percent \ampersand \parenleft \parenright \asterisk \plus \hyphen 
-	\period \slash \zero \S \T \U \Agrave \grave \V \W \X \Y \Z \one \two \three \four \five 
-	\six \seven \eight \nine \colon \semicolon \equal \less \greater \bracketleft 
-	\backslash \bracketright \asciicircum \underscore \a \b \d \c \e \f \g \h \question 
-	\at \i \j \l \k \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \braceright \asciitilde 
-	\exclamdown \cent \sterling \currency \yen \brokenbar \section \dieresis \degree 
-	\copyright \ordfeminine \guillemotleft \guillemotright \registered \macron 
-	\logicalnot \bar \uni00B2 \uni00B3 \acute \uni00B9 \mu \paragraph \ordmasculine 
-	\periodcentered \cedilla \onequarter \threequarters \Aacute \Acircumflex 
-	\Atilde \Adieresis \Aring \Amacron \Abreve \Aogonek \Ccedilla \Cacute 
-	\Ccircumflex \Cdotaccent \Ccaron \Egrave \Eacute \Ecircumflex \Edieresis 
-	\Emacron \Ebreve \Edotaccent \Eogonek \Ecaron \Igrave \Iacute \Icircumflex 
-	\Idieresis \Itilde \Imacron \Ibreve \Iogonek \Idotaccent \Ograve \Oacute 
-	\Ocircumflex \Otilde \Odieresis \Omacron \Obreve \Ohungarumlaut \Eth \Ntilde 
-	\Uacute \Ucircumflex \Udieresis \Yacute \agrave \aacute \acircumflex \atilde 
-	\adieresis \aring \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
-	\iacute \icircumflex \idieresis \ograve \oacute \ocircumflex \otilde \odieresis 
-	\ugrave \uacute \ucircumflex \udieresis \amacron \abreve \aogonek \yacute 
-	\ydieresis \onehalf \Ugrave \Oslash \uni09CF \u0985 \u09b9 \u0986 \u09b6 \u0987 
-	\u0988 \u0989 \u098a \u09a8 \u09ac \u09b0 \u0995 \u099d \u09a5 \u0994 \u0997 \u09a1 
-	\u0993 \u099c \u099a \u09a7 \u09f0 \u09f1 \divide \oslash \ntilde \cacute 
-	\ccircumflex \cdotaccent \ccaron \Dcaron \emacron \ebreve \edotaccent \ecaron 
-	\Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \Hcircumflex 
-	\hcircumflex \u09a2 \u099f \u09bd \u098b \u0996 \u098c \u098F \u0990 \u0998 \u0999 
-	\u099b \u099e \u09a0 \u09a3 \u09a6 \u09aa \u09ab \u09ad \u09ae \u09af \u09b2 \u09b7 
-	\u09b8 \u09be \u09bf \u09c0 \u09c7 \u09c8 \u09cb \u09cc \uni09E0 \uni09E1 \u09e6 
-	\u09e7 \u09e8 \u09e9 \u09ea \u09eb \u09ec \uni09ED \u09ee \u09ef \multiply 
-	\uni09F2 \uni09F3 \uni09F4 \uni09F5 \uni09F6 \uni09F7 \uni09F8 \uni09F9 \uni09FA 
-	\u09d7 \dotlessi \Jcircumflex \jcircumflex \uni0136 \uni0137 \Lacute \lacute 
-	\uni013B \uni013C \Ldot \ldot \Nacute \nacute \uni0145 \uni0146 \Ncaron \ncaron 
-	\omacron \obreve \ohungarumlaut \Racute \racute \uni0156 \uni0157 \Rcaron 
-	\rcaron \Sacute \sacute \Scircumflex \scircumflex \Scedilla \scedilla \Scaron 
-	\scaron \uni0162 \uni0163 \Tcaron \Utilde \utilde \Umacron \umacron \Ubreve 
-	\ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek 
-	\Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute 
-	\Zdotaccent \zdotaccent \Zcaron \zcaron \questiondown \Thorn \germandbls 
-	\Dcroat \uni0122 \uni0123 \circumflex \caron \uni0218 \uni0219 \uni021A \uni021B 
-	\breve \dotaccent \ring \ogonek \tilde \hungarumlaut \Wgrave \wgrave \Wacute 
-	\wacute \Wdieresis \wdieresis \Ygrave \ygrave \endash \emdash \quoteleft 
-	\quoteright \minus \trademark \guilsinglright \guilsinglleft \ellipsis 
-	\quotesinglbase \quotedblbase \ae \AE \eth \dcroat \thorn \eogonek \dcaron \Hbar 
-	\hbar \itilde \imacron \ibreve \iogonek \Lcaron \lcaron \Lslash \lslash \tcaron 
-	\OE \oe \uni0237 \uni1E9E \bullet \IJ \ij \minute \second \notequal \lessequal 
-	\greaterequal \approxequal \infinity \plusminus ];
-@GDEF_Ligature = [\u099c_u09cd_u099e.akhn \u0995_u09cd_u09b7.akhn 
-	\u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct \u0995_u09cd.haln 
-	\u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln \u0999_u09cd.haln 
-	\u099a_u09cd.haln \u099b_u09cd.haln \u099c_u09cd.haln \u099d_u09cd.haln 
-	\u099e_u09cd.haln \u099f_u09cd.haln \u09a0_u09cd.haln \u09a1_u09cd.haln 
-	\u09a2_u09cd.haln \u09a3_u09cd.haln \u09a4_u09cd.haln \u09a5_u09cd.haln 
-	\u09a6_u09cd.haln \u09a7_u09cd.haln \u09a8_u09cd.haln \u09aa_u09cd.haln 
-	\u09ab_u09cd.haln \u09ac_u09cd.haln \u09ad_u09cd.haln \u09ae_u09cd.haln 
-	\u09af_u09cd.haln \u09b0_u09cd.haln \u09b6_u09cd.haln \u09b7_u09cd.haln 
-	\u09b8_u09cd.haln \u09b9_u09cd.haln \u09dc_u09cd.haln \u09dd_u09cd.haln 
-	\u099c_u09cd_u099e_u09cd.haln \kassa_u09cd.half \u09af_u09cd.pstf 
-	\u0995_u09b0_u09cd \u0996_u09b0_u09cd.blwf.vatu 
+	\u09b2_alt \u09ae_alt \u09b8_alt \Ra_yaphala \u09e7_slash_u09e8.afrc 
+	\u09e7_slash_u09e9.afrc \u09e7_slash_u09ea.afrc \u09e7_slash_u09ee.afrc 
+	\u09e8_slash_u09e9.afrc \u09e9_slash_u09ea.afrc \u09c7.init \u09c8.init 
+	\u09b2_u09cd.half ];
+@GDEF_Ligature = [\u09dc \u09dd \u09df \Jacute \jacute \u099c_u09cd_u099e.akhn 
+	\u0995_u09cd_u09b7.akhn \u09b9_u09cd_u09ae.cjct \u09a4_u09cd_u09a4.cjct 
+	\u0995_u09cd.haln \u0996_u09cd.hln \u0996_u09cd.haln \u0998_u09cd.haln 
+	\u0999_u09cd.haln \u099a_u09cd.haln \u099b_u09cd.haln \u099c_u09cd.haln 
+	\u099d_u09cd.haln \u099e_u09cd.haln \u099f_u09cd.haln \u09a0_u09cd.haln 
+	\u09a1_u09cd.haln \u09a2_u09cd.haln \u09a3_u09cd.haln \u09a4_u09cd.haln 
+	\u09a5_u09cd.haln \u09a6_u09cd.haln \u09a7_u09cd.haln \u09a8_u09cd.haln 
+	\u09aa_u09cd.haln \u09ab_u09cd.haln \u09ac_u09cd.haln \u09ad_u09cd.haln 
+	\u09ae_u09cd.haln \u09af_u09cd.haln \u09b0_u09cd.haln \u09b6_u09cd.haln 
+	\u09b7_u09cd.haln \u09b8_u09cd.haln \u09b9_u09cd.haln \u09dc_u09cd.haln 
+	\u09dd_u09cd.haln \u099c_u09cd_u099e_u09cd.haln \kassa_u09cd.half 
+	\u09af_u09cd.pstf \u0995_u09b0_u09cd \u0996_u09b0_u09cd.blwf.vatu 
 	\u0997_u09b0_u09cd.blwf.vatu \u0998_u09b0_u09cd.blwf.vatu 
 	\u0999_u09b0_u09cd.blwf.vatu \u099a_u09b0_u09cd.blwf.vatu 
 	\u099b_u09b0_u09cd.blwf.vatu \u099c_u09b0_u09cd.blwf.vatu 
@@ -789,13 +1365,12 @@ feature blwm {
 	\u09b2_u09cd_u09ad.cjct \u09b6_u09cd_u09a4.cjct 
 	\u09b7_u09cd_u09aa_u09b0.cjct \u09b7_u09cd_u09ac.cjct 
 	\u0999_u09cd_u0995_u09b7.cjct \u09a1_u09cd_u09ae.cjct 
-	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct \u09dc \u09dd \u09df \Jacute 
-	\jacute ];
-@GDEF_Mark = [\u0981 \u09b0_u09cd.rphf \u09b0_u09cd.blwf \u09ac_u09cd.blwf 
-	\uni09FC \uni09FE \gravecomb \uni030A \acutecomb \uni0302 \tildecomb \uni0304 
-	\uni0306 \uni0307 \uni0308 \u09bc \u09c1 \u09c2 \u09c3 \u09c4 \u09cd \uni09E2 
-	\uni09E3 \hookabovecomb \uni030B \uni030C \uni030F \uni0311 \uni0312 \uni031B 
-	\dotbelowcomb \uni0324 \uni0326 \uni0327 \uni0328 \uni032E \uni0331 ];
+	\u09a1_u09cd_09b2.cjct \u09a5_u09cd_u09ac.cjct ];
+@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0306 \uni0307 
+	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030F \uni0311 \uni0312 
+	\uni031B \dotbelowcomb \uni0324 \uni0326 \uni0327 \uni0328 \uni032E \uni0331 
+	\u0981 \u09bc \u09c1 \u09c2 \u09c3 \u09c4 \u09cd \uni09E2 \uni09E3 \uni09FC 
+	\uni09FE \u09b0_u09cd.rphf \u09b0_u09cd.blwf \u09ac_u09cd.blwf ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
@@ -803,6 +1378,7 @@ table GDEF {
   LigatureCaretByPos \u09a4_u09cd_u09a4.cjct -77 -77;
   LigatureCaretByPos \u09b0_u09cd.blwf 24;
   LigatureCaretByPos \u09a8_u09cd_u09a5.cjct 1;
+  LigatureCaretByPos \u09ae_u09cd_u09aa.cjct 495;
   LigatureCaretByPos \u09b9_u09cd_u09a8.cjct 14 14;
 } GDEF;
 

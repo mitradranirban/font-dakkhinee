@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09b2_u09cd_u09ad.cjct" format="2">
   <advance width="709"/>
+  <anchor x="399" y="81" name="Anchor-1"/>
+  <anchor x="288" y="846" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="165" y="490" type="curve" smooth="yes"/>

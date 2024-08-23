@@ -2,6 +2,7 @@
 <glyph name="u09b8_u09cd_u09aa_u09b0.vatu" format="2">
   <advance width="826"/>
   <anchor x="771" y="3" name="Anchor-1"/>
+  <anchor x="318" y="848" name="Anchor-0"/>
   <outline>
     <contour>
       <point x="820" y="885" type="curve" smooth="yes"/>
@@ -70,10 +71,10 @@
       <point x="484" y="-234"/>
       <point x="424" y="-234" type="curve" smooth="yes"/>
       <point x="364" y="-234"/>
-      <point x="300" y="-223"/>
-      <point x="232" y="-201" type="curve"/>
-      <point x="252" y="-140" type="line"/>
-      <point x="306" y="-158"/>
+      <point x="146" y="-202"/>
+      <point x="78" y="-180" type="curve"/>
+      <point x="98" y="-119" type="line"/>
+      <point x="152" y="-137"/>
       <point x="358" y="-166"/>
       <point x="407" y="-166" type="curve" smooth="yes"/>
       <point x="525" y="-166"/>

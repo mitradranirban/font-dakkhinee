@@ -2,6 +2,8 @@
 <glyph name="u09b9" format="2">
   <advance width="693"/>
   <unicode hex="09B9"/>
+  <anchor x="316" y="836" name="Anchor-0"/>
+  <anchor x="571" y="32" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="373" y="236" type="curve" smooth="yes"/>
@@ -50,8 +52,8 @@
       <point x="582" y="157"/>
       <point x="603" y="98"/>
       <point x="605" y="56" type="curve"/>
-      <point x="605" y="20" type="line"/>
-      <point x="507" y="20" type="line"/>
+      <point x="605" y="55" type="line"/>
+      <point x="507" y="55" type="line"/>
       <point x="495" y="72" type="line" smooth="yes"/>
       <point x="487" y="106"/>
       <point x="469" y="168"/>
