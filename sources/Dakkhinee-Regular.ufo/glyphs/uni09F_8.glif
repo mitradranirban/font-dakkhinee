@@ -13,8 +13,9 @@
       <point x="591" y="114" type="line"/>
       <point x="553" y="456" type="line"/>
       <point x="275" y="282" type="line"/>
-      <point x="155" y="282" type="line"/>
-      <point x="97" y="282" type="line"/>
+      <point x="216" y="282"/>
+      <point x="150" y="282"/>
+      <point x="91" y="282" type="curve"/>
     </contour>
   </outline>
 </glyph>
