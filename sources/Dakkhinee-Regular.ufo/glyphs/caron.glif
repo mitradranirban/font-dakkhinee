@@ -4,6 +4,17 @@
   <unicode hex="02C7"/>
   <outline>
     <contour>
+      <point x="24" y="755" type="curve" smooth="yes"/>
+      <point x="24" y="772"/>
+      <point x="36" y="784"/>
+      <point x="56" y="784" type="curve" smooth="yes"/>
+      <point x="66" y="784"/>
+      <point x="75" y="781"/>
+      <point x="87" y="773" type="curve" smooth="yes"/>
+      <point x="180" y="710" type="line"/>
+      <point x="273" y="772" type="line" smooth="yes"/>
+      <point x="286" y="781"/>
+      <point x="297" y="785"/>
       <point x="306" y="785" type="curve" smooth="yes"/>
       <point x="325" y="785"/>
       <point x="336" y="770"/>
@@ -21,17 +32,31 @@
       <point x="43" y="722" type="line" smooth="yes"/>
       <point x="30" y="731"/>
       <point x="24" y="742"/>
-      <point x="24" y="755" type="curve" smooth="yes"/>
-      <point x="24" y="772"/>
-      <point x="36" y="784"/>
-      <point x="56" y="784" type="curve" smooth="yes"/>
-      <point x="66" y="784"/>
-      <point x="75" y="781"/>
-      <point x="87" y="773" type="curve" smooth="yes"/>
-      <point x="180" y="710" type="line"/>
-      <point x="273" y="772" type="line" smooth="yes"/>
-      <point x="286" y="781"/>
-      <point x="297" y="785"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>639</integer>
+            <key>width</key>
+            <integer>145</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>24</integer>
+            <key>width</key>
+            <integer>312</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
