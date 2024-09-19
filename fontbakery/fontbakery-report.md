@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[9] Dakkhinee-Regular.ttf</summary>
+<details><summary>[8] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -409,22 +409,22 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tai-le, syriac, malayalam, canadian-aboriginal, coptic, math, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, coptic, tifinagh, tai-le, old-permic, syriac, canadian-aboriginal, malayalam</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, caucasian-albanian, gothic, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, tifinagh, syriac, caucasian-albanian</li>
 <li>U+09CF : not included in any glyphset definition</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
@@ -593,26 +593,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* u0988 (U+0988): L&lt;&lt;-5.0,821.0&gt;--&lt;789.0,827.0&gt;&gt;
-</code></pre>
- [code: found-semi-vertical]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
     <div>
 
@@ -679,8 +659,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 9 | 116 | 7 | 119 | 0 | 
-| 0% | 0% | 0% | 4% | 46% | 3% | 47% | 0% | 
+| 0 | 0 | 0 | 8 | 116 | 7 | 120 | 0 | 
+| 0% | 0% | 0% | 3% | 46% | 3% | 48% | 0% | 
 
 
 
