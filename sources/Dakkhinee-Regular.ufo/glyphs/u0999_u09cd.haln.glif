@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u0999_u09cd.haln" format="2">
   <advance width="700"/>
-  <anchor x="334" y="30" name="Anchor-1"/>
+  <anchor x="334" y="30" name="Anchor1"/>
+  <anchor x="354" y="838" name="Anchor0"/>
   <anchor x="354" y="838" name="Anchor-0"/>
+  <anchor x="334" y="30" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="449" y="11" type="curve"/>
@@ -48,7 +50,7 @@
       <point x="190" y="215"/>
       <point x="162" y="235"/>
       <point x="130" y="235" type="curve" smooth="yes"/>
-      <point x="120" y="235" type="line" smooth="yes"/>
+      <point x="120" y="235" type="line"/>
       <point x="100" y="233"/>
       <point x="85" y="221"/>
     </contour>
@@ -89,7 +91,7 @@
       <point x="51" y="723" type="curve" smooth="yes"/>
       <point x="51" y="763"/>
       <point x="58" y="785"/>
-      <point x="77" y="804" type="curve" smooth="yes"/>
+      <point x="77" y="804" type="curve"/>
       <point x="89" y="817" type="line"/>
       <point x="108" y="811"/>
       <point x="127" y="804"/>
@@ -131,7 +133,7 @@
       <point x="297" y="587"/>
       <point x="214" y="546"/>
       <point x="214" y="501" type="curve" smooth="yes"/>
-      <point x="214" y="488" type="line" smooth="yes"/>
+      <point x="214" y="488" type="line"/>
       <point x="215" y="460"/>
       <point x="234" y="442"/>
       <point x="268" y="442" type="curve" smooth="yes"/>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u099a_u09cd_u099b_u09ac.cjct" format="2">
   <advance width="1372"/>
-  <anchor x="1275" y="-20" name="Anchor-1"/>
+  <anchor x="1275" y="-20" name="Anchor1"/>
+  <anchor x="660" y="819" name="Anchor0"/>
   <anchor x="660" y="819" name="Anchor-0"/>
+  <anchor x="1275" y="-20" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="894" y="168" type="curve" smooth="yes"/>
@@ -12,7 +14,9 @@
       <point x="959" y="82"/>
       <point x="989" y="73"/>
       <point x="1019" y="73" type="curve" smooth="yes"/>
-      <point x="1073" y="73" type="line" smooth="yes"/>
+      <point x="1037" y="73"/>
+      <point x="1055" y="73"/>
+      <point x="1073" y="73" type="curve" smooth="yes"/>
       <point x="1134" y="73"/>
       <point x="1164" y="87"/>
       <point x="1164" y="145" type="curve" smooth="yes"/>
@@ -27,7 +31,7 @@
       <point x="894" y="174"/>
     </contour>
     <contour>
-      <point x="500" y="465" type="line" smooth="yes"/>
+      <point x="500" y="465" type="line"/>
       <point x="501" y="421"/>
       <point x="513" y="386"/>
       <point x="538" y="361" type="curve" smooth="yes"/>
@@ -66,7 +70,7 @@
       <point x="413" y="311"/>
     </contour>
     <contour>
-      <point x="156" y="465" type="line" smooth="yes"/>
+      <point x="156" y="465" type="line"/>
       <point x="157" y="421"/>
       <point x="169" y="386"/>
       <point x="194" y="361" type="curve" smooth="yes"/>
@@ -91,7 +95,7 @@
     </contour>
     <contour>
       <point x="153" y="613" type="line"/>
-      <point x="176" y="632" type="line" smooth="yes"/>
+      <point x="176" y="632" type="line"/>
       <point x="194" y="652"/>
       <point x="241" y="681"/>
       <point x="279" y="681" type="curve" smooth="yes"/>
@@ -161,7 +165,7 @@
       <point x="1024" y="302"/>
       <point x="1017" y="282"/>
       <point x="1005" y="268" type="curve"/>
-      <point x="1006" y="268" type="line" smooth="yes"/>
+      <point x="1006" y="268" type="line"/>
       <point x="1012" y="269"/>
       <point x="1019" y="270"/>
       <point x="1029" y="270" type="curve" smooth="yes"/>
@@ -338,13 +342,13 @@
             <key>position</key>
             <integer>730</integer>
             <key>width</key>
-            <integer>79</integer>
+            <integer>89</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>730</integer>
             <key>width</key>
-            <integer>89</integer>
+            <integer>79</integer>
           </dict>
         </array>
         <key>vhints</key>

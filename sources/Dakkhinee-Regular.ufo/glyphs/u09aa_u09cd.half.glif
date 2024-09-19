@@ -59,8 +59,12 @@
       <point x="772" y="776"/>
       <point x="718" y="739"/>
       <point x="612" y="738" type="curve"/>
-      <point x="612" y="256" type="line"/>
-      <point x="548" y="256" type="line"/>
+      <point x="612" y="577"/>
+      <point x="612" y="417"/>
+      <point x="612" y="256" type="curve"/>
+      <point x="591" y="256"/>
+      <point x="569" y="256"/>
+      <point x="548" y="256" type="curve"/>
       <point x="548" y="256"/>
       <point x="532" y="373"/>
       <point x="532" y="464" type="curve"/>

@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[10] Dakkhinee-Regular.ttf</summary>
+<details><summary>[9] Dakkhinee-Regular.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -113,6 +113,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: ae	Contours detected: 4	Expected: 3
 
+- Glyph name: ccedilla	Contours detected: 3	Expected: 1 or 2
+
 - Glyph name: egrave	Contours detected: 2	Expected: 3
 
 - Glyph name: eacute	Contours detected: 2	Expected: 3
@@ -188,6 +190,10 @@ fontbakery version: 0.12.10
 - Glyph name: uni0156	Contours detected: 2	Expected: 3
 
 - Glyph name: Rcaron	Contours detected: 2	Expected: 3
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: Zacute	Contours detected: 3	Expected: 2
 
@@ -259,6 +265,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: Rcaron	Contours detected: 2	Expected: 3
 
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 - Glyph name: V	Contours detected: 2	Expected: 1
 
 - Glyph name: X	Contours detected: 4	Expected: 1
@@ -280,6 +288,8 @@ fontbakery version: 0.12.10
 - Glyph name: cacute	Contours detected: 3	Expected: 2
 
 - Glyph name: ccaron	Contours detected: 3	Expected: 2
+
+- Glyph name: ccedilla	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: ccircumflex	Contours detected: 3	Expected: 2
 
@@ -339,6 +349,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: uni0237	Contours detected: 2	Expected: 1
 
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
 - Glyph name: v	Contours detected: 2	Expected: 1
 
 - Glyph name: x	Contours detected: 3	Expected: 1
@@ -392,17 +404,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, canadian-aboriginal, math, tai-le, malayalam, tifinagh, coptic, old-permic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, canadian-aboriginal, syriac, tai-le, old-permic, tifinagh, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
@@ -412,7 +424,7 @@ definitions.</p>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, gothic, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, cherokee</li>
 <li>U+09CF : not included in any glyphset definition</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
@@ -422,58 +434,6 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>bengali</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
-<pre><code>* f (U+0066): L&lt;&lt;153.0,302.0&gt;--&lt;194.0,301.0&gt;&gt; -&gt; L&lt;&lt;194.0,301.0&gt;--&lt;211.0,301.0&gt;&gt;
-
-* u0987 (U+0987): L&lt;&lt;274.0,517.0&gt;--&lt;298.0,584.0&gt;&gt; -&gt; L&lt;&lt;298.0,584.0&gt;--&lt;318.0,629.0&gt;&gt;
-
-* u0987_u0981.abvs: L&lt;&lt;286.0,551.0&gt;--&lt;308.0,612.0&gt;&gt; -&gt; L&lt;&lt;308.0,612.0&gt;--&lt;326.0,652.0&gt;&gt;
-
-* u0988 (U+0988): L&lt;&lt;274.0,478.0&gt;--&lt;298.0,552.0&gt;&gt; -&gt; L&lt;&lt;298.0,552.0&gt;--&lt;318.0,605.0&gt;&gt;
-
-* u0988_u0981.abvs: L&lt;&lt;274.0,478.0&gt;--&lt;298.0,552.0&gt;&gt; -&gt; L&lt;&lt;298.0,552.0&gt;--&lt;318.0,605.0&gt;&gt;
-
-* u09a3_u09cd_u09a0.cjct: L&lt;&lt;475.0,744.0&gt;--&lt;348.0,744.0&gt;&gt; -&gt; L&lt;&lt;348.0,744.0&gt;--&lt;272.0,745.0&gt;&gt;
-
-* u09b9 (U+09B9): L&lt;&lt;188.0,528.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;228.0,638.0&gt;&gt;
-
-* u09b9_u09b0_u09cd.blwf.vatu: L&lt;&lt;188.0,528.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;228.0,638.0&gt;&gt;
-
-* u09b9_u09cd.half: L&lt;&lt;188.0,640.0&gt;--&lt;218.0,677.0&gt;&gt; -&gt; L&lt;&lt;218.0,677.0&gt;--&lt;228.0,688.0&gt;&gt;
-
-* u09b9_u09cd.haln: L&lt;&lt;188.0,528.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;228.0,638.0&gt;&gt;
-
-* u09b9_u09cd_u09a3.cjct: L&lt;&lt;188.0,640.0&gt;--&lt;218.0,677.0&gt;&gt; -&gt; L&lt;&lt;218.0,677.0&gt;--&lt;228.0,688.0&gt;&gt;
-
-* u09b9_u09cd_u09a8.cjct: L&lt;&lt;188.0,528.0&gt;--&lt;218.0,615.0&gt;&gt; -&gt; L&lt;&lt;218.0,615.0&gt;--&lt;228.0,638.0&gt;&gt;
-
-* u09b9_u09cd_u09ac.cjct: L&lt;&lt;188.0,616.0&gt;--&lt;218.0,657.0&gt;&gt; -&gt; L&lt;&lt;218.0,657.0&gt;--&lt;228.0,669.0&gt;&gt;
-
-* u09b9_u09cd_u09ae.cjct: L&lt;&lt;130.0,615.0&gt;--&lt;145.0,658.0&gt;&gt; -&gt; L&lt;&lt;145.0,658.0&gt;--&lt;150.0,670.0&gt;&gt;
-
-* u09b9_u09cd_u09b2.cjct: L&lt;&lt;355.0,640.0&gt;--&lt;385.0,677.0&gt;&gt; -&gt; L&lt;&lt;385.0,677.0&gt;--&lt;395.0,688.0&gt;&gt;
-
-* u09bd (U+09BD): L&lt;&lt;270.0,587.0&gt;--&lt;294.0,661.0&gt;&gt; -&gt; L&lt;&lt;294.0,661.0&gt;--&lt;314.0,711.0&gt;&gt;
-
-* uni09FE (U+09FE): L&lt;&lt;-250.0,807.0&gt;--&lt;-236.0,850.0&gt;&gt; -&gt; L&lt;&lt;-236.0,850.0&gt;--&lt;-224.0,879.0&gt;&gt;
-</code></pre>
- [code: found-colinear-vectors]
 
 
 
@@ -511,11 +471,7 @@ definitions.</p>
 
 * K (U+004B): B&lt;&lt;350.0,186.0&gt;-&lt;311.0,229.0&gt;-&lt;298.0,281.0&gt;&gt;/L&lt;&lt;298.0,281.0&gt;--&lt;298.0,216.0&gt;&gt; = 14.036243467926457
 
-* K (U+004B): L&lt;&lt;298.0,535.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;301.0,402.0&gt;&gt; = 14.036243467926484
-
-* Scedilla (U+015E): B&lt;&lt;301.0,45.0&gt;-&lt;309.0,71.0&gt;-&lt;335.0,74.0&gt;&gt;/B&lt;&lt;335.0,74.0&gt;-&lt;265.0,78.0&gt;-&lt;198.0,128.0&gt;&gt; = 9.852432578361602
-
-* Scedilla (U+015E): B&lt;&lt;502.0,136.0&gt;-&lt;440.0,77.0&gt;-&lt;353.0,74.0&gt;&gt;/B&lt;&lt;353.0,74.0&gt;-&lt;364.0,72.0&gt;-&lt;371.5,65.0&gt;&gt; = 12.279780479648009
+* K (U+004B): L&lt;&lt;298.0,535.0&gt;--&lt;298.0,390.0&gt;&gt;/B&lt;&lt;298.0,390.0&gt;-&lt;303.0,410.0&gt;-&lt;311.0,427.5&gt;&gt; = 14.036243467926484
 
 * euro (U+20AC): B&lt;&lt;176.0,330.0&gt;-&lt;176.0,354.0&gt;-&lt;193.0,394.0&gt;&gt;/L&lt;&lt;193.0,394.0&gt;--&lt;188.0,386.0&gt;&gt; = 8.979891199555468
 
@@ -589,13 +545,13 @@ definitions.</p>
 
 * u09b7_u09cd._u09aa.cjct: B&lt;&lt;396.0,444.5&gt;-&lt;370.0,438.0&gt;-&lt;341.0,434.0&gt;&gt;/B&lt;&lt;341.0,434.0&gt;-&lt;403.0,427.0&gt;-&lt;452.0,412.5&gt;&gt; = 14.294913401313233
 
-* u09b8_u09cd_u09a4_u09c1.blws: L&lt;&lt;107.0,738.0&gt;--&lt;119.0,741.0&gt;&gt;/L&lt;&lt;119.0,741.0&gt;--&lt;-79.0,741.0&gt;&gt; = 14.036243467926484
+* u09b8_u09cd_u09a4_u09c1.blws: B&lt;&lt;79.5,730.0&gt;-&lt;100.0,737.0&gt;-&lt;119.0,741.0&gt;&gt;/L&lt;&lt;119.0,741.0&gt;--&lt;-79.0,741.0&gt;&gt; = 11.888658039627968
 
 * u09b9_u09cd_u09ae.cjct: B&lt;&lt;329.5,419.5&gt;-&lt;336.0,403.0&gt;-&lt;338.0,388.0&gt;&gt;/B&lt;&lt;338.0,388.0&gt;-&lt;336.0,415.0&gt;-&lt;331.0,439.5&gt;&gt; = 3.358248569532639
 
-* u09bf (U+09BF): L&lt;&lt;0.0,819.0&gt;--&lt;216.0,819.0&gt;&gt;/B&lt;&lt;216.0,819.0&gt;-&lt;168.0,826.0&gt;-&lt;128.0,856.0&gt;&gt; = 8.297144969836856
+* u09bf (U+09BF): L&lt;&lt;0.0,819.0&gt;--&lt;216.0,819.0&gt;&gt;/B&lt;&lt;216.0,819.0&gt;-&lt;184.0,824.0&gt;-&lt;152.5,839.0&gt;&gt; = 8.880659150520234
 
-* u09bf_u0981.abvs: L&lt;&lt;0.0,819.0&gt;--&lt;216.0,819.0&gt;&gt;/B&lt;&lt;216.0,819.0&gt;-&lt;170.0,826.0&gt;-&lt;129.5,855.5&gt;&gt; = 8.652541791114704
+* u09bf_u0981.abvs: L&lt;&lt;0.0,819.0&gt;--&lt;216.0,819.0&gt;&gt;/B&lt;&lt;216.0,819.0&gt;-&lt;185.0,824.0&gt;-&lt;153.5,838.5&gt;&gt; = 9.162347045721706
 
 * u09c0 (U+09C0): B&lt;&lt;284.0,855.5&gt;-&lt;246.0,826.0&gt;-&lt;197.0,819.0&gt;&gt;/L&lt;&lt;197.0,819.0&gt;--&lt;410.0,819.0&gt;&gt; = 8.13010235415596
 
@@ -627,9 +583,29 @@ definitions.</p>
 
 * uni0136 (U+0136): B&lt;&lt;350.0,186.0&gt;-&lt;311.0,229.0&gt;-&lt;298.0,281.0&gt;&gt;/L&lt;&lt;298.0,281.0&gt;--&lt;298.0,216.0&gt;&gt; = 14.036243467926457
 
-* uni0136 (U+0136): L&lt;&lt;298.0,535.0&gt;--&lt;298.0,390.0&gt;&gt;/L&lt;&lt;298.0,390.0&gt;--&lt;301.0,402.0&gt;&gt; = 14.036243467926484
+* uni0136 (U+0136): L&lt;&lt;298.0,535.0&gt;--&lt;298.0,390.0&gt;&gt;/B&lt;&lt;298.0,390.0&gt;-&lt;303.0,410.0&gt;-&lt;311.0,427.5&gt;&gt; = 14.036243467926484
 </code></pre>
  [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* u0988 (U+0988): L&lt;&lt;-5.0,821.0&gt;--&lt;789.0,827.0&gt;&gt;
+</code></pre>
+ [code: found-semi-vertical]
 
 
 
@@ -652,26 +628,6 @@ definitions.</p>
 - j + acutecomb
 </code></pre>
  [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- Jacute
-- jacute</p>
- [code: incomplete-caret-pos-data]
 
 
 
@@ -723,7 +679,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 10 | 116 | 7 | 118 | 0 | 
+| 0 | 0 | 0 | 9 | 116 | 7 | 119 | 0 | 
 | 0% | 0% | 0% | 4% | 46% | 3% | 47% | 0% | 
 
 

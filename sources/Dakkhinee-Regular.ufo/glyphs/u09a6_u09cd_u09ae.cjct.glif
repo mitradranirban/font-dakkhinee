@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09a6_u09cd_u09ae.cjct" format="2">
   <advance width="825"/>
-  <anchor x="662" y="-3" name="Anchor-1"/>
+  <anchor x="662" y="-3" name="Anchor1"/>
+  <anchor x="383" y="837" name="Anchor0"/>
   <anchor x="383" y="837" name="Anchor-0"/>
+  <anchor x="662" y="-3" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="330" y="100" type="curve" smooth="yes"/>
@@ -81,7 +83,7 @@
       <point x="-6" y="796"/>
       <point x="0" y="807" type="curve"/>
       <point x="0" y="817" type="line"/>
-      <point x="6" y="817" type="line" smooth="yes"/>
+      <point x="6" y="817" type="line"/>
       <point x="7" y="818"/>
       <point x="7" y="819"/>
       <point x="8" y="819" type="curve"/>
@@ -102,7 +104,7 @@
       <point x="720" y="1008"/>
       <point x="728" y="1012"/>
       <point x="736" y="1023" type="curve"/>
-      <point x="740" y="1023" type="line" smooth="yes"/>
+      <point x="740" y="1023" type="line"/>
       <point x="746" y="1020"/>
       <point x="761" y="1007"/>
       <point x="776" y="992" type="curve" smooth="yes"/>

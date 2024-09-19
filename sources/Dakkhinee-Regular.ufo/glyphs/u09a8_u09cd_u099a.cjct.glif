@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09a8_u09cd_u099a.cjct" format="2">
   <advance width="1191"/>
-  <anchor x="434" y="36" name="Anchor-1"/>
+  <anchor x="434" y="36" name="Anchor1"/>
+  <anchor x="522" y="816" name="Anchor0"/>
   <anchor x="522" y="816" name="Anchor-0"/>
+  <anchor x="434" y="36" name="Anchor-1"/>
   <outline>
     <contour>
-      <point x="610" y="372" type="line" smooth="yes"/>
+      <point x="610" y="372" type="line"/>
       <point x="613" y="238"/>
       <point x="729" y="171"/>
       <point x="831" y="171" type="curve" smooth="yes"/>
@@ -28,7 +30,9 @@
       <point x="2" y="801"/>
       <point x="9" y="812" type="curve"/>
       <point x="9" y="820" type="line"/>
-      <point x="485" y="820" type="line"/>
+      <point x="168" y="820"/>
+      <point x="326" y="820"/>
+      <point x="485" y="820" type="curve"/>
       <point x="486" y="817" type="line"/>
       <point x="634" y="815"/>
       <point x="798" y="811"/>
@@ -53,7 +57,7 @@
       <point x="1052" y="737" type="curve" smooth="yes"/>
       <point x="604" y="737" type="line"/>
       <point x="604" y="579" type="line"/>
-      <point x="636" y="604" type="line" smooth="yes"/>
+      <point x="636" y="604" type="line"/>
       <point x="664" y="629"/>
       <point x="746" y="677"/>
       <point x="819" y="677" type="curve" smooth="yes"/>
@@ -102,7 +106,7 @@
       <point x="109" y="516" type="curve" smooth="yes"/>
       <point x="109" y="472"/>
       <point x="140" y="430"/>
-      <point x="191" y="404" type="curve" smooth="yes"/>
+      <point x="191" y="404" type="curve"/>
       <point x="217" y="392" type="line"/>
       <point x="181" y="378" type="line" smooth="yes"/>
       <point x="161" y="370"/>
@@ -124,7 +128,9 @@
       <point x="493" y="452"/>
       <point x="507" y="459" type="curve"/>
       <point x="507" y="735" type="line"/>
-      <point x="9" y="735" type="line"/>
+      <point x="341" y="735"/>
+      <point x="175" y="735"/>
+      <point x="9" y="735" type="curve"/>
       <point x="9" y="742" type="line"/>
       <point x="-4" y="742" type="line" smooth="yes"/>
       <point x="-23" y="742"/>

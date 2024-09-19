@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u099e_u09cd.haln" format="2">
   <advance width="961"/>
-  <anchor x="632" y="50" name="Anchor-1"/>
+  <anchor x="632" y="50" name="Anchor1"/>
+  <anchor x="612" y="834" name="Anchor0"/>
   <anchor x="612" y="834" name="Anchor-0"/>
+  <anchor x="632" y="50" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="728" y="508" type="line"/>

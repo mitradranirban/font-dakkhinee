@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09ac_u09b0_u09cd.blwf.vatu" format="2">
   <advance width="870"/>
-  <anchor x="810" y="-54" name="Anchor-1"/>
+  <anchor x="810" y="-54" name="Anchor1"/>
+  <anchor x="360" y="816" name="Anchor0"/>
   <anchor x="360" y="816" name="Anchor-0"/>
+  <anchor x="810" y="-54" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="132" y="395" type="curve" smooth="yes"/>
@@ -11,7 +13,7 @@
       <point x="349" y="187" type="curve" smooth="yes"/>
       <point x="451" y="187"/>
       <point x="567" y="255"/>
-      <point x="570" y="388" type="curve" smooth="yes"/>
+      <point x="570" y="388" type="curve"/>
       <point x="570" y="400" type="line" smooth="yes"/>
       <point x="570" y="516"/>
       <point x="473" y="604"/>
@@ -28,7 +30,7 @@
       <point x="-4" y="801"/>
       <point x="3" y="812" type="curve"/>
       <point x="3" y="817" type="line"/>
-      <point x="6" y="817" type="line" smooth="yes"/>
+      <point x="6" y="817" type="line"/>
       <point x="7" y="818"/>
       <point x="7" y="819"/>
       <point x="8" y="819" type="curve"/>

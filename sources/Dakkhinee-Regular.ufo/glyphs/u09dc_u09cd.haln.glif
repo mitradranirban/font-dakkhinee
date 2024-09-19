@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09dc_u09cd.haln" format="2">
   <advance width="718"/>
-  <anchor x="438" y="-71" name="Anchor-1"/>
+  <anchor x="438" y="-71" name="Anchor1"/>
+  <anchor x="384" y="835" name="Anchor0"/>
   <anchor x="384" y="835" name="Anchor-0"/>
+  <anchor x="438" y="-71" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="463" y="-83" type="curve"/>
@@ -39,7 +41,7 @@
       <point x="89" y="172"/>
       <point x="118" y="151"/>
       <point x="149" y="151" type="curve" smooth="yes"/>
-      <point x="159" y="151" type="line" smooth="yes"/>
+      <point x="159" y="151" type="line"/>
       <point x="179" y="154"/>
       <point x="194" y="165"/>
       <point x="194" y="185" type="curve" smooth="yes"/>
@@ -93,7 +95,7 @@
       <point x="573" y="610" type="curve" smooth="yes"/>
       <point x="663" y="610"/>
       <point x="702" y="542"/>
-      <point x="703" y="463" type="curve" smooth="yes"/>
+      <point x="703" y="463" type="curve"/>
       <point x="703" y="459" type="line" smooth="yes"/>
       <point x="703" y="252"/>
       <point x="497" y="46"/>

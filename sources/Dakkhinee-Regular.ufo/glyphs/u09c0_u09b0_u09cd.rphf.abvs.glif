@@ -116,7 +116,7 @@
       <point x="124" y="166" type="curve" smooth="yes"/>
       <point x="120" y="195"/>
       <point x="118" y="274"/>
-      <point x="117" y="403" type="curve" smooth="yes"/>
+      <point x="117" y="403" type="curve"/>
       <point x="117" y="741" type="line"/>
       <point x="-64" y="741" type="line"/>
       <point x="-13" y="817" type="line"/>
@@ -205,12 +205,6 @@
             <integer>117</integer>
             <key>width</key>
             <integer>80</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>331</integer>
-            <key>width</key>
-            <integer>0</integer>
           </dict>
         </array>
       </dict>

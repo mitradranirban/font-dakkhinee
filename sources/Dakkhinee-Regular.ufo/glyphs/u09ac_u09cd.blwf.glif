@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09ac_u09cd.blwf" format="2">
   <advance width="0"/>
+  <anchor x="-264" y="175" name="_Anchor1"/>
   <anchor x="-264" y="175" name="_Anchor-1"/>
   <outline>
     <contour>
@@ -10,7 +11,7 @@
       <point x="-492" y="-40" type="curve" smooth="yes"/>
       <point x="-410" y="-40"/>
       <point x="-317" y="-12"/>
-      <point x="-315" y="41" type="curve" smooth="yes"/>
+      <point x="-315" y="41" type="curve"/>
       <point x="-315" y="45" type="line" smooth="yes"/>
       <point x="-315" y="91"/>
       <point x="-392" y="127"/>

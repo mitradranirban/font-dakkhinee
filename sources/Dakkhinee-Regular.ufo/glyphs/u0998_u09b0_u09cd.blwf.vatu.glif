@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u0998_u09b0_u09cd.blwf.vatu" format="2">
   <advance width="973"/>
-  <anchor x="768" y="1" name="Anchor-1"/>
+  <anchor x="768" y="1" name="Anchor1"/>
+  <anchor x="426" y="853" name="Anchor0"/>
   <anchor x="426" y="853" name="Anchor-0"/>
+  <anchor x="768" y="1" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="123" y="250" type="curve" smooth="yes"/>
@@ -36,7 +38,9 @@
       <point x="-6" y="796"/>
       <point x="0" y="807" type="curve"/>
       <point x="0" y="817" type="line"/>
-      <point x="6" y="817" type="line" smooth="yes"/>
+      <point x="2" y="817"/>
+      <point x="4" y="817"/>
+      <point x="6" y="817" type="curve" smooth="yes"/>
       <point x="7" y="818"/>
       <point x="7" y="819"/>
       <point x="8" y="819" type="curve"/>
@@ -160,13 +164,13 @@
             <key>position</key>
             <integer>741</integer>
             <key>width</key>
-            <integer>1</integer>
+            <integer>76</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>741</integer>
             <key>width</key>
-            <integer>76</integer>
+            <integer>1</integer>
           </dict>
           <dict>
             <key>position</key>

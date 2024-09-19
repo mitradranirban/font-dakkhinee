@@ -2,8 +2,10 @@
 <glyph name="uni25CC" format="2">
   <advance width="845"/>
   <unicode hex="25CC"/>
-  <anchor x="486" y="-30" name="Anchor-1"/>
+  <anchor x="486" y="-30" name="Anchor1"/>
+  <anchor x="442" y="748" name="Anchor0"/>
   <anchor x="442" y="748" name="Anchor-0"/>
+  <anchor x="486" y="-30" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="680" y="351" type="curve" smooth="yes"/>

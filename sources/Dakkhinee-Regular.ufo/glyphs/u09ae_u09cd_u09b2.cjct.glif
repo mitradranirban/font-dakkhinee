@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09ae_u09cd_u09b2.cjct" format="2">
   <advance width="1115"/>
-  <anchor x="879" y="60" name="Anchor-1"/>
+  <anchor x="879" y="60" name="Anchor1"/>
+  <anchor x="522" y="828" name="Anchor0"/>
   <anchor x="522" y="828" name="Anchor-0"/>
+  <anchor x="879" y="60" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="648" y="739" type="line"/>
@@ -20,8 +22,8 @@
       <point x="938" y="708"/>
       <point x="938" y="712" type="curve" smooth="yes"/>
       <point x="938" y="714"/>
-      <point x="883" y="736"/>
-      <point x="852" y="740" type="curve"/>
+      <point x="883" y="740"/>
+      <point x="852" y="740" type="curve" smooth="yes"/>
       <point x="820" y="740"/>
       <point x="782" y="739"/>
       <point x="737" y="739" type="curve" smooth="yes"/>
@@ -104,7 +106,7 @@
       <point x="502" y="222" type="curve" smooth="yes"/>
       <point x="502" y="178"/>
       <point x="533" y="136"/>
-      <point x="584" y="110" type="curve" smooth="yes"/>
+      <point x="584" y="110" type="curve"/>
       <point x="610" y="98" type="line"/>
       <point x="574" y="84" type="line" smooth="yes"/>
       <point x="554" y="76"/>
@@ -117,7 +119,7 @@
       <point x="414" y="264"/>
       <point x="432" y="282" type="curve"/>
       <point x="258" y="282" type="line"/>
-      <point x="218" y="272" type="line" smooth="yes"/>
+      <point x="218" y="272" type="line"/>
       <point x="148" y="256"/>
       <point x="91" y="227"/>
       <point x="91" y="179" type="curve" smooth="yes"/>
@@ -218,13 +220,13 @@
             <key>position</key>
             <integer>71</integer>
             <key>width</key>
-            <integer>39</integer>
+            <integer>49</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>71</integer>
             <key>width</key>
-            <integer>49</integer>
+            <integer>39</integer>
           </dict>
           <dict>
             <key>position</key>
