@@ -13,9 +13,9 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>10</integer>
+    <integer>21</integer>
     <key>copyright</key>
-    <string>Copyright 2024 The Dakkhinee Project Authors (https://github.com/mitradranirban/font-dakkhinee)</string>
+    <string>Copyright 2024 The Dakkhinee Project Authors (github.com/mitradranirban/font-dakkhinee)</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>capHeight</key>
@@ -49,7 +49,7 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.010</string>
+    <string>Version 1.021</string>
     <key>openTypeNameDescription</key>
     <string>This Bengali or Bangla font is designed like South Indian Scripts</string>
     <key>openTypeNamePreferredFamilyName</key>
@@ -106,6 +106,19 @@ This license is available with a FAQ at:http://scripts.sil.org/OFL</string>
     <integer>73</integer>
     <key>postscriptUnderlinePosition</key>
     <integer>-366</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>41</integer>
+      <integer>58</integer>
+      <integer>596</integer>
+      <integer>647</integer>
+      <integer>622</integer>
+      <integer>650</integer>
+      <integer>754</integer>
+      <integer>764</integer>
+      <integer>1022</integer>
+      <integer>1030</integer>
+    </array>
     <key>guidelines</key>
     <array>
       <dict>

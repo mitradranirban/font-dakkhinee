@@ -2,9 +2,28 @@
 <glyph name="uni09E2" format="2">
   <advance width="0"/>
   <unicode hex="09E2"/>
+  <anchor x="-170" y="0" name="_Anchor1"/>
   <anchor x="-170" y="-0" name="_Anchor-1"/>
   <outline>
     <contour>
+      <point x="-318" y="-90" type="line"/>
+      <point x="-280" y="-52"/>
+      <point x="-231" y="-16"/>
+      <point x="-165" y="-16" type="curve" smooth="yes"/>
+      <point x="-89" y="-16"/>
+      <point x="-18" y="-71"/>
+      <point x="-18" y="-145" type="curve" smooth="yes"/>
+      <point x="-18" y="-208"/>
+      <point x="-62" y="-270"/>
+      <point x="-123" y="-270" type="curve" smooth="yes"/>
+      <point x="-137" y="-270"/>
+      <point x="-156" y="-262"/>
+      <point x="-181" y="-248" type="curve" smooth="yes"/>
+      <point x="-206" y="-234"/>
+      <point x="-226" y="-227"/>
+      <point x="-240" y="-227" type="curve" smooth="yes"/>
+      <point x="-262" y="-227"/>
+      <point x="-279" y="-251"/>
       <point x="-279" y="-274" type="curve" smooth="yes"/>
       <point x="-279" y="-313"/>
       <point x="-241" y="-344"/>
@@ -31,24 +50,49 @@
       <point x="-220" y="-71"/>
       <point x="-261" y="-103"/>
       <point x="-292" y="-134" type="curve"/>
-      <point x="-318" y="-90" type="line"/>
-      <point x="-280" y="-52"/>
-      <point x="-231" y="-16"/>
-      <point x="-165" y="-16" type="curve" smooth="yes"/>
-      <point x="-89" y="-16"/>
-      <point x="-18" y="-71"/>
-      <point x="-18" y="-145" type="curve" smooth="yes"/>
-      <point x="-18" y="-208"/>
-      <point x="-62" y="-270"/>
-      <point x="-123" y="-270" type="curve" smooth="yes"/>
-      <point x="-137" y="-270"/>
-      <point x="-156" y="-262"/>
-      <point x="-181" y="-248" type="curve" smooth="yes"/>
-      <point x="-206" y="-234"/>
-      <point x="-226" y="-227"/>
-      <point x="-240" y="-227" type="curve" smooth="yes"/>
-      <point x="-262" y="-227"/>
-      <point x="-279" y="-251"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-270</integer>
+            <key>width</key>
+            <integer>55</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-227</integer>
+            <key>width</key>
+            <integer>55</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-71</integer>
+            <key>width</key>
+            <integer>55</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-318</integer>
+            <key>width</key>
+            <integer>39</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-58</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

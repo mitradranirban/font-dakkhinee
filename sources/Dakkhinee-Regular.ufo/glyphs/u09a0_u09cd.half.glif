@@ -3,29 +3,38 @@
   <advance width="539"/>
   <outline>
     <contour>
-      <point x="281" y="363" type="curve" smooth="yes"/>
-      <point x="160" y="363"/>
-      <point x="91" y="438"/>
-      <point x="91" y="504" type="curve" smooth="yes"/>
-      <point x="91" y="552"/>
-      <point x="136" y="615"/>
-      <point x="224" y="615" type="curve" smooth="yes"/>
-      <point x="300" y="615" type="line" smooth="yes"/>
-      <point x="380" y="615"/>
-      <point x="369" y="668"/>
-      <point x="394" y="686" type="curve"/>
-      <point x="388" y="686"/>
-      <point x="380" y="724"/>
-      <point x="362" y="729" type="curve"/>
-      <point x="353" y="741"/>
-      <point x="259" y="744"/>
-      <point x="169" y="744" type="curve" smooth="yes"/>
-      <point x="102" y="744"/>
-      <point x="36" y="742"/>
-      <point x="11" y="741" type="curve"/>
-      <point x="-11" y="741" type="line" smooth="yes"/>
-      <point x="-30" y="741"/>
-      <point x="-49" y="741"/>
+      <point x="249" y="1059" type="curve" smooth="yes"/>
+      <point x="249" y="1041"/>
+      <point x="263" y="1027"/>
+      <point x="281" y="1027" type="curve" smooth="yes"/>
+      <point x="300" y="1027"/>
+      <point x="314" y="1040"/>
+      <point x="314" y="1059" type="curve" smooth="yes"/>
+      <point x="314" y="1078"/>
+      <point x="300" y="1092"/>
+      <point x="281" y="1092" type="curve" smooth="yes"/>
+      <point x="262" y="1092"/>
+      <point x="249" y="1078"/>
+    </contour>
+    <contour>
+      <point x="148" y="502" type="curve" smooth="yes"/>
+      <point x="148" y="466"/>
+      <point x="200" y="431"/>
+      <point x="271" y="431" type="curve" smooth="yes"/>
+      <point x="379" y="431"/>
+      <point x="432" y="512"/>
+      <point x="432" y="572" type="curve" smooth="yes"/>
+      <point x="432" y="590"/>
+      <point x="427" y="606"/>
+      <point x="422" y="622" type="curve"/>
+      <point x="404" y="589"/>
+      <point x="363" y="552"/>
+      <point x="290" y="552" type="curve" smooth="yes"/>
+      <point x="214" y="552" type="line" smooth="yes"/>
+      <point x="172" y="552"/>
+      <point x="148" y="525"/>
+    </contour>
+    <contour>
       <point x="-69" y="742" type="curve"/>
       <point x="-69" y="742"/>
       <point x="-39" y="756"/>
@@ -82,38 +91,108 @@
       <point x="508" y="575" type="curve" smooth="yes"/>
       <point x="508" y="487"/>
       <point x="436" y="363"/>
-    </contour>
-    <contour>
-      <point x="422" y="623" type="curve"/>
-      <point x="404" y="590"/>
-      <point x="363" y="552"/>
-      <point x="290" y="552" type="curve" smooth="yes"/>
-      <point x="214" y="552" type="line" smooth="yes"/>
-      <point x="172" y="552"/>
-      <point x="148" y="525"/>
-      <point x="148" y="502" type="curve" smooth="yes"/>
-      <point x="148" y="466"/>
-      <point x="200" y="431"/>
-      <point x="271" y="431" type="curve" smooth="yes"/>
-      <point x="379" y="431"/>
-      <point x="432" y="512"/>
-      <point x="432" y="572" type="curve" smooth="yes"/>
-      <point x="432" y="590"/>
-      <point x="427" y="607"/>
-    </contour>
-    <contour>
-      <point x="281" y="1092" type="curve" smooth="yes"/>
-      <point x="262" y="1092"/>
-      <point x="249" y="1078"/>
-      <point x="249" y="1059" type="curve" smooth="yes"/>
-      <point x="249" y="1041"/>
-      <point x="263" y="1027"/>
-      <point x="281" y="1027" type="curve" smooth="yes"/>
-      <point x="300" y="1027"/>
-      <point x="314" y="1040"/>
-      <point x="314" y="1059" type="curve" smooth="yes"/>
-      <point x="314" y="1078"/>
-      <point x="300" y="1092"/>
+      <point x="281" y="363" type="curve" smooth="yes"/>
+      <point x="160" y="363"/>
+      <point x="91" y="438"/>
+      <point x="91" y="504" type="curve" smooth="yes"/>
+      <point x="91" y="552"/>
+      <point x="136" y="615"/>
+      <point x="224" y="615" type="curve" smooth="yes"/>
+      <point x="300" y="615" type="line" smooth="yes"/>
+      <point x="380" y="615"/>
+      <point x="369" y="668"/>
+      <point x="394" y="686" type="curve"/>
+      <point x="388" y="686"/>
+      <point x="380" y="724"/>
+      <point x="362" y="729" type="curve"/>
+      <point x="353" y="741"/>
+      <point x="259" y="744"/>
+      <point x="169" y="744" type="curve" smooth="yes"/>
+      <point x="102" y="744"/>
+      <point x="36" y="742"/>
+      <point x="11" y="741" type="curve"/>
+      <point x="-11" y="741" type="line" smooth="yes"/>
+      <point x="-30" y="741"/>
+      <point x="-49" y="741"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>363</integer>
+            <key>width</key>
+            <integer>68</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>552</integer>
+            <key>width</key>
+            <integer>63</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>741</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>978</integer>
+            <key>width</key>
+            <integer>49</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1092</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>91</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>117</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>199</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>314</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>432</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>481</integer>
+            <key>width</key>
+            <integer>56</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

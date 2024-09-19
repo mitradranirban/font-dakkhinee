@@ -39,7 +39,7 @@ If you want to build fonts manually on your own computer:
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://mitradranirban.github.io/font-dakkhinee.
+The proof files and QA tests are also available automatically via GitHub Actions - look [here](https://mitradranirban.github.io/font-dakkhinee).
 
 ## Changelog
 
@@ -49,8 +49,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at
-https://scripts.sil.org/OFL
+This license is available with a FAQ at [sil site](https://scripts.sil.org/OFL)
 
 ## Repository Layout
 

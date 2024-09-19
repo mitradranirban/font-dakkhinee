@@ -2,6 +2,7 @@
 <glyph name="u09cd" format="2">
   <advance width="0"/>
   <unicode hex="09CD"/>
+  <anchor x="-178" y="28" name="_Anchor1"/>
   <anchor x="-178" y="28" name="_Anchor-1"/>
   <outline>
     <contour>
@@ -21,4 +22,29 @@
       <point x="-219" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-107</integer>
+            <key>width</key>
+            <integer>140</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-219</integer>
+            <key>width</key>
+            <integer>155</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

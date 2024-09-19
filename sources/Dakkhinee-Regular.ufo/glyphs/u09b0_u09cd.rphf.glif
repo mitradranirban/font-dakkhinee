@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u09b0_u09cd.rphf" format="2">
   <advance width="0"/>
+  <anchor x="-272" y="812" name="_Anchor0"/>
   <anchor x="-272" y="812" name="_Anchor-0"/>
   <outline>
     <contour>
-      <point x="-242" y="890" type="curve" smooth="yes"/>
-      <point x="-242" y="859"/>
-      <point x="-228" y="834"/>
-      <point x="-205" y="817" type="curve"/>
-      <point x="-316" y="817" type="line"/>
-      <point x="-327" y="841"/>
-      <point x="-333" y="864"/>
       <point x="-333" y="890" type="curve" smooth="yes"/>
       <point x="-333" y="937"/>
       <point x="-316" y="977"/>
@@ -23,6 +17,38 @@
       <point x="-151" y="981" type="line" smooth="yes"/>
       <point x="-201" y="981"/>
       <point x="-242" y="940"/>
+      <point x="-242" y="890" type="curve" smooth="yes"/>
+      <point x="-242" y="859"/>
+      <point x="-228" y="834"/>
+      <point x="-205" y="817" type="curve"/>
+      <point x="-316" y="817" type="line"/>
+      <point x="-327" y="841"/>
+      <point x="-333" y="864"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>981</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-333</integer>
+            <key>width</key>
+            <integer>91</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
