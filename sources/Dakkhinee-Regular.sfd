@@ -26,8 +26,8 @@ FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1726742494
-ModificationTime: 1726742545
+CreationTime: 1726744342
+ModificationTime: 1726744456
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 533 13 5
+WinInfo: 552 8 2
 BeginPrivate: 1
 BlueValues 41 [41 58 596 647 622 650 754 764 1022 1030]
 EndPrivate
@@ -112,7 +112,7 @@ Grid
 74.1744 1300 m 0
  74.1744 -700 l 1024
 EndSplineSet
-AnchorClass2: "Anchor0" "abvmAboveBaseMarkinBengalilookup0 subtable" "Anchor1" "blwmBelowBaseMarkinBengalilookup1 subtable" "Anchor-1"""  "Anchor-0""" 
+AnchorClass2: "Anchor-1"""  "Anchor1" "blwmBelowBaseMarkinBengalilookup1 subtable" "Anchor-0"""  "Anchor0" "abvmAboveBaseMarkinBengalilookup0 subtable"
 BeginChars: 814 814
 
 StartChar: space
@@ -7379,8 +7379,8 @@ I-333
 sg7
 I91
 sass."
-Ligature2: "rphfRephForminBengali2lookup3 subtable" u09f0 u09cd
 Ligature2: "rphfRephForminBengali2lookup3 subtable" u09b0 u09cd
+Ligature2: "rphfRephForminBengali2lookup3 subtable" u09f0 u09cd
 EndChar
 
 StartChar: u09af_u09cd.pstf
@@ -7536,8 +7536,8 @@ p7
 I68
 sass."
 LCarets2: 1 24
-Ligature2: "blwfBelowBaseFormsinBengali2lookup4 subtable" u09cd u09f0
 Ligature2: "blwfBelowBaseFormsinBengali2lookup4 subtable" u09cd u09b0
+Ligature2: "blwfBelowBaseFormsinBengali2lookup4 subtable" u09cd u09f0
 EndChar
 
 StartChar: u09ac_u09cd.blwf
@@ -7615,8 +7615,8 @@ I-312
 sg7
 I84
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" space u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" space u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" space u09cd u09ac
 EndChar
 
 StartChar: u0995_u09b0_u09cd
@@ -16746,7 +16746,6 @@ I1325
 sg7
 I78
 sass."
-LCarets2: 0 
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099a u09cd u099b
 EndChar
 
@@ -20788,8 +20787,8 @@ I1006
 sg7
 I79
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u0995 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u0995 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u0995 u09cd u09ac
 EndChar
 
 StartChar: u0997_u09cd_u09ac.cjct
@@ -20922,8 +20921,8 @@ I785
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u0997 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u0997 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u0997 u09cd u09ac
 EndChar
 
 StartChar: u099b_u09cd_u09ac.cjct
@@ -21101,8 +21100,8 @@ I833
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099b u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099b u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099b u09cd u09ac
 EndChar
 
 StartChar: u099c_u09cd_u09ac.cjct
@@ -21297,8 +21296,8 @@ I1206
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099c u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099c u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099c u09cd u09ac
 EndChar
 
 StartChar: u09a3_u09cd_u09ac.cjct
@@ -21448,8 +21447,8 @@ I649
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a3 u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a3 u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a3 u09cd u09f1
 EndChar
 
 StartChar: u09a4_u09cd_u09ac.cjct
@@ -21626,8 +21625,8 @@ I712
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a4 u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a4 u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a4 u09cd u09f1
 EndChar
 
 StartChar: u09a6_u09cd_u09ac.cjct
@@ -21750,8 +21749,8 @@ I630
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a6 u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a6 u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a6 u09cd u09f1
 EndChar
 
 StartChar: u09a7_u09cd_u09ac.cjct
@@ -21927,8 +21926,8 @@ I1257
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a7 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a7 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a7 u09cd u09ac
 EndChar
 
 StartChar: u09a8_u09cd_u09ac.cjct
@@ -22072,8 +22071,8 @@ I599
 sg7
 I84
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09ac
 EndChar
 
 StartChar: u09aa_u09cd_u09ac.cjct
@@ -22222,8 +22221,8 @@ I731
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09aa u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09aa u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09aa u09cd u09ac
 EndChar
 
 StartChar: u09ac_u09cd_u09ac.cjct
@@ -22373,8 +22372,8 @@ I1139
 sg7
 I62
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ac u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ac u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ac u09cd u09ac
 EndChar
 
 StartChar: u09b6_u09cd_u09ac.cjct
@@ -22538,8 +22537,8 @@ I863
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b6 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b6 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b6 u09cd u09ac
 EndChar
 
 StartChar: u09b8_u09cd_u09ac.cjct
@@ -22677,8 +22676,8 @@ I698
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b8 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b8 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b8 u09cd u09ac
 EndChar
 
 StartChar: u09a6_u09cd_u09a8.cjct
@@ -23785,7 +23784,6 @@ I1125
 sg7
 I83
 sass."
-LCarets2: 0 
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a5
 EndChar
 
@@ -25763,7 +25761,6 @@ I1241
 sg7
 I78
 sass."
-LCarets2: 0 
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ae u09cd u09aa
 EndChar
 
@@ -27539,8 +27536,8 @@ I1145
 sg7
 I84
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b2 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b2 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b2 u09cd u09ac
 EndChar
 
 StartChar: u09b2_u09cd_u09aa.cjct
@@ -32770,8 +32767,8 @@ I1621
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099c u09cd u099c u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099c u09cd u099c u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099c u09cd u099c u09cd u09f1
 EndChar
 
 StartChar: u0995_u09cd_u099f_u09b0.vatu
@@ -34379,8 +34376,8 @@ I685
 sg7
 I98
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a4 u09cd u09a4 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a4 u09cd u09a4 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a4 u09cd u09a4 u09cd u09ac
 EndChar
 
 StartChar: u09a8_u09cd_u09a6_u09ac.cjct
@@ -34540,8 +34537,8 @@ I851
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a6 u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a6 u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a6 u09cd u09f1
 EndChar
 
 StartChar: u09a8_u09cd_u099f.cjct
@@ -38227,8 +38224,8 @@ I1301
 sg7
 I62
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099a u09cd u099b u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099a u09cd u099b u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099a u09cd u099b u09cd u09f1
 EndChar
 
 StartChar: u0999_u09cd_u09ae.cjct
@@ -38662,8 +38659,8 @@ I564
 sg7
 I84
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a4 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a4 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a8 u09cd u09a4 u09cd u09ac
 EndChar
 
 StartChar: u09aa_u09cd_u099f.cjct
@@ -40886,8 +40883,8 @@ I684
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b9 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b9 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b9 u09cd u09ac
 EndChar
 
 StartChar: u09b8_u09cd_u09a4_u09c1.blws
@@ -43069,45 +43066,40 @@ p14
 (lp15
 (dp16
 g6
-I79
-sg7
-I0
-sa(dp17
-g6
 I213
 sg7
 I80
-sa(dp18
+sa(dp17
 g6
 I365
 sg7
 I91
-sa(dp19
+sa(dp18
 g6
 I534
 sg7
 I78
-sa(dp20
+sa(dp19
 g6
 I566
 sg7
 I26
-sa(dp21
+sa(dp20
 g6
 I622
 sg7
 I16
-sa(dp22
+sa(dp21
 g6
 I671
 sg7
 I16
-sa(dp23
+sa(dp22
 g6
 I719
 sg7
 I30
-sa(dp24
+sa(dp23
 g6
 I820
 sg7
@@ -43287,11 +43279,6 @@ g6
 I117
 sg7
 I80
-sa(dp25
-g6
-I331
-sg7
-I0
 sass."
 Ligature2: "abvsAboveBaseSubstitutionsinBengalilookup11 subtable" u09c0 u0981
 EndChar
@@ -43428,11 +43415,6 @@ g6
 I117
 sg7
 I80
-sa(dp19
-g6
-I331
-sg7
-I0
 sass."
 Ligature2: "abvsAboveBaseSubstitutionsinBengalilookup11 subtable" u09c0 u09b0_u09cd.rphf
 EndChar
@@ -44136,8 +44118,8 @@ I1068
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a6 u09cd u09a7 u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a6 u09cd u09a7 u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a6 u09cd u09a7 u09cd u09f1
 EndChar
 
 StartChar: u09b2_u09cd_u09ab.cjct
@@ -45034,8 +45016,8 @@ I636
 sg7
 I82
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ae u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ae u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09ae u09cd u09ac
 EndChar
 
 StartChar: u09a3_u09cd_u09a2.cjct
@@ -54231,8 +54213,8 @@ I810
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099f u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099f u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u099f u09cd u09f1
 EndChar
 
 StartChar: u099f_u09cd_u09ae.cjct
@@ -55893,8 +55875,8 @@ I637
 sg7
 I78
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b7 u09cd u09ac
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b7 u09cd u09f1
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09b7 u09cd u09ac
 EndChar
 
 StartChar: u0999_u09cd_u0995_u09b7.cjct
@@ -56879,8 +56861,8 @@ I856
 sg7
 I79
 sass."
-Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a5 u09cd u09f1
 Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a5 u09cd u09ac
+Ligature2: "cjctConjunctFormsinBengali2lookup13 subtable" u09a5 u09cd u09f1
 EndChar
 
 StartChar: exclam
@@ -73670,7 +73652,7 @@ GlifName: uni0987
 Width: 779
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: W
 HStem: 50 21<593 691 593 593> 79 99<312 327 312 341.5> 271 85<278 322.5> 617 95<477.5 503> 737 84 887 76<384.5 406> 1044 60<385.5 407.5>
 VStem: 86 107<214.5 228.5> 277 71<987.5 1007 987.5 1022.5> 485 68<928 932.5> 598 109<426.5 486.5 424.5 495> 701 78<877.5 887.5 860.5 893.5>
 AnchorPoint: "Anchor1" 652 20 basechar 0
@@ -73703,9 +73685,9 @@ SplineSet
  598 530 590 554 554 590 c 256
  537 608 515 617 491 617 c 256
  464 617 435 606 411 583 c 256
- 380 554 376 554 366 531 c 261
- 274 517 l 261
- 338 640 l 256
+ 380 554 376 554 366 531 c 257
+ 274 517 l 257
+ 338 640 l 257
  366 682 423 712 497 712 c 256
  525 712 552 707 571 698 c 256
  604 682 656 634 675 600 c 256
@@ -73832,7 +73814,7 @@ GlifName: uni0988
 Width: 1219
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -8 112<312 327 312 342.5> 49 92<969.5 1029.5 969.5 1041> 207 91<278 322.5> 589 105<481.5 502.5> 632 92<974 987 974 997.5> 743 78<-67 -5 -5 -5 -5 752> 892 71<778.5 803.5 778.5 806> 1003 20<1127 1131> 1044 66<779.5 801.5>
 VStem: 86 107<145 158> 598 202<378 418 354 454> 677 65<987.5 1007 987.5 1027.5> 885 68<934.5 938.5> 1136 78<883.5 893.5>
 AnchorPoint: "Anchor1" 976 38 basechar 0
@@ -73899,8 +73881,8 @@ SplineSet
  114 57 86 100 86 144 c 256
 -67 743 m 257
  -67 743 -37 759 -19 781 c 256
- -9 793 -5 821 -5 821 c 257
- 789 827 l 257
+ -9 793 -5 827 -5 827 c 261
+ 259.666666667 818.381922175 524.333333333 814.261268168 789 827 c 261
  789 827 789 825 793 825 c 256
  797 825 806 827 822 834 c 256
  846 844 872 877 879 906 c 256
@@ -81822,25 +81804,20 @@ p12
 (lp13
 (dp14
 g6
-I79
-sg7
-I0
-sa(dp15
-g6
 I213
 sg7
 I80
-sa(dp16
+sa(dp15
 g6
 I365
 sg7
 I91
-sa(dp17
+sa(dp16
 g6
 I534
 sg7
 I78
-sa(dp18
+sa(dp17
 g6
 I820
 sg7
@@ -81962,11 +81939,6 @@ g6
 I117
 sg7
 I80
-sa(dp18
-g6
-I331
-sg7
-I0
 sass."
 EndChar
 
