@@ -34,14 +34,14 @@ lookup akhnAkhandinBengali2lookup2 {
 
 lookup rphfRephForminBengali2lookup3 {
   lookupflag 0;
-    sub \u09f0 \u09cd  by \u09b0_u09cd.rphf;
     sub \u09b0 \u09cd  by \u09b0_u09cd.rphf;
+    sub \u09f0 \u09cd  by \u09b0_u09cd.rphf;
 } rphfRephForminBengali2lookup3;
 
 lookup blwfBelowBaseFormsinBengali2lookup4 {
   lookupflag 0;
-    sub \u09cd \u09f0  by \u09b0_u09cd.blwf;
     sub \u09cd \u09b0  by \u09b0_u09cd.blwf;
+    sub \u09cd \u09f0  by \u09b0_u09cd.blwf;
 } blwfBelowBaseFormsinBengali2lookup4;
 
 lookup pstfPostBaseFormsinBengali2lookup6 {
@@ -53,8 +53,8 @@ lookup cjctConjunctFormsinBengali2lookup13 {
   lookupflag 0;
     sub \u09b9 \u09cd \u09ae  by \u09b9_u09cd_u09ae.cjct;
     sub \u09a4 \u09cd \u09a4  by \u09a4_u09cd_u09a4.cjct;
-    sub \space \u09cd \u09ac  by \u09ac_u09cd.blwf;
     sub \space \u09cd \u09f1  by \u09ac_u09cd.blwf;
+    sub \space \u09cd \u09ac  by \u09ac_u09cd.blwf;
     sub \u0995 \u09cd \u0995  by \u0995_u09cd_u0995.cjct;
     sub \u0995 \u09cd \u099f  by \u0995_u09cd_u099f.cjct;
     sub \u0995 \u09cd \u09a4  by \u0995_u09cd_u09a4.cjct;
@@ -95,32 +95,32 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09a6 \u09cd \u09ae  by \u09a6_u09cd_u09ae.cjct;
     sub \u0998 \u09cd \u09a8  by \u0998_u09cd_u09a8.cjct;
     sub \u09a6 \u09cd \u09ad  by \u09a6_u09cd_u09ad.cjct;
-    sub \u0995 \u09cd \u09ac  by \u0995_u09cd_u09ac.cjct;
     sub \u0995 \u09cd \u09f1  by \u0995_u09cd_u09ac.cjct;
-    sub \u0997 \u09cd \u09ac  by \u0997_u09cd_u09ac.cjct;
+    sub \u0995 \u09cd \u09ac  by \u0995_u09cd_u09ac.cjct;
     sub \u0997 \u09cd \u09f1  by \u0997_u09cd_u09ac.cjct;
-    sub \u099b \u09cd \u09ac  by \u099b_u09cd_u09ac.cjct;
+    sub \u0997 \u09cd \u09ac  by \u0997_u09cd_u09ac.cjct;
     sub \u099b \u09cd \u09f1  by \u099b_u09cd_u09ac.cjct;
-    sub \u099c \u09cd \u09ac  by \u099c_u09cd_u09ac.cjct;
+    sub \u099b \u09cd \u09ac  by \u099b_u09cd_u09ac.cjct;
     sub \u099c \u09cd \u09f1  by \u099c_u09cd_u09ac.cjct;
-    sub \u09a3 \u09cd \u09f1  by \u09a3_u09cd_u09ac.cjct;
+    sub \u099c \u09cd \u09ac  by \u099c_u09cd_u09ac.cjct;
     sub \u09a3 \u09cd \u09ac  by \u09a3_u09cd_u09ac.cjct;
-    sub \u09a4 \u09cd \u09f1  by \u09a4_u09cd_u09ac.cjct;
+    sub \u09a3 \u09cd \u09f1  by \u09a3_u09cd_u09ac.cjct;
     sub \u09a4 \u09cd \u09ac  by \u09a4_u09cd_u09ac.cjct;
-    sub \u09a6 \u09cd \u09f1  by \u09a6_u09cd_u09ac.cjct;
+    sub \u09a4 \u09cd \u09f1  by \u09a4_u09cd_u09ac.cjct;
     sub \u09a6 \u09cd \u09ac  by \u09a6_u09cd_u09ac.cjct;
-    sub \u09a7 \u09cd \u09ac  by \u09a7_u09cd_u09ac.cjct;
+    sub \u09a6 \u09cd \u09f1  by \u09a6_u09cd_u09ac.cjct;
     sub \u09a7 \u09cd \u09f1  by \u09a7_u09cd_u09ac.cjct;
-    sub \u09a8 \u09cd \u09ac  by \u09a8_u09cd_u09ac.cjct;
+    sub \u09a7 \u09cd \u09ac  by \u09a7_u09cd_u09ac.cjct;
     sub \u09a8 \u09cd \u09f1  by \u09a8_u09cd_u09ac.cjct;
-    sub \u09aa \u09cd \u09ac  by \u09aa_u09cd_u09ac.cjct;
+    sub \u09a8 \u09cd \u09ac  by \u09a8_u09cd_u09ac.cjct;
     sub \u09aa \u09cd \u09f1  by \u09aa_u09cd_u09ac.cjct;
-    sub \u09ac \u09cd \u09ac  by \u09ac_u09cd_u09ac.cjct;
+    sub \u09aa \u09cd \u09ac  by \u09aa_u09cd_u09ac.cjct;
     sub \u09ac \u09cd \u09f1  by \u09ac_u09cd_u09ac.cjct;
-    sub \u09b6 \u09cd \u09ac  by \u09b6_u09cd_u09ac.cjct;
+    sub \u09ac \u09cd \u09ac  by \u09ac_u09cd_u09ac.cjct;
     sub \u09b6 \u09cd \u09f1  by \u09b6_u09cd_u09ac.cjct;
-    sub \u09b8 \u09cd \u09ac  by \u09b8_u09cd_u09ac.cjct;
+    sub \u09b6 \u09cd \u09ac  by \u09b6_u09cd_u09ac.cjct;
     sub \u09b8 \u09cd \u09f1  by \u09b8_u09cd_u09ac.cjct;
+    sub \u09b8 \u09cd \u09ac  by \u09b8_u09cd_u09ac.cjct;
     sub \u09a6 \u09cd \u09a8  by \u09a6_u09cd_u09a8.cjct;
     sub \u09a7 \u09cd \u09a8  by \u09a7_u09cd_u09a8.cjct;
     sub \u09a8 \u09cd \u09a4  by \u09a8_u09cd._u09a4.cjct;
@@ -146,8 +146,8 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09ae \u09cd \u09ad_u09b0_u09cd.blwf.vatu  by \u09ae_u09cd_u09ad.09b0_u09cd;
     sub \u09b2 \u09cd \u0995  by \u09b2_u09cd_u0995.cjct;
     sub \u09b2 \u09cd \u0997  by \u09b2_u09cd._u0997.cjct;
-    sub \u09b2 \u09cd \u09ac  by \u09b2_u09cd_u09ac.cjct;
     sub \u09b2 \u09cd \u09f1  by \u09b2_u09cd_u09ac.cjct;
+    sub \u09b2 \u09cd \u09ac  by \u09b2_u09cd_u09ac.cjct;
     sub \u09b2 \u09cd \u09aa  by \u09b2_u09cd_u09aa.cjct;
     sub \u09b2 \u09cd \u09ae  by \u09b2_u09cd_u09ae.cjct;
     sub \u09b2 \u09cd \u09b2  by \u09b2_u09cd_u09b2.cjct;
@@ -175,8 +175,8 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09b8 \u09cd \u09a4_u09b0_u09cd  by \u09b8_u09cd_u09a4_u09b0.vatu;
     sub \u09b8 \u09cd \u0995_u09b0_u09cd  by \u09b8_u09cd_u0995_u09b0.vatu;
     sub \u09b9 \u09cd \u09a8  by \u09b9_u09cd_u09a8.cjct;
-    sub \u099c \u09cd \u099c \u09cd \u09f1  by \u099c_u09cd_u099c_u09ac;
     sub \u099c \u09cd \u099c \u09cd \u09ac  by \u099c_u09cd_u099c_u09ac;
+    sub \u099c \u09cd \u099c \u09cd \u09f1  by \u099c_u09cd_u099c_u09ac;
     sub \u0995 \u09cd \u099f_u09b0_u09cd.blwf.vatu  by \u0995_u09cd_u099f_u09b0.vatu;
     sub \u09a8 \u09cd \u09a6_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a6_u09b0.vatu;
     sub \u09a8 \u09cd \u09a7_u09b0_u09cd.blwf.vatu  by \u09a8_u09cd_u09a7_u09b0.vatu;
@@ -184,10 +184,10 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09ae \u09cd \u09aa_u09b0_u09cd.blwf.vatu  by \u09ae_u09cd_u09aa_u09b0.vatu;
     sub \u09b7 \u09cd \u099f_u09b0_u09cd.blwf.vatu  by \u09b7_u09cd_u099f_u09b0.vatu;
     sub \u09b8 \u09cd \u09aa_u09b0_u09cd.blwf.vatu  by \u09b8_u09cd_u09aa_u09b0.vatu;
-    sub \u09a4 \u09cd \u09a4 \u09cd \u09ac  by \u09a4_u09cd_u09a4_u09ac.cjct;
     sub \u09a4 \u09cd \u09a4 \u09cd \u09f1  by \u09a4_u09cd_u09a4_u09ac.cjct;
-    sub \u09a8 \u09cd \u09a6 \u09cd \u09f1  by \u09a8_u09cd_u09a6_u09ac.cjct;
+    sub \u09a4 \u09cd \u09a4 \u09cd \u09ac  by \u09a4_u09cd_u09a4_u09ac.cjct;
     sub \u09a8 \u09cd \u09a6 \u09cd \u09ac  by \u09a8_u09cd_u09a6_u09ac.cjct;
+    sub \u09a8 \u09cd \u09a6 \u09cd \u09f1  by \u09a8_u09cd_u09a6_u09ac.cjct;
     sub \u09a8 \u09cd \u099f  by \u09a8_u09cd_u099f.cjct;
     sub \u09a8 \u09cd \u09a0  by \u09a8_u09cd_u09a0.cjct;
     sub \u09a8 \u09cd \u09a1  by \u09a8_u09cd_u09a1.cjct;
@@ -207,11 +207,11 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09b7 \u09cd \u09ae  by \u09b7_u09cd_u09ae.cjct;
     sub \u09ac \u09cd \u09a6_u09b0_u09cd.blwf.vatu  by \u09ac_u09cd_u09a6_u09b0.vatu;
     sub \u099a \u09cd \u099a  by \u099a_u09cd_u099a.cjct;
-    sub \u099a \u09cd \u099b \u09cd \u09f1  by \u099a_u09cd_u099b_u09ac.cjct;
     sub \u099a \u09cd \u099b \u09cd \u09ac  by \u099a_u09cd_u099b_u09ac.cjct;
+    sub \u099a \u09cd \u099b \u09cd \u09f1  by \u099a_u09cd_u099b_u09ac.cjct;
     sub \u0999 \u09cd \u09ae  by \u0999_u09cd_u09ae.cjct;
-    sub \u09a8 \u09cd \u09a4 \u09cd \u09ac  by \u09a8_u09cd_u09a4_u09ac.blws;
     sub \u09a8 \u09cd \u09a4 \u09cd \u09f1  by \u09a8_u09cd_u09a4_u09ac.blws;
+    sub \u09a8 \u09cd \u09a4 \u09cd \u09ac  by \u09a8_u09cd_u09a4_u09ac.blws;
     sub \u09aa \u09cd \u099f  by \u09aa_u09cd_u099f.cjct;
     sub \u09b6 \u09cd \u09a8  by \u09b6_u09cd_u09a8.cjct;
     sub \u09aa \u09cd \u09b8  by \u09aa_u09cd_u09b8.cjct;
@@ -221,17 +221,17 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09dc \u09cd \u0997  by \u09dc_u09cd_u0997.cjct;
     sub \u09a6 \u09cd \u09ad_u09b0_u09cd.blwf.vatu  by \u09a6_u09cd_u09ad_u09b0.vatu;
     sub \u09ac \u09cd \u09ad  by \u09ac_u09cd_u09ad.cjct;
-    sub \u09b9 \u09cd \u09ac  by \u09b9_u09cd_u09ac.cjct;
     sub \u09b9 \u09cd \u09f1  by \u09b9_u09cd_u09ac.cjct;
+    sub \u09b9 \u09cd \u09ac  by \u09b9_u09cd_u09ac.cjct;
     sub \u09b9 \u09cd \u09a3  by \u09b9_u09cd_u09a3.cjct;
     sub \u0999 \u09cd \u0998  by \u0999_u09cd_u0998.cjct;
-    sub \u09a6 \u09cd \u09a7 \u09cd \u09f1  by \u09a6_u09cd_u09a7_u09ac.cjct;
     sub \u09a6 \u09cd \u09a7 \u09cd \u09ac  by \u09a6_u09cd_u09a7_u09ac.cjct;
+    sub \u09a6 \u09cd \u09a7 \u09cd \u09f1  by \u09a6_u09cd_u09a7_u09ac.cjct;
     sub \u09b2 \u09cd \u09ab  by \u09b2_u09cd_u09ab.cjct;
     sub \u09b7 \u09cd \u0996  by \u09b7_u09cd_u0996.cjct;
     sub \u09b2 \u09cd \u099f  by \u09b2_u09cd_u099f.cjct;
-    sub \u09ae \u09cd \u09ac  by \u09ae_u09cd_u09ac.cjct;
     sub \u09ae \u09cd \u09f1  by \u09ae_u09cd_u09ac.cjct;
+    sub \u09ae \u09cd \u09ac  by \u09ae_u09cd_u09ac.cjct;
     sub \u09a3 \u09cd \u09a2  by \u09a3_u09cd_u09a2.cjct;
     sub \u0999 \u09cd \u099a  by \u0999_u09cd_u099a.cjct;
     sub \u099a \u09cd \u099b_u09b0_u09cd.blwf.vatu  by \u099a_u09cd_u099b_u09b0.vatu;
@@ -254,8 +254,8 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09ae \u09cd \u09a4  by \u09ae_u09cd_u09a4.cjct;
     sub \u09ae \u09cd \u09a6  by \u09ae_u09cd_u09a6.cjct;
     sub \u09ae \u09cd \u09b9  by \u09ae_u09cd_u09b9.cjct;
-    sub \u099f \u09cd \u09f1  by \u099f_u09cd_u09ac.cjct;
     sub \u099f \u09cd \u09ac  by \u099f_u09cd_u09ac.cjct;
+    sub \u099f \u09cd \u09f1  by \u099f_u09cd_u09ac.cjct;
     sub \u099f \u09cd \u09ae  by \u099f_u09cd_u09ae.cjct;
     sub \u09b2 \u09cd \u09a4  by \u09b2_u09cd_u09a4.cjct;
     sub \u09b2 \u09cd \u09a7  by \u09b2_u09cd_u09a7.cjct;
@@ -263,13 +263,13 @@ lookup cjctConjunctFormsinBengali2lookup13 {
     sub \u09b2 \u09cd \u09ad  by \u09b2_u09cd_u09ad.cjct;
     sub \u09b6 \u09cd \u09a4  by \u09b6_u09cd_u09a4.cjct;
     sub \u09b7 \u09cd \u09aa_u09b0_u09cd.blwf.vatu  by \u09b7_u09cd_u09aa_u09b0.cjct;
-    sub \u09b7 \u09cd \u09ac  by \u09b7_u09cd_u09ac.cjct;
     sub \u09b7 \u09cd \u09f1  by \u09b7_u09cd_u09ac.cjct;
+    sub \u09b7 \u09cd \u09ac  by \u09b7_u09cd_u09ac.cjct;
     sub \u0999 \u09cd \u0995_u09cd_u09b7.akhn  by \u0999_u09cd_u0995_u09b7.cjct;
     sub \u09a1 \u09cd \u09ae  by \u09a1_u09cd_u09ae.cjct;
     sub \u09a1 \u09cd \u09b2  by \u09a1_u09cd_09b2.cjct;
-    sub \u09a5 \u09cd \u09f1  by \u09a5_u09cd_u09ac.cjct;
     sub \u09a5 \u09cd \u09ac  by \u09a5_u09cd_u09ac.cjct;
+    sub \u09a5 \u09cd \u09f1  by \u09a5_u09cd_u09ac.cjct;
 } cjctConjunctFormsinBengali2lookup13;
 
 lookup halfHalfFormsinBengali2lookup5 {
